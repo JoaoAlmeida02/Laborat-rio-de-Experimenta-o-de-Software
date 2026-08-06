@@ -1,8 +1,8 @@
 # Laboratório de Experimentação de Software
-##Integrantes:
+ Integrantes:
 - João Gabriel Santos Andrade Almeida
 - Lucas Ferreira Ribeiro
 - Vitor Veiga Silva
 
-##Professor:
+ Professor:
 - Danilo de Quadros Maia Filho
