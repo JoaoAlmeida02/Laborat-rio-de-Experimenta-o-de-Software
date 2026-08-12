@@ -1,19 +1,8 @@
-"""
-RQ04 - Sistemas populares sao atualizados com frequencia?
-Metrica: tempo ate a ultima atualizacao.
+#RQ04 - Sistemas populares sao atualizados com frequencia?
+#Metrica: tempo ate a ultima atualizacao.
 
-Busca os 100 repositorios com mais estrelas no GitHub via GraphQL API
-e coleta a data do ultimo push (pushedAt) de cada um, convertendo para
-dias desde a ultima atualizacao.
-
-Usamos "pushedAt" (data do ultimo push/commit) em vez de "updatedAt",
-pois "updatedAt" tambem muda com eventos de metadata do repositorio
-(estrelas, labels, etc.), nao refletindo necessariamente atualizacao
-de codigo.
-
-Requisito: variavel de ambiente GITHUB_TOKEN com um Personal Access Token
-(sem escopos especiais, apenas leitura publica).
-"""
+#Busca os 100 repositorios com mais estrelas no GitHub e coleta a data do ultimo push (pushedAt) de cada um,
+#convertendo para dias desde a ultima atualizacao.
 
 import csv
 import os
