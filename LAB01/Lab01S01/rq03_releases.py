@@ -1,13 +1,6 @@
-"""
-RQ03 - Sistemas populares lancam releases com frequencia?
-Metrica: total de releases por repositorio.
-
-Busca os 100 repositorios com mais estrelas no GitHub via GraphQL API
-e coleta o total de releases de cada um.
-
-Requisito: variavel de ambiente GITHUB_TOKEN com um Personal Access Token
-(sem escopos especiais, apenas leitura publica).
-"""
+#RQ03 - Sistemas populares lancam releases com frequencia?
+#Metrica: total de releases por repositorio.
+#busca os 100 repositorios mais populares do GitHub e coleta o total de releases de cada um.
 
 import csv
 import os
@@ -23,12 +16,7 @@ load_dotenv()
 
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
 TOTAL_REPOS = 100
-# releases.totalCount e uma connection count (o GitHub varre a conexao para
-# resolver, ao contrario de campos como stargazerCount que sao um contador
-# em cache). Pedir isso para muitos repositorios numa unica query estoura o
-# timeout do backend do GitHub e o edge devolve 502 antes de terminar de
-# resolver. Por isso paginamos em lotes pequenos em vez de buscar tudo de
-# uma vez, diferente do script de RQ04 (que so pede um escalar barato).
+#tive que trocar o PAGE_SIZE de 100 para 10, pois estava dando erro de timeout na API do GitHub.
 PAGE_SIZE = 10
 DATA_DIR = os.path.join(os.path.dirname(__file__), "dados")
 OUTPUT_CSV = os.path.join(DATA_DIR, "rq03_releases.csv")
