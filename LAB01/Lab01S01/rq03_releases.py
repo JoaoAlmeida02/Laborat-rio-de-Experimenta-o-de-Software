@@ -2,6 +2,7 @@
 #Metrica: total de releases por repositorio.
 #busca os 100 repositorios mais populares do GitHub e coleta o total de releases de cada um.
 
+
 import csv
 import os
 import statistics
