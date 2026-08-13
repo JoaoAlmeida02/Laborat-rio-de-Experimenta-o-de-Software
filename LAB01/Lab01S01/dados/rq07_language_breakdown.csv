@@ -1,0 +1,19 @@
+language,is_popular,repo_count,median_pull_requests,median_releases,median_days_since_update
+C#,True,1,593,332,1
+Python,True,24,1881.5,53.5,0.5
+Java,True,1,994,10,18
+Go,True,4,3686.0,120.0,0.0
+N/A,False,13,317,0,113
+Markdown,False,3,157,0,28
+MDX,False,1,9481,94,0
+JavaScript,True,10,1373.5,69.0,0.0
+C,True,3,153,52,0
+C++,True,5,26490,471,0
+HTML,False,3,315,0,0
+TypeScript,True,17,6981,116,0
+Jupyter Notebook,False,2,307.0,0.0,9.0
+Shell,True,5,222,7,4
+Rust,False,5,4197,39,0
+Swift,False,1,1239,15,0
+Dart,False,1,49509,7,0
+Batchfile,False,1,7,31,38
