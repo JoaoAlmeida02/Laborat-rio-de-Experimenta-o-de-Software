@@ -1,9 +1,16 @@
-# Lab01S02 - script unico do grupo.
+# Lab01S03 - mesmo script unico da Lab01S02, com a RQ08 adicionada.
 #
 # Junta numa unica consulta GraphQL os campos que RQ01, RQ02, RQ03, RQ04,
 # RQ05 e RQ06 buscavam separadamente na Lab01S01, e pagina ate 1000
 # repositorios (limite maximo da Search API do GitHub, que coincide com o
 # que o enunciado pede).
+#
+# RQ08 (nova, bonus): estrelas correlacionam com engajamento real, ou so
+# com fama? Estrela e "endosso passivo" (favoritei, nao necessariamente
+# uso), fork e "reuso ativo" (vou construir em cima). Comparamos
+# stargazerCount com forkCount para ver se repositorios muito populares por
+# hype tem uma proporcao estrela/fork bem diferente de bibliotecas
+# realmente usadas em producao.
 
 
 import csv
@@ -44,6 +51,7 @@ query ($queryString: String!, $reposPerPage: Int!, $cursor: String) {
       ... on Repository {
         nameWithOwner
         stargazerCount
+        forkCount
         createdAt
         pushedAt
         primaryLanguage {
@@ -73,7 +81,7 @@ def get_token() -> str:
     if not token:
         sys.exit(
             "Erro: defina a variavel de ambiente GITHUB_TOKEN (ou crie um "
-            ".env em LAB01/Lab01S02/ com GITHUB_TOKEN=...) antes de rodar o "
+            ".env em LAB01/Lab01S03/ com GITHUB_TOKEN=...) antes de rodar o "
             "script."
         )
     return token
@@ -187,9 +195,15 @@ def extract_metric(repo: dict, now: datetime) -> dict:
         round(issues_closed / total_issues, 3) if total_issues > 0 else "N/A"
     )
 
+    stars = repo["stargazerCount"]
+    forks = repo["forkCount"]
+    stars_to_forks_ratio = round(stars / forks, 2) if forks > 0 else "N/A"
+
     return {
         "repository": repo["nameWithOwner"],
-        "stars": repo["stargazerCount"],
+        "stars": stars,
+        "forks": forks,
+        "stars_to_forks_ratio": stars_to_forks_ratio,
         "created_at": repo["createdAt"],
         "age_days": age_days,
         "age_years": round(age_days / 365.25, 2),
@@ -207,6 +221,8 @@ def extract_metric(repo: dict, now: datetime) -> dict:
 FIELDNAMES = [
     "repository",
     "stars",
+    "forks",
+    "stars_to_forks_ratio",
     "created_at",
     "age_days",
     "age_years",
@@ -232,12 +248,13 @@ def save_csv(rows: list[dict], path: str) -> None:
 def print_validation_sample(rows: list[dict], sample_size: int = 10) -> None:
     print(f"\nAmostra de validacao ({sample_size} primeiros repositorios):")
     print(
-        f"{'Repositorio':<38}{'Estrelas':>9}{'Idade(d)':>9}{'PRs':>8}"
+        f"{'Repositorio':<38}{'Estrelas':>9}{'Forks':>9}{'Idade(d)':>9}{'PRs':>8}"
         f"{'Rel.':>6}{'Dias upd':>9}{'Linguagem':>13}{'Issues%':>9}"
     )
     for row in rows[:sample_size]:
         print(
-            f"{row['repository']:<38}{row['stars']:>9}{row['age_days']:>9}"
+            f"{row['repository']:<38}{row['stars']:>9}{row['forks']:>9}"
+            f"{row['age_days']:>9}"
             f"{row['total_accepted_pull_requests']:>8}{row['total_releases']:>6}"
             f"{row['days_since_last_update']:>9}{row['primary_language']:>13}"
             f"{str(row['issues_closed_ratio']):>9}"
@@ -282,6 +299,14 @@ def print_summary(rows: list[dict]) -> None:
     print(f"  Sem nenhuma issue (N/A): {na_ratio}")
     if ratios:
         stats("issues_closed_ratio", ratios)
+
+    print("\n[RQ08] Razao estrelas/forks (endosso passivo vs reuso ativo):")
+    stats("forks", [row["forks"] for row in rows])
+    fork_ratios = [row["stars_to_forks_ratio"] for row in rows if row["stars_to_forks_ratio"] != "N/A"]
+    na_fork_ratio = len(rows) - len(fork_ratios)
+    print(f"  Sem nenhum fork (N/A): {na_fork_ratio}")
+    if fork_ratios:
+        stats("stars_to_forks_ratio", fork_ratios)
 
 
 def main() -> None:

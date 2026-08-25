@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Config local do Claude Code (por maquina/usuario, nao deve ser compartilhada)
+.claude/settings.local.json
