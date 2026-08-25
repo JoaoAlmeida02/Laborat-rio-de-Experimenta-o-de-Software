@@ -1,18 +1,8 @@
 # RQ 07. Sistemas escritos em linguagens mais populares recebem mais
 # contribuicao externa, lancam mais releases e sao atualizados com mais
 # frequencia? (divide os resultados das RQs 02, 03 e 04 por linguagem)
-#
-# Diferente das outras RQs, esta nao consulta a API do GitHub de novo: ela
-# cruza os CSVs que RQ02 (pull requests), RQ03 (releases), RQ04 (ultima
-# atualizacao) e RQ05 (linguagem primaria) ja geraram em dados/, juntando
-# pelo nome do repositorio.
-#
-# Fonte usada para "linguagens mais populares": GitHub Octoverse (relatorio
-# anual do GitHub sobre as linguagens mais usadas na plataforma). Mantenha
-# essa mesma fonte/lista em todo o laboratorio (ex.: no relatorio final e na
-# RQ05, se ela vier a comparar contra "linguagens populares" tambem).
-# Ajuste POPULAR_LANGUAGES abaixo se o grupo decidir usar outra fonte
-# (TIOBE Index ou GitHut, por exemplo).
+
+# Fonte usada para linguagens mais populares foi o GitHub Octoverse 
 
 import csv
 import os
@@ -27,7 +17,7 @@ RQ03_CSV = os.path.join(DATA_DIR, "rq03_releases.csv")
 RQ04_CSV = os.path.join(DATA_DIR, "rq04_last_update.csv")
 RQ05_CSV = os.path.join(DATA_DIR, "rq05_language.csv")
 
-# Top 10 linguagens do GitHub Octoverse (mais recente disponivel ao grupo).
+
 POPULAR_LANGUAGES = {
     "JavaScript",
     "Python",
