@@ -93,3 +93,44 @@ def main():
     plt.savefig(p1_path)
     plt.close()
     print(f"  Salvo: {p1_path}")
+
+    print("Gerando Ponto 2: Boxplot da Razão Estrelas/Forks...")
+    fig, ax = plt.subplots(figsize=(10, 6), dpi=300)
+    
+    top_langs_box = df["primary_language_label"].value_counts().head(8).index.tolist()
+    df_box = df[df["primary_language_label"].isin(top_langs_box)].copy()
+    
+    order = df_box.groupby("primary_language_label")["stars_to_forks_ratio_clean"].median().sort_values(ascending=False).index
+
+    sns.boxplot(
+        data=df_box,
+        y="primary_language_label",
+        x="stars_to_forks_ratio_clean",
+        hue="primary_language_label",
+        order=order,
+        palette="Spectral",
+        legend=False,
+        showfliers=True,
+        flierprops=dict(marker="o", markersize=4, alpha=0.5),
+        ax=ax
+    )
+    
+    ax.set_xscale("log")
+    ax.set_title("Ponto 2: Proporção Estrelas / Forks (Hype vs Reuso em Código)", fontsize=13, fontweight="bold", pad=15)
+    ax.set_xlabel("Razão Estrelas / Forks (Escala Logarítmica)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Linguagem Principal", fontsize=10, fontweight="bold")
+    
+    global_median = df["stars_to_forks_ratio_clean"].median()
+    ax.axvline(global_median, color="#c0392b", linestyle="--", linewidth=1.5, label=f"Mediana Global ({global_median:.2f})")
+    
+    ax.legend(loc="lower right", frameon=True)
+    plt.tight_layout()
+    p2_path = os.path.join(OUTPUT_DIR, "02_estrelas_forks_ratio_boxplot.png")
+    plt.savefig(p2_path)
+    plt.close()
+    print(f"  Salvo: {p2_path}")
+
+    print("\nTodos os 2 gráficos (Pontos 1 e 2) foram gerados com sucesso!")
+
+if __name__ == "__main__":
+    main()

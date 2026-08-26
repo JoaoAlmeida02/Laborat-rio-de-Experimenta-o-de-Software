@@ -1,0 +1,108 @@
+# Sprint 2 - Lab01S02 - RQ05 e RQ06
+
+## 1. Objetivo
+Esta atividade corresponde à análise e validação dos dados referentes às Questões de Pesquisa 05 (RQ05) e 06 (RQ06), com base no conjunto de dados de 1.000 repositórios mais estrelados do GitHub coletados anteriormente pelo grupo. A análise visa investigar a relação entre a popularidade dos repositórios e suas linguagens primárias (RQ05), bem como a taxa de resolução de issues (RQ06).
+
+## 2. RQ05 - Linguagens de programação
+
+*   **Pergunta da RQ05:** "Sistemas populares são escritos nas linguagens mais populares?"
+*   **Métrica utilizada:** Linguagem primária de cada repositório.
+*   **Fonte utilizada para definir as linguagens mais populares:** Relatório oficial GitHub Octoverse 2024 ("*Octoverse: AI leads Python to top language as the number of global developers surges*", publicado em 29 de outubro de 2024 no blog oficial do GitHub: `https://github.blog/news-insights/octoverse/octoverse-2024/`).
+*   **Metodologia de coleta:** O script do grupo consultou a API GraphQL do GitHub filtrando por `stars:>1 sort:stars-desc` para obter os 1.000 repositórios com maior quantidade de estrelas na plataforma.
+*   **Como a linguagem primária foi obtida:** Através do campo `primaryLanguage { name }` no nó de cada repositório retornado pela API GraphQL.
+*   **Tratamento de valores ausentes/N/A:** Repositórios sem linguagem primária identificada (por exemplo, repositórios contendo apenas documentação, listas ou dados) que retornaram valor nulo da API foram devidamente catalogados e tratados com o rótulo "N/A" (Not Available).
+*   **Distribuição das linguagens nos 1.000 repositórios:**
+    *   **Python:** 228 repositórios (22.80%)
+    *   **TypeScript:** 174 repositórios (17.40%)
+    *   **JavaScript:** 111 repositórios (11.10%)
+    *   **N/A (Ausente):** 87 repositórios (8.70%)
+    *   **Go:** 76 repositórios (7.60%)
+    *   **Rust:** 57 repositórios (5.70%)
+    *   **C++:** 41 repositórios (4.10%)
+    *   **Java:** 41 repositórios (4.10%)
+    *   **Jupyter Notebook:** 24 repositórios (2.40%)
+    *   **C:** 21 repositórios (2.10%)
+    *   **Shell:** 20 repositórios (2.00%)
+    *   **Ruby:** 13 repositórios (1.30%)
+    *   **HTML:** 11 repositórios (1.10%)
+    *   **Swift:** 10 repositórios (1.00%)
+    *   **Outros (com menos de 10 repositórios cada):** 87 repositórios (8.70%), que incluem:
+        *   Kotlin: 9 (0.90%)
+        *   C#: 8 (0.80%)
+        *   CSS: 8 (0.80%)
+        *   Dart: 6 (0.60%)
+        *   Vue: 6 (0.60%)
+        *   Markdown: 5 (0.50%)
+        *   MDX: 4 (0.40%)
+        *   Clojure: 4 (0.40%)
+        *   PHP: 4 (0.40%)
+        *   Vim Script: 3 (0.30%)
+        *   Zig: 3 (0.30%)
+        *   Dockerfile: 2 (0.20%)
+        *   Scala: 2 (0.20%)
+        *   PowerShell: 2 (0.20%)
+        *   Makefile: 2 (0.20%)
+        *   Haskell: 2 (0.20%)
+        *   Astro: 2 (0.20%)
+        *   TeX: 2 (0.20%)
+        *   Batchfile: 1 (0.10%)
+        *   Blade: 1 (0.10%)
+        *   Roff: 1 (0.10%)
+        *   Assembly: 1 (0.10%)
+        *   Nunjucks: 1 (0.10%)
+        *   Julia: 1 (0.10%)
+        *   Lua: 1 (0.10%)
+        *   Svelte: 1 (0.10%)
+        *   LLVM: 1 (0.10%)
+        *   V: 1 (0.10%)
+        *   Elixir: 1 (0.10%)
+        *   Objective-C: 1 (0.10%)
+*   **Comparação com a fonte de linguagens populares (GitHub Octoverse 2024):**
+    O ranking oficial de linguagens mais populares no GitHub Octoverse 2024 (por número de colaboradores) é: 1. Python, 2. JavaScript, 3. TypeScript, 4. Java, 5. C#, 6. C++, 7. PHP, 8. Shell, 9. C, 10. Go.
+    Ao confrontar com nossos 1.000 repositórios mais estrelados, observamos que:
+    *   Python é o #1 em ambas as listas (22.80% dos repositórios estrelados).
+    *   TypeScript (#2 no dataset com 17.40%) e JavaScript (#3 no dataset com 11.10%) ocupam o topo de ambas, porém com posições invertidas em relação ao Octoverse (JavaScript #2 e TypeScript #3).
+    *   Go e Rust aparecem muito mais representados entre os repositórios estrelados (#5 e #6) do que no ranking de usuários gerais do Octoverse (onde Go é #10 e Rust não entra no top 10).
+    *   C# (#16 no dataset) e PHP (#23 no dataset) estão significativamente sub-representados no conjunto dos repositórios mais estrelados em relação às suas posições elevadas no Octoverse (#5 e #7).
+*   **Hipótese informal da RQ05:** A hipótese informal inicial é que repositórios populares (mais estrelados) seriam escritos predominantemente nas linguagens mais populares do GitHub (Octoverse), uma vez que comunidades maiores de desenvolvedores geram maior tráfego, maior número de contribuições e maior volume de estrelas para os projetos mais conhecidos nestas linguagens.
+*   **Discussão preliminar da hipótese:** A hipótese confirmou-se parcialmente. De fato, as três linguagens no topo do dataset (Python, TypeScript e JavaScript) somam 51.30% de todos os repositórios estrelados, o que se alinha perfeitamente com o topo do GitHub Octoverse 2024. No entanto, observamos desvios notáveis como a alta popularidade de Rust e Go no dataset de repositórios estrelados e a baixa presença de C# e PHP, sugerindo que repositórios que atraem muitas estrelas podem ter perfis de nicho diferentes (por exemplo, ferramentas de infraestrutura, sistemas, ou projetos de aprendizado em inteligência artificial/ciência de dados) em relação à distribuição geral de desenvolvedores na plataforma.
+
+## 3. RQ06 - Issues fechadas
+
+*   **Pergunta da RQ06:** "Sistemas populares possuem um alto percentual de issues fechadas?"
+*   **Métrica utilizada:** Proporção de issues fechadas em relação ao total de issues criadas.
+*   **Fórmula utilizada:**
+    $$\text{percentual de issues fechadas} = \frac{\text{issues fechadas}}{\text{total de issues}} \times 100$$
+    onde:
+    $$\text{total de issues} = \text{issues abertas} + \text{issues fechadas}$$
+*   **Metodologia de coleta:** O script do grupo consultou a API GraphQL do GitHub obtendo a contagem total de issues com estado `OPEN` (mapeado para `issuesOpen`) e estado `CLOSED` (mapeado para `issuesClosed`).
+*   **Tratamento de repositórios sem issues:** Repositórios com zero issues totais (`total_issues == 0`) receberam o rótulo "N/A" (Not Available) para o campo de razão/percentual a fim de evitar erros de divisão por zero.
+*   **Quantidade de repositórios analisados:** 1.000 repositórios.
+*   **Mediana do percentual de issues fechadas:** 87.60% (calculada sobre os 957 repositórios válidos que possuem alguma issue).
+*   **Média:** 80.23%
+*   **Mínimo:** 7.70%
+*   **Máximo:** 100.00%
+*   **Quantidade de repositórios sem issues:** 43 repositórios (4.30%).
+*   **Quantidade de repositórios com percentual alto de issues fechadas:**
+    Adotando a linha de corte metodológica de >= 80% de issues fechadas como indicativo de alta resolução de demandas:
+    *   **618 repositórios** (61.80% do total de 1.000 repositórios, ou 64.58% dos 957 que possuem issues) apresentam taxa >= 80%.
+    *   **433 repositórios** (43.30% do total de 1.000 repositórios, ou 45.25% dos 957 que possuem issues) apresentam taxa >= 90%.
+*   **Hipótese informal da RQ06:** A hipótese informal inicial é que sistemas muito populares possuem um alto percentual de issues fechadas, uma vez que a alta popularidade e grande número de estrelas atraem uma comunidade de mantenedores e colaboradores ativos dedicados a responder rapidamente e resolver/fechar as issues abertas, mantendo a saúde do projeto.
+*   **Discussão preliminar da hipótese:** A hipótese foi confirmada pelos dados reais. A média (80.23%) e a mediana (87.60%) de issues fechadas são bastante elevadas, e mais de 64% dos repositórios com issues apresentam taxas de resolução iguais ou superiores a 80%. Isso demonstra que a maioria esmagadora das issues criadas em repositórios muito populares é de fato fechada, o que corrobora a premissa de que tais projetos contam com gestão activa de issues e ciclo de vida dinâmico.
+
+## 4. Validação
+
+A validação formal (comparação manual detalhada de 5 a 10 repositórios contra a interface web do GitHub ou análise formal de inconsistências de cálculo de issues e linguagens) **ainda não foi realizada** no projeto e não está documentada nos arquivos existentes.
+
+Os scripts de coleta e análise existentes apenas declaram a função `print_validation_sample` que imprime no terminal uma amostra simples das 10 primeiras linhas salvas na memória após a execução da query da API GraphQL para fins de inspeção visual básica, mas nenhum procedimento formal de validação de dados reais vs. exibidos na web ou relatórios detalhados de consistência de dados foi executado ou arquivado no repositório.
+
+## 5. Problemas e limitações
+
+*   **Dinâmica Temporal das Issues:** O número de issues abertas e fechadas varia continuamente no GitHub. Como a coleta foi efetuada em um ponto específico do tempo, os números contidos no arquivo CSV são estáticos e representam um instantâneo temporal. Qualquer comparação futura contra a interface viva do GitHub resultará em pequenas discrepâncias.
+*   **Repositórios de Documentação/Listas (N/A):** Um total de 87 repositórios do conjunto (8.70%) não possuem linguagem primária atribuída (salvos como "N/A"), pois contêm apenas arquivos de documentação, coleções de links (como repositórios "awesome-*") ou arquivos de configuração. Embora sejam populares em termos de estrelas, eles não são "sistemas de software" no sentido estrito, o que afeta a análise da RQ05.
+*   **Proporção de Issues e "N/A" para RQ06:** 43 repositórios (4.30%) não possuem nenhuma issue (aberta ou fechada) registrada na API, necessitando de tratamento especial para evitar divisão por zero (atribuição de "N/A"), reduzindo a amostra analisada da RQ06 para 957 repositórios.
+*   **Inconsistências Conceituais:** A contagem total de issues na API GraphQL do GitHub reflete todas as issues registradas ao longo da vida do repositório, mas não diferencia issues spam de issues válidas, nem o histórico completo de reaberturas.
+
+## 6. Conclusão
+
+Na Sprint 2 (Lab01S02), realizou-se a consolidação das análises das Questões de Pesquisa RQ05 e RQ06 a partir dos dados previamente coletados dos 1.000 repositórios mais estrelados do GitHub. Os resultados demonstraram que o topo de linguagens primárias de repositórios estrelados (liderado por Python, TypeScript e JavaScript) se alinha com as linguagens mais populares da plataforma segundo o GitHub Octoverse 2024, apresentando desvios pontuais decorrentes do perfil de repositórios que acumulam mais estrelas. Para as issues, constatou-se que repositórios populares exibem taxas de resolução elevadas, com média de 80.23% e mediana de 87.60% de issues fechadas, confirmando a existência de gerenciamento ativo em projetos de grande visibilidade.
