@@ -142,7 +142,7 @@ def fetch_top_repositories(token: str, total: int) -> list[dict]:
     return repos
 
 def extract_metric(repo: dict) -> dict:
-    # primaryLanguage pode vir None (repos so de dados/config, ex: algumas listas "awesome-*")
+    # primaryLanguage pode vir None (repos so de dados/config)
     language = repo["primaryLanguage"]
     return{
         "repository": repo["nameWithOwner"],
