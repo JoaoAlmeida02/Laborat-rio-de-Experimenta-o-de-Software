@@ -30,11 +30,162 @@ def load_data():
     
     return df
 
+def generate_rq_graphs(df):
+    print("\n--- Gerando gráficos individuais por Questão de Pesquisa (RQs) ---")
+
+    # RQ01: Idade dos repositórios
+    print("Gerando RQ01: Idade dos repositórios...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    med_idade = df["age_years"].median()
+    sns.histplot(df["age_years"], bins=30, kde=True, color="#2980b9", ax=ax)
+    ax.axvline(med_idade, color="#c0392b", linestyle="--", linewidth=1.8, label=f"Mediana: {med_idade:.2f} anos (~2.819 dias)")
+    ax.set_title("RQ 01. Sistemas populares são maduros/antigos?\nDistribuição da Idade dos Repositórios", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("Idade (Anos)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper right", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ01_idade_repositorios.png"))
+    plt.close()
+
+    # RQ02: Contribuição externa (PRs aceitos)
+    print("Gerando RQ02: Pull Requests aceitos...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    med_prs = df["total_accepted_pull_requests"].median()
+    # Usando escala logarítmica para acomodar a cauda longa
+    log_prs = np.log10(df["total_accepted_pull_requests"] + 1)
+    sns.histplot(log_prs, bins=30, kde=True, color="#27ae60", ax=ax)
+    ax.axvline(np.log10(med_prs + 1), color="#c0392b", linestyle="--", linewidth=1.8, label=f"Mediana: {med_prs:.0f} PRs")
+    ax.set_title("RQ 02. Sistemas populares recebem muita contribuição externa?\nDistribuição de PRs Aceitos (Escala Log10)", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("log10(Total de PRs Aceitos + 1)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper right", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ02_pull_requests_aceitos.png"))
+    plt.close()
+
+    # RQ03: Frequência de releases
+    print("Gerando RQ03: Total de releases...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    med_rel = df["total_releases"].median()
+    log_rel = np.log10(df["total_releases"] + 1)
+    sns.histplot(log_rel, bins=25, kde=True, color="#8e44ad", ax=ax)
+    ax.axvline(np.log10(med_rel + 1), color="#c0392b", linestyle="--", linewidth=1.8, label=f"Mediana: {med_rel:.0f} releases")
+    ax.set_title("RQ 03. Sistemas populares lançam releases com frequência?\nDistribuição de Total de Releases (Escala Log10)", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("log10(Total de Releases + 1)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper right", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ03_total_releases.png"))
+    plt.close()
+
+    # RQ04: Tempo até última atualização
+    print("Gerando RQ04: Dias até a última atualização...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    med_upd = df["days_since_last_update"].median()
+    # Foco nos repositórios atualizados no último ano para melhor visualização
+    sns.histplot(df["days_since_last_update"].clip(upper=365), bins=35, color="#e67e22", ax=ax)
+    ax.axvline(med_upd, color="#c0392b", linestyle="--", linewidth=1.8, label=f"Mediana: {med_upd:.0f} dia (Recente)")
+    ax.set_title("RQ 04. Sistemas populares são atualizados com frequência?\nDistribuição de Dias desde a Última Atualização", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("Dias desde o Último Push (truncado em 365 dias)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper right", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ04_dias_ultima_atualizacao.png"))
+    plt.close()
+
+    # RQ05: Linguagens mais populares
+    print("Gerando RQ05: Linguagens primárias...")
+    fig, ax = plt.subplots(figsize=(10, 6), dpi=300)
+    top_langs = df["primary_language_label"].value_counts().head(10)
+    sns.barplot(x=top_langs.values, y=top_langs.index, palette="viridis", ax=ax)
+    for i, v in enumerate(top_langs.values):
+        pct = (v / len(df)) * 100
+        ax.text(v + 3, i, f"{v} ({pct:.1f}%)", va="center", fontsize=9, fontweight="bold")
+    ax.set_xlim(0, max(top_langs.values) * 1.15)
+    ax.set_title("RQ 05. Sistemas populares são escritos nas linguagens mais populares?\nTop 10 Linguagens Primárias (com base no GitHub Octoverse 2025)", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("Quantidade de Repositórios", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Linguagem Primária", fontsize=10, fontweight="bold")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ05_linguagens_populares.png"))
+    plt.close()
+
+    # RQ06: Razão de issues fechadas
+    print("Gerando RQ06: Razão de issues fechadas...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    issues_clean = df["issues_closed_ratio_clean"].dropna()
+    med_issues = issues_clean.median()
+    sns.histplot(issues_clean, bins=25, kde=True, color="#16a085", ax=ax)
+    ax.axvline(med_issues, color="#c0392b", linestyle="--", linewidth=1.8, label=f"Mediana: {med_issues:.2f} (88% fechadas)")
+    ax.set_title("RQ 06. Sistemas populares possuem um alto percentual de issues fechadas?\nDistribuição da Taxa de Resolução de Issues", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("Razão (Issues Fechadas / Total de Issues)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper left", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ06_razao_issues_fechadas.png"))
+    plt.close()
+
+    # RQ07: RQs 02, 03 e 04 divididas por linguagem
+    # RQ07: RQs 02, 03 e 04 divididas por linguagem
+    print("Gerando RQ07: Métricas divididas pelas linguagens principais...")
+    top5_langs = ["Python", "TypeScript", "JavaScript", "Go", "Rust"]
+    df_top5 = df[df["primary_language"].isin(top5_langs)].copy()
+
+    fig, axes = plt.subplots(1, 3, figsize=(16, 6), dpi=300)
+    
+    # Subplot 1: PRs por stack
+    sns.boxplot(data=df_top5, x="primary_language", y="total_accepted_pull_requests", order=top5_langs, palette="Set2", ax=axes[0])
+    axes[0].set_yscale("log")
+    axes[0].set_title("RQ 02: PRs Aceitos por Linguagem", fontsize=11, fontweight="bold", pad=10)
+    axes[0].set_xlabel("Linguagem Primária", fontweight="bold", fontsize=10)
+    axes[0].set_ylabel("PRs Mesclados (Escala Log)", fontweight="bold", fontsize=10)
+
+    # Subplot 2: Releases por stack
+    sns.boxplot(data=df_top5, x="primary_language", y="total_releases", order=top5_langs, palette="Set2", ax=axes[1])
+    axes[1].set_yscale("log")
+    axes[1].set_title("RQ 03: Total de Releases por Linguagem", fontsize=11, fontweight="bold", pad=10)
+    axes[1].set_xlabel("Linguagem Primária", fontweight="bold", fontsize=10)
+    axes[1].set_ylabel("Releases (Escala Log)", fontweight="bold", fontsize=10)
+
+    # Subplot 3: Dias até atualização por stack
+    sns.boxplot(data=df_top5, x="primary_language", y="days_since_last_update", order=top5_langs, palette="Set2", ax=axes[2])
+    axes[2].set_ylim(-1, 30) # Foco no primeiro mês
+    axes[2].set_title("RQ 04: Dias até Último Push por Linguagem", fontsize=11, fontweight="bold", pad=10)
+    axes[2].set_xlabel("Linguagem Primária", fontweight="bold", fontsize=10)
+    axes[2].set_ylabel("Dias até Última Atualização", fontweight="bold", fontsize=10)
+
+    # Título principal com quebra de linha para não vazar a tela
+    fig.suptitle(
+        "RQ 07. Sistemas escritos em linguagens mais populares recebem mais contribuição externa,\n"
+        "lançam mais releases e são atualizados com mais frequência?",
+        fontsize=13,
+        fontweight="bold",
+        y=0.97
+    )
+    
+    # Garante que os subplots não colidam com o suptitle
+    plt.tight_layout(rect=[0, 0, 1, 0.91])
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ07_metricas_por_linguagem.png"))
+    plt.close()
+
+    # RQ08: Bônus - Estrelas vs Engajamento / Forks
+    print("Gerando RQ08 (Bônus): Estrelas vs Forks (Hype vs Reuso)...")
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+    med_ratio = df["stars_to_forks_ratio_clean"].median()
+    sns.histplot(df["stars_to_forks_ratio_clean"].clip(upper=50), bins=30, kde=True, color="#d35400", ax=ax)
+    ax.axvline(med_ratio, color="#2c3e50", linestyle="--", linewidth=1.8, label=f"Mediana Global: {med_ratio:.2f}")
+    ax.set_title("RQ 08 (Bônus). Estrelas correlacionam com engajamento real ou só fama?\nDistribuição da Razão Estrelas/Forks (Endosso Passivo vs Reuso)", fontsize=12, fontweight="bold", pad=12)
+    ax.set_xlabel("Razão Estrelas / Forks (truncado em 50 para visualização)", fontsize=10, fontweight="bold")
+    ax.set_ylabel("Frequência (Repositórios)", fontsize=10, fontweight="bold")
+    ax.legend(loc="upper right", frameon=True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "RQ08_estrelas_vs_forks.png"))
+    plt.close()
+
 def main():
     df = load_data()
     print(f"Dados carregados com sucesso: {len(df)} repositórios.")
 
-    print("Gerando Ponto 1: Dispersão Estrelas vs Forks...")
+    print("\nGerando Ponto 1: Dispersão Estrelas vs Forks...")
     fig, ax = plt.subplots(figsize=(11, 7), dpi=300)
     
     top_langs = df["primary_language_label"].value_counts().head(7).index.tolist()
@@ -130,7 +281,10 @@ def main():
     plt.close()
     print(f"  Salvo: {p2_path}")
 
-    print("\nTodos os 2 gráficos (Pontos 1 e 2) foram gerados com sucesso!")
+    # Executa a geração de todos os gráficos específicos das RQs
+    generate_rq_graphs(df)
+
+    print("\nTodos os gráficos foram gerados e salvos com sucesso na pasta 'graficos/'!")
 
 if __name__ == "__main__":
     main()
