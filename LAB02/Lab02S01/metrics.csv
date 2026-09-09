@@ -1,0 +1,2 @@
+trial_id,kata,participante,tratamento,loc,lloc,sloc,comentarios,linhas_brancas,cc_media,cc_max,cc_total,n_funcoes,indice_manutenibilidade,duplicacao_pct
+exemplo_kata1_vitor_com_ia,kata1_validador_cofre,Vitor,com_ia,42,27,25,4,8,5.67,6,17,3,79.46,23.81
