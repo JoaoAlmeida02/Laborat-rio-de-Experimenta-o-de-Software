@@ -1,26 +1,24 @@
 """
-Script de cronometragem e coleta de dados de um trial do experimento LAB02.
+Script de cronometragem e coleta de dados de um trial do experimento LAB02
 
-Uso:
-    python cronometro.py --pessoa Ana --kata kata1_validador_cofre --tratamento com_ia
+Uso: python cronometro.py --pessoa Ana --kata kata1_validador_cofre --tratamento com_ia
 
-Fluxo:
-    1. Copia o template do kata (katas/<kata>/) para uma pasta de trial isolada
-       em Lab02S02/trials/<pessoa>_<kata>_<tratamento>/.
-    2. Ao pressionar Enter, inicia a cronometragem.
-    3. A pessoa implementa solucao.py normalmente (com ou sem IA, conforme o
-       tratamento) nessa pasta de trial.
-    4. Ao terminar (ou ao ser avisada que os 35 minutos acabaram), pressiona
-       Enter novamente para parar o cronometro.
-    5. O script roda pytest sobre os testes de aceitacao do kata e registra o
-       resultado em dados/resultados.csv.
+#Fluxo:
+1. Copia o template do kata para uma pasta de trial isolada em dados/<pessoa>_<kata>_<tratamento>/,
+   junto com um metadata.json (formato exigido pelo collect_metrics.py da Sprint 03).
+2. Ao pressionar Enter, inicia a cronometragem.
+3. A pessoa implementa solucao.py normalmente (com ou sem IA, conforme o tratamento) nessa pasta de trial
+4. Ao terminar (ou ao ser avisada que os 35 minutos acabaram), pressiona Enter novamente para parar o cronometro
+5. O script roda pytest sobre os testes de aceitacao do kata e registra o resultado em dados/resultados.csv,
+   usando o mesmo nome de pasta (trial_id) que o collect_metrics.py usa em metrics.csv - e' essa coluna
+   que permite o merge dos dois CSVs na analise da Sprint 03.
 
-Trial que atinge o time-box eh registrado como censurado no proprio tempo
-limite (nao descartado), conforme pedido no enunciado do laboratorio.
+Trial que atinge o time-box eh registrado como censurado no proprio tempo limite (nao descartado)
 """
 
 import argparse
 import csv
+import json
 import re
 import shutil
 import subprocess
@@ -32,10 +30,11 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 KATAS_DIR = BASE_DIR / "katas"
-TRIALS_DIR = BASE_DIR.parent / "Lab02S02" / "trials"
+TRIALS_DIR = BASE_DIR / "dados"
 RESULTADOS_CSV = BASE_DIR / "dados" / "resultados.csv"
 
 CSV_HEADER = [
+    "trial_id",
     "timestamp",
     "pessoa",
     "kata",
@@ -52,7 +51,8 @@ def preparar_pasta_trial(kata: str, pessoa: str, tratamento: str) -> Path:
         disponiveis = ", ".join(sorted(p.name for p in KATAS_DIR.iterdir() if p.is_dir()))
         sys.exit(f"Kata '{kata}' nao encontrado. Katas disponiveis: {disponiveis}")
 
-    destino = TRIALS_DIR / f"{pessoa}_{kata}_{tratamento}"
+    trial_id = f"{pessoa}_{kata}_{tratamento}"
+    destino = TRIALS_DIR / trial_id
     if destino.exists():
         sys.exit(
             f"A pasta de trial '{destino}' ja existe. Remova-a ou escolha "
@@ -62,6 +62,11 @@ def preparar_pasta_trial(kata: str, pessoa: str, tratamento: str) -> Path:
     destino.mkdir(parents=True)
     for arquivo in origem.glob("*.py"):
         shutil.copy(arquivo, destino / arquivo.name)
+
+    metadata = {"kata": kata, "participante": pessoa, "tratamento": tratamento}
+    with open(destino / "metadata.json", "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
+
     return destino
 
 
@@ -83,7 +88,10 @@ def cronometrar(timeout_minutos: float) -> tuple[float, bool]:
     )
     aviso.start()
 
-    input("Trial em andamento. Pressione ENTER quando terminar (ou apos o aviso de tempo esgotado)...")
+    input(
+        "Trial em andamento. SALVE o arquivo (Ctrl+S) antes de continuar! "
+        "Pressione ENTER quando terminar (ou apos o aviso de tempo esgotado)..."
+    )
     fim = time.time()
     parar_evento.set()
 
@@ -119,6 +127,7 @@ def rodar_testes(pasta_trial: Path) -> tuple[int, int]:
 
 
 def registrar_resultado(
+    trial_id: str,
     pessoa: str,
     kata: str,
     tratamento: str,
@@ -136,6 +145,7 @@ def registrar_resultado(
             writer.writerow(CSV_HEADER)
         writer.writerow(
             [
+                trial_id,
                 datetime.now().isoformat(timespec="seconds"),
                 pessoa,
                 kata,
@@ -172,6 +182,7 @@ def main() -> None:
     testes_passando, testes_total = rodar_testes(pasta_trial)
 
     registrar_resultado(
+        trial_id=pasta_trial.name,
         pessoa=args.pessoa,
         kata=args.kata,
         tratamento=args.tratamento,
