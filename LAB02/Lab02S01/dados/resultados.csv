@@ -1,0 +1,5 @@
+trial_id,timestamp,pessoa,kata,tratamento,tempo_segundos,censurado,testes_passando,testes_total
+Lucas_kata1_validador_cofre_sem_ia,2026-09-16T09:36:32,Lucas,kata1_validador_cofre,sem_ia,300.8,False,5,7
+Lucas_kata3_compressor_log_sem_ia,2026-09-16T09:45:02,Lucas,kata3_compressor_log,sem_ia,269.3,False,5,6
+Lucas_kata2_rota_entregador_com_ia,2026-09-16T09:49:53,Lucas,kata2_rota_entregador,com_ia,91.8,False,6,6
+Lucas_kata4_escalonador_plantao_com_ia,2026-09-16T09:52:03,Lucas,kata4_escalonador_plantao,com_ia,66.9,False,5,5
