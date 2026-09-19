@@ -1,0 +1,13 @@
+metrica,tratamento,n,mediana,q1,q3,iqr
+tempo_segundos,sem_ia,6,285.05,204.05,309.42,105.38
+tempo_segundos,com_ia,6,79.35,19.95,112.95,93.0
+taxa_sucesso,sem_ia,6,83.33,83.33,83.33,0.0
+taxa_sucesso,com_ia,6,100.0,100.0,100.0,0.0
+cc_media,sem_ia,6,8.5,6.25,10.0,3.75
+cc_media,com_ia,6,6.0,5.25,6.0,0.75
+sloc,sem_ia,6,21.0,20.25,24.75,4.5
+sloc,com_ia,6,15.0,14.0,16.75,2.75
+indice_manutenibilidade,sem_ia,6,58.3,53.06,58.77,5.7
+indice_manutenibilidade,com_ia,6,65.68,61.85,82.56,20.71
+duplicacao_pct,sem_ia,6,0.0,0.0,0.0,0.0
+duplicacao_pct,com_ia,6,0.0,0.0,0.0,0.0
