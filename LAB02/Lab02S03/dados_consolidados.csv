@@ -7,7 +7,7 @@ Joao_kata1_validador_cofre_com_ia,2026-09-16T10:56:19,Joao,kata1_validador_cofre
 Joao_kata3_compressor_log_com_ia,2026-09-16T10:56:59,Joao,kata3_compressor_log,com_ia,74.2,False,6,6,15,12,12,0,3,5.0,5,5,1,68.33,0.0,100.0,True
 Joao_kata2_rota_entregador_sem_ia,2026-09-16T11:53:24,Joao,kata2_rota_entregador,sem_ia,162.2,False,5,6,32,28,26,0,6,10.0,10,10,1,51.42,0.0,83.33333333333333,False
 Joao_kata4_escalonador_plantao_sem_ia,2026-09-16T12:05:24,Joao,kata4_escalonador_plantao,sem_ia,420.3,False,5,5,27,18,20,0,7,7.0,7,7,1,57.99,0.0,100.0,True
-Vitor_kata1_validador_cofre_com_ia,2026-09-16T14:27:00,Vitor,kata1_validador_cofre,com_ia,180.0,False,7,7,38,16,17,0,10,9.0,9,9,1,91.12,0.0,100.0,True
-Vitor_kata2_rota_entregador_sem_ia,2026-09-16T14:35:00,Vitor,kata2_rota_entregador,sem_ia,182.3,False,5,6,44,29,31,0,13,12.0,12,12,1,50.43,0.0,83.33333333333333,False
-Vitor_kata3_compressor_log_sem_ia,2026-09-16T14:45:00,Vitor,kata3_compressor_log,sem_ia,312.3,False,5,6,29,21,21,0,8,6.0,6,6,1,58.61,0.0,83.33333333333333,False
-Vitor_kata4_escalonador_plantao_com_ia,2026-09-16T14:29:00,Vitor,kata4_escalonador_plantao,com_ia,120.0,False,5,5,33,18,17,3,6,6.0,6,6,1,87.3,0.0,100.0,True
+Vitor_kata1_validador_cofre_com_ia,2026-09-23T13:34:44,Vitor,kata1_validador_cofre,com_ia,95.6,False,7,7,27,19,21,0,6,11.0,11,11,1,56.62,0.0,100.0,True
+Vitor_kata4_escalonador_plantao_com_ia,2026-09-23T13:36:18,Vitor,kata4_escalonador_plantao,com_ia,54.8,False,5,5,22,19,19,0,3,5.0,5,5,1,57.96,0.0,100.0,True
+Vitor_kata2_rota_entregador_sem_ia,2026-09-23T13:46:58,Vitor,kata2_rota_entregador,sem_ia,233.0,False,3,6,41,29,31,0,10,12.0,12,12,1,50.43,0.0,50.0,False
+Vitor_kata3_compressor_log_sem_ia,2026-09-23T13:55:38,Vitor,kata3_compressor_log,sem_ia,248.7,False,6,6,29,21,21,0,8,6.0,6,6,1,58.61,0.0,100.0,True
