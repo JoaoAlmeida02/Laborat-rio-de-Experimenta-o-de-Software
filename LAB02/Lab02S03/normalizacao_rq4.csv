@@ -1,0 +1,13 @@
+trial_id,pessoa,kata,tratamento,loc,sloc,cc_media,cc_total,densidade_cc_sloc,densidade_cc_lloc,indice_manutenibilidade
+Lucas_kata1_validador_cofre_sem_ia,Lucas,kata1_validador_cofre,sem_ia,22,16,10.0,10,0.625,0.714,59.65
+Lucas_kata3_compressor_log_sem_ia,Lucas,kata3_compressor_log,sem_ia,26,21,6.0,6,0.286,0.286,58.82
+Lucas_kata2_rota_entregador_com_ia,Lucas,kata2_rota_entregador,com_ia,22,16,6.0,6,0.375,0.3,56.51
+Lucas_kata4_escalonador_plantao_com_ia,Lucas,kata4_escalonador_plantao,com_ia,17,14,5.0,5,0.357,0.333,61.46
+Joao_kata1_validador_cofre_com_ia,Joao,kata1_validador_cofre,com_ia,22,14,6.0,6,0.429,0.4,63.03
+Joao_kata3_compressor_log_com_ia,Joao,kata3_compressor_log,com_ia,15,12,5.0,5,0.417,0.417,68.33
+Joao_kata2_rota_entregador_sem_ia,Joao,kata2_rota_entregador,sem_ia,32,26,10.0,10,0.385,0.357,51.42
+Joao_kata4_escalonador_plantao_sem_ia,Joao,kata4_escalonador_plantao,sem_ia,27,20,7.0,7,0.35,0.389,57.99
+Vitor_kata1_validador_cofre_com_ia,Vitor,kata1_validador_cofre,com_ia,27,21,11.0,11,0.524,0.579,56.62
+Vitor_kata4_escalonador_plantao_com_ia,Vitor,kata4_escalonador_plantao,com_ia,22,19,5.0,5,0.263,0.263,57.96
+Vitor_kata2_rota_entregador_sem_ia,Vitor,kata2_rota_entregador,sem_ia,41,31,12.0,12,0.387,0.414,50.43
+Vitor_kata3_compressor_log_sem_ia,Vitor,kata3_compressor_log,sem_ia,29,21,6.0,6,0.286,0.286,58.61
