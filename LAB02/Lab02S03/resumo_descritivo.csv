@@ -1,6 +1,6 @@
 metrica,tratamento,n,mediana,q1,q3,iqr
 tempo_segundos,sem_ia,6,285.05,204.05,309.42,105.38
-tempo_segundos,com_ia,6,79.35,19.95,112.95,93.0
+tempo_segundos,com_ia,6,88.6,77.0,112.95,35.95
 taxa_sucesso,sem_ia,6,83.33,83.33,83.33,0.0
 taxa_sucesso,com_ia,6,100.0,100.0,100.0,0.0
 cc_media,sem_ia,6,8.5,6.25,10.0,3.75
