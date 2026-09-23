@@ -3,8 +3,8 @@ Lucas_kata1_validador_cofre_sem_ia,2026-09-16T09:36:32,Lucas,kata1_validador_cof
 Lucas_kata3_compressor_log_sem_ia,2026-09-16T09:45:02,Lucas,kata3_compressor_log,sem_ia,269.3,False,5,6
 Lucas_kata2_rota_entregador_com_ia,2026-09-16T09:49:53,Lucas,kata2_rota_entregador,com_ia,91.8,False,6,6
 Lucas_kata4_escalonador_plantao_com_ia,2026-09-16T09:52:03,Lucas,kata4_escalonador_plantao,com_ia,66.9,False,5,5
-Joao_kata1_validador_cofre_com_ia,2026-09-16T10:56:19,Joao,kata1_validador_cofre,com_ia,4.3,False,7,7
-Joao_kata3_compressor_log_com_ia,2026-09-16T10:56:59,Joao,kata3_compressor_log,com_ia,3.6,False,6,6
+Joao_kata1_validador_cofre_com_ia,2026-09-16T10:56:19,Joao,kata1_validador_cofre,com_ia,85.4,False,7,7
+Joao_kata3_compressor_log_com_ia,2026-09-16T10:56:59,Joao,kata3_compressor_log,com_ia,74.2,False,6,6
 Joao_kata2_rota_entregador_sem_ia,2026-09-16T11:53:24,Joao,kata2_rota_entregador,sem_ia,162.2,False,5,6
 Joao_kata4_escalonador_plantao_sem_ia,2026-09-16T12:05:24,Joao,kata4_escalonador_plantao,sem_ia,420.3,False,5,5
 Vitor_kata1_validador_cofre_com_ia,2026-09-16T14:27:00,Vitor,kata1_validador_cofre,com_ia,180.0,False,7,7
