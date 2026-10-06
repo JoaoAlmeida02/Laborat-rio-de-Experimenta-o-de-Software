@@ -1,0 +1,19 @@
+# Segredos / variaveis de ambiente
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dados brutos da coleta (cache da API, regeravel pelo pipeline)
+data/cache/
+data/releases/
+
+# Config local do Claude Code (por maquina/usuario, nao deve ser compartilhada)
+.claude/settings.local.json

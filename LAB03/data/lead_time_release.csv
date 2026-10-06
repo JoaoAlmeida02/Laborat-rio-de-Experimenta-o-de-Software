@@ -1,0 +1,3 @@
+repo,unidade,n_entregas,deploy_frequency_semana,lead_time_release_h,lead_time_commit_h,n_commits,ignoradas_sem_anterior,ignoradas_compare_404,ignoradas_sem_commits
+psf/requests,release,2,0.0384,12248.6,2841.24,78,0,0,0
+astral-sh/ruff,release,55,1.0548,171.34,75.0,4395,0,0,0
