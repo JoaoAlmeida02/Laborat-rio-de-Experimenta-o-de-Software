@@ -1,0 +1,33 @@
+name: Testes CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          if [ -d "LAB03" ]; then
+            pip install -r LAB03/requirements.txt
+          else
+            pip install -r requirements.txt
+          fi
+
+      - name: Executar testes com cobertura
+        run: |
+          if [ -d "LAB03" ]; then
+            cd LAB03
+          fi
+          pytest --cov=metricas --cov-fail-under=80
