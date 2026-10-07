@@ -1,11 +1,18 @@
 import os
+from pathlib import Path
 import re
 import time
 
+from dotenv import load_dotenv
 import requests
 
 API = "https://api.github.com"
 _LINK_NEXT = re.compile(r'<([^>]+)>;\s*rel="next"')
+
+RAIZ = Path(__file__).resolve().parents[1]
+for p in [RAIZ / ".env", RAIZ.parent / ".env", RAIZ.parent.parent / ".env"]:
+    if p.exists():
+        load_dotenv(p)
 
 
 class NaoEncontrado(Exception):
@@ -21,7 +28,7 @@ class GitHubAPI:
     def __init__(self, token=None, sessao=None, tentativas=5, dormir=time.sleep):
         token = token or os.getenv("GITHUB_TOKEN")
         if not token:
-            raise RuntimeError("GITHUB_TOKEN não definido (crie o arquivo LAB03/.env)")
+            raise RuntimeError("GITHUB_TOKEN não definido (crie o arquivo .env com GITHUB_TOKEN=seu_token)")
         self.sessao = sessao or requests.Session()
         self.sessao.headers.update({
             "Authorization": f"Bearer {token}",
@@ -37,7 +44,7 @@ class GitHubAPI:
             if resp.status_code == 404:
                 raise NaoEncontrado(url)
             if resp.status_code == 401:
-                raise RuntimeError("Token inválido ou expirado: gere outro e atualize GITHUB_TOKEN no LAB03/.env")
+                raise RuntimeError("Token inválido ou expirado: gere outro e atualize GITHUB_TOKEN no .env")
             if resp.status_code in (403, 429) and resp.headers.get("X-RateLimit-Remaining") == "0":
                 reset = int(resp.headers.get("X-RateLimit-Reset", time.time()))
                 self.dormir(max(reset - time.time(), 0) + 1)

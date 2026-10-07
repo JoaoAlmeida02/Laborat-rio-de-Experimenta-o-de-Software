@@ -1,0 +1,24 @@
+# Configuracao do Pipeline de Coleta DORA (LAB03)
+janela:
+  inicio: "2025-01-01"
+  fim: "2025-12-31"
+
+amostra:
+  limite_repos: 100
+  min_releases: 5
+  min_workflow_runs: 50
+
+busca:
+  linguagem: null  # null para todas as linguagens
+  faixas_estrelas:
+    - "stars:1000..2000"
+    - "stars:2000..5000"
+    - "stars:5000..10000"
+    - "stars:10000..20000"
+    - "stars:>20000"
+
+caminhos:
+  dados: "data"
+  repos_csv: "data/repos.csv"
+  funil_csv: "data/funil.csv"
+  funil_md: "data/funil.md"
