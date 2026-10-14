@@ -22,6 +22,7 @@ def criar_sessao_mock() -> MagicMock:
 def test_token_ausente_emite_aviso_e_executa_sem_auth(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     """Verifica que a ausência do token GITHUB_TOKEN gera warning e requisições sem Authorization."""
     monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.setattr("pipeline.http.load_dotenv", lambda *a, **k: None)
     with pytest.warns(UserWarning, match="GITHUB_TOKEN não configurado"):
         cliente = ClienteHTTP(token=None, cache_dir=tmp_path)
         assert "Authorization" not in cliente.sessao.headers
