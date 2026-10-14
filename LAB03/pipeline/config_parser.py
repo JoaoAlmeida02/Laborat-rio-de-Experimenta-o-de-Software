@@ -92,7 +92,7 @@ def carregar_config(caminho="config.yaml") -> dict:
     return {
         "inicio": janela.get("inicio", "2025-01-01"),
         "fim": janela.get("fim", "2025-12-31"),
-        "limite_repos": int(amostra.get("limite_repos", 100)),
+        "limite_repos": int(amostra.get("limite_repos", 300)),
         "min_releases": int(amostra.get("min_releases", 5)),
         "min_workflow_runs": int(amostra.get("min_workflow_runs", 50)),
         "faixas_estrelas": busca.get("faixas_estrelas", ["stars:1000..2000", "stars:2000..5000", "stars:>5000"]),

@@ -223,18 +223,138 @@ def coletar_runs(
     return list(runs_map.values())
 
 
+import csv
+
+from metricas.falhas import cfr_ci
+from metricas.recuperacao import tempo_recuperacao
+
+
+def rodar_coleta_runs_pipeline(
+    caminho_repos_csv: Path | str,
+    inicio: str,
+    fim: str,
+    pasta_saida: Path | str = "data",
+    refazer: bool = False,
+    cliente: ClienteHTTP | None = None,
+) -> list[dict[str, Any]]:
+    """Coleta workflow runs dos repositórios da amostra final e calcula CFR (a) e Tempo de Recuperação."""
+    caminho_csv = Path(caminho_repos_csv)
+    saida = Path(pasta_saida)
+    pasta_runs = saida / "runs"
+    pasta_runs.mkdir(parents=True, exist_ok=True)
+    cliente = cliente or ClienteHTTP()
+
+    if not caminho_csv.exists():
+        raise FileNotFoundError(f"Arquivo '{caminho_csv}' não encontrado.")
+
+    repos = []
+    with open(caminho_csv, "r", encoding="utf-8") as f:
+        leitor = csv.DictReader(f)
+        for linha in leitor:
+            repos.append(linha)
+
+    print(f"\nColetando runs para {len(repos)} repositórios da amostra...")
+    metricas = []
+    caminho_metricas_csv = saida / "metricas_runs.csv"
+
+    def _salvar_metricas():
+        if not metricas:
+            return
+        with open(caminho_metricas_csv, "w", newline="", encoding="utf-8") as f:
+            escritor = csv.DictWriter(f, fieldnames=list(metricas[0].keys()))
+            escritor.writeheader()
+            escritor.writerows(metricas)
+
+    try:
+        for idx, item in enumerate(repos, 1):
+            full_name = item.get("full_name") or f"{item.get('owner')}/{item.get('repo')}"
+            owner = item.get("owner") or full_name.split("/")[0]
+            repo = item.get("repo") or full_name.split("/")[1]
+            default_branch = item.get("default_branch") or "main"
+            caminho_cp = pasta_runs / f"{owner}__{repo}.json"
+
+            print(f"[{idx}/{len(repos)}] Processando runs de {full_name}...")
+
+            if caminho_cp.exists() and not refazer:
+                try:
+                    cp_data = carregar_checkpoint(caminho_cp)
+                    runs = list(cp_data.get("runs", {}).values())
+                    print(f"  -> {len(runs)} runs carregados do checkpoint (cache)")
+                except Exception:
+                    runs = coletar_runs(
+                        owner=owner,
+                        repo=repo,
+                        branch=default_branch,
+                        data_inicio=inicio,
+                        data_fim=fim,
+                        cliente=cliente,
+                        caminho_checkpoint=caminho_cp,
+                    )
+            else:
+                runs = coletar_runs(
+                    owner=owner,
+                    repo=repo,
+                    branch=default_branch,
+                    data_inicio=inicio,
+                    data_fim=fim,
+                    cliente=cliente,
+                    caminho_checkpoint=caminho_cp,
+                )
+
+            # Cálculo de CFR (a) e Tempo de Recuperação
+            valor_cfr = cfr_ci(runs)
+            recup = tempo_recuperacao(runs)
+            mediana_s = round(recup.mediana.total_seconds(), 2) if recup.mediana else None
+            mediana_h = round(recup.mediana.total_seconds() / 3600.0, 2) if recup.mediana else None
+
+            linha_metrica = {
+                "repo": full_name,
+                "total_runs": len(runs),
+                "cfr_ci": round(valor_cfr, 4) if valor_cfr is not None else None,
+                "tempo_recuperacao_s": mediana_s,
+                "tempo_recuperacao_h": mediana_h,
+                "recuperacao_proporcao_censurados": round(recup.proporcao_censurados, 4),
+                "total_episodios": len(recup.episodios),
+            }
+            metricas.append(linha_metrica)
+
+            if idx % 10 == 0:
+                _salvar_metricas()
+    finally:
+        _salvar_metricas()
+
+    print(f"\nMétricas de runs salvas com sucesso em: {caminho_metricas_csv}")
+    return metricas
+
+
 def main() -> None:
     """Ponto de entrada via CLI para execução e retomada da coleta de runs."""
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     parser = argparse.ArgumentParser(description="Coleta de workflow runs da API do GitHub.")
-    parser.add_argument("--owner", required=True, help="Proprietário do repositório (ex: psf)")
-    parser.add_argument("--repo", required=True, help="Nome do repositório (ex: requests)")
+    parser.add_argument("--owner", help="Proprietário do repositório (ex: psf)")
+    parser.add_argument("--repo", help="Nome do repositório (ex: requests)")
+    parser.add_argument("--arquivo", help="Caminho para arquivo CSV com lista de repositórios (ex: data/repos.csv)")
+    parser.add_argument("--saida", default="data", help="Diretório de saída (padrão: data)")
     parser.add_argument("--branch", default="main", help="Branch de filtro (padrão: main)")
-    parser.add_argument("--inicio", default="2024-01-01", help="Data de início (YYYY-MM-DD)")
-    parser.add_argument("--fim", default="2024-12-31", help="Data de término (YYYY-MM-DD)")
+    parser.add_argument("--inicio", default="2025-01-01", help="Data de início (YYYY-MM-DD)")
+    parser.add_argument("--fim", default="2025-12-31", help="Data de término (YYYY-MM-DD)")
     parser.add_argument("--checkpoint", default=None, help="Caminho personalizado para o checkpoint")
+    parser.add_argument("--refazer", action="store_true", help="Ignora checkpoints existentes e refaz coleta")
 
     args = parser.parse_args()
+
+    if args.arquivo:
+        rodar_coleta_runs_pipeline(
+            caminho_repos_csv=args.arquivo,
+            inicio=args.inicio,
+            fim=args.fim,
+            pasta_saida=args.saida,
+            refazer=args.refazer,
+        )
+        return
+
+    if not args.owner or not args.repo:
+        parser.error("Informe --owner e --repo ou use --arquivo com o CSV de repositórios.")
 
     try:
         runs = coletar_runs(

@@ -1,0 +1,36 @@
+{
+  "data_coleta": "2026-10-14T20:10:47.736572+00:00",
+  "janela": {
+    "inicio": "2025-01-01",
+    "fim": "2025-12-31"
+  },
+  "git": {
+    "commit": "1c47bf8afc70f1bf3da628449322d4ca90d524e9",
+    "branch": "sprint-2/s02-c-coleta"
+  },
+  "dataset": {
+    "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/dataset.csv",
+    "sha256": "4b60f37a78acaf95a79c77b4c0f3b56937ae1d6c76cb8d69d33be11b6625b3c5",
+    "total_repositorios": 300,
+    "tamanho_bytes": 45548,
+    "colunas_qtd": 33
+  },
+  "fontes_dados": {
+    "repos_csv": {
+      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/repos.csv",
+      "sha256": "eeadce3b849fbe4d74674635338e6af1f48bf741b077e57711a1197264b4a1e2"
+    },
+    "lead_time_csv": {
+      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/lead_time_release.csv",
+      "sha256": "61ae70a3d05048376f6c76657b25a13a1de09d221204610e68aec581f6f8b5b7"
+    },
+    "metricas_runs_csv": {
+      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/metricas_runs.csv",
+      "sha256": ""
+    }
+  },
+  "ambiente": {
+    "python_versao": "3.12.3",
+    "sistema_operacional": "win32"
+  }
+}
