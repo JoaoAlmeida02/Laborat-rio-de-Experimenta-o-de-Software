@@ -1,0 +1,2 @@
+repo,release_tag,dimensao,rotulo_final,justificativa
+nashtech-garage/yas,ui-0.1.0,tipo_projeto,ferramenta_cli,"Deliberado em reunião de consenso: repositório de automação e ferramentas de linha de comando; padronizado como ferramenta_cli em alinhamento com as demais releases do projeto."

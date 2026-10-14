@@ -86,8 +86,9 @@ Após a conclusão das rotulagens individuais e execução do cálculo de concor
    - O caso divergente é registrado no relatório de auditoria (`rotulagem/divergencias.md`).
 3. **Empate Triplo ($1 \times 1 \times 1$):**
    - Possível exclusivamente em dimensões com três ou mais opções (como `tipo_projeto` e `entrega_real`).
-   - O item é marcado explicitamente como `empate` na coluna de consenso preliminar.
-   - Uma reunião síncrona de alinhamento entre os três integrantes é convocada, utilizando o arquivo `divergencias.md` como pauta oficial. O artefato e histórico de commits são reexaminados em conjunto até que um consenso fundamentado seja atingido e registrado formalmente.
+   - Esses casos são listados na pauta oficial de divergências (`rotulagem/divergencias.md`) para deliberação síncrona entre os três integrantes.
+   - **Registro formal em `rotulagem/decisoes_reuniao.csv`:** O resultado definitivo acordado pelo grupo na reunião é documentado explicitamente neste arquivo auditável (`repo,release_tag,dimensao,rotulo_final,justificativa`).
+   - O script `consenso.py` consome `decisoes_reuniao.csv` para preencher o rótulo definitivo acordado, mantendo a coluna de unanimidade como `"nao"` para evidenciar a deliberação. Caso surja algum empate 1-1-1 ainda não registrado no arquivo, o script mantém `"empate"` e emite um aviso no terminal, impedindo resoluções automáticas arbitrárias sem discussão prévia. Desta forma, a base final `rotulagem/consenso.csv` fica consistente e sem rótulos espúrios para as análises das RQs.
 
 ---
 

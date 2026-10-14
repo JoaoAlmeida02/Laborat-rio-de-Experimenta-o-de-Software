@@ -17,7 +17,7 @@ durante a validação da amostra-ouro. Serve como **pauta oficial da reunião de
 | 86 | `bit4woo/knife` | `v2.1` | **entrega_real** | `sim` | `sim` | `incerto` | 2-1 (maioria) | [Release](https://github.com/bit4woo/knife/releases/tag/v2.1) · [Compare](https://github.com/bit4woo/knife/compare/v2.0...v2.1) |
 | 93 | `Belval/pdf2image` | `v1.6.0` | **corretiva** | `nao` | `nao` | `sim` | 2-1 (maioria) | [Release](https://github.com/Belval/pdf2image/releases/tag/v1.6.0) · [Compare](https://github.com/Belval/pdf2image/compare/v1.5.4...v1.6.0) |
 | 111 | `ChimeraOS/chimeraos` | `49-1_cabd8c9` | **corretiva** | `nao` | `sim` | `nao` | 2-1 (maioria) | [Release](https://github.com/ChimeraOS/chimeraos/releases/tag/49-1_cabd8c9) · [Compare](https://github.com/ChimeraOS/chimeraos/compare/49_dc036b0...49-1_cabd8c9) |
-| 142 | `nashtech-garage/yas` | `ui-0.1.0` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `aplicacao_servico` | 1-1-1 (empate) | [Release](https://github.com/nashtech-garage/yas/releases/tag/ui-0.1.0) · [Compare](https://github.com/nashtech-garage/yas/compare/swagger-ui-0.1.0...ui-0.1.0) |
+| 142 | `nashtech-garage/yas` | `ui-0.1.0` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `aplicacao_servico` | 1-1-1 (resolvido: `ferramenta_cli` em reunião) | [Release](https://github.com/nashtech-garage/yas/releases/tag/ui-0.1.0) · [Compare](https://github.com/nashtech-garage/yas/compare/swagger-ui-0.1.0...ui-0.1.0) |
 | 143 | `nashtech-garage/yas` | `backoffice-bff-0.1.0` | **entrega_real** | `sim` | `sim` | `incerto` | 2-1 (maioria) | [Release](https://github.com/nashtech-garage/yas/releases/tag/backoffice-bff-0.1.0) · [Compare](https://github.com/nashtech-garage/yas/compare/ui-0.1.0...backoffice-bff-0.1.0) |
 | 161 | `ys1231/MoveCertificate` | `v1.6.0` | **corretiva** | `nao` | `sim` | `nao` | 2-1 (maioria) | [Release](https://github.com/ys1231/MoveCertificate/releases/tag/v1.6.0) · [Compare](https://github.com/ys1231/MoveCertificate/compare/v1.5.8...v1.6.0) |
 | 165 | `svg-sprite/svg-sprite` | `v0.0.8` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `ferramenta_cli` | 2-1 (maioria) | [Release](https://github.com/svg-sprite/svg-sprite/releases/tag/v0.0.8) · [Compare](https://github.com/svg-sprite/svg-sprite/compare/v0.0.7...v0.0.8) |
@@ -27,3 +27,9 @@ durante a validação da amostra-ouro. Serve como **pauta oficial da reunião de
 | 195 | `MichaelGrafnetter/DSInternals` | `v2.18` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `ferramenta_cli` | 2-1 (maioria) | [Release](https://github.com/MichaelGrafnetter/DSInternals/releases/tag/v2.18) · - |
 | 197 | `MichaelGrafnetter/DSInternals` | `v4.4` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `ferramenta_cli` | 2-1 (maioria) | [Release](https://github.com/MichaelGrafnetter/DSInternals/releases/tag/v4.4) · [Compare](https://github.com/MichaelGrafnetter/DSInternals/compare/v4.3...v4.4) |
 | 199 | `MichaelGrafnetter/DSInternals` | `v6.5` | **tipo_projeto** | `ferramenta_cli` | `biblioteca_framework` | `ferramenta_cli` | 2-1 (maioria) | [Release](https://github.com/MichaelGrafnetter/DSInternals/releases/tag/v6.5) · [Compare](https://github.com/MichaelGrafnetter/DSInternals/compare/v6.4...v6.5) |
+
+## Deliberações da Reunião de Consenso (`rotulagem/decisoes_reuniao.csv`)
+
+| Repositório | Release | Dimensão | Rótulo Consensuado | Justificativa |
+| :--- | :--- | :--- | :--- | :--- |
+| `nashtech-garage/yas` | `ui-0.1.0` | **tipo_projeto** | `ferramenta_cli` | Deliberado em reunião de consenso: repositório de automação e ferramentas de linha de comando; padronizado como ferramenta_cli em alinhamento com as demais releases do projeto. |

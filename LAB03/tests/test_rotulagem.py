@@ -122,10 +122,36 @@ def test_resolver_voto_regras():
     assert vencedor == "sim"
     assert unanime is False
 
-    # Empate 1-1-1
+    # Empate 1-1-1 sem decisao no mapa
     vencedor, unanime = resolver_voto(["sim", "nao", "incerto"])
     assert vencedor == "empate"
     assert unanime is False
+
+    # Empate 1-1-1 com decisao em reuniao
+    decisoes = {("org/r", "v1", "tipo"): "ferramenta_cli"}
+    vencedor, unanime = resolver_voto(
+        ["sim", "nao", "incerto"],
+        repo="org/r",
+        tag="v1",
+        dimensao="tipo",
+        decisoes=decisoes,
+    )
+    assert vencedor == "ferramenta_cli"
+    assert unanime is False
+
+
+def test_carregar_decisoes_reuniao(tmp_path):
+    from rotulagem.consenso import carregar_decisoes_reuniao
+
+    csv_decisoes = tmp_path / "decisoes_teste.csv"
+    csv_decisoes.write_text(
+        "repo,release_tag,dimensao,rotulo_final,justificativa\n"
+        "owner/repo,v1.0.0,tipo_projeto,ferramenta_cli,Deliberado em reuniao\n",
+        encoding="utf-8",
+    )
+    mapa = carregar_decisoes_reuniao(csv_decisoes)
+    assert ("owner/repo", "v1.0.0", "tipo_projeto") in mapa
+    assert mapa[("owner/repo", "v1.0.0", "tipo_projeto")] == "ferramenta_cli"
 
 
 def test_extrair_divergencias_e_gerar_md(tmp_path):
