@@ -8,25 +8,49 @@ from pipeline.selecao import (
     buscar_candidatos_por_faixas,
     calcular_idade,
     coletar_metadados_repo,
+    contar_releases_janela,
+    contar_workflow_runs_janela,
     descartar_candidato_estatico,
     extrair_ultimo_link,
     selecionar_repositorios,
     verificar_actions,
+    verificar_criterio_inclusao,
 )
 
 
 class MockAPI:
-    def __init__(self, workflows_count=1, link_header=None, contributors_list=None, search_items=None):
+    def __init__(
+        self,
+        workflows_count=1,
+        link_header=None,
+        contributors_list=None,
+        search_items=None,
+        releases_list=None,
+        runs_count=60,
+    ):
         self.workflows_count = workflows_count
         self.link_header = link_header
         self.contributors_list = contributors_list or [{"id": 1}]
         self.search_items = search_items or []
+        self.releases_list = (
+            releases_list
+            if releases_list is not None
+            else [
+                {"published_at": f"2025-0{i}-15T00:00:00Z", "draft": False, "prerelease": False}
+                for i in range(1, 7)
+            ]
+        )
+        self.runs_count = runs_count
 
     def get(self, caminho, params=None):
         if "search/repositories" in caminho:
             return {"total_count": len(self.search_items), "items": self.search_items}
         if "actions/workflows" in caminho:
             return {"total_count": self.workflows_count, "workflows": []}
+        if "actions/runs" in caminho:
+            return {"total_count": self.runs_count, "workflow_runs": []}
+        if "/releases" in caminho:
+            return self.releases_list
         return {}
 
     def paginar(self, caminho, params=None):
@@ -148,17 +172,22 @@ def test_coletar_metadados_repo():
 # --- Testes do Funil de Selecao ---
 
 def test_funil_registro_e_exportacao():
-    funil = FunilSelecao()
+    funil = FunilSelecao(min_releases=5, min_workflow_runs=50)
     funil.registrar_busca(500)
     funil.descartar("fork")
     funil.descartar("fork")
     funil.descartar("arquivado")
     funil.descartar("sem_actions")
-    funil.registrar_etapa("4_amostra_final", 100)
+    funil.descartar("poucas_releases")
+    funil.descartar("poucos_runs")
+    funil.registrar_etapa("amostra_final", 100)
 
     linhas = funil.gerar_linhas_csv()
-    assert len(linhas) == 5
+    assert len(linhas) == 7
     assert linhas[0]["restantes"] == 500
+    assert linhas[5]["etapa"] == "6. ≥ 5 releases e ≥ 50 runs na janela"
+    assert linhas[5]["descartados"] == 2
+    assert linhas[6]["etapa"] == "7. Amostra final selecionada"
 
     with tempfile.TemporaryDirectory() as tmpdir:
         tmp = Path(tmpdir)
@@ -188,6 +217,10 @@ def test_selecionar_repositorios_pipeline_completo():
                 return {"total_count": len(self.search_items), "items": self.search_items}
             if "repo-no-actions/actions/workflows" in caminho:
                 return {"total_count": 0}
+            if "/releases" in caminho:
+                return self.releases_list
+            if "actions/runs" in caminho:
+                return {"total_count": self.runs_count, "workflow_runs": []}
             return {"total_count": 2}
 
     api = MockSearchAPI(search_items=candidatos_mock)
@@ -236,5 +269,57 @@ def test_carregar_config_arquivo_real():
     cfg = carregar_config("config.yaml")
     assert cfg["inicio"] == "2025-01-01"
     assert cfg["fim"] == "2025-12-31"
-    assert cfg["limite_repos"] == 100
+    assert cfg["limite_repos"] == 300
     assert len(cfg["faixas_estrelas"]) >= 3
+
+
+# --- Testes de Criterio de Inclusao (min_releases e min_workflow_runs) ---
+
+def test_verificar_criterio_inclusao_aprovado():
+    api = MockAPI(
+        releases_list=[
+            {"published_at": f"2025-0{i}-10T00:00:00Z", "draft": False, "prerelease": False}
+            for i in range(1, 7)
+        ],
+        runs_count=120,
+    )
+    atende, motivo, n_rel, n_runs = verificar_criterio_inclusao(
+        api, "org", "repo", "2025-01-01", "2025-12-31", min_releases=5, min_runs=50
+    )
+    assert atende is True
+    assert motivo is None
+    assert n_rel >= 5
+    assert n_runs >= 50
+
+
+def test_verificar_criterio_inclusao_poucas_releases():
+    api = MockAPI(
+        releases_list=[
+            {"published_at": "2025-03-10T00:00:00Z", "draft": False, "prerelease": False},
+            {"published_at": "2025-04-10T00:00:00Z", "draft": False, "prerelease": False},
+        ],
+        runs_count=120,
+    )
+    atende, motivo, n_rel, n_runs = verificar_criterio_inclusao(
+        api, "org", "repo", "2025-01-01", "2025-12-31", min_releases=5, min_runs=50
+    )
+    assert atende is False
+    assert motivo == "poucas_releases"
+    assert n_rel == 2
+
+
+def test_verificar_criterio_inclusao_poucos_runs():
+    api = MockAPI(
+        releases_list=[
+            {"published_at": f"2025-0{i}-10T00:00:00Z", "draft": False, "prerelease": False}
+            for i in range(1, 8)
+        ],
+        runs_count=25,
+    )
+    atende, motivo, n_rel, n_runs = verificar_criterio_inclusao(
+        api, "org", "repo", "2025-01-01", "2025-12-31", min_releases=5, min_runs=50
+    )
+    assert atende is False
+    assert motivo == "poucos_runs"
+    assert n_runs == 25
+

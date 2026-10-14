@@ -4,7 +4,7 @@ janela:
   fim: "2025-12-31"
 
 amostra:
-  limite_repos: 100
+  limite_repos: 300
   min_releases: 5
   min_workflow_runs: 50
 

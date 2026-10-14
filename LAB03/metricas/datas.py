@@ -19,7 +19,10 @@ def janela(inicio, fim):
 
 
 def dentro_janela(valor, inicio, fim):
-    return inicio <= para_datetime(valor) < fim
+    dt_val = para_datetime(valor)
+    dt_ini = inicio if isinstance(inicio, datetime) else para_datetime(inicio)
+    dt_fim = fim if isinstance(fim, datetime) else para_datetime(fim)
+    return dt_ini <= dt_val < dt_fim
 
 
 def horas(delta):

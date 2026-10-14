@@ -196,3 +196,52 @@ def test_barra_progresso_exibe_cota_restante(tmp_path: Path):
         # Verifica se alguma chamada continha cota=4850
         chamadas_postfix = [c.kwargs for c in pbar_mock.set_postfix.call_args_list]
         assert any(kwargs.get("cota") == 4850 for kwargs in chamadas_postfix)
+
+
+def test_rodar_coleta_runs_pipeline(tmp_path: Path):
+    """Testa execução do pipeline de runs gerando metricas_runs.csv com CFR (a) e tempo de recuperação."""
+    from pipeline.coleta_runs import rodar_coleta_runs_pipeline
+    import csv
+
+    caminho_csv = tmp_path / "repos.csv"
+    with open(caminho_csv, "w", newline="", encoding="utf-8") as f:
+        escritor = csv.DictWriter(f, fieldnames=["full_name", "owner", "repo", "default_branch"])
+        escritor.writeheader()
+        escritor.writerow({"full_name": "org/repo1", "owner": "org", "repo": "repo1", "default_branch": "main"})
+
+    runs_mock = [
+        {
+            "id": 1,
+            "workflow_id": 10,
+            "conclusion": "failure",
+            "run_started_at": "2025-02-01T10:00:00Z",
+            "updated_at": "2025-02-01T10:05:00Z",
+        },
+        {
+            "id": 2,
+            "workflow_id": 10,
+            "conclusion": "success",
+            "run_started_at": "2025-02-01T12:00:00Z",
+            "updated_at": "2025-02-01T12:05:00Z",
+        },
+    ]
+
+    with patch("pipeline.coleta_runs.coletar_runs", return_value=runs_mock):
+        metricas = rodar_coleta_runs_pipeline(
+            caminho_repos_csv=caminho_csv,
+            inicio="2025-01-01",
+            fim="2025-12-31",
+            pasta_saida=tmp_path,
+        )
+
+    assert len(metricas) == 1
+    m = metricas[0]
+    assert m["repo"] == "org/repo1"
+    assert m["total_runs"] == 2
+    assert m["cfr_ci"] == 0.5  # 1 falha / 2 total
+    assert m["tempo_recuperacao_s"] == 7500.0  # 10:00 até 12:05 = 2h 5m = 7500s
+    assert m["recuperacao_proporcao_censurados"] == 0.0
+
+    caminho_saida_csv = tmp_path / "metricas_runs.csv"
+    assert caminho_saida_csv.exists()
+
