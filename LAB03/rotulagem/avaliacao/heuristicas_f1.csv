@@ -1,0 +1,6 @@
+versao,descricao,n,precisao,recall,f1,vp,fp,fn,vn
+v0,Só o patch mudou (linha de base: ignora os commits).,199,0.988,1.0,0.9939,82,1,0,116
+v1,Só o patch mudou OU há algum commit corretivo (sugestão do enunciado).,199,0.5031,1.0,0.6694,82,81,0,36
+v2,Só o patch mudou E há algum commit corretivo.,199,1.0,0.6707,0.8029,55,0,27,117
+v3,Só o patch mudou E nenhum commit é de nova funcionalidade (feat).,199,0.9863,0.878,0.929,72,1,10,116
+v4,Só o patch mudou E não há mais commits de feature do que de correção.,199,0.9873,0.9512,0.9689,78,1,4,116

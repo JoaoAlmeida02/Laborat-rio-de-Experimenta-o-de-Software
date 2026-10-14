@@ -21,6 +21,10 @@ class NaoEncontrado(Exception):
     """Resposta 404 (ex.: tag apagada ou reescrita no compare)."""
 
 
+class ComparacaoIndisponivel(NaoEncontrado):
+    """Resposta 422: o GitHub não consegue comparar as duas refs (sem histórico comum ou diff grande demais)."""
+
+
 def proxima_pagina(link_header):
     m = _LINK_NEXT.search(link_header or "")
     return m.group(1) if m else None
@@ -113,6 +117,8 @@ class GitHubAPI:
             resp = self.sessao.get(url, params=params, timeout=30)
             if resp.status_code == 404:
                 raise NaoEncontrado(url)
+            if resp.status_code == 422:
+                raise ComparacaoIndisponivel(url)
             if resp.status_code == 401:
                 raise RuntimeError("Token inválido ou expirado: gere outro e atualize GITHUB_TOKEN no .env")
             if resp.status_code in (403, 429) and resp.headers.get("X-RateLimit-Remaining") == "0":

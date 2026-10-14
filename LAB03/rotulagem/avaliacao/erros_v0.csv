@@ -1,0 +1,2 @@
+repo,release_anterior,release_tag,corretiva_consenso,heuristica,tipo_erro,release_url,compare_url
+elastic/elasticsearch-ruby,v9.0.1,v9.0.2,nao,sim,falso_positivo,https://github.com/elastic/elasticsearch-ruby/releases/tag/v9.0.2,https://github.com/elastic/elasticsearch-ruby/compare/v9.0.1...v9.0.2

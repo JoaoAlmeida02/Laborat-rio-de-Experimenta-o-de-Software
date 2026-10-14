@@ -18,7 +18,7 @@ A partir do universo de 300 repositórios consolidados no funil de seleção, ad
 
 1. **Amostragem de Repositórios:** Sorteio pseudoaleatório de $n = 60$ repositórios utilizando semente determinística fixa (`random_state=42`), garantindo reprodutibilidade irrestrita da extração.
 2. **Amostragem de Entregas (Releases):** Para cada repositório sorteado, extraiu-se a totalidade das releases publicadas cronologicamente. Nos projetos com mais de 5 entregas, foram sorteadas até 5 releases de forma pseudoaleatória (`random_state=42`), enquanto em projetos com 5 ou menos entregas, todas as releases publicadas foram incorporadas à amostra.
-3. **Composição Final:** A amostra consolidou um total de 214 releases distribuídas entre os 45 repositórios que possuíam releases formais no GitHub, abrangendo diversas linguagens de programação, tamanhos de equipe e paradigmas arquiteturais.
+3. **Composição Final:** A amostra consolidou um total de 214 releases distribuídas entre os 45 repositórios que retornaram releases publicadas no GitHub, abrangendo diversas linguagens de programação, tamanhos de equipe e paradigmas arquiteturais. A amostra ficou abaixo do planejado (60 repositórios e 300 releases) e inclui releases anteriores à janela de observação; os motivos e impactos estão descritos na Seção 3.X.6.
 
 ### 3.X.2. Protocolo de Avaliação Cega (*Blind Review*)
 
@@ -64,7 +64,7 @@ Como inovação metodológica do grupo, foi computado o Kappa de Cohen pareado (
 | **Entrega Real** | **0,7667** | Substancial (*Substantial*) | 0,8299 | 0,8183 | 0,6586 |
 | **Release Corretiva** | **0,9476** | Quase Perfeita (*Almost Perfect*) | 0,9509 | 0,9704 | 0,9216 |
 
-Os índices obtidos demonstram confiabilidade estatística excepcional nas três dimensões, superando o limiar de 0,70 comumente exigido na literatura de Engenharia de Software Empírica.
+Os índices obtidos indicam concordância alta nas três dimensões, acima do limiar de 0,70 comumente adotado na literatura de Engenharia de Software Empírica. No caso da dimensão `corretiva`, porém, parte dessa concordância decorre do uso de um critério comum e objetivo (o incremento apenas no número de *patch*), como discutido na Seção 3.X.6.
 
 ---
 
@@ -78,3 +78,11 @@ Após o término da rotulagem cega individual, foi executado o algoritmo de cons
 4. **Relatório Automatizado de Divergências (`rotulagem/divergencias.md`):** Como inovação operacional, foi sintetizada uma pauta em Markdown contendo todas as 20 divergências registradas, estruturada com hiperlinks diretos para a release e código diferencial no GitHub.
 
 Na consolidação das 214 releases avaliadas, **96,7%** dos julgamentos de `tipo_projeto`, **97,7%** de `entrega_real` e **96,3%** de `corretiva` foram estabelecidos por unanimidade, com as divergências residuais pacificadas com sucesso na base final (`rotulagem/consenso.csv`), consolidando o *ground truth* utilizado para aferição do CFR.
+
+---
+
+### 3.X.6. Desvios da Amostra e Critério Prático de Release Corretiva
+
+**Tamanho e período da amostra.** Dos 60 repositórios sorteados, 15 não retornaram nenhuma release publicada e foram excluídos, restando 45. Quatro desses repositórios tinham menos de 5 releases no histórico, o que resultou em 214 releases rotuladas em vez das 300 previstas. Além disso, as releases foram sorteadas do histórico completo de cada repositório (de 2013 a 2026), e não apenas da janela de observação (2025). Ambos os desvios decorrem de a amostra-ouro ter sido sorteada antes da aplicação do critério mínimo de inclusão (≥ 5 releases e ≥ 50 execuções de CI na janela). Como consequência, as estimativas de concordância e de precisão, revocação e F1 têm menor precisão estatística, e a validação da heurística se refere a releases em geral, e não especificamente às releases da janela em que o CFR (b) é medido.
+
+**Critério prático de `corretiva`.** O protocolo de rotulagem lista o incremento exclusivo no número de *patch* do SemVer como uma das evidências de release corretiva, e os avaliadores o usaram como evidência principal, conferindo notas de release e commits. Das 199 releases com release anterior, as 82 rotuladas como corretivas no consenso são todas mudanças apenas de *patch*; das 83 mudanças apenas de *patch*, somente uma foi rotulada como não corretiva; e nenhuma release *minor* ou *major* foi considerada corretiva. Como as heurísticas automáticas também se baseiam no número de *patch*, o rótulo humano não é totalmente independente do *proxy* avaliado, e o F1 obtido tende a superestimar a qualidade da heurística. Esse ponto é tratado como ameaça à validade de construto, e os falsos positivos e falsos negativos de cada versão da heurística são analisados individualmente. Para uma replicação, recomenda-se rotular a dimensão `corretiva` com as tags de versão ocultas.

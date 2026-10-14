@@ -2,7 +2,13 @@
 
 from __future__ import annotations
 
+from datetime import timedelta
 from typing import Any
+
+from metricas.corretiva import HEURISTICA_PADRAO, eh_corretiva, mensagens_da_entrega
+from metricas.datas import para_datetime
+
+PRAZO_CORRECAO = timedelta(days=7)
 
 # Tabela padrão de mapeamento de conclusions da API do GitHub Actions
 TABELA_CLASSIFICACAO: dict[str | None, str] = {
@@ -59,3 +65,73 @@ def cfr_ci(runs: list[dict[str, Any]]) -> float | None:
         return None
 
     return total_falhas / total_validos
+
+
+def avaliar_entregas(
+    entregas: list[dict[str, Any]], fim, versao: str = HEURISTICA_PADRAO
+) -> dict[str, int]:
+    """Classifica as entregas para o CFR (b).
+
+    Uma entrega falhou se a próxima entrega sai em até 7 dias e é corretiva.
+    Entregas dos últimos 7 dias da janela (fim exclusivo, vindo de janela())
+    são censuradas: ainda não se sabe se haverá correção.
+
+    Parâmetros:
+        entregas: entregas da janela em ordem cronológica, no formato de pipeline.releases.
+        fim: fim exclusivo da janela.
+        versao: chave de metricas.corretiva.HEURISTICAS.
+
+    Retorno:
+        Dicionário com 'falhas', 'avaliadas' e 'censuradas'.
+    """
+    ordenadas = sorted(entregas, key=lambda e: para_datetime(e["data"]))
+    contagem = {"falhas": 0, "avaliadas": 0, "censuradas": 0}
+
+    for i, entrega in enumerate(ordenadas):
+        data = para_datetime(entrega["data"])
+        if data + PRAZO_CORRECAO > fim:
+            contagem["censuradas"] += 1
+            continue
+
+        contagem["avaliadas"] += 1
+        if i + 1 < len(ordenadas):
+            proxima = ordenadas[i + 1]
+            dentro_prazo = para_datetime(proxima["data"]) - data <= PRAZO_CORRECAO
+            if dentro_prazo and eh_corretiva(
+                entrega["tag"], proxima["tag"], mensagens_da_entrega(proxima), versao
+            ):
+                contagem["falhas"] += 1
+
+    return contagem
+
+
+def cfr_entrega(
+    entregas: list[dict[str, Any]], fim, versao: str = HEURISTICA_PADRAO
+) -> float | None:
+    """Change Failure Rate pelo proxy de entrega (variante b).
+
+    CFR = entregas que falharam / entregas avaliadas (censuradas fora do denominador).
+
+    Retorno:
+        Float entre 0.0 e 1.0, ou None se nenhuma entrega puder ser avaliada.
+    """
+    contagem = avaliar_entregas(entregas, fim, versao)
+    if contagem["avaliadas"] == 0:
+        return None
+    return contagem["falhas"] / contagem["avaliadas"]
+
+
+def rework_rate(entregas: list[dict[str, Any]], versao: str = HEURISTICA_PADRAO) -> float | None:
+    """Proporção de entregas corretivas sobre o total (RQ 08, métrica DORA de 2024).
+
+    A primeira entrega não tem anterior para comparar e fica fora do cálculo.
+    """
+    ordenadas = sorted(entregas, key=lambda e: para_datetime(e["data"]))
+    pares = list(zip(ordenadas, ordenadas[1:]))
+    if not pares:
+        return None
+    corretivas = sum(
+        eh_corretiva(anterior["tag"], atual["tag"], mensagens_da_entrega(atual), versao)
+        for anterior, atual in pares
+    )
+    return corretivas / len(pares)
