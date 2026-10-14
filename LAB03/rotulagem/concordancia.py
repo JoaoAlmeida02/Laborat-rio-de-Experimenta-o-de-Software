@@ -137,10 +137,28 @@ def extrair_divergencias(
 
 
 def gerar_relatorio_divergencias_md(
-    divergencias: List[Dict[str, Any]], caminho_saida: Path | str
+    divergencias: List[Dict[str, Any]],
+    caminho_saida: Path | str,
+    caminho_decisoes: Optional[Path | str] = None,
 ) -> None:
     caminho_saida = Path(caminho_saida)
     caminho_saida.parent.mkdir(parents=True, exist_ok=True)
+
+    decisoes = {}
+    caminho_dec = Path(caminho_decisoes) if caminho_decisoes else caminho_saida.parent / "decisoes_reuniao.csv"
+    if caminho_dec.exists():
+        import csv
+        with open(caminho_dec, newline="", encoding="utf-8") as f:
+            for linha in csv.DictReader(f):
+                chave = (
+                    linha.get("repo", "").strip(),
+                    linha.get("release_tag", "").strip(),
+                    linha.get("dimensao", "").strip(),
+                )
+                decisoes[chave] = {
+                    "rotulo_final": linha.get("rotulo_final", "").strip(),
+                    "justificativa": linha.get("justificativa", "").strip(),
+                }
 
     linhas_md = [
         "# Relatório de Divergências de Rotulagem (Pauta de Consenso)",
@@ -159,10 +177,28 @@ def gerar_relatorio_divergencias_md(
         link_cmp = f"[Compare]({d['compare_url']})" if d["compare_url"] and d["compare_url"] != "-" else "-"
         links_juntos = f"{link_rel} · {link_cmp}"
 
+        padrao = d["tipo_divergencia"]
+        chave = (d["repo"], d["release_tag"], d["dimensao"])
+        if chave in decisoes:
+            padrao = f"1-1-1 (resolvido: `{decisoes[chave]['rotulo_final']}` em reunião)"
+
         linhas_md.append(
             f"| {d['indice']} | `{d['repo']}` | `{d['release_tag']}` | **{d['dimensao']}** | "
-            f"`{d['rotulo_A']}` | `{d['rotulo_B']}` | `{d['rotulo_C']}` | {d['tipo_divergencia']} | {links_juntos} |"
+            f"`{d['rotulo_A']}` | `{d['rotulo_B']}` | `{d['rotulo_C']}` | {padrao} | {links_juntos} |"
         )
+
+    if decisoes:
+        linhas_md.extend([
+            "",
+            "## Deliberações da Reunião de Consenso (`rotulagem/decisoes_reuniao.csv`)",
+            "",
+            "| Repositório | Release | Dimensão | Rótulo Consensuado | Justificativa |",
+            "| :--- | :--- | :--- | :--- | :--- |",
+        ])
+        for (repo, tag, dim), info in decisoes.items():
+            linhas_md.append(
+                f"| `{repo}` | `{tag}` | **{dim}** | `{info['rotulo_final']}` | {info['justificativa']} |"
+            )
 
     linhas_md.append("")
     caminho_saida.write_text("\n".join(linhas_md), encoding="utf-8")
