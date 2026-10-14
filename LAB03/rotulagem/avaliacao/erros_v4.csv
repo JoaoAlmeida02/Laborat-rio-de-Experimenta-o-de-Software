@@ -1,0 +1,6 @@
+repo,release_anterior,release_tag,corretiva_consenso,heuristica,tipo_erro,release_url,compare_url
+elastic/elasticsearch-ruby,v9.0.1,v9.0.2,nao,sim,falso_positivo,https://github.com/elastic/elasticsearch-ruby/releases/tag/v9.0.2,https://github.com/elastic/elasticsearch-ruby/compare/v9.0.1...v9.0.2
+chengzuopeng/stock-sdk,v1.4.3,v1.4.4,sim,nao,falso_negativo,https://github.com/chengzuopeng/stock-sdk/releases/tag/v1.4.4,https://github.com/chengzuopeng/stock-sdk/compare/v1.4.3...v1.4.4
+chengzuopeng/stock-sdk,v1.9.1,v1.9.2,sim,nao,falso_negativo,https://github.com/chengzuopeng/stock-sdk/releases/tag/v1.9.2,https://github.com/chengzuopeng/stock-sdk/compare/v1.9.1...v1.9.2
+opensheetmusicdisplay/opensheetmusicdisplay,1.5.1,1.5.2,sim,nao,falso_negativo,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/releases/tag/1.5.2,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/compare/1.5.1...1.5.2
+opensheetmusicdisplay/opensheetmusicdisplay,1.5.2,1.5.3,sim,nao,falso_negativo,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/releases/tag/1.5.3,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/compare/1.5.2...1.5.3

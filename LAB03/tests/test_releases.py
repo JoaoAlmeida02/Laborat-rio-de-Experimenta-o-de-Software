@@ -1,7 +1,7 @@
 import pytest
 
 from metricas.datas import janela
-from pipeline.github_api import GitHubAPI, NaoEncontrado, proxima_pagina
+from pipeline.github_api import ComparacaoIndisponivel, GitHubAPI, NaoEncontrado, proxima_pagina
 from pipeline.releases import coletar_commits_entre, coletar_repositorio, coletar_tags, resumir
 
 
@@ -149,3 +149,16 @@ def test_cliente_404_vira_excecao():
     api = GitHubAPI(token="t", sessao=_Sessao([_Resp(404)]))
     with pytest.raises(NaoEncontrado):
         api.get("/x")
+
+
+def test_cliente_422_e_compare_indisponivel(ano_2025):
+    api = GitHubAPI(token="t", sessao=_Sessao([_Resp(422)]))
+    with pytest.raises(ComparacaoIndisponivel):
+        api.get("/x")
+
+    class APIComparacao422(APIFalsa):
+        def get(self, caminho, params=None):
+            raise ComparacaoIndisponivel(caminho)
+
+    api = APIComparacao422(releases=[_release("v1.0", "2025-01-10T00:00:00Z"), _release("v1.1", "2025-02-01T00:00:00Z")])
+    assert coletar_repositorio(api, "o", "r", *ano_2025)["entregas"][1]["motivo"] == "compare_404"

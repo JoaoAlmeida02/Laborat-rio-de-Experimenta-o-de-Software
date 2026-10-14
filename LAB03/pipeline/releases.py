@@ -21,6 +21,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from metricas.datas import dentro_janela, janela, para_datetime
+from metricas.falhas import avaliar_entregas, rework_rate
 from metricas.frequencia import deploy_frequency
 from metricas.lead_time import contar_ignoradas, lead_time_commit, lead_time_release
 from pipeline.github_api import GitHubAPI, NaoEncontrado
@@ -100,6 +101,7 @@ def resumir(dados, inicio, fim):
     """Uma linha do CSV de lead time para um repositório."""
     entregas = dados["entregas"]
     ignoradas = contar_ignoradas(entregas)
+    cfr = avaliar_entregas(entregas, fim)
     return {
         "repo": dados["repo"],
         "unidade": dados["unidade"],
@@ -108,12 +110,16 @@ def resumir(dados, inicio, fim):
         "lead_time_release_h": _arredondar(lead_time_release(entregas)),
         "lead_time_commit_h": _arredondar(lead_time_commit(entregas)),
         "n_commits": sum(len(e["commits"] or []) for e in entregas),
+        "cfr_entrega": _arredondar(cfr["falhas"] / cfr["avaliadas"] if cfr["avaliadas"] else None, 4),
+        "cfr_entrega_avaliadas": cfr["avaliadas"],
+        "cfr_entrega_censuradas": cfr["censuradas"],
+        "rework_rate": _arredondar(rework_rate(entregas), 4),
         **{f"ignoradas_{k}": v for k, v in ignoradas.items()},
     }
 
 
-def _arredondar(valor):
-    return None if valor is None else round(valor, 2)
+def _arredondar(valor, casas=2):
+    return None if valor is None else round(valor, casas)
 
 
 def ler_repos(args):

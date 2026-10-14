@@ -25,7 +25,17 @@ python -m pipeline.releases --inicio 2025-01-01 --fim 2025-12-31 --repos psf/req
 
 Os resultados ficam em `LAB03/data/`. Se a execução for interrompida, rode o mesmo comando de novo: os repositórios já coletados não são baixados outra vez.
 
-## 4. Rodar os testes
+## 4. Avaliar a heurística de release corretiva
+
+Depois que o `rotulagem/consenso.csv` estiver pronto:
+
+```bash
+python -m rotulagem.avaliar_heuristica
+```
+
+Gera em `rotulagem/avaliacao/` o `heuristicas_f1.csv` (precisão, recall, F1 e matriz de confusão de cada versão) e um `erros_<versao>.csv` por versão.
+
+## 5. Rodar os testes
 
 ```bash
 python -m pytest --cov=metricas

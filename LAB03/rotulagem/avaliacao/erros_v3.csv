@@ -1,0 +1,12 @@
+repo,release_anterior,release_tag,corretiva_consenso,heuristica,tipo_erro,release_url,compare_url
+sdlpal/sdlpal,v2.0.2017.1114,v2.0.2021.0214,sim,nao,falso_negativo,https://github.com/sdlpal/sdlpal/releases/tag/v2.0.2021.0214,https://github.com/sdlpal/sdlpal/compare/v2.0.2017.1114...v2.0.2021.0214
+Meliox/PVE-mods,v1.0.6,v1.0.7,sim,nao,falso_negativo,https://github.com/Meliox/PVE-mods/releases/tag/v1.0.7,https://github.com/Meliox/PVE-mods/compare/v1.0.6...v1.0.7
+elastic/elasticsearch-ruby,v9.0.1,v9.0.2,nao,sim,falso_positivo,https://github.com/elastic/elasticsearch-ruby/releases/tag/v9.0.2,https://github.com/elastic/elasticsearch-ruby/compare/v9.0.1...v9.0.2
+chengzuopeng/stock-sdk,v1.4.3,v1.4.4,sim,nao,falso_negativo,https://github.com/chengzuopeng/stock-sdk/releases/tag/v1.4.4,https://github.com/chengzuopeng/stock-sdk/compare/v1.4.3...v1.4.4
+chengzuopeng/stock-sdk,v1.9.1,v1.9.2,sim,nao,falso_negativo,https://github.com/chengzuopeng/stock-sdk/releases/tag/v1.9.2,https://github.com/chengzuopeng/stock-sdk/compare/v1.9.1...v1.9.2
+beikeshop/beikeshop,v1.6.0.19,v1.6.0.23,sim,nao,falso_negativo,https://github.com/beikeshop/beikeshop/releases/tag/v1.6.0.23,https://github.com/beikeshop/beikeshop/compare/v1.6.0.19...v1.6.0.23
+opensheetmusicdisplay/opensheetmusicdisplay,0.8.1,0.8.2,sim,nao,falso_negativo,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/releases/tag/0.8.2,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/compare/0.8.1...0.8.2
+opensheetmusicdisplay/opensheetmusicdisplay,1.5.1,1.5.2,sim,nao,falso_negativo,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/releases/tag/1.5.2,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/compare/1.5.1...1.5.2
+opensheetmusicdisplay/opensheetmusicdisplay,1.5.2,1.5.3,sim,nao,falso_negativo,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/releases/tag/1.5.3,https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/compare/1.5.2...1.5.3
+ys1231/MoveCertificate,v1.4.2,v1.4.3,sim,nao,falso_negativo,https://github.com/ys1231/MoveCertificate/releases/tag/v1.4.3,https://github.com/ys1231/MoveCertificate/compare/v1.4.2...v1.4.3
+w3c/epubcheck,v4.2.1,v4.2.2,sim,nao,falso_negativo,https://github.com/w3c/epubcheck/releases/tag/v4.2.2,https://github.com/w3c/epubcheck/compare/v4.2.1...v4.2.2
