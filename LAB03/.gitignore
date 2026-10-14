@@ -12,6 +12,7 @@ venv/
 htmlcov/
 
 # Dados brutos da coleta (cache da API, regeravel pelo pipeline)
+.cache_http/
 data/cache/
 data/releases/
 

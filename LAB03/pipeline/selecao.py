@@ -173,12 +173,22 @@ class FunilSelecao:
         caminho_md.write_text("\n".join(md) + "\n", encoding="utf-8")
 
 
-def buscar_candidatos_por_faixas(api: GitHubAPI, faixas_estrelas: List[str], linguagem: Optional[str] = None) -> List[dict]:
+import time
+
+
+def buscar_candidatos_por_faixas(
+    api: GitHubAPI,
+    faixas_estrelas: List[str],
+    linguagem: Optional[str] = None,
+    max_candidatos: Optional[int] = None,
+) -> List[dict]:
     """Busca repositorios fatiando por faixas de estrelas para contornar o limite de 1.000 da API."""
     candidatos = []
     vistos = set()
 
     for faixa in faixas_estrelas:
+        if max_candidatos and len(candidatos) >= max_candidatos:
+            break
         query = faixa
         if linguagem:
             query += f" language:{linguagem}"
@@ -186,6 +196,8 @@ def buscar_candidatos_por_faixas(api: GitHubAPI, faixas_estrelas: List[str], lin
         caminho = "/search/repositories"
         pagina = 1
         while pagina <= 10:  # O Search API do GitHub limita a 1000 resultados (10 pags de 100)
+            if max_candidatos and len(candidatos) >= max_candidatos:
+                break
             params = {"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": pagina}
             try:
                 dados = api.get(caminho, params=params)
@@ -200,6 +212,8 @@ def buscar_candidatos_por_faixas(api: GitHubAPI, faixas_estrelas: List[str], lin
                 if len(itens) < 100:
                     break
                 pagina += 1
+                if getattr(api, "usar_cache", False):
+                    time.sleep(1.0)
             except Exception as err:
                 print(f"Aviso na busca da faixa '{faixa}' (pag {pagina}): {err}")
                 break
@@ -208,58 +222,97 @@ def buscar_candidatos_por_faixas(api: GitHubAPI, faixas_estrelas: List[str], lin
 
 
 def selecionar_repositorios(api: GitHubAPI, config: dict) -> Tuple[List[dict], FunilSelecao]:
-    """Executa o pipeline completo de selecao, funil e coleta de metadados."""
+    """Executa o pipeline completo de selecao, funil e coleta de metadados com retomada."""
     limite = config.get("limite_repos", 100)
     faixas = config.get("faixas_estrelas", ["stars:>1000"])
     linguagem = config.get("linguagem")
     data_fim = config.get("fim", "2025-12-31")
+    caminho_repos = Path(config.get("repos_csv", "data/repos.csv"))
+    caminho_funil_csv = Path(config.get("funil_csv", "data/funil.csv"))
+    caminho_funil_md = Path(config.get("funil_md", "data/funil.md"))
 
     funil = FunilSelecao()
+
+    selecionados: List[dict] = []
+    nomes_vistos: set[str] = set()
+
+    # Retomada: se já existem dados coletados em repos.csv
+    if caminho_repos.exists() and not config.get("refazer", False):
+        try:
+            with open(caminho_repos, "r", encoding="utf-8") as f:
+                leitor = csv.DictReader(f)
+                for linha in leitor:
+                    linha["stars"] = int(linha["stars"])
+                    linha["forks"] = int(linha["forks"])
+                    linha["open_issues"] = int(linha["open_issues"])
+                    linha["idade_anos"] = float(linha["idade_anos"])
+                    linha["idade_dias"] = float(linha["idade_dias"])
+                    linha["contribuidores"] = int(linha["contribuidores"])
+                    selecionados.append(linha)
+                    nomes_vistos.add(linha["full_name"])
+            print(f"Retomada ativa: {len(selecionados)} repositórios já carregados de {caminho_repos}")
+        except Exception as err:
+            print(f"Aviso ao ler {caminho_repos} para retomada ({err}). Iniciando coleta normal.")
+
+    if len(selecionados) >= limite:
+        print(f"Meta de {limite} repositórios já atingida.")
+        funil.registrar_etapa("4_amostra_final", len(selecionados))
+        funil.salvar_csv(caminho_funil_csv)
+        funil.salvar_markdown(caminho_funil_md)
+        return selecionados[:limite], funil
+
     print("Iniciando busca de repositorios candidatos por faixas de estrelas...")
-    candidatos = buscar_candidatos_por_faixas(api, faixas, linguagem)
+    candidatos = buscar_candidatos_por_faixas(api, faixas, linguagem, max_candidatos=max(limite * 4, 1200))
     funil.registrar_busca(len(candidatos))
     print(f"Total de candidatos obtidos na busca: {len(candidatos)}")
 
-    selecionados = []
-    for item in candidatos:
-        if len(selecionados) >= limite:
-            break
+    def _salvar_progresso():
+        if selecionados:
+            caminho_repos.parent.mkdir(parents=True, exist_ok=True)
+            with open(caminho_repos, "w", newline="", encoding="utf-8") as f:
+                escritor = csv.DictWriter(f, fieldnames=list(selecionados[0].keys()))
+                escritor.writeheader()
+                escritor.writerows(selecionados)
+        funil.registrar_etapa("4_amostra_final", len(selecionados))
+        funil.salvar_csv(caminho_funil_csv)
+        funil.salvar_markdown(caminho_funil_md)
 
-        full_name = item.get("full_name")
-        owner = item["owner"]["login"]
-        repo_nome = item["name"]
+    try:
+        for item in candidatos:
+            if len(selecionados) >= limite:
+                break
 
-        # Filtros estaticos (Inovacao: fork, archived, mirror)
-        descartar_estatico, motivo_estatico = descartar_candidato_estatico(item)
-        if descartar_estatico:
-            funil.descartar(motivo_estatico)
-            continue
+            full_name = item.get("full_name")
+            if full_name in nomes_vistos:
+                continue
 
-        # Filtro de GitHub Actions
-        if not verificar_actions(api, owner, repo_nome):
-            funil.descartar("sem_actions")
-            continue
+            owner = item["owner"]["login"]
+            repo_nome = item["name"]
 
-        # Coleta metadados
-        meta = coletar_metadados_repo(api, item, data_referencia=data_fim)
-        selecionados.append(meta)
-        print(f"[{len(selecionados)}/{limite}] Aceito: {full_name} ({meta['stars']} stars, {meta['language']}, {meta['contribuidores']} contrib.)")
+            # Filtros estaticos (Inovacao: fork, archived, mirror)
+            descartar_estatico, motivo_estatico = descartar_candidato_estatico(item)
+            if descartar_estatico:
+                funil.descartar(motivo_estatico)
+                continue
 
-    funil.registrar_etapa("4_amostra_final", len(selecionados))
+            # Filtro de GitHub Actions
+            if not verificar_actions(api, owner, repo_nome):
+                funil.descartar("sem_actions")
+                continue
 
-    caminho_repos = Path(config.get("repos_csv", "data/repos.csv"))
-    caminho_repos.parent.mkdir(parents=True, exist_ok=True)
-    if selecionados:
-        with open(caminho_repos, "w", newline="", encoding="utf-8") as f:
-            escritor = csv.DictWriter(f, fieldnames=list(selecionados[0].keys()))
-            escritor.writeheader()
-            escritor.writerows(selecionados)
-        print(f"Lista de {len(selecionados)} repositorios salva em: {caminho_repos}")
+            # Coleta metadados
+            meta = coletar_metadados_repo(api, item, data_referencia=data_fim)
+            selecionados.append(meta)
+            nomes_vistos.add(full_name)
+            print(f"[{len(selecionados)}/{limite}] Aceito: {full_name} ({meta['stars']} stars, {meta['language']}, {meta['contribuidores']} contrib.)")
 
-    caminho_funil_csv = Path(config.get("funil_csv", "data/funil.csv"))
-    caminho_funil_md = Path(config.get("funil_md", "data/funil.md"))
-    funil.salvar_csv(caminho_funil_csv)
-    funil.salvar_markdown(caminho_funil_md)
+            if len(selecionados) % 10 == 0:
+                _salvar_progresso()
+
+    finally:
+        _salvar_progresso()
+
+    print(f"Lista final de {len(selecionados)} repositorios salva em: {caminho_repos}")
     print(f"Funil salvo em: {caminho_funil_csv} e {caminho_funil_md}")
 
     return selecionados, funil

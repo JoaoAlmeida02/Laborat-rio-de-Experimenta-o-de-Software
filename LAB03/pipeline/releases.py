@@ -154,29 +154,40 @@ def main(argv=None):
     pasta.mkdir(parents=True, exist_ok=True)
     api = GitHubAPI()
 
-    resumos = []
-    repos = ler_repos(args)
-    for n, nome in enumerate(repos, 1):
-        owner, repo = nome.strip().split("/")
-        arquivo = pasta / f"{owner}__{repo}.json"
-        if arquivo.exists() and not args.refazer:
-            dados = json.loads(arquivo.read_text(encoding="utf-8"))
-            print(f"[{n}/{len(repos)}] {nome}: já coletado (cache)")
-        else:
-            try:
-                dados = coletar_repositorio(api, owner, repo, inicio, fim, args.unidade)
-            except NaoEncontrado:
-                print(f"[{n}/{len(repos)}] {nome}: repositório não encontrado, pulando")
-                continue
-            arquivo.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
-            print(f"[{n}/{len(repos)}] {nome}: {len(dados['entregas'])} entregas na janela")
-        resumos.append(resumir(dados, inicio, fim))
-
     sufixo = args.unidade.replace("+", "_")
-    salvar_csv(saida / f"lead_time_{sufixo}.csv", resumos)
-    salvar_csv(saida / f"releases_ignoradas_{sufixo}.csv", [
-        {"repo": r["repo"], **{k: v for k, v in r.items() if k.startswith("ignoradas_")}} for r in resumos
-    ])
+    repos = ler_repos(args)
+    resumos = []
+
+    def _salvar_resumos():
+        if resumos:
+            salvar_csv(saida / f"lead_time_{sufixo}.csv", resumos)
+            salvar_csv(saida / f"releases_ignoradas_{sufixo}.csv", [
+                {"repo": r["repo"], **{k: v for k, v in r.items() if k.startswith("ignoradas_")}} for r in resumos
+            ])
+
+    try:
+        for n, nome in enumerate(repos, 1):
+            if not nome or "/" not in nome:
+                continue
+            owner, repo = nome.strip().split("/", 1)
+            arquivo = pasta / f"{owner}__{repo}.json"
+            if arquivo.exists() and not args.refazer:
+                dados = json.loads(arquivo.read_text(encoding="utf-8"))
+                print(f"[{n}/{len(repos)}] {nome}: já coletado (cache)")
+            else:
+                try:
+                    dados = coletar_repositorio(api, owner, repo, inicio, fim, args.unidade)
+                except NaoEncontrado:
+                    print(f"[{n}/{len(repos)}] {nome}: repositório não encontrado, pulando")
+                    continue
+                arquivo.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
+                print(f"[{n}/{len(repos)}] {nome}: {len(dados['entregas'])} entregas na janela")
+            resumos.append(resumir(dados, inicio, fim))
+            if n % 10 == 0:
+                _salvar_resumos()
+    finally:
+        _salvar_resumos()
+
     print(f"Resumo salvo em {saida / f'lead_time_{sufixo}.csv'}")
 
 
