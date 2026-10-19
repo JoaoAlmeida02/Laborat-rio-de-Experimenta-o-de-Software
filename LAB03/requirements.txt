@@ -6,3 +6,4 @@ tqdm>=4.66
 pandas>=2.0
 statsmodels>=0.14
 scikit-learn>=1.4
+matplotlib>=3.8

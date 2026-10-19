@@ -116,31 +116,19 @@ def contar_workflow_runs_janela(
     default_branch: str = "main",
     min_esperado: int = 50,
 ) -> int:
-    """Conta workflow runs na janela temporal usando a API de actions/runs do GitHub."""
+    """Conta workflow runs de push no default branch dentro da janela (definição da seção 3 do enunciado).
+
+    Runs de outros branches ou eventos (pull_request, schedule, manual) não contam para o critério.
+    """
     param_created = f"{inicio}..{fim}"
-    # Consulta inicial filtrando branch e push
     try:
         dados = api.get(
             f"/repos/{owner}/{repo}/actions/runs",
             params={"branch": default_branch, "event": "push", "created": param_created, "per_page": 1},
         )
-        total = dados.get("total_count", 0) if isinstance(dados, dict) else 0
+        return dados.get("total_count", 0) if isinstance(dados, dict) else 0
     except Exception:
-        total = 0
-
-    # Se na default_branch não atingiu o mínimo, tenta consulta geral na janela
-    if total < min_esperado:
-        try:
-            dados_geral = api.get(
-                f"/repos/{owner}/{repo}/actions/runs",
-                params={"created": param_created, "per_page": 1},
-            )
-            total_geral = dados_geral.get("total_count", 0) if isinstance(dados_geral, dict) else 0
-            total = max(total, total_geral)
-        except Exception:
-            pass
-
-    return total
+        return 0
 
 
 def verificar_criterio_inclusao(

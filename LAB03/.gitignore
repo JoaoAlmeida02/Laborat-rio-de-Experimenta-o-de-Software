@@ -15,6 +15,7 @@ htmlcov/
 .cache_http/
 data/cache/
 data/releases/
+data/runs/
 
 # Config local do Claude Code (por maquina/usuario, nao deve ser compartilhada)
 .claude/settings.local.json

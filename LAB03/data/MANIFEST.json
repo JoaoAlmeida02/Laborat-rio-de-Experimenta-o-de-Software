@@ -1,36 +1,36 @@
 {
-  "data_coleta": "2026-10-14T20:10:47.736572+00:00",
+  "data_coleta": "2026-10-18T23:13:51.545292+00:00",
   "janela": {
     "inicio": "2025-01-01",
     "fim": "2025-12-31"
   },
   "git": {
-    "commit": "1c47bf8afc70f1bf3da628449322d4ca90d524e9",
-    "branch": "sprint-2/s02-c-coleta"
+    "commit": "925cc6f90ebebaf4f0e2ffda337f0c1997085fc4",
+    "branch": "Lucas"
   },
   "dataset": {
-    "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/dataset.csv",
-    "sha256": "4b60f37a78acaf95a79c77b4c0f3b56937ae1d6c76cb8d69d33be11b6625b3c5",
+    "caminho": "C:/Users/USER/Desktop/lab/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/dataset.csv",
+    "sha256": "96e0a30b06d3452d4e29555f0df8e17d30119754a506f3471935deccdb1cb0f1",
     "total_repositorios": 300,
-    "tamanho_bytes": 45548,
-    "colunas_qtd": 33
+    "tamanho_bytes": 64509,
+    "colunas_qtd": 36
   },
   "fontes_dados": {
     "repos_csv": {
-      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/repos.csv",
-      "sha256": "eeadce3b849fbe4d74674635338e6af1f48bf741b077e57711a1197264b4a1e2"
+      "caminho": "C:/Users/USER/Desktop/lab/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/repos.csv",
+      "sha256": "d6e71d2e564637bb21dcbc5ea5fd953648a037bcf2a36cef627bc262631bf9b3"
     },
     "lead_time_csv": {
-      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/lead_time_release.csv",
-      "sha256": "61ae70a3d05048376f6c76657b25a13a1de09d221204610e68aec581f6f8b5b7"
+      "caminho": "C:/Users/USER/Desktop/lab/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/lead_time_release.csv",
+      "sha256": "ba50bbf8fcc8abf2ac522b8993fa5e8e4040c447e372adc96a94b1d6df23f2aa"
     },
     "metricas_runs_csv": {
-      "caminho": "C:/Users/vitve/OneDrive/Área de Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/metricas_runs.csv",
-      "sha256": ""
+      "caminho": "C:/Users/USER/Desktop/lab/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/metricas_runs.csv",
+      "sha256": "b7a94c647a926ccf5419155f3cebc75450b92f5f280f8495e7d7478a795024d0"
     }
   },
   "ambiente": {
-    "python_versao": "3.12.3",
+    "python_versao": "3.13.7",
     "sistema_operacional": "win32"
   }
 }

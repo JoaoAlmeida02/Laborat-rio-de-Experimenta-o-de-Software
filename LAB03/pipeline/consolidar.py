@@ -156,10 +156,13 @@ def consolidar_dataset(
         ign_404 = converter_numero(dados_lt.get("ignoradas_compare_404"), int) or 0
         ign_sem_commits = converter_numero(dados_lt.get("ignoradas_sem_commits"), int) or 0
 
-        # Classificação DORA (Heurística e faixas oficiais)
-        # Prioriza CFR da entrega quando disponível, fallback para CI
-        cfr_dora = cfr_entrega_val if cfr_entrega_val is not None else cfr_ci_val
-        classif = classificar_dora(cfr=cfr_dora, tempo_recuperacao_val=tempo_recup_s)
+        # Classificação DORA de referência (C1 do enunciado): release, lead time (a) e CFR (a)
+        classif = classificar_dora(
+            cfr=cfr_ci_val,
+            tempo_recuperacao_val=tempo_recup_s,
+            frequencia=deploy_freq if dados_lt else None,
+            lead_time_h=lead_time_release_h,
+        )
 
         linha = {
             "repo": nome_repo,
@@ -192,9 +195,12 @@ def consolidar_dataset(
             "ignoradas_sem_anterior": ign_sem_ant,
             "ignoradas_compare_404": ign_404,
             "ignoradas_sem_commits": ign_sem_commits,
+            "categoria_dora_frequencia": classif["frequencia"],
+            "categoria_dora_lead_time": classif["lead_time"],
             "categoria_dora_cfr": classif["cfr"],
             "categoria_dora_recuperacao": classif["recuperacao"],
             "categoria_dora_geral": classif["geral"],
+            "categoria_dora_n_metricas": classif["n_metricas"],
         }
         linhas_dataset.append(linha)
 
