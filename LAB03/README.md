@@ -100,7 +100,38 @@ Os resultados e matrizes de confusão são gerados em `rotulagem/avaliacao/` (ex
 
 ---
 
-## 7. Testes Automatizados e Cobertura
+## 7. Análises: RQ 01 a 04 e Classificação DORA (C1)
+
+Reexecutável a partir do dataset, sem chamar a API:
+
+```bash
+python -m analises.rq01_04
+```
+
+Gera em `analises/saida/`:
+- `RESUMO_RQ01_04.md`: tabelas de mediana e IQR, classificação C1, casos censurados e frequência efetiva;
+- `rq01_04_descritiva.csv`, `classificacao_C1.csv` (entrada da RQ 07), `categorias_C1.csv`, `censura_e_ignoradas.csv` e `frequencia_efetiva.csv`;
+- `fig_rq01_04_boxplots.png`, `fig_categorias_C1.png` e `fig_heatmap_C1.png`.
+
+A C1 usa release como unidade de deploy, lead time (a) e CFR (a), mais o tempo de recuperação.
+
+---
+
+## 8. Replicação Cruzada (Pipeline de Outro Grupo)
+
+```bash
+# Sorteia 30 repositórios do dataset original do outro grupo (semente 42)
+python -m replicacao.executar subamostra --dataset <caminho/dataset_deles.csv> --n 30
+
+# Executa o comando do README deles registrando log, ambiente e, se falhar, um rascunho de Issue
+python -m replicacao.executar rodar --pasta <pasta_do_projeto_deles> -- <comando do README deles>
+```
+
+As evidências de cada tentativa ficam em `replicacao/execucoes/<data_hora>/` e o histórico em `replicacao/execucoes.csv`.
+
+---
+
+## 9. Testes Automatizados e Cobertura
 
 Para rodar toda a suíte de testes com relatório de cobertura de código:
 
@@ -110,7 +141,7 @@ python -m pytest --cov=metricas --cov=pipeline
 
 ---
 
-## 8. Estrutura dos Arquivos de Dados
+## 10. Estrutura dos Arquivos de Dados
 
 - [`data/dataset.csv`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/dataset.csv): dataset consolidado final com 1 linha por repositório (33 colunas). Consulte o [`DICIONARIO_DADOS.md`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/DICIONARIO_DADOS.md) para a especificação completa de cada métrica.
 - [`data/MANIFEST.json`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/MANIFEST.json): manifesto com data/hora de coleta, commit Git, branch e hashes SHA-256 de todos os artefatos.

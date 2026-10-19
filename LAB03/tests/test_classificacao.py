@@ -14,6 +14,8 @@ from metricas.classificacao import (
     categoria_geral,
     classificar_cfr,
     classificar_dora,
+    classificar_frequencia,
+    classificar_lead_time,
     classificar_recuperacao,
 )
 
@@ -117,3 +119,45 @@ def test_classificar_dora_integrado():
     assert res_unica["cfr"] == "Low"
     assert res_unica["recuperacao"] is None
     assert res_unica["geral"] == "Low"
+
+
+@pytest.mark.parametrize("por_semana, esperado", [
+    (7.0, "Elite"),        # diária ou mais
+    (6.99, "High"),
+    (1.0, "High"),
+    (0.99, "Medium"),
+    (0.23, "Medium"),      # ~1 por mês
+    (0.22, "Low"),
+    (0.0, "Low"),
+    (None, None),
+])
+def test_classificar_frequencia(por_semana, esperado):
+    assert classificar_frequencia(por_semana) == esperado
+
+
+@pytest.mark.parametrize("horas, esperado", [
+    (23.9, "Elite"),
+    (24.0, "High"),        # 1 dia
+    (167.9, "High"),
+    (168.0, "Medium"),     # 1 semana
+    (719.9, "Medium"),
+    (720.0, "Low"),        # 30 dias
+    (None, None),
+])
+def test_classificar_lead_time(horas, esperado):
+    assert classificar_lead_time(horas) == esperado
+
+
+def test_classificar_dora_quatro_metricas_exemplo_enunciado():
+    """Notas (4, 3, 3, 1) -> mediana 3 -> High, como no exemplo do enunciado."""
+    resultado = classificar_dora(
+        frequencia=10.0,                              # Elite
+        lead_time_h=48.0,                             # High
+        cfr=0.20,                                     # High
+        tempo_recuperacao_val=timedelta(weeks=2),     # Low
+    )
+    assert [resultado[k] for k in ("frequencia", "lead_time", "cfr", "recuperacao")] == [
+        "Elite", "High", "High", "Low"
+    ]
+    assert resultado["geral"] == "High"
+    assert resultado["n_metricas"] == 4

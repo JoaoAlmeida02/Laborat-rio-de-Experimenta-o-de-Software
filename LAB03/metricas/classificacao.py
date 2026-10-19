@@ -40,6 +40,48 @@ LIMIARES_RECUPERACAO_SEGUNDOS: dict[str, float] = {
     "Medium": 7 * 86400.0,
 }
 
+# Limiares de deployment frequency em entregas por semana
+# Elite: >= 7/semana, High: >= 1/semana, Medium: >= 1/mês, Low: < 1/mês
+LIMIARES_FREQUENCIA_SEMANA: dict[str, float] = {
+    "Elite": 7.0,
+    "High": 1.0,
+    "Medium": 7 / 30.4375,  # 1 entrega por mês médio (365,25 / 12 dias)
+}
+
+# Limiares de lead time em horas
+# Elite: < 1 dia, High: < 1 semana, Medium: < 30 dias, Low: >= 30 dias
+LIMIARES_LEAD_TIME_HORAS: dict[str, float] = {
+    "Elite": 24.0,
+    "High": 7 * 24.0,
+    "Medium": 30 * 24.0,
+}
+
+
+def classificar_frequencia(entregas_por_semana: float | None) -> str | None:
+    """Classifica a deployment frequency (entregas por semana) em uma categoria DORA."""
+    if entregas_por_semana is None:
+        return None
+    if entregas_por_semana >= LIMIARES_FREQUENCIA_SEMANA["Elite"]:
+        return "Elite"
+    if entregas_por_semana >= LIMIARES_FREQUENCIA_SEMANA["High"]:
+        return "High"
+    if entregas_por_semana >= LIMIARES_FREQUENCIA_SEMANA["Medium"]:
+        return "Medium"
+    return "Low"
+
+
+def classificar_lead_time(horas: float | None) -> str | None:
+    """Classifica a mediana do lead time (em horas) em uma categoria DORA."""
+    if horas is None:
+        return None
+    if horas < LIMIARES_LEAD_TIME_HORAS["Elite"]:
+        return "Elite"
+    if horas < LIMIARES_LEAD_TIME_HORAS["High"]:
+        return "High"
+    if horas < LIMIARES_LEAD_TIME_HORAS["Medium"]:
+        return "Medium"
+    return "Low"
+
 
 def classificar_cfr(cfr: float | None) -> str | None:
     """Classifica a métrica Change Failure Rate em uma categoria DORA.
@@ -117,16 +159,29 @@ def categoria_geral(categorias: Sequence[str | int]) -> str:
 def classificar_dora(
     cfr: float | None = None,
     tempo_recuperacao_val: timedelta | float | int | None = None,
+    frequencia: float | None = None,
+    lead_time_h: float | None = None,
 ) -> dict[str, Any]:
-    """Classifica individualmente e consolidada as métricas DORA fornecidas."""
+    """Classifica individualmente e consolidada as métricas DORA fornecidas.
+
+    A categoria geral é a mediana (arredondada para baixo) das métricas disponíveis;
+    métricas ausentes (None) ficam fora da mediana.
+    """
+    cat_frequencia = classificar_frequencia(frequencia)
+    cat_lead_time = classificar_lead_time(lead_time_h)
     cat_cfr = classificar_cfr(cfr)
     cat_recuperacao = classificar_recuperacao(tempo_recuperacao_val)
 
-    categorias_validas = [c for c in [cat_cfr, cat_recuperacao] if c is not None]
+    categorias_validas = [
+        c for c in [cat_frequencia, cat_lead_time, cat_cfr, cat_recuperacao] if c is not None
+    ]
     cat_geral = categoria_geral(categorias_validas) if categorias_validas else None
 
     return {
+        "frequencia": cat_frequencia,
+        "lead_time": cat_lead_time,
         "cfr": cat_cfr,
         "recuperacao": cat_recuperacao,
         "geral": cat_geral,
+        "n_metricas": len(categorias_validas),
     }

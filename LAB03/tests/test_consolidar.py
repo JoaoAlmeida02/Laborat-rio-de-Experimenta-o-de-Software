@@ -140,9 +140,13 @@ def test_consolidar_dataset_completo(tmp_path: Path):
     assert r["tempo_recuperacao_s"] == 1800.0
     assert r["recuperacao_proporcao_censurados"] == 0.05
     assert r["ignoradas_sem_anterior"] == 1
-    assert r["categoria_dora_cfr"] == "Elite"  # 12.5% <= 15%
+    # C1: frequência, lead time (a), CFR (a) e recuperação
+    assert r["categoria_dora_frequencia"] == "Low"  # 0,15/semana < 1 por mês
+    assert r["categoria_dora_lead_time"] == "Low"  # 1100,5 h >= 30 dias
+    assert r["categoria_dora_cfr"] == "Elite"  # CFR (a) = 8% <= 15%
     assert r["categoria_dora_recuperacao"] == "Elite"  # 1800s < 3600s
-    assert r["categoria_dora_geral"] == "Elite"
+    assert r["categoria_dora_geral"] == "Medium"  # notas (1, 1, 4, 4) -> mediana 2,5 -> 2
+    assert r["categoria_dora_n_metricas"] == 4
 
     # Validações do MANIFEST.json
     assert saida_manifest.exists()

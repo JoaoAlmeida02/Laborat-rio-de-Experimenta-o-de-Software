@@ -40,9 +40,12 @@ O dataset consolida as quatro métricas clássicas do DORA (*DevOps Research and
 | `ignoradas_sem_anterior` | Inteiro | Contagem | Releases ignoradas por ausência de release base anterior |
 | `ignoradas_compare_404` | Inteiro | Contagem | Releases com erro 404 na API de comparação do GitHub |
 | `ignoradas_sem_commits` | Inteiro | Contagem | Releases onde o diff indicou 0 commits |
-| `categoria_dora_cfr` | String | Categórica | Categoria de desempenho DORA para o CFR |
-| `categoria_dora_recuperacao` | String | Categórica | Categoria de desempenho DORA para Recuperação |
-| `categoria_dora_geral` | String | Categórica | Categoria geral consolidada de desempenho DORA |
+| `categoria_dora_frequencia` | String | Categórica | Categoria DORA da deployment frequency (C1) |
+| `categoria_dora_lead_time` | String | Categórica | Categoria DORA do lead time por release, variante (a) (C1) |
+| `categoria_dora_cfr` | String | Categórica | Categoria DORA do CFR por CI, variante (a) (C1) |
+| `categoria_dora_recuperacao` | String | Categórica | Categoria DORA do tempo de recuperação (C1) |
+| `categoria_dora_geral` | String | Categórica | Categoria geral DORA da combinação de referência C1 |
+| `categoria_dora_n_metricas` | Inteiro | Contagem | Quantas das 4 métricas puderam ser classificadas |
 
 ---
 
@@ -234,9 +237,28 @@ O dataset consolida as quatro métricas clássicas do DORA (*DevOps Research and
 
 ### 2.7 Categorização de Desempenho DORA
 
-Baseadas nos limiares de agrupamento do DORA (Elite, High, Medium, Low):
+Baseadas na tabela de referência fixa do enunciado (seção 5, RQ 07). As colunas seguem a **combinação de referência C1**: unidade de deploy = release, lead time variante (a) e CFR variante (a).
+
+#### `categoria_dora_frequencia`
+- **Tipo:** String enum (`Elite`, `High`, `Medium`, `Low`, ou `null`)
+- **Origem:** `deploy_frequency_semana`
+- **Limiares:**
+  - **Elite:** $\ge 7$ entregas por semana
+  - **High:** $\ge 1$ e $< 7$ por semana
+  - **Medium:** $\ge 1$ por mês ($\approx 0{,}23$ por semana) e $< 1$ por semana
+  - **Low:** $< 1$ por mês
+
+#### `categoria_dora_lead_time`
+- **Tipo:** String enum (`Elite`, `High`, `Medium`, `Low`, ou `null`)
+- **Origem:** `lead_time_release_h` (variante a)
+- **Limiares:**
+  - **Elite:** $< 1$ dia
+  - **High:** $1$ dia a $< 1$ semana
+  - **Medium:** $1$ semana a $< 30$ dias
+  - **Low:** $\ge 30$ dias
 
 #### `categoria_dora_cfr`
+- **Origem:** `cfr_ci` (variante a)
 - **Tipo:** String enum (`Elite`, `High`, `Medium`, `Low`, ou `null`)
 - **Limiares:**
   - **Elite:** $\text{CFR} \le 15\%$
@@ -254,4 +276,8 @@ Baseadas nos limiares de agrupamento do DORA (Elite, High, Medium, Low):
 
 #### `categoria_dora_geral`
 - **Tipo:** String enum (`Elite`, `High`, `Medium`, `Low`, ou `null`)
-- **Definição:** Consolidação das dimensões avaliadas calculada via mediana dos níveis ordinais (`Elite=4`, `High=3`, `Medium=2`, `Low=1`), arredondada para baixo (`floor`).
+- **Definição:** Mediana das notas das 4 métricas (`Elite=4`, `High=3`, `Medium=2`, `Low=1`), arredondada para baixo (`floor`). Exemplo do enunciado: notas (4, 3, 3, 1) → mediana 3 → `High`. Métricas sem valor ficam fora da mediana; `categoria_dora_n_metricas` informa quantas foram usadas.
+
+#### `categoria_dora_n_metricas`
+- **Tipo:** Inteiro (0 a 4)
+- **Definição:** Número de métricas com valor disponível para compor `categoria_dora_geral`.
