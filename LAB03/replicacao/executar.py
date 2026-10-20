@@ -49,7 +49,13 @@ def _rodar(comando, pasta):
     except (FileNotFoundError, OSError) as erro:
         return 127, f"Falha ao iniciar o comando: {erro}\n", time.monotonic() - inicio
     for linha in proc.stdout:
-        print(linha, end="")
+        try:
+            sys.stdout.write(linha)
+            sys.stdout.flush()
+        except Exception:
+            enc = sys.stdout.encoding or "utf-8"
+            sys.stdout.write(linha.encode(enc, errors="replace").decode(enc, errors="replace"))
+            sys.stdout.flush()
         linhas.append(linha)
     proc.wait()
     return proc.returncode, "".join(linhas), time.monotonic() - inicio
