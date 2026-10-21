@@ -1,0 +1,5 @@
+repo,categoria_C1,categoria_C4,todas_releases_reais
+simdutf/simdutf,Medium,Medium,True
+oxigraph/oxigraph,Low,Low,True
+the-open-engine/zeroshot,Medium,Medium,True
+elastic/elasticsearch-ruby,Low,Low,False

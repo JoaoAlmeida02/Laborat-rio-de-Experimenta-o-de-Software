@@ -1,0 +1,746 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v7.6.0...v7.7.0",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v7.6.0...v7.7.0",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:39443cd...simdutf:94fb52e",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v7.6.0...v7.7.0.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v7.6.0...v7.7.0.patch",
+    "base_commit": {
+      "sha": "39443cde49ef2db949b4ce4a81f0138712f48201",
+      "node_id": "C_kwDOFAPj4doAKDM5NDQzY2RlNDllZjJkYjk0OWI0Y2U0YTgxZjAxMzg3MTJmNDgyMDE",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-11-18T18:18:22Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-11-18T18:18:22Z"
+        },
+        "message": "version 7.6.0.",
+        "tree": {
+          "sha": "58b4942695f68d36577834bf10a7b5e99aa9e833",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/58b4942695f68d36577834bf10a7b5e99aa9e833"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/39443cde49ef2db949b4ce4a81f0138712f48201",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/39443cde49ef2db949b4ce4a81f0138712f48201",
+      "html_url": "https://github.com/simdutf/simdutf/commit/39443cde49ef2db949b4ce4a81f0138712f48201",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/39443cde49ef2db949b4ce4a81f0138712f48201/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "006c08394022396a588a5963502b9116547a9751",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/006c08394022396a588a5963502b9116547a9751",
+          "html_url": "https://github.com/simdutf/simdutf/commit/006c08394022396a588a5963502b9116547a9751"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "39443cde49ef2db949b4ce4a81f0138712f48201",
+      "node_id": "C_kwDOFAPj4doAKDM5NDQzY2RlNDllZjJkYjk0OWI0Y2U0YTgxZjAxMzg3MTJmNDgyMDE",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-11-18T18:18:22Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-11-18T18:18:22Z"
+        },
+        "message": "version 7.6.0.",
+        "tree": {
+          "sha": "58b4942695f68d36577834bf10a7b5e99aa9e833",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/58b4942695f68d36577834bf10a7b5e99aa9e833"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/39443cde49ef2db949b4ce4a81f0138712f48201",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/39443cde49ef2db949b4ce4a81f0138712f48201",
+      "html_url": "https://github.com/simdutf/simdutf/commit/39443cde49ef2db949b4ce4a81f0138712f48201",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/39443cde49ef2db949b4ce4a81f0138712f48201/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "006c08394022396a588a5963502b9116547a9751",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/006c08394022396a588a5963502b9116547a9751",
+          "html_url": "https://github.com/simdutf/simdutf/commit/006c08394022396a588a5963502b9116547a9751"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 2,
+    "behind_by": 0,
+    "total_commits": 2,
+    "commits": [
+      {
+        "sha": "4b8418891b39cec009a5d25189a9f43daf881717",
+        "node_id": "C_kwDOFAPj4doAKDRiODQxODg5MWIzOWNlYzAwOWE1ZDI1MTg5YTlmNDNkYWY4ODE3MTc",
+        "commit": {
+          "author": {
+            "name": "rewine",
+            "email": "luhongxu@deepin.org",
+            "date": "2025-11-20T19:22:19Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-11-20T19:22:19Z"
+          },
+          "message": "Update Real-World Usage in README.md (#862)\n\nhttps://gitlab.gnome.org/GNOME/vte/-/commit/031f74496e75e87f7e52449c1748caf3373aebbc",
+          "tree": {
+            "sha": "fc1fd04447a9781079216621cdca7771de89ed0e",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/fc1fd04447a9781079216621cdca7771de89ed0e"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/4b8418891b39cec009a5d25189a9f43daf881717",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpH2prCRC1aQ7uu5UhlAAAJw4QAJAVmJIQJ7Ko4B5AOEqFkKX0\nxXLJEFMR+/aoZxhqdDHMr+JaoBEOzi6FWY+88H7a9veK7p8iyIDTmCKGh8TS/8bc\nr14+oKaCDgKHqODlWZW5E7nOAKzrwOiJkzDRE3FhtUcN9++bdJz48BV8cVgGbWj2\nRwS6ff14i5/1wB87tnCa18GgKs9LMgwWnMnED2mz0vDy7wznXr78lLgOprRvaRAY\n9Tb8TBJq/dXfHiWfyMnqqNiAYyI4eecwnEJ4CfgNXz53JeitEr1ElV2CT2brEguo\nJZiiUlZl33IwNYstzgOzlV/4BgMQ7FAJQCk+UQwTYPHsqUy+A1xkw0se1s6/3+23\nhl/lwjW4h1uwDTbpBSwV/Jkbfy2p8KYmJZre6sUfRpJqmHG+tRASPd7/HaFd90Xn\nbHbsXYm8sBGnACnebdWxp5c7L6dH6HDozMO3yS4Mqb761kAjJk7YXn6vQKOmcAmz\nZA8YaRwwp9cs7VfV6hb8GDKBPbhZjt88YFa7j7jg1g8h1ct+aj0nrLd2bxFyGO9D\naVAdOFNbf9swkbR+oWL2gi7hMfMwPgV9OPfxdIT/cT7oj8utZaK/eZquktKW9G+b\n0EbB2vJLFPnYKFA/W1490HXezOCwcg8kdSyLtfKDmOLl0bj637xp6HuFzlm7GXbN\npK4h4BhF5SATQHLqxVr4\n=PBpI\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree fc1fd04447a9781079216621cdca7771de89ed0e\nparent 39443cde49ef2db949b4ce4a81f0138712f48201\nauthor rewine <luhongxu@deepin.org> 1763666539 +0800\ncommitter GitHub <noreply@github.com> 1763666539 -0500\n\nUpdate Real-World Usage in README.md (#862)\n\nhttps://gitlab.gnome.org/GNOME/vte/-/commit/031f74496e75e87f7e52449c1748caf3373aebbc",
+            "verified_at": "2025-11-20T19:22:19Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/4b8418891b39cec009a5d25189a9f43daf881717",
+        "html_url": "https://github.com/simdutf/simdutf/commit/4b8418891b39cec009a5d25189a9f43daf881717",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/4b8418891b39cec009a5d25189a9f43daf881717/comments",
+        "author": {
+          "login": "wineee",
+          "id": 22803888,
+          "node_id": "MDQ6VXNlcjIyODAzODg4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/22803888?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/wineee",
+          "html_url": "https://github.com/wineee",
+          "followers_url": "https://api.github.com/users/wineee/followers",
+          "following_url": "https://api.github.com/users/wineee/following{/other_user}",
+          "gists_url": "https://api.github.com/users/wineee/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/wineee/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/wineee/subscriptions",
+          "organizations_url": "https://api.github.com/users/wineee/orgs",
+          "repos_url": "https://api.github.com/users/wineee/repos",
+          "events_url": "https://api.github.com/users/wineee/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/wineee/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "39443cde49ef2db949b4ce4a81f0138712f48201",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/39443cde49ef2db949b4ce4a81f0138712f48201",
+            "html_url": "https://github.com/simdutf/simdutf/commit/39443cde49ef2db949b4ce4a81f0138712f48201"
+          }
+        ]
+      },
+      {
+        "sha": "94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "node_id": "C_kwDOFAPj4doAKDk0ZmI1MmVhMDIxOWNiMzcwOTJkOGFlMjk0YjQ3MDJiYWNmNWQ4ZGY",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-11-22T03:27:43Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-11-22T03:27:43Z"
+          },
+          "message": "Version 7.7.0 (release candidate) (#863)\n\n* Return more information from utf8_length_from_utf16_with_replacement (#860)\n\nThe next step after utf8_length_from_utf16_with_replacement\nis almost always going to be to allocate a UTF-8 buffer and\nthen convert the string. Sadly, we have to insert a third\npass, to_well_formed_utf16, which converts the unpaired\nsurrogates.\n\nSince surrogates are relatively rare, and the _with_replacement\nfunctions have already scanned the input, we could skip the\nconversion if we were given this information along with the\nutf-8 length.\n\nIn my measurements on Icelake this doesn't slow down\nutf8_length_from_utf16_with_replacement at all.\n\n* lint\n\n* better documentation.\n\n* version bump.\n\n* [no-ci] minor simplification\n\n* correct macro name. (!!!)\n\n* removing silly space\n\n---------\n\nCo-authored-by: Erik Corry <erik@arbat.com>\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+          "tree": {
+            "sha": "48ac6af1eb658b871f922474b9a921dc2daa2faf",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/48ac6af1eb658b871f922474b9a921dc2daa2faf"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpIS2vCRC1aQ7uu5UhlAAAAjEQADzxhCC02xtgCjpY+aC74DSj\nFEs5HBUd3TLvLj9U8Y4nrD3g6WlHcP5IWwcMVlETafW5rlPpo5Ie4kRyKk8kWyRR\niPNtdH/JDnB9Z5mmOPuRQbAymFe3gNd9c74KSZOb24QqQFjtTP/P5Pd/SuMXjgPl\nVk8fPROv6Fbgb1+gsmXj5afxppQJ32+XYUMkumyFz99WVRBq4pxVCSPZjkYM1xRA\nnf/SCSHimKG42PhFQstmBfmRN3Ff7mBHnqjiS/w2ynvbGH6dqf6ZhDL+ZZNbQEYZ\nbhqlhPumn6Fbo7x/8R91QSjVxlhCPLsvKZqupShgdUxpC/sDY+231AFkzkgWDQkv\nACc2UYfaDbkv6lhW8AynOiGKTDy1Hu4Or0YBY6Ju4c2A2aKKY37y7W8M9duOKnKC\nLpY1BYkFzMppzQqoiaG2cDXWvT4HxCL1fAM7RY8zir0FGFYbDaunEk8pS6Fv69bG\ntb+gXNbA5VqKP7Ce1iIlDdttb3Fvu/PMs6Y2KVn6LsBCk5cjxQyoX6w/YIePJRbd\nFSq1fpN6xLNgohUTtE/PVNoVDCxh2k+P4kubaZW5WoHpelhhLTwWoIZr4z//1Ftl\na2c5cUq0mDsM9AzxH2cg4oaR/wTs93NjBGfj/IjmQY07Dqcc+mX5cMOBBe8ZYjED\nHy2CSOgHT0yuXHHkrjLA\n=+kbx\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 48ac6af1eb658b871f922474b9a921dc2daa2faf\nparent 4b8418891b39cec009a5d25189a9f43daf881717\nauthor Daniel Lemire <daniel@lemire.me> 1763782063 -0500\ncommitter GitHub <noreply@github.com> 1763782063 -0500\n\nVersion 7.7.0 (release candidate) (#863)\n\n* Return more information from utf8_length_from_utf16_with_replacement (#860)\n\nThe next step after utf8_length_from_utf16_with_replacement\nis almost always going to be to allocate a UTF-8 buffer and\nthen convert the string. Sadly, we have to insert a third\npass, to_well_formed_utf16, which converts the unpaired\nsurrogates.\n\nSince surrogates are relatively rare, and the _with_replacement\nfunctions have already scanned the input, we could skip the\nconversion if we were given this information along with the\nutf-8 length.\n\nIn my measurements on Icelake this doesn't slow down\nutf8_length_from_utf16_with_replacement at all.\n\n* lint\n\n* better documentation.\n\n* version bump.\n\n* [no-ci] minor simplification\n\n* correct macro name. (!!!)\n\n* removing silly space\n\n---------\n\nCo-authored-by: Erik Corry <erik@arbat.com>\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+            "verified_at": "2025-11-22T03:27:43Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "html_url": "https://github.com/simdutf/simdutf/commit/94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/94fb52ea0219cb37092d8ae294b4702bacf5d8df/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4b8418891b39cec009a5d25189a9f43daf881717",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/4b8418891b39cec009a5d25189a9f43daf881717",
+            "html_url": "https://github.com/simdutf/simdutf/commit/4b8418891b39cec009a5d25189a9f43daf881717"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "314811e684fe8dbbcd41eb4c7073986054bdb8db",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 7.6.0\n+  VERSION 7.7.0\n )\n \n include (TestBigEndian)\n@@ -23,8 +23,8 @@ include(GNUInstallDirs)\n include(CTest)\n include(cmake/simdutf-flags.cmake)\n \n-set(SIMDUTF_LIB_VERSION \"28.0.0\" CACHE STRING \"simdutf library version\")\n-set(SIMDUTF_LIB_SOVERSION \"28\" CACHE STRING \"simdutf library soversion\")\n+set(SIMDUTF_LIB_VERSION \"29.0.0\" CACHE STRING \"simdutf library version\")\n+set(SIMDUTF_LIB_SOVERSION \"29\" CACHE STRING \"simdutf library soversion\")\n option(SIMDUTF_TESTS \"Whether the tests are included as part of the CMake Build.\" ON)\n option(SIMDUTF_ATOMIC_BASE64_TESTS \"Whether to test the atomic base64 functions. (OFF by default)\" OFF)\n option(SIMDUTF_BENCHMARKS \"Whether the benchmarks are included as part of the CMake Build.\" OFF)"
+      },
+      {
+        "sha": "b7daf672ee7fb227de51205bb38b34d43a15ed11",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"7.6.0\"\n+PROJECT_NUMBER         = \"7.7.0\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "47b871e06581bdb7d5c28dc24dc07969610fa649",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 48,
+        "deletions": 19,
+        "changes": 67,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -85,7 +85,8 @@ The simdutf library is used by:\n - [Cloudflare workerd](https://github.com/cloudflare/workerd), a JavaScript/Wasm Runtime,\n - [haskell/text](https://github.com/haskell/text), a library for fast operations over Unicode text,\n - [klogg](https://github.com/variar/klogg), a Really fast log explorer,\n-- [Pixie](https://github.com/pixie-io/pixie), observability tool for Kubernetes applications.\n+- [Pixie](https://github.com/pixie-io/pixie), observability tool for Kubernetes applications,\n+- [vte](https://gitlab.gnome.org/GNOME/vte) (0.81.0 or better), a virtual terminal widget for GTK applications.\n \n \n \n@@ -151,7 +152,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v7.6.0/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v7.7.0/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -222,7 +223,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v7.6.0/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v7.7.0/singleheader.zip\n \n You may generate it on your own using a Python script.\n \n@@ -449,9 +450,19 @@ enum error_code {\n              // U+10FFFF,less than or equal than U+7F for ASCII OR less than\n              // equal than U+FF for Latin1\n   SURROGATE, // The decoded character must be not be in U+D800...DFFF (UTF-8 or\n-             // UTF-32) OR a high surrogate must be followed by a low surrogate\n+             // UTF-32)\n+             // OR\n+             // a high surrogate must be followed by a low surrogate\n              // and a low surrogate must be preceded by a high surrogate\n-             // (UTF-16) OR there must be no surrogate at all (Latin1)\n+             // (UTF-16)\n+             // OR\n+             // there must be no surrogate at all and one is\n+             // found (Latin1 functions)\n+             // OR\n+             // *specifically* for the function\n+             // utf8_length_from_utf16_with_replacement, a surrogate (whether\n+             // in error or not) has been found (I.e., whether we are in the\n+             // Basic Multilingual Plane or not).\n   INVALID_BASE64_CHARACTER, // Found a character that cannot be part of a valid\n                             // base64 string. This may include a misplaced padding character ('=').\n   BASE64_INPUT_REMAINDER,   // The base64 input terminates with a single\n@@ -912,9 +923,16 @@ simdutf_warn_unused size_t utf8_length_from_utf16(const char16_t * input, size_t\n  *\n  * @param input         the UTF-16 string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n- */\n-simdutf_warn_unused size_t utf8_length_from_utf16_with_replacement(const char16_t *input,\n+ * @return the number of bytes required to encode the UTF-16 string as UTF-8\n+ * @return a result pair struct (of type simdutf::result containing the two fields error and count)\n+ * where the count is the number of bytes required to encode the UTF-16 string as UTF-8, and the\n+ * error code is either SUCCESS or SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this function:\n+ * it indicates that at least one surrogate has been encountered: the surrogates may be matched\n+ * or not (thus this function does not validate). If the returned error code is SUCCESS,\n+ * then the input contains no surrogate, is in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16_with_replacement(const char16_t *input,\n                                                   size_t length) noexcept;\n /**\n  * Compute the number of bytes that this UTF-16LE string would require in UTF-8 format.\n@@ -948,9 +966,15 @@ simdutf_warn_unused size_t utf8_length_from_utf16be(const char16_t * input, size\n  * @param input         the UTF-16LE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n  * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n- */\n-\n-simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+ * @return a result pair struct (of type simdutf::result containing the two fields error and count)\n+ * where the count is the number of bytes required to encode the UTF-16LE string as UTF-8, and the\n+ * error code is either SUCCESS or SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this function:\n+ * it indicates that at least one surrogate has been encountered: the surrogates may be matched\n+ * or not (thus this function does not validate). If the returned error code is SUCCESS,\n+ * then the input contains no surrogate, is in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n \n \n@@ -961,10 +985,15 @@ simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n  *\n  * @param input         the UTF-16BE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16BE string as UTF-8\n- */\n-\n-simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+ * @return a result pair struct (of type simdutf::result containing the two fields error and count)\n+ * where the count is the number of bytes required to encode the UTF-16LE string as UTF-8, and\n+ * the error code is either SUCCESS or SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this function:\n+ * it indicates that at least one surrogate has been encountered: the surrogates may be matched\n+ * or not (thus this function does not validate). If the returned error code is SUCCESS,\n+ * then the input contains no surrogate, is in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n \n /**\n@@ -974,9 +1003,9 @@ simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n  *\n  * @param input         the UTF-16LE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n+ * @return a result pair struct (of type simdutf::result containing the two fields error and count) where the count is the number of bytes required to encode the UTF-16LE string as UTF-8, and the error code is either SUCCESS or SURROGATE. The count is correct regardless of the error field.\n  */\n-simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n \n /**\n@@ -986,9 +1015,9 @@ simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n  *\n  * @param input         the UTF-16BE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16BE string as UTF-8\n+ * @return a result pair struct (of type simdutf::result containing the two fields error and count) where the count is the number of bytes required to encode the UTF-16LE string as UTF-8, and the error code is either SUCCESS or SURROGATE. The count is correct regardless of the error field.\n  */\n-simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n \n "
+      },
+      {
+        "sha": "81a3e7932653e232f9309c700d6ec261860c67bb",
+        "filename": "benchmarks/src/benchmark.cpp",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 4,
+        "changes": 12,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/benchmarks%2Fsrc%2Fbenchmark.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/benchmarks%2Fsrc%2Fbenchmark.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Fsrc%2Fbenchmark.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -215,15 +215,15 @@ Benchmark::Benchmark(std::vector<input::Testcase> &&testcases)\n   register_function(\"convert_valid_utf16le_to_latin1\",\n                     &Benchmark::run_convert_valid_utf16le_to_latin1,\n                     simdutf::encoding_type::UTF16_LE);\n-#if SIMDUTF_BIG_ENDIAN\n+#if SIMDUTF_IS_BIG_ENDIAN\n   register_function(\"convert_utf16_to_utf8_safe\",\n                     &Benchmark::run_convert_utf16_to_utf8_safe,\n                     simdutf::encoding_type::UTF16_BE);\n #else\n   register_function(\"convert_utf16_to_utf8_safe\",\n                     &Benchmark::run_convert_utf16_to_utf8_safe,\n                     simdutf::encoding_type::UTF16_LE);\n-#endif // SIMDUTF_BIG_ENDIAN\n+#endif // SIMDUTF_IS_BIG_ENDIAN\n   register_function(\"convert_utf16le_to_utf8\",\n                     &Benchmark::run_convert_utf16le_to_utf8,\n                     simdutf::encoding_type::UTF16_LE);\n@@ -864,7 +864,9 @@ void Benchmark::run_utf8_length_from_utf16le_with_replacement(\n   volatile size_t sink{0};\n \n   auto proc = [&implementation, data, size, &sink]() {\n-    sink = implementation.utf8_length_from_utf16le_with_replacement(data, size);\n+    auto r =\n+        implementation.utf8_length_from_utf16le_with_replacement(data, size);\n+    sink = r.count;\n   };\n   count_events(proc, iterations); // warming up!\n   const auto result = count_events(proc, iterations);\n@@ -878,7 +880,9 @@ void Benchmark::run_utf8_length_from_utf16be_with_replacement(\n   volatile size_t sink{0};\n \n   auto proc = [&implementation, data, size, &sink]() {\n-    sink = implementation.utf8_length_from_utf16be_with_replacement(data, size);\n+    auto r =\n+        implementation.utf8_length_from_utf16be_with_replacement(data, size);\n+    sink = r.count;\n   };\n   count_events(proc, iterations); // warming up!\n   const auto result = count_events(proc, iterations);"
+      },
+      {
+        "sha": "4df77dfc8da912f1c3f4d4d1a838c0ce6f4663ff",
+        "filename": "include/simdutf/error.h",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 2,
+        "changes": 14,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Ferror.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Ferror.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Ferror.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -17,9 +17,19 @@ enum error_code {\n              // U+10FFFF,less than or equal than U+7F for ASCII OR less than\n              // equal than U+FF for Latin1\n   SURROGATE, // The decoded character must be not be in U+D800...DFFF (UTF-8 or\n-             // UTF-32) OR a high surrogate must be followed by a low surrogate\n+             // UTF-32)\n+             // OR\n+             // a high surrogate must be followed by a low surrogate\n              // and a low surrogate must be preceded by a high surrogate\n-             // (UTF-16) OR there must be no surrogate at all (Latin1)\n+             // (UTF-16)\n+             // OR\n+             // there must be no surrogate at all and one is\n+             // found (Latin1 functions)\n+             // OR\n+             // *specifically* for the function\n+             // utf8_length_from_utf16_with_replacement, a surrogate (whether\n+             // in error or not) has been found (I.e., whether we are in the\n+             // Basic Multilingual Plane or not).\n   INVALID_BASE64_CHARACTER, // Found a character that cannot be part of a valid\n                             // base64 string. This may include a misplaced\n                             // padding character ('=')."
+      },
+      {
+        "sha": "e349c0aa79c94973913d86f246b14d445aa5448f",
+        "filename": "include/simdutf/implementation.h",
+        "status": "modified",
+        "additions": 58,
+        "deletions": 18,
+        "changes": 76,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -779,13 +779,20 @@ convert_utf8_to_utf16(const detail::input_span_of_byte_like auto &input,\n  *\n  * @param input         the UTF-16LE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n- */\n-\n-simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+ * @return a result pair struct (of type simdutf::result containing the two\n+ * fields error and count) where the count is the number of bytes required to\n+ * encode the UTF-16LE string as UTF-8, and the error code is either SUCCESS or\n+ * SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this\n+ * function: it indicates that at least one surrogate has been encountered: the\n+ * surrogates may be matched or not (thus this function does not validate). If\n+ * the returned error code is SUCCESS, then the input contains no surrogate, is\n+ * in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n   #if SIMDUTF_SPAN\n-simdutf_really_inline simdutf_warn_unused size_t\n+simdutf_really_inline simdutf_warn_unused result\n utf8_length_from_utf16le_with_replacement(\n     std::span<const char16_t> valid_utf16_input) noexcept {\n   return utf8_length_from_utf16le_with_replacement(valid_utf16_input.data(),\n@@ -800,13 +807,20 @@ utf8_length_from_utf16le_with_replacement(\n  *\n  * @param input         the UTF-16BE string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16BE string as UTF-8\n- */\n-\n-simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+ * @return a result pair struct (of type simdutf::result containing the two\n+ * fields error and count) where the count is the number of bytes required to\n+ * encode the UTF-16BE string as UTF-8, and the error code is either SUCCESS or\n+ * SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this\n+ * function: it indicates that at least one surrogate has been encountered: the\n+ * surrogates may be matched or not (thus this function does not validate). If\n+ * the returned error code is SUCCESS, then the input contains no surrogate, is\n+ * in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n   #if SIMDUTF_SPAN\n-simdutf_really_inline simdutf_warn_unused size_t\n+simdutf_really_inline simdutf_warn_unused result\n utf8_length_from_utf16be_with_replacement(\n     std::span<const char16_t> valid_utf16_input) noexcept {\n   return utf8_length_from_utf16be_with_replacement(valid_utf16_input.data(),\n@@ -2120,12 +2134,20 @@ utf8_length_from_utf16(std::span<const char16_t> valid_utf16_input) noexcept {\n  *\n  * @param input         the UTF-16 string to convert\n  * @param length        the length of the string in 2-byte code units (char16_t)\n- * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n- */\n-simdutf_warn_unused size_t utf8_length_from_utf16_with_replacement(\n+ * @return a result pair struct (of type simdutf::result containing the two\n+ * fields error and count) where the count is the number of bytes required to\n+ * encode the UTF-16 string as UTF-8, and the error code is either SUCCESS or\n+ * SURROGATE. The count is correct regardless of the error field.\n+ * When SURROGATE is returned, it does not indicate an error in the case of this\n+ * function: it indicates that at least one surrogate has been encountered: the\n+ * surrogates may be matched or not (thus this function does not validate). If\n+ * the returned error code is SUCCESS, then the input contains no surrogate, is\n+ * in the Basic Multilingual Plane, and is necessarily valid.\n+ */\n+simdutf_warn_unused result utf8_length_from_utf16_with_replacement(\n     const char16_t *input, size_t length) noexcept;\n   #if SIMDUTF_SPAN\n-simdutf_really_inline simdutf_warn_unused size_t\n+simdutf_really_inline simdutf_warn_unused result\n utf8_length_from_utf16_with_replacement(\n     std::span<const char16_t> valid_utf16_input) noexcept {\n   return utf8_length_from_utf16_with_replacement(valid_utf16_input.data(),\n@@ -4152,9 +4174,18 @@ class implementation {\n    * @param input         the UTF-16LE string to convert\n    * @param length        the length of the string in 2-byte code units\n    * (char16_t)\n-   * @return the number of bytes required to encode the UTF-16LE string as UTF-8\n+   * @return a result pair struct (of type simdutf::result containing the two\n+   * fields error and count) where the count is the number of bytes required to\n+   * encode the UTF-16LE string as UTF-8, and the error code is either SUCCESS\n+   * or SURROGATE. The count is correct regardless of the error field.\n+   * When SURROGATE is returned, it does not indicate an error in the case of\n+   * this function: it indicates that at least one surrogate has been\n+   * encountered: the surrogates may be matched or not (thus this function does\n+   * not validate). If the returned error code is SUCCESS, then the input\n+   * contains no surrogate, is in the Basic Multilingual Plane, and is\n+   * necessarily valid.\n    */\n-  virtual simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  virtual simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept = 0;\n \n   /**\n@@ -4165,9 +4196,18 @@ class implementation {\n    * @param input         the UTF-16BE string to convert\n    * @param length        the length of the string in 2-byte code units\n    * (char16_t)\n-   * @return the number of bytes required to encode the UTF-16BE string as UTF-8\n+   * @return a result pair struct (of type simdutf::result containing the two\n+   * fields error and count) where the count is the number of bytes required to\n+   * encode the UTF-16BE string as UTF-8, and the error code is either SUCCESS\n+   * or SURROGATE. The count is correct regardless of the error field.\n+   * When SURROGATE is returned, it does not indicate an error in the case of\n+   * this function: it indicates that at least one surrogate has been\n+   * encountered: the surrogates may be matched or not (thus this function does\n+   * not validate). If the returned error code is SUCCESS, then the input\n+   * contains no surrogate, is in the Basic Multilingual Plane, and is\n+   * necessarily valid.\n    */\n-  virtual simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  virtual simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept = 0;\n \n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "5e3310fd0f9955d71725c0e6c6c7ae0a94806148",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"7.6.0\"\n+#define SIMDUTF_VERSION \"7.7.0\"\n \n namespace simdutf {\n enum {\n@@ -15,7 +15,7 @@ enum {\n   /**\n    * The minor version (major.MINOR.revision) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_MINOR = 6,\n+  SIMDUTF_VERSION_MINOR = 7,\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */"
+      },
+      {
+        "sha": "03d05e757e7618f13eb7b40d2804016cee3359ce",
+        "filename": "src/arm64/arm_convert_utf16_to_utf8.cpp",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 4,
+        "changes": 15,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Farm64%2Farm_convert_utf16_to_utf8.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Farm64%2Farm_convert_utf16_to_utf8.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Farm_convert_utf16_to_utf8.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -649,7 +649,7 @@ arm64_utf8_length_from_utf16_bytemask(const char16_t *in, size_t size) {\n }\n \n template <endianness big_endian>\n-simdutf_really_inline size_t\n+simdutf_really_inline result\n arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   constexpr size_t N =\n       16; // we process 16 char16_t at a time, this is NEON specific\n@@ -659,6 +659,7 @@ arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n         in, size);\n   } // special case for short input\n   size_t count = 0;\n+  bool any_surrogates = false;\n   const auto one = vmovq_n_u8(1);\n \n   // The general strategy is as follows:\n@@ -682,6 +683,7 @@ arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   size_t number_of_unpaired_surrogates = 0;\n   if (scalar::utf16::is_low_surrogate<big_endian>(in[0])) {\n     number_of_unpaired_surrogates += 1;\n+    any_surrogates = true;\n   }\n   size_t pos = 0;\n   // We will go through the input at least once.\n@@ -697,6 +699,7 @@ arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n     // We count on the fact that most inputs do not have surrogates.\n     if (vmaxvq_u32(vreinterpretq_u32_u8(is_surrogate)) ||\n         scalar::utf16::is_low_surrogate<big_endian>(in[pos + N])) {\n+      any_surrogates = true;\n       // there is at least one surrogate in the block\n       // We use this to check that surrogates are paired correctly.\n       // It is the input shifted by one code unit (two bytes).\n@@ -753,6 +756,7 @@ arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   // the unpaired low surrogate.\n   //!!!!!!!!!!!!!!!\n   if (scalar::utf16::is_low_surrogate<big_endian>(in[pos])) {\n+    any_surrogates = true;\n     if (!scalar::utf16::is_high_surrogate<big_endian>(in[pos - 1])) {\n       number_of_unpaired_surrogates -= 1;\n       count += 2;\n@@ -764,14 +768,17 @@ arm64_utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   // If we end with a high surrogate, it might be unpaired or not, we\n   // don't know. It counts as a pair suggarate for now.\n   if (scalar::utf16::is_high_surrogate<big_endian>(in[pos - 1])) {\n+    any_surrogates = true;\n     if (pos == size) {\n       count += 2;\n     } else if (scalar::utf16::is_low_surrogate<big_endian>(in[pos])) {\n       pos += 1;\n       count += 2;\n     }\n   }\n-  return count +\n-         scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n-             in + pos, size - pos);\n+  result scalar_result =\n+      scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n+          in + pos, size - pos);\n+  return {any_surrogates ? SURROGATE : scalar_result.error,\n+          count + scalar_result.count};\n }"
+      },
+      {
+        "sha": "04c215d75054501b613cb1adf95855dcd714cf82",
+        "filename": "src/arm64/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Farm64%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Farm64%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1175,14 +1175,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return arm64_utf8_length_from_utf16_with_replacement<endianness::LITTLE>(\n       input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return arm64_utf8_length_from_utf16_with_replacement<endianness::BIG>(input,"
+      },
+      {
+        "sha": "a3bdf305eef4a270d90dcc1a8b7e1d01db39fb95",
+        "filename": "src/fallback/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ffallback%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ffallback%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ffallback%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -504,14 +504,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return scalar::utf8::utf16_length_from_utf8(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<\n       endianness::LITTLE>(input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<"
+      },
+      {
+        "sha": "b59282375d1923229303d7098459262976d863ba",
+        "filename": "src/generic/utf16/utf8_length_from_utf16_bytemask.h",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 15,
+        "changes": 28,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fgeneric%2Futf16%2Futf8_length_from_utf16_bytemask.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fgeneric%2Futf16%2Futf8_length_from_utf16_bytemask.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fgeneric%2Futf16%2Futf8_length_from_utf16_bytemask.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -85,7 +85,7 @@ simdutf_really_inline size_t utf8_length_from_utf16_bytemask(const char16_t *in,\n }\n \n template <endianness big_endian>\n-simdutf_really_inline size_t\n+simdutf_really_inline result\n utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   using vector_u16 = simd16<uint16_t>;\n   constexpr size_t N = vector_u16::ELEMENTS;\n@@ -94,6 +94,7 @@ utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n         in, size);\n   } // special case for short inputs\n   size_t pos = 0;\n+  bool any_surrogates = false;\n \n   const auto one = vector_u16::splat(1);\n \n@@ -109,6 +110,7 @@ utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   size_t iteration = max_iterations;\n \n   if (scalar::utf16::is_low_surrogate<big_endian>(in[0])) {\n+    any_surrogates = true;\n     mismatched_count += 1;\n   }\n \n@@ -130,17 +132,9 @@ utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n     v_count += c0;\n     v_count += c1;\n     v_count += vector_u16(is_surrogate);\n-    //\n-    // In theory, we should go faster by avoiding the cost of the coming\n-    // branch when there is no surrogate. However, the benefit in practice\n-    // are unclear.\n-    // This should be revisited in the future for better performance.\n-    // It might be possible to batch several iterations together to make\n-    // this check worth it.\n-    // if(is_surrogate.to_bitmask() != 0 ||\n-    // scalar::utf16::is_low_surrogate<big_endian>(in[pos])) {\n-    //\n-    if (true) { // deliberately always true\n+    if (is_surrogate.to_bitmask() != 0 ||\n+        scalar::utf16::is_low_surrogate<big_endian>(in[pos + N])) {\n+      any_surrogates = true;\n       auto input_next =\n           vector_u16::load(reinterpret_cast<const uint16_t *>(in + pos + 1));\n       if (!match_system(big_endian)) {\n@@ -174,6 +168,7 @@ utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   }\n \n   if (scalar::utf16::is_low_surrogate<big_endian>(in[pos])) {\n+    any_surrogates = true;\n     if (!scalar::utf16::is_high_surrogate<big_endian>(in[pos - 1])) {\n       mismatched_count -= 1;\n       count += 2;\n@@ -183,16 +178,19 @@ utf8_length_from_utf16_with_replacement(const char16_t *in, size_t size) {\n   count += pos;\n   count += mismatched_count;\n   if (scalar::utf16::is_high_surrogate<big_endian>(in[pos - 1])) {\n+    any_surrogates = true;\n     if (pos == size) {\n       count += 2;\n     } else if (scalar::utf16::is_low_surrogate<big_endian>(in[pos])) {\n       pos += 1;\n       count += 2;\n     }\n   }\n-  return count +\n-         scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n-             in + pos, size - pos);\n+  result scalar_result =\n+      scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n+          in + pos, size - pos);\n+  return {any_surrogates ? SURROGATE : scalar_result.error,\n+          count + scalar_result.count};\n }\n \n } // namespace utf16"
+      },
+      {
+        "sha": "649e68a128cdeaa3c2904b3e4915a6bea5b11d25",
+        "filename": "src/haswell/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fhaswell%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fhaswell%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fhaswell%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1154,14 +1154,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8_bytemask(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return utf16::utf8_length_from_utf16_with_replacement<endianness::LITTLE>(\n       input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return utf16::utf8_length_from_utf16_with_replacement<endianness::BIG>("
+      },
+      {
+        "sha": "0c3b7b26d6fe2e1db26cd98333ba0ea0930ffdbe",
+        "filename": "src/icelake/icelake_utf8_length_from_utf16.inl.cpp",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 4,
+        "changes": 14,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ficelake%2Ficelake_utf8_length_from_utf16.inl.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ficelake%2Ficelake_utf8_length_from_utf16.inl.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Ficelake_utf8_length_from_utf16.inl.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -5,8 +5,10 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16(const char16_t *in,\n   using vector_u16 = simd16<uint16_t>;\n   constexpr size_t N = vector_u16::ELEMENTS; // 32 on AVX-512\n   if (N + 1 > size) {\n-    return scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n-        in, size);\n+    result scalar_result =\n+        scalar::utf16::utf8_length_from_utf16_with_replacement<big_endian>(\n+            in, size);\n+    return scalar_result.count;\n   } // special case for short inputs\n   size_t pos = 0;\n \n@@ -110,7 +112,7 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16(const char16_t *in,\n }\n \n template <endianness big_endian>\n-simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n+simdutf_really_inline result icelake_utf8_length_from_utf16_with_replacement(\n     const char16_t *in, size_t size) {\n   ///////\n   // We repeat 3 times the same algorithm.\n@@ -137,6 +139,7 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n       match_system(big_endian) ? 0xdc00d800 : 0x00dc00d8;\n \n   size_t count = 0;\n+  bool any_surrogates = false;\n   // We assume all surrogates are mismatched and count here the matched\n   // ones.\n   size_t matches = 0;\n@@ -172,6 +175,7 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n     count += count_ones32(c02);\n     count += count_ones32(c12);\n     if (_kor_mask32(is_surrogate1, is_surrogate2)) {\n+      any_surrogates = true;\n       __m512i lb_masked1 =\n           _mm512_and_si512(current1, _mm512_set1_epi16(uint16_t(0xfc00)));\n       __mmask32 hi_surrogates1 = _mm512_cmpeq_epi16_mask(\n@@ -212,6 +216,7 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n     count += count_ones32(c0);\n     count += count_ones32(c1);\n     if (is_surrogate) {\n+      any_surrogates = true;\n       __m512i lb_masked =\n           _mm512_and_si512(input, _mm512_set1_epi16(uint16_t(0xfc00)));\n       __mmask32 hi_surrogates = _mm512_cmpeq_epi16_mask(\n@@ -246,6 +251,7 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n   count += count_ones32(c0);\n   count += count_ones32(c1);\n   if (is_surrogate) {\n+    any_surrogates = true;\n     __m512i lb_masked =\n         _mm512_and_si512(input, _mm512_set1_epi16(uint16_t(0xfc00)));\n     __mmask32 hi_surrogates =\n@@ -259,5 +265,5 @@ simdutf_really_inline size_t icelake_utf8_length_from_utf16_with_replacement(\n   count += pos;\n \n   count -= 2 * matches;\n-  return count;\n+  return {any_surrogates ? SURROGATE : SUCCESS, count};\n }"
+      },
+      {
+        "sha": "8ee48efee9dbc23afb8d319a80d4f62a2d7ee6b7",
+        "filename": "src/icelake/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ficelake%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Ficelake%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1613,14 +1613,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n   return count +\n          scalar::utf8::utf16_length_from_utf8(input + pos, length - pos);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return icelake_utf8_length_from_utf16_with_replacement<endianness::LITTLE>(\n       input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return icelake_utf8_length_from_utf16_with_replacement<endianness::BIG>("
+      },
+      {
+        "sha": "2f4006d450edecb959a22d8f812cd0c4d401f4c0",
+        "filename": "src/implementation.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 11,
+        "changes": 23,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -395,12 +395,12 @@ class detect_best_supported_implementation_on_first_use final\n       char16_t *utf16_output) const noexcept final override {\n     return set_best()->convert_valid_utf8_to_utf16be(buf, len, utf16_output);\n   }\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept final override {\n     return set_best()->utf8_length_from_utf16le_with_replacement(input, length);\n   }\n \n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept final override {\n     return set_best()->utf8_length_from_utf16be_with_replacement(input, length);\n   }\n@@ -1002,14 +1002,14 @@ class unsupported_implementation final : public implementation {\n       const char *, size_t, char16_t *) const noexcept final override {\n     return 0;\n   }\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *, size_t) const noexcept final override {\n-    return 0; // Not supported\n+    return {OTHER, 0}; // Not supported\n   }\n \n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *, size_t) const noexcept final override {\n-    return 0; // Not supported\n+    return {OTHER, 0}; // Not supported\n   }\n \n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n@@ -2161,15 +2161,16 @@ simdutf_warn_unused size_t utf8_length_from_latin1(const char *buf,\n simdutf_warn_unused size_t utf8_length_from_utf16(const char16_t *input,\n                                                   size_t length) noexcept {\n   #if SIMDUTF_IS_BIG_ENDIAN\n-  return utf8_length_from_utf16be(input, length);\n+  result r = utf8_length_from_utf16be_with_replacement(input, length);\n+  return r.count;\n   #else\n   return utf8_length_from_utf16le(input, length);\n   #endif\n }\n-simdutf_warn_unused size_t utf8_length_from_utf16_with_replacement(\n+simdutf_warn_unused result utf8_length_from_utf16_with_replacement(\n     const char16_t *input, size_t length) noexcept {\n   #if SIMDUTF_IS_BIG_ENDIAN\n-  return utf8_length_from_utf16be(input, length);\n+  return utf8_length_from_utf16be_with_replacement(input, length);\n   #else\n   return utf8_length_from_utf16le_with_replacement(input, length);\n   #endif\n@@ -2208,13 +2209,13 @@ simdutf_warn_unused size_t utf16_length_from_utf8(const char *input,\n                                                   size_t length) noexcept {\n   return get_default_implementation()->utf16_length_from_utf8(input, length);\n }\n-simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) noexcept {\n   return get_default_implementation()\n       ->utf8_length_from_utf16le_with_replacement(input, length);\n }\n \n-simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) noexcept {\n   return get_default_implementation()\n       ->utf8_length_from_utf16be_with_replacement(input, length);"
+      },
+      {
+        "sha": "bfae1bfdb0dea2d0c7844c705eae29169dc563e5",
+        "filename": "src/lasx/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Flasx%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Flasx%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flasx%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1301,14 +1301,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8_bytemask(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<\n       endianness::LITTLE>(input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<"
+      },
+      {
+        "sha": "70fcba8300d58a3551edbb6d92f90e3d7eec2496",
+        "filename": "src/lsx/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Flsx%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Flsx%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flsx%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1187,14 +1187,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8_bytemask(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<\n       endianness::LITTLE>(input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<"
+      },
+      {
+        "sha": "84232fc9dd1c678a16dd2aea2b14be2f40b1b89d",
+        "filename": "src/ppc64/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fppc64%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fppc64%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fppc64%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -752,14 +752,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<\n       endianness::LITTLE>(input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<"
+      },
+      {
+        "sha": "7e6c4669d30e74f47fb003c60826de90bba30ccb",
+        "filename": "src/rvv/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Frvv%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Frvv%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Frvv%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -102,14 +102,14 @@ size_t implementation::binary_to_base64_with_lines(\n }\n #endif // SIMDUTF_FEATURE_BASE64\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<\n       endianness::LITTLE>(input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return scalar::utf16::utf8_length_from_utf16_with_replacement<"
+      },
+      {
+        "sha": "3a3ecb580204328ada69a148ef9b9ee27db0db5e",
+        "filename": "src/scalar/utf16.h",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 2,
+        "changes": 8,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fscalar%2Futf16.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fscalar%2Futf16.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fscalar%2Futf16.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -155,12 +155,14 @@ simdutf_really_inline bool low_surrogate(char16_t c) {\n }\n \n template <endianness big_endian>\n-inline size_t utf8_length_from_utf16_with_replacement(const char16_t *p,\n+inline result utf8_length_from_utf16_with_replacement(const char16_t *p,\n                                                       size_t len) {\n+  bool any_surrogates = false;\n   // We are not BOM aware.\n   size_t counter{0};\n   for (size_t i = 0; i < len; i++) {\n     if (is_high_surrogate<big_endian>(p[i])) {\n+      any_surrogates = true;\n       // surrogate pair\n       if (i + 1 < len && is_low_surrogate<big_endian>(p[i + 1])) {\n         counter += 4;\n@@ -170,6 +172,7 @@ inline size_t utf8_length_from_utf16_with_replacement(const char16_t *p,\n       }\n       continue;\n     } else if (is_low_surrogate<big_endian>(p[i])) {\n+      any_surrogates = true;\n       counter += 3; // unpaired low surrogate replaced by U+FFFD\n       continue;\n     }\n@@ -179,7 +182,8 @@ inline size_t utf8_length_from_utf16_with_replacement(const char16_t *p,\n         static_cast<size_t>(word > 0x7F); // non-ASCII is at least 2 bytes\n     counter += static_cast<size_t>(word > 0x7FF); // three-byte\n   }\n-  return counter;\n+  return {any_surrogates ? error_code::SURROGATE : error_code::SUCCESS,\n+          counter};\n }\n \n // variable templates are a C++14 extension"
+      },
+      {
+        "sha": "ae91895b7cc90839200b290a1200ee7e3f62cd4e",
+        "filename": "src/simdutf/arm64/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Farm64%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Farm64%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Farm64%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -229,10 +229,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "160ef305b1ed784cccb9b39049e5509af0a6d11e",
+        "filename": "src/simdutf/fallback/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Ffallback%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Ffallback%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Ffallback%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -251,10 +251,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "279b27dc9c6df5723fdf21ba814e8983fa3f0a45",
+        "filename": "src/simdutf/haswell/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fhaswell%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fhaswell%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fhaswell%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -254,10 +254,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "ab9657cb9a5251c04da061498b2a174ae4afebac",
+        "filename": "src/simdutf/icelake/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Ficelake%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Ficelake%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Ficelake%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -262,10 +262,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "f6c86702b99f5f30f89742457845a3de8bd4f117",
+        "filename": "src/simdutf/lasx/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Flasx%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Flasx%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flasx%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -232,10 +232,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "7dadcbcd5c092078c3bec92b6c8eff14673e9d0c",
+        "filename": "src/simdutf/lsx/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Flsx%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Flsx%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flsx%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -231,10 +231,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "4b15f719823cbe6fba1f4d8e819d416f3c1e0397",
+        "filename": "src/simdutf/ppc64/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fppc64%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -254,10 +254,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "291d1c142eee45b6d5a7d216d77efc00524a33ba",
+        "filename": "src/simdutf/rvv/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Frvv%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Frvv%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Frvv%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -236,10 +236,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "7710fe3e856c79cf0f52e4e9a373fd53ec843993",
+        "filename": "src/simdutf/westmere/implementation.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fwestmere%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fsimdutf%2Fwestmere%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fwestmere%2Fimplementation.h?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -254,10 +254,10 @@ class implementation final : public simdutf::implementation {\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   simdutf_warn_unused size_t\n   utf16_length_from_utf8(const char *input, size_t length) const noexcept;\n-  simdutf_warn_unused size_t utf8_length_from_utf16le_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16le_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n-  simdutf_warn_unused size_t utf8_length_from_utf16be_with_replacement(\n+  simdutf_warn_unused result utf8_length_from_utf16be_with_replacement(\n       const char16_t *input, size_t length) const noexcept;\n   ;\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16"
+      },
+      {
+        "sha": "ed4fca32640ed13580db7d04234dcc9f0442875e",
+        "filename": "src/westmere/implementation.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fwestmere%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/src%2Fwestmere%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fwestmere%2Fimplementation.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -1242,14 +1242,14 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n     const char *input, size_t length) const noexcept {\n   return utf8::utf16_length_from_utf8_bytemask(input, length);\n }\n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16le_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return utf16::utf8_length_from_utf16_with_replacement<endianness::LITTLE>(\n       input, length);\n }\n \n-simdutf_warn_unused size_t\n+simdutf_warn_unused result\n implementation::utf8_length_from_utf16be_with_replacement(\n     const char16_t *input, size_t length) const noexcept {\n   return utf16::utf8_length_from_utf16_with_replacement<endianness::BIG>("
+      },
+      {
+        "sha": "45de356255c247ceb042ffbe16bf723fed4d658a",
+        "filename": "tests/random_fuzzer.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 29,
+        "changes": 31,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Frandom_fuzzer.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Frandom_fuzzer.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Frandom_fuzzer.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -127,25 +127,6 @@ size_t valid_utf16le = 0;\n size_t valid_utf16be = 0;\n size_t valid_base64 = 0;\n \n-inline int16_t u16_swap_bytes(const uint16_t word) {\n-  return uint16_t((word >> 8) | (word << 8));\n-}\n-\n-template <simdutf::endianness big_endian>\n-inline size_t utf8_length_from_utf16(const char16_t *p, size_t len) {\n-  // We are not BOM aware.\n-  size_t counter{0};\n-  for (size_t i = 0; i < len; i++) {\n-    char16_t word = !match_system(big_endian) ? u16_swap_bytes(p[i]) : p[i];\n-    counter++; // ASCII\n-    counter += static_cast<size_t>(\n-        word >\n-        0x7F); // non-ASCII is at least 2 bytes, surrogates are 2*2 == 4 bytes\n-    counter += static_cast<size_t>((word > 0x7FF && word <= 0xD7FF) ||\n-                                   (word >= 0xE000)); // three-byte\n-  }\n-  return counter;\n-}\n /**\n  * Returns false on error.\n  */\n@@ -185,18 +166,10 @@ bool fuzz_this(const char *data, size_t size) {\n       // We need a buffer where to write the UTF-8 code units.\n       size_t expected_utf8words =\n           e->utf8_length_from_utf16le(utf16_output.get(), utf16words);\n-      size_t scalar_expected_utf8words =\n-          utf8_length_from_utf16<simdutf::endianness::LITTLE>(\n-              utf16_output.get(), utf16words); // test scalar function too\n-      if (expected_utf8words != scalar_expected_utf8words) {\n-        printf(\"Mismatch between scalar and SIMD utf8 length from utf16le\\n\");\n-        print_input(source, e);\n-        return false;\n-      }\n-      size_t expected_utf8words_with_replacement =\n+      simdutf::result expected_utf8words_with_replacement =\n           e->utf8_length_from_utf16le_with_replacement(utf16_output.get(),\n                                                        utf16words);\n-      if (expected_utf8words != expected_utf8words_with_replacement) {\n+      if (expected_utf8words != expected_utf8words_with_replacement.count) {\n         printf(\"Mismatch between replacement and standard utf8 length from \"\n                \"utf16le\\n\");\n         print_input(source, e);"
+      },
+      {
+        "sha": "0cf7864308cc4284b607d802cdac90d6e7c42ebc",
+        "filename": "tests/to_well_formed_utf16_tests.cpp",
+        "status": "modified",
+        "additions": 51,
+        "deletions": 36,
+        "changes": 87,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Fto_well_formed_utf16_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Fto_well_formed_utf16_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fto_well_formed_utf16_tests.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -26,10 +26,12 @@ TEST_LOOP(trials, to_well_formed_utf16le_single_surrogate) {\n   std::vector<char16_t> surrogates = {0xD800, 0xDC00, 0xDFFF, 0xD800, 0xDC00};\n #endif\n   std::vector<char16_t> output(length);\n+  for (size_t j = 0; j < length; j++)\n+    utf16[j] = 0;\n   for (size_t j = 0; j < length; j++) {\n     for (char16_t surrogate : surrogates) {\n       utf16[j] = surrogate;\n-      size_t utf8_length =\n+      simdutf::result utf8_length =\n           implementation.utf8_length_from_utf16le_with_replacement(\n               (const char16_t *)utf16.data(), utf16.size());\n       std::fill(output.begin(), output.end(), 0);\n@@ -38,7 +40,7 @@ TEST_LOOP(trials, to_well_formed_utf16le_single_surrogate) {\n       size_t utf8_length_check = implementation.utf8_length_from_utf16le(\n           (const char16_t *)output.data(), utf16.size());\n       ASSERT_EQUAL(output[j], replacement_le);\n-      ASSERT_EQUAL(utf8_length, utf8_length_check);\n+      ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n \n       utf16[j] = 0x0000; // Reset to a valid character\n     }\n@@ -57,7 +59,7 @@ TEST_LOOP(trials, to_well_formed_utf16be_single_surrogate) {\n   for (size_t j = 0; j < length; j++) {\n     for (char16_t surrogate : surrogates) {\n       utf16[j] = surrogate;\n-      size_t utf8_length =\n+      simdutf::result utf8_length =\n           implementation.utf8_length_from_utf16be_with_replacement(\n               (const char16_t *)utf16.data(), utf16.size());\n       std::fill(output.begin(), output.end(), 0);\n@@ -66,7 +68,8 @@ TEST_LOOP(trials, to_well_formed_utf16be_single_surrogate) {\n       size_t utf8_length_check = implementation.utf8_length_from_utf16be(\n           (const char16_t *)output.data(), utf16.size());\n       ASSERT_EQUAL(output[j], replacement_be);\n-      ASSERT_EQUAL(utf8_length, utf8_length_check);\n+      ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n+      ASSERT_EQUAL(utf8_length.error, simdutf::SURROGATE);\n       utf16[j] = 0x0000; // Reset to a valid character\n     }\n   }\n@@ -79,13 +82,14 @@ TEST_LOOP(trials,\n   const auto utf16{generator.generate_le(8)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16le_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16le_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16le(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16le(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials,\n@@ -94,97 +98,104 @@ TEST_LOOP(trials,\n   const auto utf16{generator.generate_be(8)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16be_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16be_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16be(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16be(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16le_for_valid_input_surrogate_pairs_long) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 0, 1};\n   const auto utf16{generator.generate_le(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16le_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16le_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16le(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16le(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16be_for_valid_input_surrogate_pairs_long) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 0, 1};\n   const auto utf16{generator.generate_be(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16be_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16be_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16be(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16be(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16le_for_valid_input_mixed_long) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 1};\n   const auto utf16{generator.generate_le(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16le_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16le_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16le(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16le(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16be_for_valid_input_mixed_long) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 1};\n   const auto utf16{generator.generate_be(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output(len);\n-  size_t utf8_length = implementation.utf8_length_from_utf16be_with_replacement(\n-      utf16.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16be_with_replacement(utf16.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16be(utf16.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16be(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16le_for_valid_input_mixed_long_self) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 1};\n   const auto utf16{generator.generate_le(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output = utf16;\n-  size_t utf8_length = implementation.utf8_length_from_utf16le_with_replacement(\n-      output.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16le_with_replacement(output.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16le(output.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16le(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n TEST_LOOP(trials, to_well_formed_utf16be_for_valid_input_mixed_long_self) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 1};\n   const auto utf16{generator.generate_be(512)};\n   const auto len = utf16.size();\n   std::vector<char16_t> output = utf16;\n-  size_t utf8_length = implementation.utf8_length_from_utf16be_with_replacement(\n-      output.data(), len);\n+  simdutf::result utf8_length =\n+      implementation.utf8_length_from_utf16be_with_replacement(output.data(),\n+                                                               len);\n   implementation.to_well_formed_utf16be(output.data(), len, output.data());\n   size_t utf8_length_check =\n       implementation.utf8_length_from_utf16be(output.data(), len);\n   ASSERT_EQUAL(output, utf16);\n-  ASSERT_EQUAL(utf8_length, utf8_length_check);\n+  ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n }\n \n std::vector<char16_t> random_testcase(size_t n, std::mt19937 &rng) {\n@@ -213,19 +224,20 @@ TEST(to_well_formed_utf16le_bad_input) {\n     auto utf16 = random_testcase(512, gen);\n     auto len = utf16.size();\n     std::vector<char16_t> output(len);\n-    size_t utf8_length =\n+    simdutf::result utf8_length =\n         implementation.utf8_length_from_utf16le_with_replacement(utf16.data(),\n                                                                  len);\n     implementation.to_well_formed_utf16le(utf16.data(), len, output.data());\n     for (size_t j = 0; j < len; j++) {\n       if (utf16[j] != output[j]) {\n         ASSERT_EQUAL(output[j], replacement_le);\n+        ASSERT_EQUAL(utf8_length.error, simdutf::SURROGATE);\n       }\n     }\n     size_t utf8_length_check =\n         implementation.utf8_length_from_utf16le(output.data(), len);\n     ASSERT_TRUE(implementation.validate_utf16le(output.data(), len));\n-    ASSERT_EQUAL(utf8_length, utf8_length_check);\n+    ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n   }\n }\n \n@@ -235,19 +247,20 @@ TEST(to_well_formed_utf16be_bad_input) {\n     auto utf16 = random_testcase(512, gen);\n     auto len = utf16.size();\n     std::vector<char16_t> output(len);\n-    size_t utf8_length =\n+    simdutf::result utf8_length =\n         implementation.utf8_length_from_utf16be_with_replacement(utf16.data(),\n                                                                  len);\n     implementation.to_well_formed_utf16be(utf16.data(), len, output.data());\n     for (size_t j = 0; j < len; j++) {\n       if (utf16[j] != output[j]) {\n         ASSERT_EQUAL(output[j], replacement_be);\n+        ASSERT_EQUAL(utf8_length.error, simdutf::SURROGATE);\n       }\n     }\n     size_t utf8_length_check =\n         implementation.utf8_length_from_utf16be(output.data(), len);\n     ASSERT_TRUE(implementation.validate_utf16be(output.data(), len));\n-    ASSERT_EQUAL(utf8_length, utf8_length_check);\n+    ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n   }\n }\n \n@@ -257,19 +270,20 @@ TEST(to_well_formed_utf16le_bad_input_self) {\n     auto utf16 = random_testcase(512, gen);\n     auto len = utf16.size();\n     std::vector<char16_t> output = utf16;\n-    size_t utf8_length =\n+    simdutf::result utf8_length =\n         implementation.utf8_length_from_utf16le_with_replacement(output.data(),\n                                                                  len);\n     implementation.to_well_formed_utf16le(output.data(), len, output.data());\n     for (size_t j = 0; j < len; j++) {\n       if (utf16[j] != output[j]) {\n         ASSERT_EQUAL(output[j], replacement_le);\n+        ASSERT_EQUAL(utf8_length.error, simdutf::SURROGATE);\n       }\n     }\n     size_t utf8_length_check =\n         implementation.utf8_length_from_utf16le(output.data(), len);\n     ASSERT_TRUE(implementation.validate_utf16le(output.data(), len));\n-    ASSERT_EQUAL(utf8_length, utf8_length_check);\n+    ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n   }\n }\n \n@@ -279,19 +293,20 @@ TEST(to_well_formed_utf16be_bad_input_self) {\n     auto utf16 = random_testcase(512, gen);\n     auto len = utf16.size();\n     std::vector<char16_t> output = utf16;\n-    size_t utf8_length =\n+    simdutf::result utf8_length =\n         implementation.utf8_length_from_utf16be_with_replacement(output.data(),\n                                                                  len);\n     implementation.to_well_formed_utf16be(output.data(), len, output.data());\n     for (size_t j = 0; j < len; j++) {\n       if (utf16[j] != output[j]) {\n         ASSERT_EQUAL(output[j], replacement_be);\n+        ASSERT_EQUAL(utf8_length.error, simdutf::SURROGATE);\n       }\n     }\n     size_t utf8_length_check =\n         implementation.utf8_length_from_utf16be(output.data(), len);\n     ASSERT_TRUE(implementation.validate_utf16be(output.data(), len));\n-    ASSERT_EQUAL(utf8_length, utf8_length_check);\n+    ASSERT_EQUAL(utf8_length.count, utf8_length_check);\n   }\n }\n "
+      },
+      {
+        "sha": "fd7ebfe526dce35c28107b5f3050cc6cd332d3cf",
+        "filename": "tests/utf8_length_from_utf16_tests.cpp",
+        "status": "modified",
+        "additions": 51,
+        "deletions": 4,
+        "changes": 55,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Futf8_length_from_utf16_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/94fb52ea0219cb37092d8ae294b4702bacf5d8df/tests%2Futf8_length_from_utf16_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Futf8_length_from_utf16_tests.cpp?ref=94fb52ea0219cb37092d8ae294b4702bacf5d8df",
+        "patch": "@@ -24,10 +24,11 @@ TEST(utf16le_surrogate_pair) {\n \n     ASSERT_EQUAL(want, got);\n \n-    const size_t got_with_replacement =\n+    const simdutf::result got_with_replacement =\n         implementation.utf8_length_from_utf16le_with_replacement(\n             reinterpret_cast<const char16_t *>(input.data()), input.size() / 2);\n-    ASSERT_EQUAL(want, got_with_replacement);\n+    ASSERT_EQUAL(want, got_with_replacement.count);\n+    ASSERT_EQUAL(simdutf::SURROGATE, got_with_replacement.error);\n   }\n }\n \n@@ -49,11 +50,57 @@ TEST(utf16be_surrogate_pair) {\n \n     ASSERT_EQUAL(want, got);\n \n-    const size_t got_with_replacement =\n+    const simdutf::result got_with_replacement =\n         implementation.utf8_length_from_utf16be_with_replacement(\n             reinterpret_cast<const char16_t *>(input.data()), input.size() / 2);\n-    ASSERT_EQUAL(want, got_with_replacement);\n+    ASSERT_EQUAL(want, got_with_replacement.count);\n+    ASSERT_EQUAL(simdutf::SURROGATE, got_with_replacement.error);\n   }\n }\n \n+TEST(issue001) {\n+  // There are surrogates but they are well formed.\n+  std::vector<char16_t> input = {0x004e, 0x000e, 0xdbba, 0xdd90,\n+                                 0x030b, 0x0035, 0x004f, 0x0045};\n+#if SIMDUTF_IS_BIG_ENDIAN\n+  const size_t standard =\n+      implementation.utf8_length_from_utf16be(input.data(), input.size());\n+  ASSERT_EQUAL(standard, 11);\n+  const auto result1 = implementation.utf8_length_from_utf16be_with_replacement(\n+      input.data(), input.size());\n+  ASSERT_EQUAL(result1.count, 11);\n+  ASSERT_EQUAL(simdutf::SURROGATE, result1.error);\n+#else\n+  const size_t standard =\n+      implementation.utf8_length_from_utf16le(input.data(), input.size());\n+  ASSERT_EQUAL(standard, 11);\n+  const auto result2 = implementation.utf8_length_from_utf16le_with_replacement(\n+      input.data(), input.size());\n+  ASSERT_EQUAL(result2.count, 11);\n+  ASSERT_EQUAL(simdutf::SURROGATE, result2.error);\n+#endif\n+}\n+\n+TEST(issue002) {\n+  // There are surrogates but they are well formed.\n+  std::vector<char16_t> input = {0xd950, 0xdd9a, 0x002d};\n+#if SIMDUTF_IS_BIG_ENDIAN\n+  const size_t standard =\n+      implementation.utf8_length_from_utf16be(input.data(), input.size());\n+  ASSERT_EQUAL(standard, 5);\n+  const auto result1 = implementation.utf8_length_from_utf16be_with_replacement(\n+      input.data(), input.size());\n+  ASSERT_EQUAL(result1.count, 5);\n+  ASSERT_EQUAL(simdutf::SURROGATE, result1.error);\n+#else\n+  const size_t standard =\n+      implementation.utf8_length_from_utf16le(input.data(), input.size());\n+  ASSERT_EQUAL(standard, 5);\n+  const auto result2 = implementation.utf8_length_from_utf16le_with_replacement(\n+      input.data(), input.size());\n+  ASSERT_EQUAL(result2.count, 5);\n+  ASSERT_EQUAL(simdutf::SURROGATE, result2.error);\n+#endif\n+}\n+\n TEST_MAIN"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v7.6.0...v7.7.0?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3813",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

@@ -1,0 +1,2972 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/oxigraph/oxigraph/compare/v0.4.11...v0.5.0",
+    "html_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.11...v0.5.0",
+    "permalink_url": "https://github.com/oxigraph/oxigraph/compare/oxigraph:3f27c43...oxigraph:cdd1a2e",
+    "diff_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.11...v0.5.0.diff",
+    "patch_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.11...v0.5.0.patch",
+    "base_commit": {
+      "sha": "3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "node_id": "C_kwDOB_fm8doAKDNmMjdjNDNkMjExMzIwYTNlMGYxNWU1ZDFmMjFjOGJkMzg2ZGNiMTk",
+      "commit": {
+        "author": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-21T18:57:00Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-21T19:59:31Z"
+        },
+        "message": "Releases v0.4.11",
+        "tree": {
+          "sha": "39697c5638e59fd0282bb7bb511cd3b99c6615e3",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/39697c5638e59fd0282bb7bb511cd3b99c6615e3"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/6c253b06fc778afec4f83503e6c7dc9f54d6d4be"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "node_id": "C_kwDOB_fm8doAKDNmMjdjNDNkMjExMzIwYTNlMGYxNWU1ZDFmMjFjOGJkMzg2ZGNiMTk",
+      "commit": {
+        "author": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-21T18:57:00Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-21T19:59:31Z"
+        },
+        "message": "Releases v0.4.11",
+        "tree": {
+          "sha": "39697c5638e59fd0282bb7bb511cd3b99c6615e3",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/39697c5638e59fd0282bb7bb511cd3b99c6615e3"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/6c253b06fc778afec4f83503e6c7dc9f54d6d4be"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 134,
+    "behind_by": 0,
+    "total_commits": 134,
+    "commits": [
+      {
+        "sha": "422c87959fde94080321ad007deffd74ebc30aef",
+        "node_id": "C_kwDOB_fm8doAKDQyMmM4Nzk1OWZkZTk0MDgwMzIxYWQwMDdkZWZmZDc0ZWJjMzBhZWY",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-16T06:52:43Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-16T09:46:43Z"
+          },
+          "message": "SPARQL update: use write-only transactions for LOAD and single DELETE/INSERT statements",
+          "tree": {
+            "sha": "9f29b57d3717110d1717e85f95df8907727c85b3",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/9f29b57d3717110d1717e85f95df8907727c85b3"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/422c87959fde94080321ad007deffd74ebc30aef",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/422c87959fde94080321ad007deffd74ebc30aef",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/422c87959fde94080321ad007deffd74ebc30aef",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/422c87959fde94080321ad007deffd74ebc30aef/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "dbb7161be30f98b341baac3b7176a71a57f4a01b",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/dbb7161be30f98b341baac3b7176a71a57f4a01b",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/dbb7161be30f98b341baac3b7176a71a57f4a01b"
+          }
+        ]
+      },
+      {
+        "sha": "a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+        "node_id": "C_kwDOB_fm8doAKGE4Y2I0Yjc4MTJhNDcxNWUxYzcyYjRkOWQ4YmU2OTNkOWQ0NzM2YWM",
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "date": "2025-08-18T15:26:05Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-18T16:35:47Z"
+          },
+          "message": "Bump actions/checkout from 4 to 5\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: '5'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "tree": {
+            "sha": "c48ee52f16d9224b8e12677a55d5870385625da0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/c48ee52f16d9224b8e12677a55d5870385625da0"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac/comments",
+        "author": {
+          "login": "dependabot[bot]",
+          "id": 49699333,
+          "node_id": "MDM6Qm90NDk2OTkzMzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+          "html_url": "https://github.com/apps/dependabot",
+          "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "422c87959fde94080321ad007deffd74ebc30aef",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/422c87959fde94080321ad007deffd74ebc30aef",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/422c87959fde94080321ad007deffd74ebc30aef"
+          }
+        ]
+      },
+      {
+        "sha": "da2b6a3bc043acba49e856366ef3585894327477",
+        "node_id": "C_kwDOB_fm8doAKGRhMmI2YTNiYzA0M2FjYmE0OWU4NTYzNjZlZjM1ODU4OTQzMjc0Nzc",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T09:06:26Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "feat: create QueryEvaluator::evaluate_expression function",
+          "tree": {
+            "sha": "9295d9df5cd668851c2caea8a53c91fe31dc6b72",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/9295d9df5cd668851c2caea8a53c91fe31dc6b72"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/da2b6a3bc043acba49e856366ef3585894327477",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da2b6a3bc043acba49e856366ef3585894327477",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/da2b6a3bc043acba49e856366ef3585894327477",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da2b6a3bc043acba49e856366ef3585894327477/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/a8cb4b7812a4715e1c72b4d9d8be693d9d4736ac"
+          }
+        ]
+      },
+      {
+        "sha": "70df19342c3718dd9d07d7da4a8ddce81807949a",
+        "node_id": "C_kwDOB_fm8doAKDcwZGYxOTM0MmMzNzE4ZGQ5ZDA3ZDdkYTRhOGRkY2U4MTgwNzk0OWE",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T12:31:28Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "chore: add tests for new evaluator functionality",
+          "tree": {
+            "sha": "7f9d2feba3da4577e2b5be8749b9478936d997b1",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/7f9d2feba3da4577e2b5be8749b9478936d997b1"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/70df19342c3718dd9d07d7da4a8ddce81807949a",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/70df19342c3718dd9d07d7da4a8ddce81807949a",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/70df19342c3718dd9d07d7da4a8ddce81807949a",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/70df19342c3718dd9d07d7da4a8ddce81807949a/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "da2b6a3bc043acba49e856366ef3585894327477",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da2b6a3bc043acba49e856366ef3585894327477",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/da2b6a3bc043acba49e856366ef3585894327477"
+          }
+        ]
+      },
+      {
+        "sha": "d5620fcf62c8c90094a7c36648d61e98400aed90",
+        "node_id": "C_kwDOB_fm8doAKGQ1NjIwZmNmNjJjOGM5MDA5NGE3YzM2NjQ4ZDYxZTk4NDAwYWVkOTA",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T12:50:35Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "chore: add tests with evaluate_effective_boolean_value_expression being called on non-boolean expressiosn",
+          "tree": {
+            "sha": "eeb121658e8645ecebfe37d54fff812ca53dceea",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/eeb121658e8645ecebfe37d54fff812ca53dceea"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/d5620fcf62c8c90094a7c36648d61e98400aed90",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/d5620fcf62c8c90094a7c36648d61e98400aed90",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/d5620fcf62c8c90094a7c36648d61e98400aed90",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/d5620fcf62c8c90094a7c36648d61e98400aed90/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "70df19342c3718dd9d07d7da4a8ddce81807949a",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/70df19342c3718dd9d07d7da4a8ddce81807949a",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/70df19342c3718dd9d07d7da4a8ddce81807949a"
+          }
+        ]
+      },
+      {
+        "sha": "15e61e31b86994d7e15f93e56005da7ff73f4c21",
+        "node_id": "C_kwDOB_fm8doAKDE1ZTYxZTMxYjg2OTk0ZDdlMTVmOTNlNTYwMDVkYTdmZjczZjRjMjE",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T13:28:20Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "chore: fix clippy warnings",
+          "tree": {
+            "sha": "679408d817ed379adbcce8501754c2b675c7cee8",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/679408d817ed379adbcce8501754c2b675c7cee8"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/15e61e31b86994d7e15f93e56005da7ff73f4c21",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/15e61e31b86994d7e15f93e56005da7ff73f4c21",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/15e61e31b86994d7e15f93e56005da7ff73f4c21",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/15e61e31b86994d7e15f93e56005da7ff73f4c21/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "d5620fcf62c8c90094a7c36648d61e98400aed90",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/d5620fcf62c8c90094a7c36648d61e98400aed90",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/d5620fcf62c8c90094a7c36648d61e98400aed90"
+          }
+        ]
+      },
+      {
+        "sha": "a2513abaf469d9e31a15da2a9318065a1497499d",
+        "node_id": "C_kwDOB_fm8doAKGEyNTEzYWJhZjQ2OWQ5ZTMxYTE1ZGEyYTkzMTgwNjVhMTQ5NzQ5OWQ",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T13:38:39Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "chore: fix underscore error",
+          "tree": {
+            "sha": "4ffa80c2ad2d1d95b64cf676beaf1ee0698afae0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/4ffa80c2ad2d1d95b64cf676beaf1ee0698afae0"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/a2513abaf469d9e31a15da2a9318065a1497499d",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a2513abaf469d9e31a15da2a9318065a1497499d",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/a2513abaf469d9e31a15da2a9318065a1497499d",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a2513abaf469d9e31a15da2a9318065a1497499d/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "15e61e31b86994d7e15f93e56005da7ff73f4c21",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/15e61e31b86994d7e15f93e56005da7ff73f4c21",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/15e61e31b86994d7e15f93e56005da7ff73f4c21"
+          }
+        ]
+      },
+      {
+        "sha": "9db6e3f503096da3c07dc4953054a01f7f781bd5",
+        "node_id": "C_kwDOB_fm8doAKDlkYjZlM2Y1MDMwOTZkYTNjMDdkYzQ5NTMwNTRhMDFmN2Y3ODFiZDU",
+        "commit": {
+          "author": {
+            "name": "Jesse Wright",
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "date": "2025-08-21T20:50:56Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:17:52Z"
+          },
+          "message": "chore: use Term instead of &Term for expression substitutions",
+          "tree": {
+            "sha": "cadae383961ce42af287d26670afef1198926dba",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/cadae383961ce42af287d26670afef1198926dba"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/9db6e3f503096da3c07dc4953054a01f7f781bd5",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9db6e3f503096da3c07dc4953054a01f7f781bd5",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/9db6e3f503096da3c07dc4953054a01f7f781bd5",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9db6e3f503096da3c07dc4953054a01f7f781bd5/comments",
+        "author": {
+          "login": "jeswr",
+          "id": 63333554,
+          "node_id": "MDQ6VXNlcjYzMzMzNTU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63333554?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeswr",
+          "html_url": "https://github.com/jeswr",
+          "followers_url": "https://api.github.com/users/jeswr/followers",
+          "following_url": "https://api.github.com/users/jeswr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeswr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeswr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeswr/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeswr/orgs",
+          "repos_url": "https://api.github.com/users/jeswr/repos",
+          "events_url": "https://api.github.com/users/jeswr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeswr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a2513abaf469d9e31a15da2a9318065a1497499d",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a2513abaf469d9e31a15da2a9318065a1497499d",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/a2513abaf469d9e31a15da2a9318065a1497499d"
+          }
+        ]
+      },
+      {
+        "sha": "1be87dfcef25189e227e01c7bf6c3765c11452e2",
+        "node_id": "C_kwDOB_fm8doAKDFiZTg3ZGZjZWYyNTE4OWUyMjdlMDFjN2JmNmMzNzY1YzExNDUyZTI",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-15T15:18:42Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:18:32Z"
+          },
+          "message": "Run parser tests on Windows",
+          "tree": {
+            "sha": "5e10bc871db379a67bb329583cddfc8c70317fbf",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/5e10bc871db379a67bb329583cddfc8c70317fbf"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/1be87dfcef25189e227e01c7bf6c3765c11452e2",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1be87dfcef25189e227e01c7bf6c3765c11452e2",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/1be87dfcef25189e227e01c7bf6c3765c11452e2",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1be87dfcef25189e227e01c7bf6c3765c11452e2/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "9db6e3f503096da3c07dc4953054a01f7f781bd5",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9db6e3f503096da3c07dc4953054a01f7f781bd5",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/9db6e3f503096da3c07dc4953054a01f7f781bd5"
+          }
+        ]
+      },
+      {
+        "sha": "19c68658998684f946d8a1fce950794e2e28e08b",
+        "node_id": "C_kwDOB_fm8doAKDE5YzY4NjU4OTk4Njg0Zjk0NmQ4YTFmY2U5NTA3OTRlMmUyOGUwOGI",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-18T19:44:09Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T07:25:17Z"
+          },
+          "message": "Windows: Compile wheels for each python version",
+          "tree": {
+            "sha": "425508e60e34233c2b2a3500fb0d1eafd50a9110",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/425508e60e34233c2b2a3500fb0d1eafd50a9110"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/19c68658998684f946d8a1fce950794e2e28e08b",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/19c68658998684f946d8a1fce950794e2e28e08b",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/19c68658998684f946d8a1fce950794e2e28e08b",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/19c68658998684f946d8a1fce950794e2e28e08b/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "1be87dfcef25189e227e01c7bf6c3765c11452e2",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1be87dfcef25189e227e01c7bf6c3765c11452e2",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/1be87dfcef25189e227e01c7bf6c3765c11452e2"
+          }
+        ]
+      },
+      {
+        "sha": "9e3b5968dd448b7b6f510b7532940c07de885ea0",
+        "node_id": "C_kwDOB_fm8doAKDllM2I1OTY4ZGQ0NDhiN2I2ZjUxMGI3NTMyOTQwYzA3ZGU4ODVlYTA",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-22T16:12:34Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T07:25:25Z"
+          },
+          "message": "SPARQL syntax: error when blank nodes are shared in INSERT DATA",
+          "tree": {
+            "sha": "57b7e31193c035dd1d8bad31e6ea92a552fe91f2",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/57b7e31193c035dd1d8bad31e6ea92a552fe91f2"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/9e3b5968dd448b7b6f510b7532940c07de885ea0",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9e3b5968dd448b7b6f510b7532940c07de885ea0",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/9e3b5968dd448b7b6f510b7532940c07de885ea0",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9e3b5968dd448b7b6f510b7532940c07de885ea0/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "19c68658998684f946d8a1fce950794e2e28e08b",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/19c68658998684f946d8a1fce950794e2e28e08b",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/19c68658998684f946d8a1fce950794e2e28e08b"
+          }
+        ]
+      },
+      {
+        "sha": "e19c37007546130b4830bcc6ed325fb83eb15f2a",
+        "node_id": "C_kwDOB_fm8doAKGUxOWMzNzAwNzU0NjEzMGI0ODMwYmNjNmVkMzI1ZmI4M2ViMTVmMmE",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T07:27:27Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T10:37:14Z"
+          },
+          "message": "Build wheels for Python 3.14",
+          "tree": {
+            "sha": "d2844a422fa7111c8088fe5727ca8e487b293fc3",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/d2844a422fa7111c8088fe5727ca8e487b293fc3"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/e19c37007546130b4830bcc6ed325fb83eb15f2a",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/e19c37007546130b4830bcc6ed325fb83eb15f2a",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/e19c37007546130b4830bcc6ed325fb83eb15f2a",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/e19c37007546130b4830bcc6ed325fb83eb15f2a/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "9e3b5968dd448b7b6f510b7532940c07de885ea0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/9e3b5968dd448b7b6f510b7532940c07de885ea0",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/9e3b5968dd448b7b6f510b7532940c07de885ea0"
+          }
+        ]
+      },
+      {
+        "sha": "0ed116fa37910019ded50364aac3a96e570176b0",
+        "node_id": "C_kwDOB_fm8doAKDBlZDExNmZhMzc5MTAwMTlkZWQ1MDM2NGFhYzNhOTZlNTcwMTc2YjA",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-16T10:01:50Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T10:37:26Z"
+          },
+          "message": "Stronger Transaction lifetimes\n\nAdds a lifetime to QuadIter and GraphNameIter\n\nSimplifies RocksDB implementation",
+          "tree": {
+            "sha": "81480979365501cbfec8cc4abb1e54b9632299a6",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/81480979365501cbfec8cc4abb1e54b9632299a6"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/0ed116fa37910019ded50364aac3a96e570176b0",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0ed116fa37910019ded50364aac3a96e570176b0",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/0ed116fa37910019ded50364aac3a96e570176b0",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0ed116fa37910019ded50364aac3a96e570176b0/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "e19c37007546130b4830bcc6ed325fb83eb15f2a",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/e19c37007546130b4830bcc6ed325fb83eb15f2a",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/e19c37007546130b4830bcc6ed325fb83eb15f2a"
+          }
+        ]
+      },
+      {
+        "sha": "0cbadeb5152551d263340700a622e507c1f8ae5a",
+        "node_id": "C_kwDOB_fm8doAKDBjYmFkZWI1MTUyNTUxZDI2MzM0MDcwMGE2MjJlNTA3YzFmOGFlNWE",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T16:09:51Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-23T18:51:47Z"
+          },
+          "message": "Releases v0.5.0-beta.4",
+          "tree": {
+            "sha": "c811bf08172ba3a48a7d43b9900a34c8f8ef9491",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/c811bf08172ba3a48a7d43b9900a34c8f8ef9491"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/0cbadeb5152551d263340700a622e507c1f8ae5a",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0cbadeb5152551d263340700a622e507c1f8ae5a",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/0cbadeb5152551d263340700a622e507c1f8ae5a",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0cbadeb5152551d263340700a622e507c1f8ae5a/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0ed116fa37910019ded50364aac3a96e570176b0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0ed116fa37910019ded50364aac3a96e570176b0",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/0ed116fa37910019ded50364aac3a96e570176b0"
+          }
+        ]
+      },
+      {
+        "sha": "87d84ecc292854bd816c98e75f35ffda23b05608",
+        "node_id": "C_kwDOB_fm8doAKDg3ZDg0ZWNjMjkyODU0YmQ4MTZjOThlNzVmMzVmZmRhMjNiMDU2MDg",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-24T13:31:45Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-26T19:47:32Z"
+          },
+          "message": "JSON-LD: fixing aliased @type lookup\n\nAliasing was not taken into account",
+          "tree": {
+            "sha": "89f9f25026fa5ec422fa14e779c7a4401a7928c9",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/89f9f25026fa5ec422fa14e779c7a4401a7928c9"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/87d84ecc292854bd816c98e75f35ffda23b05608",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/87d84ecc292854bd816c98e75f35ffda23b05608",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/87d84ecc292854bd816c98e75f35ffda23b05608",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/87d84ecc292854bd816c98e75f35ffda23b05608/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0cbadeb5152551d263340700a622e507c1f8ae5a",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/0cbadeb5152551d263340700a622e507c1f8ae5a",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/0cbadeb5152551d263340700a622e507c1f8ae5a"
+          }
+        ]
+      },
+      {
+        "sha": "34076d2d467a05cd31a00f89c35cdec775967ad4",
+        "node_id": "C_kwDOB_fm8doAKDM0MDc2ZDJkNDY3YTA1Y2QzMWEwMGY4OWMzNWNkZWM3NzU5NjdhZDQ",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-24T12:57:29Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-26T19:47:38Z"
+          },
+          "message": "SPARQL: adds a CancellationToken to cancel processing gracefully\n\nIt's a global boolean that allows to cancel a request. It is currently read on all RocksDB operations, it might mean some stalling on e.g. sorts or slow SERVICE calls.\n\nAdds an option to the HTTP server to use the token for timeouts",
+          "tree": {
+            "sha": "7d1d0329cd6ac7c0fac24e20654efdc5d506ecb2",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/7d1d0329cd6ac7c0fac24e20654efdc5d506ecb2"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/34076d2d467a05cd31a00f89c35cdec775967ad4",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/34076d2d467a05cd31a00f89c35cdec775967ad4",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/34076d2d467a05cd31a00f89c35cdec775967ad4",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/34076d2d467a05cd31a00f89c35cdec775967ad4/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "87d84ecc292854bd816c98e75f35ffda23b05608",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/87d84ecc292854bd816c98e75f35ffda23b05608",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/87d84ecc292854bd816c98e75f35ffda23b05608"
+          }
+        ]
+      },
+      {
+        "sha": "f6adacf745201efc5d3f758f76216ef4f7638026",
+        "node_id": "C_kwDOB_fm8doAKGY2YWRhY2Y3NDUyMDFlZmM1ZDNmNzU4Zjc2MjE2ZWY0Zjc2MzgwMjY",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-27T16:41:57Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-28T19:00:01Z"
+          },
+          "message": "Migrate from text-diff to dissimilar",
+          "tree": {
+            "sha": "edd36327c84211751b38a04d4dff8d66ee911c4d",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/edd36327c84211751b38a04d4dff8d66ee911c4d"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f6adacf745201efc5d3f758f76216ef4f7638026",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f6adacf745201efc5d3f758f76216ef4f7638026",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/f6adacf745201efc5d3f758f76216ef4f7638026",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f6adacf745201efc5d3f758f76216ef4f7638026/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "34076d2d467a05cd31a00f89c35cdec775967ad4",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/34076d2d467a05cd31a00f89c35cdec775967ad4",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/34076d2d467a05cd31a00f89c35cdec775967ad4"
+          }
+        ]
+      },
+      {
+        "sha": "735d0f3110453f7856328d730388ce52dc6f6409",
+        "node_id": "C_kwDOB_fm8doAKDczNWQwZjMxMTA0NTNmNzg1NjMyOGQ3MzAzODhjZTUyZGM2ZjY0MDk",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-30T15:06:29Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-08-30T18:07:50Z"
+          },
+          "message": "Bump to Py03 0.26",
+          "tree": {
+            "sha": "5e30944b3e11ba3f343c904ee38cc75adaed4cc8",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/5e30944b3e11ba3f343c904ee38cc75adaed4cc8"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/735d0f3110453f7856328d730388ce52dc6f6409",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/735d0f3110453f7856328d730388ce52dc6f6409",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/735d0f3110453f7856328d730388ce52dc6f6409",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/735d0f3110453f7856328d730388ce52dc6f6409/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "f6adacf745201efc5d3f758f76216ef4f7638026",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f6adacf745201efc5d3f758f76216ef4f7638026",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/f6adacf745201efc5d3f758f76216ef4f7638026"
+          }
+        ]
+      },
+      {
+        "sha": "c83552774319d5c694c9d97f20a026781e19ece3",
+        "node_id": "C_kwDOB_fm8doAKGM4MzU1Mjc3NDMxOWQ1YzY5NGM5ZDk3ZjIwYTAyNjc4MWUxOWVjZTM",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-01T19:53:53Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T15:44:02Z"
+          },
+          "message": "BulkLoader: adds parallel file parsing and explicit commit method to save loaded content",
+          "tree": {
+            "sha": "a77c64c4fbc1d054c748581fadcd5e8030daf6a8",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/a77c64c4fbc1d054c748581fadcd5e8030daf6a8"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/c83552774319d5c694c9d97f20a026781e19ece3",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c83552774319d5c694c9d97f20a026781e19ece3",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/c83552774319d5c694c9d97f20a026781e19ece3",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c83552774319d5c694c9d97f20a026781e19ece3/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "735d0f3110453f7856328d730388ce52dc6f6409",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/735d0f3110453f7856328d730388ce52dc6f6409",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/735d0f3110453f7856328d730388ce52dc6f6409"
+          }
+        ]
+      },
+      {
+        "sha": "8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+        "node_id": "C_kwDOB_fm8doAKDg2NDlhOTZmMzZmNzAxYzZkNWUzYmIzNjc4MWU0MGZiNWY2N2YxMDY",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-02T18:46:30Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T15:44:02Z"
+          },
+          "message": "Make BulkLoader methods mutable\n\nSimplify internal codebase",
+          "tree": {
+            "sha": "d74bd3e1247b957ab3e461a7b854a7b80bf79f27",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/d74bd3e1247b957ab3e461a7b854a7b80bf79f27"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/8649a96f36f701c6d5e3bb36781e40fb5f67f106/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "c83552774319d5c694c9d97f20a026781e19ece3",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c83552774319d5c694c9d97f20a026781e19ece3",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/c83552774319d5c694c9d97f20a026781e19ece3"
+          }
+        ]
+      },
+      {
+        "sha": "44ba1612c8575be82ee3279b127596ce0ec4be52",
+        "node_id": "C_kwDOB_fm8doAKDQ0YmExNjEyYzg1NzViZTgyZWUzMjc5YjEyNzU5NmNlMGVjNGJlNTI",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-06-01T15:41:46Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T19:25:41Z"
+          },
+          "message": "Upgrade rand to 0.9 and getrandom to 0.3",
+          "tree": {
+            "sha": "784a03cb295a82ea20ff5ab480979bdeaf909a39",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/784a03cb295a82ea20ff5ab480979bdeaf909a39"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/44ba1612c8575be82ee3279b127596ce0ec4be52",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/44ba1612c8575be82ee3279b127596ce0ec4be52",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/44ba1612c8575be82ee3279b127596ce0ec4be52",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/44ba1612c8575be82ee3279b127596ce0ec4be52/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/8649a96f36f701c6d5e3bb36781e40fb5f67f106",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/8649a96f36f701c6d5e3bb36781e40fb5f67f106"
+          }
+        ]
+      },
+      {
+        "sha": "73400fbd4852ea83d18c9436ad9712df19012b4f",
+        "node_id": "C_kwDOB_fm8doAKDczNDAwZmJkNDg1MmVhODNkMThjOTQzNmFkOTcxMmRmMTkwMTJiNGY",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T16:24:34Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T19:25:48Z"
+          },
+          "message": "Drop homebrew publishing",
+          "tree": {
+            "sha": "c4bf7dce9f11394405e4a4cd304127da470f9b6d",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/c4bf7dce9f11394405e4a4cd304127da470f9b6d"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/73400fbd4852ea83d18c9436ad9712df19012b4f",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/73400fbd4852ea83d18c9436ad9712df19012b4f",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/73400fbd4852ea83d18c9436ad9712df19012b4f",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/73400fbd4852ea83d18c9436ad9712df19012b4f/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "44ba1612c8575be82ee3279b127596ce0ec4be52",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/44ba1612c8575be82ee3279b127596ce0ec4be52",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/44ba1612c8575be82ee3279b127596ce0ec4be52"
+          }
+        ]
+      },
+      {
+        "sha": "b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+        "node_id": "C_kwDOB_fm8doAKGI2NzE0MWY5ZWM4YTE2OWU3YTgyNjNjMjNlOWY1MzA0NWYwNTE5Y2Y",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-03T19:27:13Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T14:31:53Z"
+          },
+          "message": " Introduce split_file_for_parallel_parsing for NTriples and NQuads and use it in Oxigraph",
+          "tree": {
+            "sha": "1707d35ed3cf36b856628dfc13951909a4728bd1",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/1707d35ed3cf36b856628dfc13951909a4728bd1"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b67141f9ec8a169e7a8263c23e9f53045f0519cf/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "73400fbd4852ea83d18c9436ad9712df19012b4f",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/73400fbd4852ea83d18c9436ad9712df19012b4f",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/73400fbd4852ea83d18c9436ad9712df19012b4f"
+          }
+        ]
+      },
+      {
+        "sha": "11138a4e7309d800f099b8d6de34bfa34a715557",
+        "node_id": "C_kwDOB_fm8doAKDExMTM4YTRlNzMwOWQ4MDBmMDk5YjhkNmRlMzRiZmEzNGE3MTU1NTc",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T14:26:38Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T14:32:01Z"
+          },
+          "message": "Run linters with Rust 1.89",
+          "tree": {
+            "sha": "7ed6edd762ccf5a5690611d8c2779b7ebc47eeb9",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/7ed6edd762ccf5a5690611d8c2779b7ebc47eeb9"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/11138a4e7309d800f099b8d6de34bfa34a715557",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/11138a4e7309d800f099b8d6de34bfa34a715557",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/11138a4e7309d800f099b8d6de34bfa34a715557",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/11138a4e7309d800f099b8d6de34bfa34a715557/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b67141f9ec8a169e7a8263c23e9f53045f0519cf",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/b67141f9ec8a169e7a8263c23e9f53045f0519cf"
+          }
+        ]
+      },
+      {
+        "sha": "b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+        "node_id": "C_kwDOB_fm8doAKGI0ZTBmYjUzODJhMjc5OWM4MDM2NGZiM2I4NWIxMTc2N2M0ZTg2NmU",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T14:23:57Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T14:32:09Z"
+          },
+          "message": "JS: fixes release build",
+          "tree": {
+            "sha": "c9becab4e68ae625164119766e0ea7ab40d3866f",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/c9becab4e68ae625164119766e0ea7ab40d3866f"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b4e0fb5382a2799c80364fb3b85b11767c4e866e/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "11138a4e7309d800f099b8d6de34bfa34a715557",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/11138a4e7309d800f099b8d6de34bfa34a715557",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/11138a4e7309d800f099b8d6de34bfa34a715557"
+          }
+        ]
+      },
+      {
+        "sha": "da8506355693267d8e843bdc213b2c01b5474c10",
+        "node_id": "C_kwDOB_fm8doAKGRhODUwNjM1NTY5MzI2N2Q4ZTg0M2JkYzIxM2IyYzAxYjU0NzRjMTA",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-06T15:32:07Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-07T06:31:06Z"
+          },
+          "message": "Fixes parallel file parsing and bulk loader concurrency",
+          "tree": {
+            "sha": "72ad3566fc59515801e511e57c280826c39a64fd",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/72ad3566fc59515801e511e57c280826c39a64fd"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/da8506355693267d8e843bdc213b2c01b5474c10",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da8506355693267d8e843bdc213b2c01b5474c10",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/da8506355693267d8e843bdc213b2c01b5474c10",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da8506355693267d8e843bdc213b2c01b5474c10/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b4e0fb5382a2799c80364fb3b85b11767c4e866e",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/b4e0fb5382a2799c80364fb3b85b11767c4e866e"
+          }
+        ]
+      },
+      {
+        "sha": "f30e16b5bd283378e3551535cf515aab325965c1",
+        "node_id": "C_kwDOB_fm8doAKGYzMGUxNmI1YmQyODMzNzhlMzU1MTUzNWNmNTE1YWFiMzI1OTY1YzE",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-05T19:24:49Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-07T19:11:32Z"
+          },
+          "message": "Releases v0.5.0-beta.5",
+          "tree": {
+            "sha": "ac0e8c91220ed1f3901ea8f89565256b46515a6c",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/ac0e8c91220ed1f3901ea8f89565256b46515a6c"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f30e16b5bd283378e3551535cf515aab325965c1",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f30e16b5bd283378e3551535cf515aab325965c1",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/f30e16b5bd283378e3551535cf515aab325965c1",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f30e16b5bd283378e3551535cf515aab325965c1/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "da8506355693267d8e843bdc213b2c01b5474c10",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/da8506355693267d8e843bdc213b2c01b5474c10",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/da8506355693267d8e843bdc213b2c01b5474c10"
+          }
+        ]
+      },
+      {
+        "sha": "65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+        "node_id": "C_kwDOB_fm8doAKDY1YTNjZDkzZTVmMjNiOGRmOGIzZjk3MzQ1Y2U2OGMwZjk4NDA5ZjI",
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "date": "2025-09-08T10:27:50Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-08T18:50:10Z"
+          },
+          "message": "Bump actions/setup-node from 4 to 5\n\nBumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 5.\n- [Release notes](https://github.com/actions/setup-node/releases)\n- [Commits](https://github.com/actions/setup-node/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-node\n  dependency-version: '5'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "tree": {
+            "sha": "f7708094a390ae1b9c14f14a4ddd8f4887e04a09",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/f7708094a390ae1b9c14f14a4ddd8f4887e04a09"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2/comments",
+        "author": {
+          "login": "dependabot[bot]",
+          "id": 49699333,
+          "node_id": "MDM6Qm90NDk2OTkzMzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+          "html_url": "https://github.com/apps/dependabot",
+          "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "f30e16b5bd283378e3551535cf515aab325965c1",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f30e16b5bd283378e3551535cf515aab325965c1",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/f30e16b5bd283378e3551535cf515aab325965c1"
+          }
+        ]
+      },
+      {
+        "sha": "a5dab52523462a6fafb993d65ad7980349ecab9c",
+        "node_id": "C_kwDOB_fm8doAKGE1ZGFiNTI1MjM0NjJhNmZhZmI5OTNkNjVhZDc5ODAzNDllY2FiOWM",
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "date": "2025-09-08T18:50:56Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-09-08T18:50:56Z"
+          },
+          "message": "Bump CodSpeedHQ/action from 3 to 4 (#1429)",
+          "tree": {
+            "sha": "62b124058ec01f616cba365fd41de07f4b4d3b94",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/62b124058ec01f616cba365fd41de07f4b4d3b94"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/a5dab52523462a6fafb993d65ad7980349ecab9c",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJovyWQCRC1aQ7uu5UhlAAASM8QAKGZNxxixXuYNEo4J2rAIHn0\n1QHfLxr3olkLiQSmR6PFsoxF89Yewl5NcfV5aUfI14HOSFK3BJAGpRCgJXmg5Bxz\n/ulmFT7fN094gSoJ2LoUn6/oF/vMirMu+h/T6FGCNxuONbwzJ0x1XaMOIn0m/771\nRbiaiUW+apIm/j3LPB/nWRxjzBMf4ea9DpRGB46P9AgoxWK/cbgpCCAMTpTAIJh3\nhocXBLNAlcGOUEdavXPkvOYCh8yTbNXStZF6ue6dfHl9/OlkoHIpX/Oaf8ct5eg2\nYv4k+l7uaxufFHqhRLyhSyzAj+Aip+icWV0q/UrR+Cru7S+bcTssdPjp98jISOm5\nMRJMno1A6EW95ud0gqb/lT211SqxFLrya1DSs+chZkDvIk5f5Sb+I2mxdQSLDPUZ\nyqUarslzEgrFch5jER3bGBTvXJaWqgGbOdm+Xluvr4GP8GpwIKcIofRc7jJtk+he\nZGXzY38hveyecCoHcIYUFd+MoQOfMm3eYeExRgU8HUl1sdtgpH3OsdLggp5sPLAx\ntPR4rrYekVHWThVbXFmcHA35HSxgCnNRXV0gbZGRiKjoKQd6djn9luk6JwBZ336Y\ngTdHbpm1nrqvwhYyeOQo8fZT0aKbcuABsqcsAzUxtQJfd0UFXltXOvMGeq3glVkc\nl7H9XgpDX+KkYZ2Hi9oG\n=XpII\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 62b124058ec01f616cba365fd41de07f4b4d3b94\nparent 65a3cd93e5f23b8df8b3f97345ce68c0f98409f2\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1757357456 +0200\ncommitter GitHub <noreply@github.com> 1757357456 +0200\n\nBump CodSpeedHQ/action from 3 to 4 (#1429)\n\n",
+            "verified_at": "2025-09-08T18:50:56Z"
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a5dab52523462a6fafb993d65ad7980349ecab9c",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/a5dab52523462a6fafb993d65ad7980349ecab9c",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a5dab52523462a6fafb993d65ad7980349ecab9c/comments",
+        "author": {
+          "login": "dependabot[bot]",
+          "id": 49699333,
+          "node_id": "MDM6Qm90NDk2OTkzMzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+          "html_url": "https://github.com/apps/dependabot",
+          "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/65a3cd93e5f23b8df8b3f97345ce68c0f98409f2"
+          }
+        ]
+      },
+      {
+        "sha": "f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+        "node_id": "C_kwDOB_fm8doAKGYwNWM5ZGNjYjdlZDk3MjVkNTgzZTk3NmQwZDRmOTg4MTIwNjhhYWE",
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "date": "2025-09-08T10:26:39Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-08T18:51:39Z"
+          },
+          "message": "Bump actions/attest-build-provenance from 2 to 3\n\nBumps [actions/attest-build-provenance](https://github.com/actions/attest-build-provenance) from 2 to 3.\n- [Release notes](https://github.com/actions/attest-build-provenance/releases)\n- [Changelog](https://github.com/actions/attest-build-provenance/blob/main/RELEASE.md)\n- [Commits](https://github.com/actions/attest-build-provenance/compare/v2...v3)\n\n---\nupdated-dependencies:\n- dependency-name: actions/attest-build-provenance\n  dependency-version: '3'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "tree": {
+            "sha": "85a90d74434f80538ad9f9dc5a6594ac6f6fdfaa",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/85a90d74434f80538ad9f9dc5a6594ac6f6fdfaa"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f05c9dccb7ed9725d583e976d0d4f98812068aaa/comments",
+        "author": {
+          "login": "dependabot[bot]",
+          "id": 49699333,
+          "node_id": "MDM6Qm90NDk2OTkzMzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+          "html_url": "https://github.com/apps/dependabot",
+          "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a5dab52523462a6fafb993d65ad7980349ecab9c",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/a5dab52523462a6fafb993d65ad7980349ecab9c",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/a5dab52523462a6fafb993d65ad7980349ecab9c"
+          }
+        ]
+      },
+      {
+        "sha": "db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+        "node_id": "C_kwDOB_fm8doAKGRiOGZjNDhhOGI3OGVhODFmMzZjYjhiMWUxMjczNjEyOWM3MWU0M2U",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-07T19:04:49Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-09T17:22:30Z"
+          },
+          "message": "SPARQL: Support double negation (!!)",
+          "tree": {
+            "sha": "9ac99b9aeae17bb8b87d3745e013aeb634381b40",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/9ac99b9aeae17bb8b87d3745e013aeb634381b40"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/db8fc48a8b78ea81f36cb8b1e12736129c71e43e/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f05c9dccb7ed9725d583e976d0d4f98812068aaa",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/f05c9dccb7ed9725d583e976d0d4f98812068aaa"
+          }
+        ]
+      },
+      {
+        "sha": "2c6617bd34a3f654b3b4736d634241f797f52b80",
+        "node_id": "C_kwDOB_fm8doAKDJjNjYxN2JkMzRhM2Y2NTRiM2I0NzM2ZDYzNDI0MWY3OTdmNTJiODA",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-08T19:39:12Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-09T19:05:52Z"
+          },
+          "message": "SPARQL: Symmetric RDF triple terms changes",
+          "tree": {
+            "sha": "d779ec38aad3dcda2240eb40f6b70df1f638da91",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/d779ec38aad3dcda2240eb40f6b70df1f638da91"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/2c6617bd34a3f654b3b4736d634241f797f52b80",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/2c6617bd34a3f654b3b4736d634241f797f52b80",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/2c6617bd34a3f654b3b4736d634241f797f52b80",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/2c6617bd34a3f654b3b4736d634241f797f52b80/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/db8fc48a8b78ea81f36cb8b1e12736129c71e43e",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/db8fc48a8b78ea81f36cb8b1e12736129c71e43e"
+          }
+        ]
+      },
+      {
+        "sha": "01467da439cfe7e15c84193299fbd77f750a2382",
+        "node_id": "C_kwDOB_fm8doAKDAxNDY3ZGE0MzljZmU3ZTE1Yzg0MTkzMjk5ZmJkNzdmNzUwYTIzODI",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-08T18:53:34Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-09T19:06:04Z"
+          },
+          "message": "Remove spargeo dependency on oxigraph",
+          "tree": {
+            "sha": "75ae9c722c52e696649d6b36483750198088cc09",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/75ae9c722c52e696649d6b36483750198088cc09"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/01467da439cfe7e15c84193299fbd77f750a2382",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/01467da439cfe7e15c84193299fbd77f750a2382",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/01467da439cfe7e15c84193299fbd77f750a2382",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/01467da439cfe7e15c84193299fbd77f750a2382/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "2c6617bd34a3f654b3b4736d634241f797f52b80",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/2c6617bd34a3f654b3b4736d634241f797f52b80",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/2c6617bd34a3f654b3b4736d634241f797f52b80"
+          }
+        ]
+      },
+      {
+        "sha": "cdd1a2eb7b0812b959675e63762edf1e7b109d2d",
+        "node_id": "C_kwDOB_fm8doAKGNkZDFhMmViN2IwODEyYjk1OTY3NWU2Mzc2MmVkZjFlN2IxMDlkMmQ",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-11T19:37:32Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-09-13T15:23:24Z"
+          },
+          "message": "Releases v0.5.0",
+          "tree": {
+            "sha": "0dc7fb76226c3c87d673abd2b088387ac7294b85",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/0dc7fb76226c3c87d673abd2b088387ac7294b85"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/cdd1a2eb7b0812b959675e63762edf1e7b109d2d",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/cdd1a2eb7b0812b959675e63762edf1e7b109d2d",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/cdd1a2eb7b0812b959675e63762edf1e7b109d2d",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/cdd1a2eb7b0812b959675e63762edf1e7b109d2d/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "01467da439cfe7e15c84193299fbd77f750a2382",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/01467da439cfe7e15c84193299fbd77f750a2382",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/01467da439cfe7e15c84193299fbd77f750a2382"
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/133687025/compare/v0.4.11...v0.5.0?per_page=100&page=2>; rel=\"last\", <https://api.github.com/repositories/133687025/compare/v0.4.11...v0.5.0?per_page=100&page=1>; rel=\"first\", <https://api.github.com/repositories/133687025/compare/v0.4.11...v0.5.0?per_page=100&page=1>; rel=\"prev\"",
+    "X-RateLimit-Remaining": "3490",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

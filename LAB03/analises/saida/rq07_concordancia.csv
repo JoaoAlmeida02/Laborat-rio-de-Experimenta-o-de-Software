@@ -1,0 +1,4 @@
+par,n,mudaram,permaneceram,pct_mudanca,pct_concordancia,kappa_linear,interpretacao_kappa
+C1 x C2,300,94,206,31.33,68.67,0.5279,Concordância moderada (moderate)
+C1 x C3,300,61,239,20.33,79.67,0.7252,Concordância substancial (substantial)
+C2 x C3,300,65,235,21.67,78.33,0.7006,Concordância substancial (substantial)

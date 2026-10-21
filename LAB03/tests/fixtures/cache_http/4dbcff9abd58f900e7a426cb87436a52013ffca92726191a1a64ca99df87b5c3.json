@@ -1,0 +1,814 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/oxigraph/oxigraph/compare/v0.4.10...v0.4.11",
+    "html_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.10...v0.4.11",
+    "permalink_url": "https://github.com/oxigraph/oxigraph/compare/oxigraph:94ac478...oxigraph:3f27c43",
+    "diff_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.10...v0.4.11.diff",
+    "patch_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.10...v0.4.11.patch",
+    "base_commit": {
+      "sha": "94ac47810780122ce927e0f36fa5747393b57472",
+      "node_id": "C_kwDOB_fm8doAKDk0YWM0NzgxMDc4MDEyMmNlOTI3ZTBmMzZmYTU3NDczOTNiNTc0NzI",
+      "commit": {
+        "author": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-15T19:02:26Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-15T19:35:46Z"
+        },
+        "message": "Releases v0.4.10",
+        "tree": {
+          "sha": "61c8cbcfe437fe8b3ff55e682dd564a49e19868f",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/61c8cbcfe437fe8b3ff55e682dd564a49e19868f"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/94ac47810780122ce927e0f36fa5747393b57472",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/94ac47810780122ce927e0f36fa5747393b57472",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/94ac47810780122ce927e0f36fa5747393b57472",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/94ac47810780122ce927e0f36fa5747393b57472/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "94ac47810780122ce927e0f36fa5747393b57472",
+      "node_id": "C_kwDOB_fm8doAKDk0YWM0NzgxMDc4MDEyMmNlOTI3ZTBmMzZmYTU3NDczOTNiNTc0NzI",
+      "commit": {
+        "author": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-15T19:02:26Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-05-15T19:35:46Z"
+        },
+        "message": "Releases v0.4.10",
+        "tree": {
+          "sha": "61c8cbcfe437fe8b3ff55e682dd564a49e19868f",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/61c8cbcfe437fe8b3ff55e682dd564a49e19868f"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/94ac47810780122ce927e0f36fa5747393b57472",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/94ac47810780122ce927e0f36fa5747393b57472",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/94ac47810780122ce927e0f36fa5747393b57472",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/94ac47810780122ce927e0f36fa5747393b57472/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/64e6b5efa57f1d5d2f1eaae64e60a004fc377d0d"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 4,
+    "behind_by": 0,
+    "total_commits": 4,
+    "commits": [
+      {
+        "sha": "124718578cfc20e27e271fc9a662d0845f13efc4",
+        "node_id": "C_kwDOB_fm8doAKDEyNDcxODU3OGNmYzIwZTI3ZTI3MWZjOWE2NjJkMDg0NWYxM2VmYzQ",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-15T23:21:17Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-15T23:21:17Z"
+          },
+          "message": "Retrigger Wheel build",
+          "tree": {
+            "sha": "6d15d0d7f2cc9c443e613ff5ae384e323da3ac2b",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/6d15d0d7f2cc9c443e613ff5ae384e323da3ac2b"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/124718578cfc20e27e271fc9a662d0845f13efc4",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/124718578cfc20e27e271fc9a662d0845f13efc4",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/124718578cfc20e27e271fc9a662d0845f13efc4",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/124718578cfc20e27e271fc9a662d0845f13efc4/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "94ac47810780122ce927e0f36fa5747393b57472",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/94ac47810780122ce927e0f36fa5747393b57472",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/94ac47810780122ce927e0f36fa5747393b57472"
+          }
+        ]
+      },
+      {
+        "sha": "30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+        "node_id": "C_kwDOB_fm8doAKDMwZTRhMDliNmVmNzNkMDJkMDQ3ODY2NzlkMTdjOWM0YjI1YmE0MDE",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-17T07:52:59Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-19T19:34:30Z"
+          },
+          "message": "CI: improve builds\n\n- Reuse oxigraph cli wheels for plain binaries\n- Validate wheels\n- Factorize code\n- Nits",
+          "tree": {
+            "sha": "11c27a6c8131fc8e25a3f1efe953d6fdbee8ee17",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/11c27a6c8131fc8e25a3f1efe953d6fdbee8ee17"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/30e4a09b6ef73d02d04786679d17c9c4b25ba401/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "124718578cfc20e27e271fc9a662d0845f13efc4",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/124718578cfc20e27e271fc9a662d0845f13efc4",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/124718578cfc20e27e271fc9a662d0845f13efc4"
+          }
+        ]
+      },
+      {
+        "sha": "6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+        "node_id": "C_kwDOB_fm8doAKDZjMjUzYjA2ZmM3NzhhZmVjNGY4MzUwM2U2YzdkYzlmNTRkNmQ0YmU",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-21T16:51:42Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-21T18:51:57Z"
+          },
+          "message": "Upgrade to RocksDB 10.3.0",
+          "tree": {
+            "sha": "a44f42667f0636c307242c58e3e66913f328c993",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/a44f42667f0636c307242c58e3e66913f328c993"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/30e4a09b6ef73d02d04786679d17c9c4b25ba401",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/30e4a09b6ef73d02d04786679d17c9c4b25ba401"
+          }
+        ]
+      },
+      {
+        "sha": "3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "node_id": "C_kwDOB_fm8doAKDNmMjdjNDNkMjExMzIwYTNlMGYxNWU1ZDFmMjFjOGJkMzg2ZGNiMTk",
+        "commit": {
+          "author": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-21T18:57:00Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-05-21T19:59:31Z"
+          },
+          "message": "Releases v0.4.11",
+          "tree": {
+            "sha": "39697c5638e59fd0282bb7bb511cd3b99c6615e3",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/39697c5638e59fd0282bb7bb511cd3b99c6615e3"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6c253b06fc778afec4f83503e6c7dc9f54d6d4be",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/6c253b06fc778afec4f83503e6c7dc9f54d6d4be"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "8788a45291d44bb504cb5c0e87b305823df4b1a4",
+        "filename": ".github/workflows/artifacts.yml",
+        "status": "modified",
+        "additions": 148,
+        "deletions": 156,
+        "changes": 304,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/.github%2Fworkflows%2Fartifacts.yml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/.github%2Fworkflows%2Fartifacts.yml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/.github%2Fworkflows%2Fartifacts.yml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -5,6 +5,10 @@ on:\n     branches:\n       - main\n       - next\n+  pull_request:\n+    branches:\n+      - main\n+      - next\n   release:\n     types:\n       - published\n@@ -14,100 +18,6 @@ concurrency:\n   cancel-in-progress: true\n \n jobs:\n-  binary_linux:\n-    runs-on: ubuntu-22.04\n-    steps:\n-      - uses: actions/checkout@v4\n-        with:\n-          submodules: true\n-      - uses: ./.github/actions/setup-rust\n-        with:\n-          target: aarch64-unknown-linux-gnu\n-      - run: |\n-          sudo apt-get update && sudo apt-get install -y g++-aarch64-linux-gnu\n-          mkdir .cargo\n-          echo -e \"[target.aarch64-unknown-linux-gnu]\\nlinker = \\\"aarch64-linux-gnu-gcc\\\"\" >> .cargo/config.toml\n-      - run: cargo build --release --no-default-features --features rustls-native,geosparql\n-        working-directory: ./cli\n-      - run: cargo build --release --target aarch64-unknown-linux-gnu --no-default-features --features rustls-native,geosparql\n-        working-directory: ./cli\n-        env:\n-          BINDGEN_EXTRA_CLANG_ARGS: --sysroot /usr/aarch64-linux-gnu\n-      - uses: actions/upload-artifact@v4\n-        with:\n-          name: oxigraph_x86_64_linux_gnu\n-          path: target/release/oxigraph\n-      - uses: actions/upload-artifact@v4\n-        with:\n-          name: oxigraph_aarch64_linux_gnu\n-          path: target/aarch64-unknown-linux-gnu/release/oxigraph\n-      - run: mv target/release/oxigraph oxigraph_${{ github.event.release.tag_name }}_x86_64_linux_gnu\n-        if: github.event_name == 'release'\n-      - run: mv target/aarch64-unknown-linux-gnu/release/oxigraph oxigraph_${{ github.event.release.tag_name }}_aarch64_linux_gnu\n-        if: github.event_name == 'release'\n-      - uses: softprops/action-gh-release@v2\n-        with:\n-          files: |\n-            oxigraph_${{ github.event.release.tag_name }}_x86_64_linux_gnu\n-            oxigraph_${{ github.event.release.tag_name }}_aarch64_linux_gnu\n-        if: github.event_name == 'release'\n-\n-  binary_mac:\n-    runs-on: macos-latest\n-    env:\n-      DEVELOPER_DIR: '/Applications/Xcode.app/Contents/Developer'\n-      SDKROOT: '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'\n-      MACOSX_DEPLOYMENT_TARGET: '10.14'\n-    steps:\n-      - uses: actions/checkout@v4\n-        with:\n-          submodules: true\n-      - uses: ./.github/actions/setup-rust\n-        with:\n-          target: x86_64-apple-darwin\n-      - run: cargo build --release --target x86_64-apple-darwin\n-        working-directory: ./cli\n-      - run: cargo build --release --target aarch64-apple-darwin\n-        working-directory: ./cli\n-      - uses: actions/upload-artifact@v4\n-        with:\n-          name: oxigraph_x86_64_apple\n-          path: target/x86_64-apple-darwin/release/oxigraph\n-      - uses: actions/upload-artifact@v4\n-        with:\n-          name: oxigraph_aarch64_apple\n-          path: target/aarch64-apple-darwin/release/oxigraph\n-      - run: mv target/x86_64-apple-darwin/release/oxigraph oxigraph_${{ github.event.release.tag_name }}_x86_64_apple\n-        if: github.event_name == 'release'\n-      - run: mv target/aarch64-apple-darwin/release/oxigraph oxigraph_${{ github.event.release.tag_name }}_aarch64_apple\n-        if: github.event_name == 'release'\n-      - uses: softprops/action-gh-release@v2\n-        with:\n-          files: |\n-            oxigraph_${{ github.event.release.tag_name }}_x86_64_apple\n-            oxigraph_${{ github.event.release.tag_name }}_aarch64_apple\n-        if: github.event_name == 'release'\n-\n-  binary_windows:\n-    runs-on: windows-latest\n-    steps:\n-      - uses: actions/checkout@v4\n-        with:\n-          submodules: true\n-      - uses: ./.github/actions/setup-rust\n-      - run: cargo build --release\n-        working-directory: ./cli\n-      - uses: actions/upload-artifact@v4\n-        with:\n-          name: oxigraph_x86_64_windows_msvc\n-          path: target/release/oxigraph.exe\n-      - run: mv target/release/oxigraph.exe oxigraph_${{ github.event.release.tag_name }}_x86_64_windows_msvc.exe\n-        if: github.event_name == 'release'\n-      - uses: softprops/action-gh-release@v2\n-        with:\n-          files: oxigraph_${{ github.event.release.tag_name }}_x86_64_windows_msvc.exe\n-        if: github.event_name == 'release'\n-\n   python_sdist:\n     runs-on: ubuntu-latest\n     steps:\n@@ -129,81 +39,103 @@ jobs:\n         working-directory: ./python\n       - run: uvx maturin sdist\n         working-directory: ./cli\n-        if: github.event_name == 'release'\n       - uses: actions/upload-artifact@v4\n         with:\n           name: pyoxigraph_sdist\n-          path: target/wheels/*.tar.gz\n-\n-  wheel_linux_x86_64:\n-    runs-on: ubuntu-latest\n-    steps:\n-      - uses: actions/checkout@v4\n-        with:\n-          submodules: true\n-      - uses: ./.github/actions/setup-rust\n-      - run: sed 's/%arch%/x86_64/g' .github/workflows/manylinux_build.sh | sed 's/%for_each_version%/${{ github.event_name == 'release' || ''}}/g' > .github/workflows/manylinux_build_script.sh\n-      - run: docker run -v \"$(pwd)\":/workdir quay.io/pypa/manylinux2014_x86_64 /bin/bash /workdir/.github/workflows/manylinux_build_script.sh\n+          path: target/wheels/pyoxigraph-*.tar.gz\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_x86_64_linux_gnu\n-          path: target/wheels/*.whl\n+          name: oxigraph_pypi_sdist\n+          path: target/wheels/oxigraph-*.tar.gz\n+      - run: uvx twine check target/wheels/*\n \n-  wheel_linux_aarch64:\n-    runs-on: ubuntu-24.04-arm\n+  wheel_linux:\n+    strategy:\n+      matrix:\n+        include:\n+          - arch: x86_64\n+            runner: ubuntu-latest\n+          - arch: aarch64\n+            runner: ubuntu-24.04-arm\n+    continue-on-error: true\n+    runs-on: ${{ matrix.runner }}\n     steps:\n       - uses: actions/checkout@v4\n         with:\n           submodules: true\n       - uses: ./.github/actions/setup-rust\n-      - run: sed 's/%arch%/aarch64/g' .github/workflows/manylinux_build.sh | sed 's/%for_each_version%/${{ github.event_name == 'release' || '' }}/g' > .github/workflows/manylinux_build_script.sh\n-      - run: docker run -v \"$(pwd)\":/workdir quay.io/pypa/manylinux2014_aarch64 /bin/bash /workdir/.github/workflows/manylinux_build_script.sh\n+      - uses: astral-sh/setup-uv@v6\n+        with:\n+          python-version: \"3.13\"\n+      - run: sed 's/%arch%/${{ matrix.arch }}/g' .github/workflows/manylinux_build.sh | sed 's/%for_each_version%/${{ github.event_name == 'release' || ''}}/g' > .github/workflows/manylinux_build_script.sh\n+      - run: docker run -v \"$(pwd)\":/workdir quay.io/pypa/manylinux2014_${{ matrix.arch }} /bin/bash /workdir/.github/workflows/manylinux_build_script.sh\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_aarch64_linux_gnu\n-          path: target/wheels/*.whl\n-\n-  wheel_linux_musl_x86_64:\n-    runs-on: ubuntu-latest\n-    steps:\n-      - uses: actions/checkout@v4\n+          name: pyoxigraph_${{ matrix.arch }}_linux_gnu\n+          path: target/wheels/pyoxigraph-*.whl\n+      - uses: actions/upload-artifact@v4\n         with:\n-          submodules: true\n-      - uses: ./.github/actions/setup-rust\n-      - run: sed 's/%arch%/x86_64/g' .github/workflows/musllinux_build.sh | sed 's/%for_each_version%/${{ github.event_name == 'release' || '' }}/g' > .github/workflows/musllinux_build_script.sh\n-      - run: docker run -v \"$(pwd)\":/workdir --platform linux/x86_64 quay.io/pypa/musllinux_1_2_x86_64 /bin/bash /workdir/.github/workflows/musllinux_build_script.sh\n+          name: oxigraph_pypi_${{ matrix.arch }}_linux_gnu\n+          path: target/wheels/oxigraph-*.whl\n+      - run: unzip target/wheels/oxigraph-*.whl\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_x86_64_linux_musl\n-          path: target/wheels/*.whl\n+          name: oxigraph_${{ matrix.arch }}_linux_gnu\n+          path: oxigraph-*.data/scripts/oxigraph\n+      - run: mv oxigraph-*.data/scripts/oxigraph oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_linux_gnu\n+        if: github.event_name == 'release'\n+      - uses: softprops/action-gh-release@v2\n+        with:\n+          files: |\n+            oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_linux_gnu\n+        if: github.event_name == 'release'\n+      - run: uvx twine check target/wheels/*\n \n-  wheel_linux_musl_aarch64:\n-    runs-on: ubuntu-24.04-arm\n+  wheel_linux_musl:\n+    strategy:\n+      matrix:\n+        include:\n+          - arch: x86_64\n+            runner: ubuntu-latest\n+          - arch: aarch64\n+            runner: ubuntu-24.04-arm\n+    continue-on-error: true\n+    runs-on: ${{ matrix.runner }}\n     steps:\n       - uses: actions/checkout@v4\n         with:\n           submodules: true\n+      - uses: astral-sh/setup-uv@v6\n+        with:\n+          python-version: \"3.13\"\n       - uses: ./.github/actions/setup-rust\n-      - run: sed 's/%arch%/aarch64/g' .github/workflows/musllinux_build.sh | sed 's/%for_each_version%/${{ github.event_name == 'release' || '' }}/g' > .github/workflows/musllinux_build_script.sh\n-      - run: docker run -v \"$(pwd)\":/workdir --platform linux/aarch64 quay.io/pypa/musllinux_1_2_aarch64 /bin/bash /workdir/.github/workflows/musllinux_build_script.sh\n+      - run: sed 's/%arch%/${{ matrix.arch }}/g' .github/workflows/musllinux_build.sh | sed 's/%for_each_version%/true/g' > .github/workflows/musllinux_build_script.sh\n+      - run: docker run -v \"$(pwd)\":/workdir --platform linux/${{ matrix.arch }} quay.io/pypa/musllinux_1_2_${{ matrix.arch }} /bin/bash /workdir/.github/workflows/musllinux_build_script.sh\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_aarch64_linux_musl\n-          path: target/wheels/*.whl\n+          name: pyoxigraph_${{ matrix.arch }}_linux_musl\n+          path: target/wheels/pyoxigraph-*.whl\n+      - run: uvx twine check target/wheels/*\n \n   wheel_mac:\n-    runs-on: macos-latest\n+    strategy:\n+      matrix:\n+        include:\n+          - arch: x86_64\n+            runner: macos-13\n+            deployment_target: '10.14'\n+          - arch: aarch64\n+            runner: macos-latest\n+            deployment_target: '11.0'\n+    continue-on-error: true\n+    runs-on: ${{ matrix.runner }}\n     env:\n-      DEVELOPER_DIR: '/Applications/Xcode.app/Contents/Developer'\n-      SDKROOT: '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'\n-      MACOSX_DEPLOYMENT_TARGET: '10.14'\n+      MACOSX_DEPLOYMENT_TARGET: ${{ matrix.deployment_target }}\n     steps:\n       - uses: actions/checkout@v4\n         with:\n           submodules: true\n       - uses: ./.github/actions/setup-rust\n-        with:\n-          target: x86_64-apple-darwin\n       - uses: astral-sh/setup-uv@v6\n         with:\n           python-version: \"3.13\"\n@@ -212,23 +144,42 @@ jobs:\n       - run: uv run python generate_stubs.py pyoxigraph pyoxigraph.pyi --ruff\n         working-directory: ./python\n       - run: rm -rf target/wheels\n-      - run: uv run maturin build --release --target x86_64-apple-darwin --features abi3\n-        working-directory: ./python\n-      - run: uv run maturin build --release --target aarch64-apple-darwin --features abi3\n+      - run: uv run maturin build --release --features abi3\n         working-directory: ./python\n-      - run: uvx maturin build --release --target x86_64-apple-darwin\n-        working-directory: ./cli\n-        if: github.event_name == 'release'\n-      - run: uvx maturin build --release --target aarch64-apple-darwin\n+      - run: uvx maturin build --release\n         working-directory: ./cli\n-        if: github.event_name == 'release'\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_macos\n-          path: target/wheels/*.whl\n+          name: pyoxigraph_apple_${{ matrix.arch }}\n+          path: target/wheels/pyoxigraph-*.whl\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: oxigraph_pypi_apple_${{ matrix.arch }}\n+          path: target/wheels/oxigraph-*.whl\n+      - run: unzip target/wheels/oxigraph-*.whl\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: oxigraph_${{ matrix.arch }}_apple\n+          path: oxigraph-*.data/scripts/oxigraph\n+      - run: mv oxigraph-*.data/scripts/oxigraph oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_apple\n+        if: github.event_name == 'release'\n+      - uses: softprops/action-gh-release@v2\n+        with:\n+          files: |\n+            oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_apple\n+        if: github.event_name == 'release'\n+      - run: uvx twine check target/wheels/*\n \n   wheel_windows:\n-    runs-on: windows-latest\n+    strategy:\n+      matrix:\n+        include:\n+          - arch: x86_64\n+            runner: windows-latest\n+          #- arch: aarch64 TODO: blocked by https://github.com/actions/partner-runner-images/issues/77\n+          #  runner: windows-11-arm\n+    continue-on-error: true\n+    runs-on: ${{ matrix.runner }}\n     steps:\n       - uses: actions/checkout@v4\n         with:\n@@ -245,13 +196,29 @@ jobs:\n         working-directory: ./python\n       - run: uvx maturin build --release\n         working-directory: ./cli\n-        if: github.event_name == 'release'\n       - uses: actions/upload-artifact@v4\n         with:\n-          name: pyoxigraph_windows\n-          path: target/wheels/*.whl\n+          name: pyoxigraph_windows_${{ matrix.arch }}\n+          path: target/wheels/pyoxigraph-*.whl\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: oxigraph_pypi_windows_${{ matrix.arch }}\n+          path: target/wheels/oxigraph-*.whl\n+      - run: unzip target/wheels/oxigraph-*.whl\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: oxigraph_${{ matrix.arch }}_windows\n+          path: oxigraph-*.data/scripts/oxigraph.exe\n+      - run: mv oxigraph-*.data/scripts/oxigraph.exe oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_windows_msvc.exe\n+        if: github.event_name == 'release'\n+      - uses: softprops/action-gh-release@v2\n+        with:\n+          files: |\n+            oxigraph_${{ github.event.release.tag_name }}_${{ matrix.arch }}_windows_msvc.exe\n+        if: github.event_name == 'release'\n+      - run: uvx twine check target/wheels/*\n \n-  publish_pypi:\n+  publish_pyoxigraph_pypi:\n     if: github.event_name == 'release'\n     runs-on: ubuntu-latest\n     environment:\n@@ -263,10 +230,8 @@ jobs:\n       - python_sdist\n       - wheel_windows\n       - wheel_mac\n-      - wheel_linux_x86_64\n-      - wheel_linux_aarch64\n-      - wheel_linux_musl_x86_64\n-      - wheel_linux_musl_aarch64\n+      - wheel_linux\n+      - wheel_linux_musl\n     steps:\n       - uses: actions/download-artifact@v4\n         with:\n@@ -278,8 +243,34 @@ jobs:\n           packages-dir: dist\n           skip-existing: true\n \n+  publish_oxigraph_pypi:\n+    if: github.event_name == 'release'\n+    runs-on: ubuntu-latest\n+    environment:\n+      name: pypi\n+      url: https://pypi.org/p/oxigraph\n+    permissions:\n+      id-token: write\n+    needs:\n+      - python_sdist\n+      - wheel_windows\n+      - wheel_mac\n+      - wheel_linux\n+      - wheel_linux_musl\n+    steps:\n+      - uses: actions/download-artifact@v4\n+        with:\n+          pattern: oxigraph_pypi_*\n+          path: dist\n+          merge-multiple: true\n+      - uses: pypa/gh-action-pypi-publish@release/v1\n+        with:\n+          packages-dir: dist\n+          skip-existing: true\n+\n   npm_tarball:\n     runs-on: ubuntu-latest\n+    if: github.event_name == 'release' || github.ref == 'refs/heads/main'\n     permissions:\n       contents: read\n       id-token: write\n@@ -310,6 +301,7 @@ jobs:\n \n   docker:\n     runs-on: ubuntu-latest\n+    if: github.event_name == 'release' || github.ref == 'refs/heads/main'\n     permissions:\n       id-token: write\n       packages: write"
+      },
+      {
+        "sha": "fa86954823ba754c3cfa5591f8130bd8997083d9",
+        "filename": ".github/workflows/manylinux_build.sh",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/.github%2Fworkflows%2Fmanylinux_build.sh",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/.github%2Fworkflows%2Fmanylinux_build.sh",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/.github%2Fworkflows%2Fmanylinux_build.sh?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -18,6 +18,6 @@ if [ %for_each_version% ]; then\n   for VERSION in 9 10 11; do\n     uv run maturin build --release --interpreter \"pypy3.$VERSION\" --compatibility manylinux2014\n   done\n-  cd ../cli\n-  uvx maturin build --release --no-default-features --features rustls-native,geosparql --compatibility manylinux2014\n fi\n+cd ../cli\n+uvx maturin build --release --no-default-features --features rustls-native,geosparql --compatibility manylinux2014"
+      },
+      {
+        "sha": "953a70ea41eb0b4bcb35ca3b1772497c2ed2b88a",
+        "filename": "CHANGELOG.md",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/CHANGELOG.md",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/CHANGELOG.md",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/CHANGELOG.md?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -1,3 +1,9 @@\n+## [0.4.11] - 2025-05-21\n+\n+### Changed\n+- Bumps to RocksDB 10.3.0 and fixes a compilation issue with GCC 13+\n+\n+\n ## [0.4.10] - 2025-05-15\n \n ### Added"
+      },
+      {
+        "sha": "d72f2d53d45e81ebb8d4a4c52350971aadd4cff4",
+        "filename": "Cargo.lock",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 14,
+        "changes": 28,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/Cargo.lock",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/Cargo.lock",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/Cargo.lock?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -255,9 +255,9 @@ checksum = \"37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5\"\n \n [[package]]\n name = \"cc\"\n-version = \"1.2.22\"\n+version = \"1.2.23\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"32db95edf998450acc7881c932f94cd9b05c87b4b2599e8bab064753da4acfd1\"\n+checksum = \"5f4ac86a9e5bc1e2b3449ab9d7d3a6a405e3d1bb28d7b9be8614f55846ae3766\"\n dependencies = [\n  \"jobserver\",\n  \"libc\",\n@@ -1034,9 +1034,9 @@ checksum = \"00210d6893afc98edb752b664b8890f0ef174c8adbb8d0be9710fa66fbbf72d3\"\n \n [[package]]\n name = \"icu_properties\"\n-version = \"2.0.0\"\n+version = \"2.0.1\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"2549ca8c7241c82f59c80ba2a6f415d931c5b58d24fb8412caa1a1f02c49139a\"\n+checksum = \"016c619c1eeb94efb86809b015c58f479963de65bdb6253345c1a1276f22e32b\"\n dependencies = [\n  \"displaydoc\",\n  \"icu_collections\",\n@@ -1050,9 +1050,9 @@ dependencies = [\n \n [[package]]\n name = \"icu_properties_data\"\n-version = \"2.0.0\"\n+version = \"2.0.1\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"8197e866e47b68f8f7d95249e172903bec06004b18b2937f1095d40a0c57de04\"\n+checksum = \"298459143998310acd25ffe6810ed544932242d3f07083eee1084d83a71bd632\"\n \n [[package]]\n name = \"icu_provider\"\n@@ -1431,7 +1431,7 @@ dependencies = [\n \n [[package]]\n name = \"oxigraph\"\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n dependencies = [\n  \"bzip2\",\n  \"codspeed-criterion-compat\",\n@@ -1452,12 +1452,12 @@ dependencies = [\n  \"sparesults\",\n  \"spareval\",\n  \"spargebra\",\n- \"thiserror 2.0.12\",\n+ \"thiserror 1.0.69\",\n ]\n \n [[package]]\n name = \"oxigraph-cli\"\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n dependencies = [\n  \"anyhow\",\n  \"assert_cmd\",\n@@ -1478,7 +1478,7 @@ dependencies = [\n \n [[package]]\n name = \"oxigraph-js\"\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n dependencies = [\n  \"console_error_panic_hook\",\n  \"js-sys\",\n@@ -1552,7 +1552,7 @@ dependencies = [\n  \"oxrdf\",\n  \"oxrdfxml\",\n  \"oxttl\",\n- \"thiserror 1.0.69\",\n+ \"thiserror 2.0.12\",\n  \"tokio\",\n ]\n \n@@ -1570,7 +1570,7 @@ dependencies = [\n \n [[package]]\n name = \"oxrocksdb-sys\"\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n dependencies = [\n  \"bindgen\",\n  \"cc\",\n@@ -1828,7 +1828,7 @@ dependencies = [\n \n [[package]]\n name = \"pyoxigraph\"\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n dependencies = [\n  \"oxigraph\",\n  \"pyo3\",\n@@ -2259,7 +2259,7 @@ dependencies = [\n \n [[package]]\n name = \"spargeo\"\n-version = \"0.1.7\"\n+version = \"0.1.8\"\n dependencies = [\n  \"geo\",\n  \"geojson\","
+      },
+      {
+        "sha": "2e97f5767bdd24d4c5ce2aae567f7f7f1ace1c08",
+        "filename": "Cargo.toml",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/Cargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/Cargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/Cargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -22,7 +22,7 @@ members = [\n resolver = \"2\"\n \n [workspace.package]\n-version = \"0.4.10\"\n+version = \"0.4.11\"\n authors = [\"Tpt <thomas@pellissier-tanon.fr>\"]\n license = \"MIT OR Apache-2.0\"\n edition = \"2021\"\n@@ -78,16 +78,16 @@ wasm-bindgen = \"0.2.83\"\n wkt = \"0.14\"\n \n # Internal dependencies\n-oxigraph = { version = \"=0.4.10\", path = \"lib/oxigraph\" }\n+oxigraph = { version = \"=0.4.11\", path = \"lib/oxigraph\" }\n oxjsonld = { version = \"=0.1.0\", path = \"lib/oxjsonld\" }\n oxrdf = { version = \"=0.2.4\", path = \"lib/oxrdf\" }\n oxrdfio = { version = \"=0.1.8\", path = \"lib/oxrdfio\" }\n oxrdfxml = { version = \"=0.1.7\", path = \"lib/oxrdfxml\" }\n-oxrocksdb-sys = { version = \"=0.4.10\", path = \"./oxrocksdb-sys\" }\n+oxrocksdb-sys = { version = \"=0.4.11\", path = \"./oxrocksdb-sys\" }\n oxsdatatypes = { version = \"=0.2.2\", path = \"lib/oxsdatatypes\" }\n oxttl = { version = \"=0.1.8\", path = \"lib/oxttl\" }\n spargebra = { version = \"=0.3.5\", path = \"lib/spargebra\" }\n-spargeo = { version = \"=0.1.7\", path = \"lib/spargeo\" }\n+spargeo = { version = \"=0.1.8\", path = \"lib/spargeo\" }\n sparesults = { version = \"=0.2.5\", path = \"lib/sparesults\" }\n sparopt = { version = \"=0.2.1\", path = \"lib/sparopt\" }\n spareval = { version = \"=0.1.4\", path = \"lib/spareval\" }"
+      },
+      {
+        "sha": "6c770c00cc175dc5bb56a5e3b0d0c150460403fe",
+        "filename": "cli/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/cli%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -8,9 +8,7 @@ keywords = [\"RDF\", \"SPARQL\", \"graph-database\", \"database\"]\n categories = [\"command-line-utilities\", \"database\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/cli\"\n homepage = \"https://oxigraph.org/cli/\"\n-description = \"\"\"\n-Oxigraph CLI tool and SPARQL HTTP server\n-\"\"\"\n+description = \"Oxigraph CLI tool and SPARQL HTTP server\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "1a538272920e73c7ab5a6410d56bb6e41aa7cb48",
+        "filename": "cli/README.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2FREADME.md",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2FREADME.md",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/cli%2FREADME.md?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -17,6 +17,7 @@ Oxigraph provides different installation methods for Oxigraph CLI:\n * [`cargo install`](#installation) (multiplatform)\n * [A Docker image](#using-a-docker-image)\n * [A Homebrew formula](#homebrew)\n+* [A Pypi package](https://pypi.org/project/oxigraph): with [UV](https://docs.astral.sh/uv/) just run `uvx oxigraph`\n * [A conda-forge package](https://anaconda.org/conda-forge/oxigraph-server)\n * [Pre-built binaries](https://github.com/oxigraph/oxigraph/releases/latest)\n \n@@ -38,7 +39,7 @@ Note that Oxigraph CLI was previously named Oxigraph Server before version 0.4.\n \n You need to have [a recent stable version of Rust and Cargo installed](https://www.rust-lang.org/tools/install).\n \n-To download, build and install the latest released version run `cargo install oxigraph-cli`.\n+To download, build, and install the latest released version run `cargo install oxigraph-cli`.\n There is no need to clone the git repository.\n \n To compile the command-line tool from source, clone this git repository including its submodules (`git clone --recursive https://github.com/oxigraph/oxigraph.git`), and execute `cargo build --release` in the `cli` directory to compile the full binary after having downloaded its dependencies."
+      },
+      {
+        "sha": "ec149a3ed8c3bfbfc634e19294a838f431b0f706",
+        "filename": "cli/pyproject.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2Fpyproject.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/cli%2Fpyproject.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/cli%2Fpyproject.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,6 +7,7 @@ classifiers = [\n     \"License :: OSI Approved :: MIT License\",\n     \"Programming Language :: Rust\",\n ]\n+readme = { file = \"README.md\", content-type = \"text/markdown\" }\n dynamic = [\"version\"]\n \n [project.urls]"
+      },
+      {
+        "sha": "95a37b418eb7550f3f59dcd1002af82a2c4ce6c1",
+        "filename": "js/package-lock.json",
+        "status": "modified",
+        "additions": 129,
+        "deletions": 129,
+        "changes": 258,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/js%2Fpackage-lock.json",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/js%2Fpackage-lock.json",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/js%2Fpackage-lock.json?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -663,9 +663,9 @@\n             }\n         },\n         \"node_modules/@rollup/rollup-android-arm-eabi\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.40.2.tgz\",\n-            \"integrity\": \"sha512-JkdNEq+DFxZfUwxvB58tHMHBHVgX23ew41g1OQinthJ+ryhdRk67O31S7sYw8u2lTjHUPFxwar07BBt1KHp/hg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.41.0.tgz\",\n+            \"integrity\": \"sha512-KxN+zCjOYHGwCl4UCtSfZ6jrq/qi88JDUtiEFk8LELEHq2Egfc/FgW+jItZiOLRuQfb/3xJSgFuNPC9jzggX+A==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -677,9 +677,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-android-arm64\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.40.2.tgz\",\n-            \"integrity\": \"sha512-13unNoZ8NzUmnndhPTkWPWbX3vtHodYmy+I9kuLxN+F+l+x3LdVF7UCu8TWVMt1POHLh6oDHhnOA04n8oJZhBw==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.41.0.tgz\",\n+            \"integrity\": \"sha512-yDvqx3lWlcugozax3DItKJI5j05B0d4Kvnjx+5mwiUpWramVvmAByYigMplaoAQ3pvdprGCTCE03eduqE/8mPQ==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -691,9 +691,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-darwin-arm64\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.40.2.tgz\",\n-            \"integrity\": \"sha512-Gzf1Hn2Aoe8VZzevHostPX23U7N5+4D36WJNHK88NZHCJr7aVMG4fadqkIf72eqVPGjGc0HJHNuUaUcxiR+N/w==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.41.0.tgz\",\n+            \"integrity\": \"sha512-2KOU574vD3gzcPSjxO0eyR5iWlnxxtmW1F5CkNOHmMlueKNCQkxR6+ekgWyVnz6zaZihpUNkGxjsYrkTJKhkaw==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -705,9 +705,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-darwin-x64\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.40.2.tgz\",\n-            \"integrity\": \"sha512-47N4hxa01a4x6XnJoskMKTS8XZ0CZMd8YTbINbi+w03A2w4j1RTlnGHOz/P0+Bg1LaVL6ufZyNprSg+fW5nYQQ==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.41.0.tgz\",\n+            \"integrity\": \"sha512-gE5ACNSxHcEZyP2BA9TuTakfZvULEW4YAOtxl/A/YDbIir/wPKukde0BNPlnBiP88ecaN4BJI2TtAd+HKuZPQQ==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -719,9 +719,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-freebsd-arm64\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.40.2.tgz\",\n-            \"integrity\": \"sha512-8t6aL4MD+rXSHHZUR1z19+9OFJ2rl1wGKvckN47XFRVO+QL/dUSpKA2SLRo4vMg7ELA8pzGpC+W9OEd1Z/ZqoQ==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.41.0.tgz\",\n+            \"integrity\": \"sha512-GSxU6r5HnWij7FoSo7cZg3l5GPg4HFLkzsFFh0N/b16q5buW1NAWuCJ+HMtIdUEi6XF0qH+hN0TEd78laRp7Dg==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -733,9 +733,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-freebsd-x64\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.40.2.tgz\",\n-            \"integrity\": \"sha512-C+AyHBzfpsOEYRFjztcYUFsH4S7UsE9cDtHCtma5BK8+ydOZYgMmWg1d/4KBytQspJCld8ZIujFMAdKG1xyr4Q==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.41.0.tgz\",\n+            \"integrity\": \"sha512-KGiGKGDg8qLRyOWmk6IeiHJzsN/OYxO6nSbT0Vj4MwjS2XQy/5emsmtoqLAabqrohbgLWJ5GV3s/ljdrIr8Qjg==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -747,9 +747,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm-gnueabihf\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.40.2.tgz\",\n-            \"integrity\": \"sha512-de6TFZYIvJwRNjmW3+gaXiZ2DaWL5D5yGmSYzkdzjBDS3W+B9JQ48oZEsmMvemqjtAFzE16DIBLqd6IQQRuG9Q==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.41.0.tgz\",\n+            \"integrity\": \"sha512-46OzWeqEVQyX3N2/QdiU/CMXYDH/lSHpgfBkuhl3igpZiaB3ZIfSjKuOnybFVBQzjsLwkus2mjaESy8H41SzvA==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -761,9 +761,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm-musleabihf\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.40.2.tgz\",\n-            \"integrity\": \"sha512-urjaEZubdIkacKc930hUDOfQPysezKla/O9qV+O89enqsqUmQm8Xj8O/vh0gHg4LYfv7Y7UsE3QjzLQzDYN1qg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.41.0.tgz\",\n+            \"integrity\": \"sha512-lfgW3KtQP4YauqdPpcUZHPcqQXmTmH4nYU0cplNeW583CMkAGjtImw4PKli09NFi2iQgChk4e9erkwlfYem6Lg==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -775,9 +775,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm64-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-KlE8IC0HFOC33taNt1zR8qNlBYHj31qGT1UqWqtvR/+NuCVhfufAq9fxO8BMFC22Wu0rxOwGVWxtCMvZVLmhQg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-nn8mEyzMbdEJzT7cwxgObuwviMx6kPRxzYiOl6o/o+ChQq23gfdlZcUNnt89lPhhz3BYsZ72rp0rxNqBSfqlqw==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -789,9 +789,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm64-musl\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.40.2.tgz\",\n-            \"integrity\": \"sha512-j8CgxvfM0kbnhu4XgjnCWJQyyBOeBI1Zq91Z850aUddUmPeQvuAy6OiMdPS46gNFgy8gN1xkYyLgwLYZG3rBOg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.41.0.tgz\",\n+            \"integrity\": \"sha512-l+QK99je2zUKGd31Gh+45c4pGDAqZSuWQiuRFCdHYC2CSiO47qUWsCcenrI6p22hvHZrDje9QjwSMAFL3iwXwQ==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -803,9 +803,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-loongarch64-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-Ybc/1qUampKuRF4tQXc7G7QY9YRyeVSykfK36Y5Qc5dmrIxwFhrOzqaVTNoZygqZ1ZieSWTibfFhQ5qK8jpWxw==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-WbnJaxPv1gPIm6S8O/Wg+wfE/OzGSXlBMbOe4ie+zMyykMOeqmgD1BhPxZQuDqwUN+0T/xOFtL2RUWBspnZj3w==\",\n             \"cpu\": [\n                 \"loong64\"\n             ],\n@@ -817,9 +817,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-powerpc64le-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-3FCIrnrt03CCsZqSYAOW/k9n625pjpuMzVfeI+ZBUSDT3MVIFDSPfSUgIl9FqUftxcUXInvFah79hE1c9abD+Q==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-eRDWR5t67/b2g8Q/S8XPi0YdbKcCs4WQ8vklNnUYLaSWF+Cbv2axZsp4jni6/j7eKvMLYCYdcsv8dcU+a6QNFg==\",\n             \"cpu\": [\n                 \"ppc64\"\n             ],\n@@ -831,9 +831,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-riscv64-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-QNU7BFHEvHMp2ESSY3SozIkBPaPBDTsfVNGx3Xhv+TdvWXFGOSH2NJvhD1zKAT6AyuuErJgbdvaJhYVhVqrWTg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-TWrZb6GF5jsEKG7T1IHwlLMDRy2f3DPqYldmIhnA2DVqvvhY2Ai184vZGgahRrg8k9UBWoSlHv+suRfTN7Ua4A==\",\n             \"cpu\": [\n                 \"riscv64\"\n             ],\n@@ -845,9 +845,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-riscv64-musl\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.40.2.tgz\",\n-            \"integrity\": \"sha512-5W6vNYkhgfh7URiXTO1E9a0cy4fSgfE4+Hl5agb/U1sa0kjOLMLC1wObxwKxecE17j0URxuTrYZZME4/VH57Hg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.41.0.tgz\",\n+            \"integrity\": \"sha512-ieQljaZKuJpmWvd8gW87ZmSFwid6AxMDk5bhONJ57U8zT77zpZ/TPKkU9HpnnFrM4zsgr4kiGuzbIbZTGi7u9A==\",\n             \"cpu\": [\n                 \"riscv64\"\n             ],\n@@ -859,9 +859,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-s390x-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-B7LKIz+0+p348JoAL4X/YxGx9zOx3sR+o6Hj15Y3aaApNfAshK8+mWZEf759DXfRLeL2vg5LYJBB7DdcleYCoQ==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-/L3pW48SxrWAlVsKCN0dGLB2bi8Nv8pr5S5ocSM+S0XCn5RCVCXqi8GVtHFsOBBCSeR+u9brV2zno5+mg3S4Aw==\",\n             \"cpu\": [\n                 \"s390x\"\n             ],\n@@ -873,9 +873,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-x64-gnu\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.40.2.tgz\",\n-            \"integrity\": \"sha512-lG7Xa+BmBNwpjmVUbmyKxdQJ3Q6whHjMjzQplOs5Z+Gj7mxPtWakGHqzMqNER68G67kmCX9qX57aRsW5V0VOng==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.41.0.tgz\",\n+            \"integrity\": \"sha512-XMLeKjyH8NsEDCRptf6LO8lJk23o9wvB+dJwcXMaH6ZQbbkHu2dbGIUindbMtRN6ux1xKi16iXWu6q9mu7gDhQ==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -887,9 +887,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-x64-musl\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.40.2.tgz\",\n-            \"integrity\": \"sha512-tD46wKHd+KJvsmije4bUskNuvWKFcTOIM9tZ/RrmIvcXnbi0YK/cKS9FzFtAm7Oxi2EhV5N2OpfFB348vSQRXA==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.41.0.tgz\",\n+            \"integrity\": \"sha512-m/P7LycHZTvSQeXhFmgmdqEiTqSV80zn6xHaQ1JSqwCtD1YGtwEK515Qmy9DcB2HK4dOUVypQxvhVSy06cJPEg==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -901,9 +901,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-arm64-msvc\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.40.2.tgz\",\n-            \"integrity\": \"sha512-Bjv/HG8RRWLNkXwQQemdsWw4Mg+IJ29LK+bJPW2SCzPKOUaMmPEppQlu/Fqk1d7+DX3V7JbFdbkh/NMmurT6Pg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.41.0.tgz\",\n+            \"integrity\": \"sha512-4yodtcOrFHpbomJGVEqZ8fzD4kfBeCbpsUy5Pqk4RluXOdsWdjLnjhiKy2w3qzcASWd04fp52Xz7JKarVJ5BTg==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -915,9 +915,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-ia32-msvc\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.40.2.tgz\",\n-            \"integrity\": \"sha512-dt1llVSGEsGKvzeIO76HToiYPNPYPkmjhMHhP00T9S4rDern8P2ZWvWAQUEJ+R1UdMWJ/42i/QqJ2WV765GZcA==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.41.0.tgz\",\n+            \"integrity\": \"sha512-tmazCrAsKzdkXssEc65zIE1oC6xPHwfy9d5Ta25SRCDOZS+I6RypVVShWALNuU9bxIfGA0aqrmzlzoM5wO5SPQ==\",\n             \"cpu\": [\n                 \"ia32\"\n             ],\n@@ -929,9 +929,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-x64-msvc\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.40.2.tgz\",\n-            \"integrity\": \"sha512-bwspbWB04XJpeElvsp+DCylKfF4trJDa2Y9Go8O6A7YLX2LIKGcNK/CYImJN6ZP4DcuOHB4Utl3iCbnR62DudA==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.41.0.tgz\",\n+            \"integrity\": \"sha512-h1J+Yzjo/X+0EAvR2kIXJDuTuyT7drc+t2ALY0nIcGPbTatNOf0VWdhEA2Z4AAjv6X1NJV7SYo5oCTYRJhSlVA==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -964,9 +964,9 @@\n             \"license\": \"MIT\"\n         },\n         \"node_modules/@types/node\": {\n-            \"version\": \"18.19.100\",\n-            \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-18.19.100.tgz\",\n-            \"integrity\": \"sha512-ojmMP8SZBKprc3qGrGk8Ujpo80AXkrP7G2tOT4VWr5jlr5DHjsJF+emXJz+Wm0glmy4Js62oKMdZZ6B9Y+tEcA==\",\n+            \"version\": \"18.19.103\",\n+            \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-18.19.103.tgz\",\n+            \"integrity\": \"sha512-hHTHp+sEz6SxFsp+SA+Tqrua3AbmlAw+Y//aEwdHrdZkYVRWdvWD3y5uPZ0flYOkgskaFWqZ/YGFm3FaFQ0pRw==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -984,14 +984,14 @@\n             }\n         },\n         \"node_modules/@vitest/expect\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/expect/-/expect-3.1.3.tgz\",\n-            \"integrity\": \"sha512-7FTQQuuLKmN1Ig/h+h/GO+44Q1IlglPlR2es4ab7Yvfx+Uk5xsv+Ykk+MEt/M2Yn/xGmzaLKxGw2lgy2bwuYqg==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/expect/-/expect-3.1.4.tgz\",\n+            \"integrity\": \"sha512-xkD/ljeliyaClDYqHPNCiJ0plY5YIcM0OlRiZizLhlPmpXWpxnGMyTZXOHFhFeG7w9P5PBeL4IdtJ/HeQwTbQA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/spy\": \"3.1.3\",\n-                \"@vitest/utils\": \"3.1.3\",\n+                \"@vitest/spy\": \"3.1.4\",\n+                \"@vitest/utils\": \"3.1.4\",\n                 \"chai\": \"^5.2.0\",\n                 \"tinyrainbow\": \"^2.0.0\"\n             },\n@@ -1000,13 +1000,13 @@\n             }\n         },\n         \"node_modules/@vitest/mocker\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/mocker/-/mocker-3.1.3.tgz\",\n-            \"integrity\": \"sha512-PJbLjonJK82uCWHjzgBJZuR7zmAOrSvKk1QBxrennDIgtH4uK0TB1PvYmc0XBCigxxtiAVPfWtAdy4lpz8SQGQ==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/mocker/-/mocker-3.1.4.tgz\",\n+            \"integrity\": \"sha512-8IJ3CvwtSw/EFXqWFL8aCMu+YyYXG2WUSrQbViOZkWTKTVicVwZ/YiEZDSqD00kX+v/+W+OnxhNWoeVKorHygA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/spy\": \"3.1.3\",\n+                \"@vitest/spy\": \"3.1.4\",\n                 \"estree-walker\": \"^3.0.3\",\n                 \"magic-string\": \"^0.30.17\"\n             },\n@@ -1027,9 +1027,9 @@\n             }\n         },\n         \"node_modules/@vitest/pretty-format\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-3.1.3.tgz\",\n-            \"integrity\": \"sha512-i6FDiBeJUGLDKADw2Gb01UtUNb12yyXAqC/mmRWuYl+m/U9GS7s8us5ONmGkGpUUo7/iAYzI2ePVfOZTYvUifA==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-3.1.4.tgz\",\n+            \"integrity\": \"sha512-cqv9H9GvAEoTaoq+cYqUTCGscUjKqlJZC7PRwY5FMySVj5J+xOm1KQcCiYHJOEzOKRUhLH4R2pTwvFlWCEScsg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1040,27 +1040,27 @@\n             }\n         },\n         \"node_modules/@vitest/runner\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/runner/-/runner-3.1.3.tgz\",\n-            \"integrity\": \"sha512-Tae+ogtlNfFei5DggOsSUvkIaSuVywujMj6HzR97AHK6XK8i3BuVyIifWAm/sE3a15lF5RH9yQIrbXYuo0IFyA==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/runner/-/runner-3.1.4.tgz\",\n+            \"integrity\": \"sha512-djTeF1/vt985I/wpKVFBMWUlk/I7mb5hmD5oP8K9ACRmVXgKTae3TUOtXAEBfslNKPzUQvnKhNd34nnRSYgLNQ==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/utils\": \"3.1.3\",\n+                \"@vitest/utils\": \"3.1.4\",\n                 \"pathe\": \"^2.0.3\"\n             },\n             \"funding\": {\n                 \"url\": \"https://opencollective.com/vitest\"\n             }\n         },\n         \"node_modules/@vitest/snapshot\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/snapshot/-/snapshot-3.1.3.tgz\",\n-            \"integrity\": \"sha512-XVa5OPNTYUsyqG9skuUkFzAeFnEzDp8hQu7kZ0N25B1+6KjGm4hWLtURyBbsIAOekfWQ7Wuz/N/XXzgYO3deWQ==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/snapshot/-/snapshot-3.1.4.tgz\",\n+            \"integrity\": \"sha512-JPHf68DvuO7vilmvwdPr9TS0SuuIzHvxeaCkxYcCD4jTk67XwL45ZhEHFKIuCm8CYstgI6LZ4XbwD6ANrwMpFg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/pretty-format\": \"3.1.3\",\n+                \"@vitest/pretty-format\": \"3.1.4\",\n                 \"magic-string\": \"^0.30.17\",\n                 \"pathe\": \"^2.0.3\"\n             },\n@@ -1069,9 +1069,9 @@\n             }\n         },\n         \"node_modules/@vitest/spy\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/spy/-/spy-3.1.3.tgz\",\n-            \"integrity\": \"sha512-x6w+ctOEmEXdWaa6TO4ilb7l9DxPR5bwEb6hILKuxfU1NqWT2mpJD9NJN7t3OTfxmVlOMrvtoFJGdgyzZ605lQ==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/spy/-/spy-3.1.4.tgz\",\n+            \"integrity\": \"sha512-Xg1bXhu+vtPXIodYN369M86K8shGLouNjoVI78g8iAq2rFoHFdajNvJJ5A/9bPMFcfQqdaCpOgWKEoMQg/s0Yg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1082,13 +1082,13 @@\n             }\n         },\n         \"node_modules/@vitest/utils\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/utils/-/utils-3.1.3.tgz\",\n-            \"integrity\": \"sha512-2Ltrpht4OmHO9+c/nmHtF09HWiyWdworqnHIwjfvDyWjuwKbdkcS9AnhsDn+8E2RM4x++foD1/tNuLPVvWG1Rg==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/utils/-/utils-3.1.4.tgz\",\n+            \"integrity\": \"sha512-yriMuO1cfFhmiGc8ataN51+9ooHRuURdfAZfwFd3usWynjzpLslZdYnRegTv32qdgtJTsj15FoeZe2g15fY1gg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/pretty-format\": \"3.1.3\",\n+                \"@vitest/pretty-format\": \"3.1.4\",\n                 \"loupe\": \"^3.1.3\",\n                 \"tinyrainbow\": \"^2.0.0\"\n             },\n@@ -2008,9 +2008,9 @@\n             }\n         },\n         \"node_modules/rollup\": {\n-            \"version\": \"4.40.2\",\n-            \"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.40.2.tgz\",\n-            \"integrity\": \"sha512-tfUOg6DTP4rhQ3VjOO6B4wyrJnGOX85requAXvqYTHsOgb2TFJdZ3aWpT8W2kPoypSGP7dZUyzxJ9ee4buM5Fg==\",\n+            \"version\": \"4.41.0\",\n+            \"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.41.0.tgz\",\n+            \"integrity\": \"sha512-HqMFpUbWlf/tvcxBFNKnJyzc7Lk+XO3FGc3pbNBLqEbOz0gPLRgcrlS3UF4MfUrVlstOaP/q0kM6GVvi+LrLRg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -2024,26 +2024,26 @@\n                 \"npm\": \">=8.0.0\"\n             },\n             \"optionalDependencies\": {\n-                \"@rollup/rollup-android-arm-eabi\": \"4.40.2\",\n-                \"@rollup/rollup-android-arm64\": \"4.40.2\",\n-                \"@rollup/rollup-darwin-arm64\": \"4.40.2\",\n-                \"@rollup/rollup-darwin-x64\": \"4.40.2\",\n-                \"@rollup/rollup-freebsd-arm64\": \"4.40.2\",\n-                \"@rollup/rollup-freebsd-x64\": \"4.40.2\",\n-                \"@rollup/rollup-linux-arm-gnueabihf\": \"4.40.2\",\n-                \"@rollup/rollup-linux-arm-musleabihf\": \"4.40.2\",\n-                \"@rollup/rollup-linux-arm64-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-arm64-musl\": \"4.40.2\",\n-                \"@rollup/rollup-linux-loongarch64-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-powerpc64le-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-riscv64-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-riscv64-musl\": \"4.40.2\",\n-                \"@rollup/rollup-linux-s390x-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-x64-gnu\": \"4.40.2\",\n-                \"@rollup/rollup-linux-x64-musl\": \"4.40.2\",\n-                \"@rollup/rollup-win32-arm64-msvc\": \"4.40.2\",\n-                \"@rollup/rollup-win32-ia32-msvc\": \"4.40.2\",\n-                \"@rollup/rollup-win32-x64-msvc\": \"4.40.2\",\n+                \"@rollup/rollup-android-arm-eabi\": \"4.41.0\",\n+                \"@rollup/rollup-android-arm64\": \"4.41.0\",\n+                \"@rollup/rollup-darwin-arm64\": \"4.41.0\",\n+                \"@rollup/rollup-darwin-x64\": \"4.41.0\",\n+                \"@rollup/rollup-freebsd-arm64\": \"4.41.0\",\n+                \"@rollup/rollup-freebsd-x64\": \"4.41.0\",\n+                \"@rollup/rollup-linux-arm-gnueabihf\": \"4.41.0\",\n+                \"@rollup/rollup-linux-arm-musleabihf\": \"4.41.0\",\n+                \"@rollup/rollup-linux-arm64-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-arm64-musl\": \"4.41.0\",\n+                \"@rollup/rollup-linux-loongarch64-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-powerpc64le-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-riscv64-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-riscv64-musl\": \"4.41.0\",\n+                \"@rollup/rollup-linux-s390x-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-x64-gnu\": \"4.41.0\",\n+                \"@rollup/rollup-linux-x64-musl\": \"4.41.0\",\n+                \"@rollup/rollup-win32-arm64-msvc\": \"4.41.0\",\n+                \"@rollup/rollup-win32-ia32-msvc\": \"4.41.0\",\n+                \"@rollup/rollup-win32-x64-msvc\": \"4.41.0\",\n                 \"fsevents\": \"~2.3.2\"\n             }\n         },\n@@ -2254,9 +2254,9 @@\n             }\n         },\n         \"node_modules/vite-node\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/vite-node/-/vite-node-3.1.3.tgz\",\n-            \"integrity\": \"sha512-uHV4plJ2IxCl4u1up1FQRrqclylKAogbtBfOTwcuJ28xFi+89PZ57BRh+naIRvH70HPwxy5QHYzg1OrEaC7AbA==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/vite-node/-/vite-node-3.1.4.tgz\",\n+            \"integrity\": \"sha512-6enNwYnpyDo4hEgytbmc6mYWHXDHYEn0D1/rw4Q+tnHUGtKTJsn8T1YkX6Q18wI5LCrS8CTYlBaiCqxOy2kvUA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -2277,19 +2277,19 @@\n             }\n         },\n         \"node_modules/vitest\": {\n-            \"version\": \"3.1.3\",\n-            \"resolved\": \"https://registry.npmjs.org/vitest/-/vitest-3.1.3.tgz\",\n-            \"integrity\": \"sha512-188iM4hAHQ0km23TN/adso1q5hhwKqUpv+Sd6p5sOuh6FhQnRNW3IsiIpvxqahtBabsJ2SLZgmGSpcYK4wQYJw==\",\n+            \"version\": \"3.1.4\",\n+            \"resolved\": \"https://registry.npmjs.org/vitest/-/vitest-3.1.4.tgz\",\n+            \"integrity\": \"sha512-Ta56rT7uWxCSJXlBtKgIlApJnT6e6IGmTYxYcmxjJ4ujuZDI59GUQgVDObXXJujOmPDBYXHK1qmaGtneu6TNIQ==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/expect\": \"3.1.3\",\n-                \"@vitest/mocker\": \"3.1.3\",\n-                \"@vitest/pretty-format\": \"^3.1.3\",\n-                \"@vitest/runner\": \"3.1.3\",\n-                \"@vitest/snapshot\": \"3.1.3\",\n-                \"@vitest/spy\": \"3.1.3\",\n-                \"@vitest/utils\": \"3.1.3\",\n+                \"@vitest/expect\": \"3.1.4\",\n+                \"@vitest/mocker\": \"3.1.4\",\n+                \"@vitest/pretty-format\": \"^3.1.4\",\n+                \"@vitest/runner\": \"3.1.4\",\n+                \"@vitest/snapshot\": \"3.1.4\",\n+                \"@vitest/spy\": \"3.1.4\",\n+                \"@vitest/utils\": \"3.1.4\",\n                 \"chai\": \"^5.2.0\",\n                 \"debug\": \"^4.4.0\",\n                 \"expect-type\": \"^1.2.1\",\n@@ -2302,7 +2302,7 @@\n                 \"tinypool\": \"^1.0.2\",\n                 \"tinyrainbow\": \"^2.0.0\",\n                 \"vite\": \"^5.0.0 || ^6.0.0\",\n-                \"vite-node\": \"3.1.3\",\n+                \"vite-node\": \"3.1.4\",\n                 \"why-is-node-running\": \"^2.3.0\"\n             },\n             \"bin\": {\n@@ -2318,8 +2318,8 @@\n                 \"@edge-runtime/vm\": \"*\",\n                 \"@types/debug\": \"^4.1.12\",\n                 \"@types/node\": \"^18.0.0 || ^20.0.0 || >=22.0.0\",\n-                \"@vitest/browser\": \"3.1.3\",\n-                \"@vitest/ui\": \"3.1.3\",\n+                \"@vitest/browser\": \"3.1.4\",\n+                \"@vitest/ui\": \"3.1.4\",\n                 \"happy-dom\": \"*\",\n                 \"jsdom\": \"*\"\n             },"
+      },
+      {
+        "sha": "7595b40e246adcfa9b2b0ee443f151d34c85240d",
+        "filename": "lib/oxigraph/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxigraph%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxigraph%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -9,9 +9,7 @@ categories = [\"database-implementations\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/oxigraph\"\n homepage = \"https://oxigraph.org/\"\n documentation = \"https://docs.rs/oxigraph\"\n-description = \"\"\"\n-a SPARQL database and RDF toolkit\n-\"\"\"\n+description = \"SPARQL database and RDF toolkit\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "b7406e6be055e088eaf3930883d6dc38fcdeadb4",
+        "filename": "lib/oxjsonld/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxjsonld%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxjsonld%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxjsonld%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"JSON-LD\", \"RDF\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/master/lib/oxjsonld\"\n-description = \"\"\"\n-Work in progress parser and serializer for the JSON-LD format\n-\"\"\"\n+description = \"Parser and serializer for the JSON-LD 1.0 format\"\n documentation = \"https://docs.rs/oxjsonld\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "85b9cc81b972afbdd36b9827a4680914344ac7a5",
+        "filename": "lib/oxrdf/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdf%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdf%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxrdf%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"RDF\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf\"\n-description = \"\"\"\n-A library providing basic data structures related to RDF\n-\"\"\"\n+description = \"Basic data structures related to RDF\"\n documentation = \"https://docs.rs/oxrdf\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "6fd3177aa155302efc9ee26730e076127d4df7ba",
+        "filename": "lib/oxrdfio/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdfio%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdfio%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxrdfio%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,9 +7,7 @@ readme = \"README.md\"\n keywords = [\"RDF\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/master/lib/oxrdfxml\"\n documentation = \"https://docs.rs/oxrdfio\"\n-description = \"\"\"\n-Parser and serializer for various RDF formats\n-\"\"\"\n+description = \"Parser and serializer for various RDF formats\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "a02dbf08ef8b3cda9edfcaf29b40f70aaae9e1e5",
+        "filename": "lib/oxrdfxml/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdfxml%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxrdfxml%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxrdfxml%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"RDFXML\", \"XML\", \"RDF\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/master/lib/oxrdfxml\"\n-description = \"\"\"\n-Parser and serializer for the RDF/XML format\n-\"\"\"\n+description = \"Parser and serializer for the RDF/XML format\"\n documentation = \"https://docs.rs/oxrdfxml\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "0698fd48633b5d6fb014ad5eeeef71feb4002caa",
+        "filename": "lib/oxsdatatypes/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxsdatatypes%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxsdatatypes%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxsdatatypes%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"XSD\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/oxsdatatypes\"\n-description = \"\"\"\n-An implementation of some XSD datatypes for SPARQL implementations\n-\"\"\"\n+description = \"Some XSD datatypes for SPARQL implementations\"\n documentation = \"https://docs.rs/oxsdatatypes\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "3e0718528d0a2230170d7cdc0220c9c0f5851718",
+        "filename": "lib/oxttl/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxttl%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Foxttl%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxttl%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"N-Triples\", \"N-Quads\", \"Turtle\", \"TriG\", \"N3\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/master/lib/oxttl\"\n-description = \"\"\"\n-Parser and serializer for languages related to RDF Turtle (N-Triples, N-Quads, Turtle, TriG and N3)\n-\"\"\"\n+description = \"Parser and serializer for languages related to RDF Turtle (N-Triples, N-Quads, Turtle, TriG and N3)\"\n documentation = \"https://docs.rs/oxttl\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "fd7a47ba048222ea346d95eb24911c1f4f9ae108",
+        "filename": "lib/sparesults/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparesults%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparesults%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fsparesults%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -6,9 +6,7 @@ license.workspace = true\n readme = \"README.md\"\n keywords = [\"SPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/sparesults\"\n-description = \"\"\"\n-SPARQL query results formats parsers and serializers\n-\"\"\"\n+description = \"SPARQL query results formats parsers and serializers\"\n documentation = \"https://docs.rs/sparesults\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "6ace06ab50305f0b8802e848fef5a7f19943b33d",
+        "filename": "lib/spareval/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspareval%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspareval%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspareval%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,9 +7,7 @@ readme = \"README.md\"\n keywords = [\"SPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/spareval\"\n documentation = \"https://docs.rs/spareval\"\n-description = \"\"\"\n-A SPARQL evaluator\n-\"\"\"\n+description = \"SPARQL evaluator\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "6c55084b718731b833efcc776d72055f9795e73e",
+        "filename": "lib/spargebra/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspargebra%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspargebra%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspargebra%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,9 +7,7 @@ readme = \"README.md\"\n keywords = [\"SPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/spargebra\"\n documentation = \"https://docs.rs/spargebra\"\n-description = \"\"\"\n-A SPARQL parser\n-\"\"\"\n+description = \"SPARQL parser\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "b257ed6dbf50e6fa93fd80ac93fbb179a910cb13",
+        "filename": "lib/spargeo/Cargo.toml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 4,
+        "changes": 6,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspargeo%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fspargeo%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspargeo%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -1,15 +1,13 @@\n [package]\n name = \"spargeo\"\n-version = \"0.1.7\"\n+version = \"0.1.8\"\n authors.workspace = true\n license.workspace = true\n readme = \"README.md\"\n keywords = [\"GeoSPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/spargeo\"\n documentation = \"https://docs.rs/spargeo\"\n-description = \"\"\"\n-Implementation of GeoSPARQL functions\n-\"\"\"\n+description = \"GeoSPARQL functions\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "87733fea025c0fe171156f027ef548b8a9f31257",
+        "filename": "lib/sparopt/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparopt%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparopt%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fsparopt%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,9 +7,7 @@ readme = \"README.md\"\n keywords = [\"SPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/sparopt\"\n documentation = \"https://docs.rs/sparopt\"\n-description = \"\"\"\n-A SPARQL optimizer\n-\"\"\"\n+description = \"SPARQL optimizer\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "bccf113e2884bd5d66ebc941a4577fdec887fbef",
+        "filename": "lib/sparql-smith/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparql-smith%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/lib%2Fsparql-smith%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fsparql-smith%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -7,9 +7,7 @@ readme = \"README.md\"\n keywords = [\"SPARQL\"]\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/lib/sparql-smith\"\n documentation = \"https://docs.rs/sparql-smith\"\n-description = \"\"\"\n-A SPARQL test cases generator\n-\"\"\"\n+description = \"SPARQL test cases generator\"\n edition.workspace = true\n rust-version.workspace = true\n "
+      },
+      {
+        "sha": "aaddbd8265b32f862b914b5a5dab257184a59692",
+        "filename": "oxrocksdb-sys/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/oxrocksdb-sys%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/oxrocksdb-sys%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/oxrocksdb-sys%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -5,9 +5,7 @@ authors.workspace = true\n license = \"GPL-2.0 OR Apache-2.0\"\n repository = \"https://github.com/oxigraph/oxigraph/tree/main/oxrocksdb-sys\"\n readme = \"README.md\"\n-description = \"\"\"\n-Rust bindings for RocksDB for Oxigraph usage.\n-\"\"\"\n+description = \"Rust bindings for RocksDB for Oxigraph usage.\"\n documentation = \"https://docs.rs/oxrocksdb-sys\"\n edition.workspace = true\n rust-version.workspace = true"
+      },
+      {
+        "sha": "0c3f08008ace6a095836c70d035830e47e2635ab",
+        "filename": "oxrocksdb-sys/rocksdb",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": null,
+        "raw_url": null,
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/oxrocksdb-sys%2Frocksdb?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -1 +1 @@\n-Subproject commit 4b2122578e475cb88aef4dcf152cccd5dbf51060\n+Subproject commit 0c3f08008ace6a095836c70d035830e47e2635ab"
+      },
+      {
+        "sha": "ad24d924771b0020c26d426ca2599da1d4a6cba1",
+        "filename": "testsuite/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/testsuite%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/3f27c43d211320a3e0f15e5d1f21c8bd386dcb19/testsuite%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/testsuite%2FCargo.toml?ref=3f27c43d211320a3e0f15e5d1f21c8bd386dcb19",
+        "patch": "@@ -3,9 +3,7 @@ name = \"oxigraph-testsuite\"\n version = \"0.0.0\"\n authors.workspace = true\n license.workspace = true\n-description = \"\"\"\n-Implementation of W3C testsuites for Oxigraph\n-\"\"\"\n+description = \"Implementation of W3C testsuites for Oxigraph\"\n edition.workspace = true\n rust-version.workspace = true\n publish = false"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/133687025/compare/v0.4.10...v0.4.11?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3492",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

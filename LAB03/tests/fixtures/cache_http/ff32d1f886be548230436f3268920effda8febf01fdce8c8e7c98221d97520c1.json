@@ -1,0 +1,410 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v6.1.0...v6.1.1",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v6.1.0...v6.1.1",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:7852150...simdutf:8f18c42",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v6.1.0...v6.1.1.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v6.1.0...v6.1.1.patch",
+    "base_commit": {
+      "sha": "7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "node_id": "C_kwDOFAPj4doAKDc4NTIxNTBlNDU0ZWJhY2JmN2U2NWNiZjJjNWUzZmVhYzVlNjYwZWM",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-01-23T22:24:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-23T22:24:37Z"
+        },
+        "message": "release candidate 6.1.0 (#655)",
+        "tree": {
+          "sha": "000ca6e8d6c9f86bda23ec40694441def23fb23e",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/000ca6e8d6c9f86bda23ec40694441def23fb23e"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnksGlCRC1aQ7uu5UhlAAAKMQQAAIE4i8QAB5XK7zay2Dn8hpK\nnBjDzkRvRZIodd4t8MwcWoe9DEk3X3CDGpOQC10qPifSSu/VUWkA9Vc9mlK6HaRb\ndwBubtkG12xzmVlJ0XBKnAnqNhpUUCtut0mubdfHKsY2IkSnkxwv9c6XJSef+sk2\nh1VMeuTBC4wsCLVgpNpyOc8MmsFDZaGiI0rkX3tIkY8YSTK5ei++ruY3JssNq5H/\n/PTPEtkV5k4Yfag2D+r0JLsngsUdURUVWZKDgcvkP0McFo4RTstaW3MHpeEDMyk9\nqxEW7J9UBaNhyPsEb3m2oDcPuEncPc2gYIgMvPTt1z1X4x+nQ7RS9G9xqcFmdfsN\n6NyqjuCWzq0KYvkqgu1jHHOjWFjGvU4hc7JKmUHRAwI/D/9TPzbmGx7yMJQOX77U\ndeZZ1ntQxCB7NmuPd6aMbSbX+IliZQyBzvdQVO9XUFXt+5K93kZYIN7bQjRbkMAP\n6uLoD0qHI14F5NwSo6/mOzYOw6FgNKt8KScXsvH2y+k01tNteB1rZNaMnMqMpuFX\nXmOpne5zUK1GVX+yj4GV1xo56jFiI8MoBtUe7wHRM2NIkUxQJkuYHQQa0AobNgh0\n+f/pLWHEy19NkjesgHIvO0R00eVwVJ5Mg2H8NkDQ8HVeS2P2pXPSwYJr58VuFrGX\n1YABUJZ7Xqen7RV3V9Gf\n=pzRv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 000ca6e8d6c9f86bda23ec40694441def23fb23e\nparent 123ddb7344886a35ab33d13c5643e98ad99d3267\nauthor Daniel Lemire <daniel@lemire.me> 1737671077 -0500\ncommitter GitHub <noreply@github.com> 1737671077 -0500\n\nrelease candidate 6.1.0 (#655)\n\n",
+          "verified_at": "2025-01-23T22:28:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "html_url": "https://github.com/simdutf/simdutf/commit/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "123ddb7344886a35ab33d13c5643e98ad99d3267",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/123ddb7344886a35ab33d13c5643e98ad99d3267",
+          "html_url": "https://github.com/simdutf/simdutf/commit/123ddb7344886a35ab33d13c5643e98ad99d3267"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "node_id": "C_kwDOFAPj4doAKDc4NTIxNTBlNDU0ZWJhY2JmN2U2NWNiZjJjNWUzZmVhYzVlNjYwZWM",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-01-23T22:24:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-23T22:24:37Z"
+        },
+        "message": "release candidate 6.1.0 (#655)",
+        "tree": {
+          "sha": "000ca6e8d6c9f86bda23ec40694441def23fb23e",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/000ca6e8d6c9f86bda23ec40694441def23fb23e"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnksGlCRC1aQ7uu5UhlAAAKMQQAAIE4i8QAB5XK7zay2Dn8hpK\nnBjDzkRvRZIodd4t8MwcWoe9DEk3X3CDGpOQC10qPifSSu/VUWkA9Vc9mlK6HaRb\ndwBubtkG12xzmVlJ0XBKnAnqNhpUUCtut0mubdfHKsY2IkSnkxwv9c6XJSef+sk2\nh1VMeuTBC4wsCLVgpNpyOc8MmsFDZaGiI0rkX3tIkY8YSTK5ei++ruY3JssNq5H/\n/PTPEtkV5k4Yfag2D+r0JLsngsUdURUVWZKDgcvkP0McFo4RTstaW3MHpeEDMyk9\nqxEW7J9UBaNhyPsEb3m2oDcPuEncPc2gYIgMvPTt1z1X4x+nQ7RS9G9xqcFmdfsN\n6NyqjuCWzq0KYvkqgu1jHHOjWFjGvU4hc7JKmUHRAwI/D/9TPzbmGx7yMJQOX77U\ndeZZ1ntQxCB7NmuPd6aMbSbX+IliZQyBzvdQVO9XUFXt+5K93kZYIN7bQjRbkMAP\n6uLoD0qHI14F5NwSo6/mOzYOw6FgNKt8KScXsvH2y+k01tNteB1rZNaMnMqMpuFX\nXmOpne5zUK1GVX+yj4GV1xo56jFiI8MoBtUe7wHRM2NIkUxQJkuYHQQa0AobNgh0\n+f/pLWHEy19NkjesgHIvO0R00eVwVJ5Mg2H8NkDQ8HVeS2P2pXPSwYJr58VuFrGX\n1YABUJZ7Xqen7RV3V9Gf\n=pzRv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 000ca6e8d6c9f86bda23ec40694441def23fb23e\nparent 123ddb7344886a35ab33d13c5643e98ad99d3267\nauthor Daniel Lemire <daniel@lemire.me> 1737671077 -0500\ncommitter GitHub <noreply@github.com> 1737671077 -0500\n\nrelease candidate 6.1.0 (#655)\n\n",
+          "verified_at": "2025-01-23T22:28:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "html_url": "https://github.com/simdutf/simdutf/commit/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "123ddb7344886a35ab33d13c5643e98ad99d3267",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/123ddb7344886a35ab33d13c5643e98ad99d3267",
+          "html_url": "https://github.com/simdutf/simdutf/commit/123ddb7344886a35ab33d13c5643e98ad99d3267"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 2,
+    "behind_by": 0,
+    "total_commits": 2,
+    "commits": [
+      {
+        "sha": "a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+        "node_id": "C_kwDOFAPj4doAKGEyMTUxMmZmZWJkZDliYTdhODE2NWUxYzllNjRkOWY5NTFiMzdkNTA",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-01-25T23:57:04Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-01-25T23:57:04Z"
+          },
+          "message": "making the amalgamation script more robust (#657)\n\n* making the amalgamation script more robust\r\n\r\n* run git in the correct directory\r\n\r\nthis fixes a problem of building outside the git repository,\r\nwhich my IDE does by default.\r\n\r\nlike this:\r\ncd /somewhere/else\r\ncmake -B /tmp/outside -S /path/to/simdutf/\r\n\r\n* prevent amalgamation from picking up timestamp from parent git repo\r\n\r\n---------\r\n\r\nCo-authored-by: Paul Dreik <github@pauldreik.se>",
+          "tree": {
+            "sha": "bc1597704fb9e7a991dbaccbf23f75ce5660db84",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/bc1597704fb9e7a991dbaccbf23f75ce5660db84"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnlXpQCRC1aQ7uu5UhlAAAK5oQAIMWpUNnmiLkokXNo7FDdQ8p\nkB8vc93Ol2Au/lZPIsHsCQhDfIWlvvve05nwhutK7kZqhEBZwhsImNi7FbuphU+c\nO1+PIK+BUWwAR/ndfw8Ygxj3b66GGJhGiyEB+dV/9b4PUfOqAu4kbDDckbYjNvhV\nYV4lYwPASprfXwRHq0+qsTk87OBNYPxAZWXSFA+nOmVQCJ7q4kZgRecoxm4bgxd/\nhgWgBlv1QT5trUsB4QQigUeFJcrYjhjjt1z9dzTWBhVTjP9TGZ4qcoBFj92dIbzZ\nSp3DZzdix06REfI8q7+XRsCNfkBQHr4wUaR4kvxlqD1cCAfAMvwfaDHISYkXCpD6\nxgrTcg6Q27uaE0MOwTd+Wni3ERC6c+eP8FXWwDo/TqoeBHMOlw/B0HIjWlA6CLcm\ntTBMRpHGGHDbH2ZoTJITvMJIKuh6OeTdsXeSDL/Zr4y8pDH8+Uavqo2SI/uaAFeP\nPBEXNx5jJcPajeMsydSgHuAuZ9Ajwc2cUKMmxkmJ1DAJmAyQnLmTl9h+bpzHMVoL\nOZjq7IaaFl3ik5q577HaRiLdAB4bzGKG9YbsDQmXtZw07J+BPvws2ZSSTVY05v7H\nbWpRrToP+PxK9IkAcRt/WANnxIpx/3uD0WLoCC8TblLsfb6z6tpL+jJabj96meBZ\npt4Fbh4iUk4S87v5dlwi\n=bvkN\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree bc1597704fb9e7a991dbaccbf23f75ce5660db84\nparent 7852150e454ebacbf7e65cbf2c5e3feac5e660ec\nauthor Daniel Lemire <daniel@lemire.me> 1737849424 -0500\ncommitter GitHub <noreply@github.com> 1737849424 -0500\n\nmaking the amalgamation script more robust (#657)\n\n* making the amalgamation script more robust\r\n\r\n* run git in the correct directory\r\n\r\nthis fixes a problem of building outside the git repository,\r\nwhich my IDE does by default.\r\n\r\nlike this:\r\ncd /somewhere/else\r\ncmake -B /tmp/outside -S /path/to/simdutf/\r\n\r\n* prevent amalgamation from picking up timestamp from parent git repo\r\n\r\n---------\r\n\r\nCo-authored-by: Paul Dreik <github@pauldreik.se>",
+            "verified_at": "2025-01-26T00:02:07Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+        "html_url": "https://github.com/simdutf/simdutf/commit/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/7852150e454ebacbf7e65cbf2c5e3feac5e660ec",
+            "html_url": "https://github.com/simdutf/simdutf/commit/7852150e454ebacbf7e65cbf2c5e3feac5e660ec"
+          }
+        ]
+      },
+      {
+        "sha": "8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "node_id": "C_kwDOFAPj4doAKDhmMThjNDI2N2RlYjBhNzI3OTg3ZDRjYjlmNTVlMmNjY2Y5OTJlOTA",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-01-25T23:57:56Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-01-25T23:57:56Z"
+          },
+          "message": "release 6.1.1",
+          "tree": {
+            "sha": "ea7c232503b506817491f00343731b7b8eef0308",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/ea7c232503b506817491f00343731b7b8eef0308"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "html_url": "https://github.com/simdutf/simdutf/commit/8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/8f18c4267deb0a727987d4cb9f55e2cccf992e90/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50",
+            "html_url": "https://github.com/simdutf/simdutf/commit/a21512ffebdd9ba7a8165e1c9e64d9f951b37d50"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "0192afc4028c10301855bdedb678731deb8ba1d5",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/8f18c4267deb0a727987d4cb9f55e2cccf992e90/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/8f18c4267deb0a727987d4cb9f55e2cccf992e90/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 6.1.0\n+  VERSION 6.1.1\n )\n \n include (TestBigEndian)"
+      },
+      {
+        "sha": "1de4c26adf15dceae7a3aa2e3d5b7a6fb61b55ed",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/8f18c4267deb0a727987d4cb9f55e2cccf992e90/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/8f18c4267deb0a727987d4cb9f55e2cccf992e90/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"6.1.0\"\n+PROJECT_NUMBER         = \"6.1.1\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "27a66997cb887361b27f1528473c03cb86f0b5de",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/8f18c4267deb0a727987d4cb9f55e2cccf992e90/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/8f18c4267deb0a727987d4cb9f55e2cccf992e90/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "patch": "@@ -151,7 +151,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v6.1.0/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v6.1.1/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -222,7 +222,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v6.1.0/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v6.1.1/singleheader.zip\n \n You may generate it on your own using a Python script.\n "
+      },
+      {
+        "sha": "6bd99e3592abb9df3fcb093e622d45135536e860",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/8f18c4267deb0a727987d4cb9f55e2cccf992e90/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/8f18c4267deb0a727987d4cb9f55e2cccf992e90/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"6.1.0\"\n+#define SIMDUTF_VERSION \"6.1.1\"\n \n namespace simdutf {\n enum {\n@@ -19,7 +19,7 @@ enum {\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_REVISION = 0\n+  SIMDUTF_VERSION_REVISION = 1\n };\n } // namespace simdutf\n "
+      },
+      {
+        "sha": "d600647e89f177c0e6ad1a8f91ac410c6ee7445c",
+        "filename": "singleheader/amalgamate.py",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 4,
+        "changes": 18,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/8f18c4267deb0a727987d4cb9f55e2cccf992e90/singleheader%2Famalgamate.py",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/8f18c4267deb0a727987d4cb9f55e2cccf992e90/singleheader%2Famalgamate.py",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/singleheader%2Famalgamate.py?ref=8f18c4267deb0a727987d4cb9f55e2cccf992e90",
+        "patch": "@@ -7,6 +7,7 @@\n import os.path\n import subprocess\n import os\n+import pathlib\n import re\n import shutil\n import datetime\n@@ -229,15 +230,24 @@ def get_timestamp():\n     # Forcing it to be UTC is difficult, because it needs to be portable\n     # between gnu date and busybox date.\n     try:\n-        ret = subprocess.run(['git', 'show', '-s', '--format=%ci', 'HEAD'],\n-                             stdout=subprocess.PIPE)\n+        # avoid git going outside simdutf, which could happen when\n+        # unpacking a release tarball inside a subdirectory of an unrelated\n+        # git repository. that would lead to picking up the timestamp of the\n+        # unrelated git repository.\n+        parent = pathlib.Path(SCRIPTPATH).absolute().parent\n+        GIT_CEILING_DIRECTORIES = str(parent)\n+        ret = subprocess.run(['git', '-C', SCRIPTPATH, 'show', '-s', '--format=%ci', 'HEAD'],\n+                             stdout=subprocess.PIPE,\n+                             env=dict(os.environ, GIT_CEILING_DIRECTORIES=GIT_CEILING_DIRECTORIES))\n \n         if ret.returncode != 0:\n-            raise ValueError(f\"non-zero exit code {ret.returncode}\")\n+            print(f\"git called resulted in non-zero exit code {ret.returncode}\")\n+            print(\"timestamp based on current time\")\n+            return str(datetime.datetime.now())\n \n         return ret.stdout.decode('utf-8').strip()\n     except (UnicodeDecodeError, FileNotFoundError):\n-        print(\"git not found, timestamp based on current time\")\n+        print(\"UnicodeDecodeError or FileNotFoundError, timestamp based on current time\")\n         return str(datetime.datetime.now())\n \n "
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v6.1.0...v6.1.1?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3836",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

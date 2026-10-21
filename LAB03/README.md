@@ -43,6 +43,20 @@ Este comando único executa ordenadamente:
 
 > **Retomada transparente:** Se a execução for interrompida (por exemplo, via `Ctrl+C` ou término de rate limit), basta rodar o mesmo comando novamente. As requisições e períodos já coletados ficam salvos em cache (`.cache_http/` e `data/runs/`) e o pipeline continua exatamente de onde parou.
 
+### 3.1 Execução via Docker (Container)
+
+Caso prefira rodar o pipeline isolado em container Docker com um único comando:
+
+```bash
+# 1. Construir a imagem a partir do diretório LAB03/
+docker build -t dora-pipeline .
+
+# 2. Executar o pipeline montando o volume de dados e informando o token:
+docker run -v $(pwd)/data:/app/data -e GITHUB_TOKEN=seu_token_aqui dora-pipeline
+```
+
+Parâmetros adicionais (como `--dry-run` ou `--etapa releases`) podem ser passados normalmente ao final do comando `docker run`.
+
 ---
 
 ## 4. Inovação: Modo `--dry-run` (Estimativa de Chamadas à API)
@@ -100,20 +114,31 @@ Os resultados e matrizes de confusão são gerados em `rotulagem/avaliacao/` (ex
 
 ---
 
-## 7. Análises: RQ 01 a 04 e Classificação DORA (C1)
+## 7. Análises: RQ 01 a 08 e Classificações DORA
 
-Reexecutável a partir do dataset, sem chamar a API:
+Reexecutáveis offline a partir do dataset, sem chamadas à rede:
 
 ```bash
+# RQ 01 a 04: Estatística descritiva e classificação de referência C1
 python -m analises.rq01_04
+
+# RQ 05: Correlação de Spearman entre frequência e CFR (a e b)
+python -m analises.rq05
+
+# RQ 06: Fatores determinantes (linguagem, estrelas, contribuidores, maturidade)
+python -m analises.rq06
+
+# RQ 07: Sensibilidade das combinações DORA (C1, C2, C3 e C4 filtrada)
+python -m analises.rq07
+
+# RQ 08 (Bônus): Rework Rate e associação com CFR (b)
+python -m analises.rq08
 ```
 
 Gera em `analises/saida/`:
-- `RESUMO_RQ01_04.md`: tabelas de mediana e IQR, classificação C1, casos censurados e frequência efetiva;
-- `rq01_04_descritiva.csv`, `classificacao_C1.csv` (entrada da RQ 07), `categorias_C1.csv`, `censura_e_ignoradas.csv` e `frequencia_efetiva.csv`;
-- `fig_rq01_04_boxplots.png`, `fig_categorias_C1.png` e `fig_heatmap_C1.png`.
-
-A C1 usa release como unidade de deploy, lead time (a) e CFR (a), mais o tempo de recuperação.
+- `RESUMO_RQ01_04.md`, `RESUMO_RQ07.md` e `RESUMO_RQ08.md`: tabelas prontas para o artigo;
+- Tabelas de concordância (`rq07_concordancia.csv`), matrizes de transição (`rq07_transicao_C1_C2.csv`), Rework Rate (`rq08_correlacao.csv`);
+- Gráficos e heatmaps em alta resolução (`fig_rq07_transicao_C1_C2.png`, `fig_rq08_rework_vs_cfr.png`).
 
 ---
 
@@ -131,12 +156,18 @@ As evidências de cada tentativa ficam em `replicacao/execucoes/<data_hora>/` e 
 
 ---
 
-## 9. Testes Automatizados e Cobertura
+## 9. Testes Automatizados, Cobertura e Smoke Test
 
 Para rodar toda a suíte de testes com relatório de cobertura de código:
 
 ```bash
 python -m pytest --cov=metricas --cov=pipeline
+```
+
+Para executar o **smoke test** de ponta a ponta (verificação rápida offline com fixtures de cache e sem rede):
+
+```bash
+python -m pytest -m smoke
 ```
 
 ---
