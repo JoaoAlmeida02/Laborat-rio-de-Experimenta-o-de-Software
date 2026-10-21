@@ -97,6 +97,39 @@ python -m pipeline --refazer
 Parâmetros adicionais suportados:
 - `--config config.yaml`: define um arquivo de configuração personalizado.
 - `--limite 300`: sobrescreve a quantidade máxima de repositórios na amostra final.
+- `--repos lista.csv`: executa diretamente sobre uma lista fornecida de repositórios, pulando a Etapa 1.
+
+### 5.1 Replicação em Subamostra Específica de Repositórios (`--repos`)
+
+Para replicadores que desejam reexecutar o pipeline sobre uma subamostra exata de repositórios (por exemplo, 30 repositórios sorteados de `data/dataset.csv` ou `data/repos.csv`) sem re-executar a busca dinâmica da Etapa 1:
+
+```bash
+# Executa etapas 2 (releases), 3 (runs) e 4 (consolidar) diretamente sobre a subamostra:
+python -m pipeline --repos subamostra.csv
+
+# Também compatível com estimativa prévia de requisições à API (--dry-run):
+python -m pipeline --repos subamostra.csv --dry-run
+```
+
+**Comportamento:**
+- Ao especificar `--repos <caminho.csv>`, a **Etapa 1 (busca e funil de seleção) é automaticamente ignorada**, garantindo estabilidade e reprodutibilidade exata, independente das contagens de estrelas no momento da execução.
+- O pipeline consome o CSV indicado para minerar releases, workflow runs e consolidar o dataset final (`data/dataset.csv` e `data/MANIFEST.json`).
+- Etapas isoladas também aceitam o parâmetro `--repos`:
+  ```bash
+  python -m pipeline --repos subamostra.csv --etapa releases
+  python -m pipeline --repos subamostra.csv --etapa runs
+  python -m pipeline --repos subamostra.csv --etapa consolidar
+  ```
+
+**Formato do arquivo de repositórios:**
+O CSV aceita uma coluna `full_name` ou `repo` no formato `owner/repo_name`. Colunas adicionais de metadados (`stars`, `language`, `contribuidores`, etc.) são preservadas se presentes:
+
+```csv
+full_name
+simdutf/simdutf
+oxigraph/oxigraph
+MAA1999/M9A
+```
 
 ---
 
@@ -179,6 +212,6 @@ python -m pytest -m smoke
 - [`data/dataset.csv`](data/dataset.csv): dataset consolidado final com 1 linha por repositório (36 colunas). Consulte o [`DICIONARIO_DADOS.md`](DICIONARIO_DADOS.md) para a especificação completa de cada métrica.
 - [`data/MANIFEST.json`](data/MANIFEST.json): manifesto com data/hora de coleta, commit Git, branch e hashes SHA-256 de todos os artefatos.
 - [`data/funil.md`](data/funil.md) e `data/funil.csv`: tabela de funil das 7 etapas de seleção com critérios de inclusão.
-- `data/repos.csv`: metadados dos repositórios selecionados.
+- `data/repos.csv`: metadados dos repositórios selecionados (`full_name`, `owner`, `repo`, `stars`, `forks`, `open_issues`, `language`, `default_branch`, `created_at`, `idade_anos`, `idade_dias`, `contribuidores`). É o arquivo de entrada consumido pelas Etapas 2 (`releases`), 3 (`runs`) e 4 (`consolidar`). Pode ser substituído diretamente via `--repos <caminho.csv>` para replicação sobre qualquer subamostra.
 - `data/lead_time_release.csv`: métricas de entregas e commits.
 - `data/metricas_runs.csv`: métricas de CI/CD (CFR a e Tempo de Recuperação).

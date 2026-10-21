@@ -116,8 +116,12 @@ def consolidar_dataset(
         dados_runs = dict_runs.get(nome_repo, {})
 
         # Metadados
-        owner = dados_repo.get("owner") or nome_repo.split("/")[0]
-        repo_curto = dados_repo.get("repo") or (nome_repo.split("/")[1] if "/" in nome_repo else nome_repo)
+        owner = dados_repo.get("owner") or (nome_repo.split("/")[0] if "/" in nome_repo else "")
+        raw_repo = dados_repo.get("repo") or ""
+        if "/" in str(raw_repo):
+            repo_curto = str(raw_repo).split("/")[1]
+        else:
+            repo_curto = raw_repo or (nome_repo.split("/")[1] if "/" in nome_repo else nome_repo)
         stars = converter_numero(dados_repo.get("stars"), int) or 0
         forks = converter_numero(dados_repo.get("forks"), int) or 0
         open_issues = converter_numero(dados_repo.get("open_issues"), int) or 0

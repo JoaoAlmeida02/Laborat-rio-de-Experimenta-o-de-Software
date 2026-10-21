@@ -267,9 +267,15 @@ def rodar_coleta_runs_pipeline(
 
     try:
         for idx, item in enumerate(repos, 1):
-            full_name = item.get("full_name") or f"{item.get('owner')}/{item.get('repo')}"
-            owner = item.get("owner") or full_name.split("/")[0]
-            repo = item.get("repo") or full_name.split("/")[1]
+            raw_nome = item.get("full_name") or item.get("repo") or ""
+            if "/" in raw_nome:
+                full_name = raw_nome
+                owner = item.get("owner") or raw_nome.split("/")[0]
+                repo = raw_nome.split("/")[1]
+            else:
+                owner = item.get("owner") or ""
+                repo = item.get("repo") or raw_nome
+                full_name = f"{owner}/{repo}" if owner and repo else raw_nome
             default_branch = item.get("default_branch") or "main"
             caminho_cp = pasta_runs / f"{owner}__{repo}.json"
 
