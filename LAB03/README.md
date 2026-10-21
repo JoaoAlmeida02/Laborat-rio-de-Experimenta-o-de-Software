@@ -143,9 +143,9 @@ python -m pytest --cov=metricas --cov=pipeline
 
 ## 10. Estrutura dos Arquivos de Dados
 
-- [`data/dataset.csv`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/dataset.csv): dataset consolidado final com 1 linha por repositório (33 colunas). Consulte o [`DICIONARIO_DADOS.md`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/DICIONARIO_DADOS.md) para a especificação completa de cada métrica.
-- [`data/MANIFEST.json`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/MANIFEST.json): manifesto com data/hora de coleta, commit Git, branch e hashes SHA-256 de todos os artefatos.
-- [`data/funil.md`](file:///c:/Users/vitve/OneDrive/%C3%81rea%20de%20Trabalho/LAB-3/Laborat-rio-de-Experimenta-o-de-Software/LAB03/data/funil.md) e `data/funil.csv`: tabela de funil das 7 etapas de seleção com critérios de inclusão.
+- [`data/dataset.csv`](data/dataset.csv): dataset consolidado final com 1 linha por repositório (36 colunas). Consulte o [`DICIONARIO_DADOS.md`](DICIONARIO_DADOS.md) para a especificação completa de cada métrica.
+- [`data/MANIFEST.json`](data/MANIFEST.json): manifesto com data/hora de coleta, commit Git, branch e hashes SHA-256 de todos os artefatos.
+- [`data/funil.md`](data/funil.md) e `data/funil.csv`: tabela de funil das 7 etapas de seleção com critérios de inclusão.
 - `data/repos.csv`: metadados dos repositórios selecionados.
 - `data/lead_time_release.csv`: métricas de entregas e commits.
 - `data/metricas_runs.csv`: métricas de CI/CD (CFR a e Tempo de Recuperação).
