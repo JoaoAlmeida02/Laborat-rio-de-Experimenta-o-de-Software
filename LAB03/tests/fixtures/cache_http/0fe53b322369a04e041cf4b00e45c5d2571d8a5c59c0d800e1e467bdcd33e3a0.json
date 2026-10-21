@@ -1,0 +1,25 @@
+{
+  "data": {
+    "total_count": 3,
+    "workflow_runs": [
+      {
+        "id": 6001,
+        "created_at": "2025-06-01T10:00:00Z",
+        "conclusion": "success"
+      },
+      {
+        "id": 6002,
+        "created_at": "2025-06-01T14:00:00Z",
+        "conclusion": "failure"
+      },
+      {
+        "id": 6003,
+        "created_at": "2025-06-30T16:00:00Z",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "headers": {
+    "X-RateLimit-Remaining": "4999"
+  }
+}

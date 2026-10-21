@@ -54,7 +54,13 @@ class GitHubAPI:
         dormir=time.sleep,
         cache_dir=".cache_http",
         usar_cache=True,
+        somente_cache=False,
     ):
+        self.somente_cache = bool(
+            somente_cache
+            or os.getenv("GITHUB_SOMENTE_CACHE", "").lower() in ("1", "true", "yes")
+            or os.getenv("HTTP_SOMENTE_CACHE", "").lower() in ("1", "true", "yes")
+        )
         token = token or os.getenv("GITHUB_TOKEN")
         if not token:
             try:
@@ -65,7 +71,7 @@ class GitHubAPI:
             except Exception:
                 pass
 
-        if not token and sessao is None:
+        if not token and sessao is None and not self.somente_cache:
             raise RuntimeError("GITHUB_TOKEN não definido (crie o arquivo .env com GITHUB_TOKEN=seu_token)")
 
         self.token = token
@@ -79,8 +85,8 @@ class GitHubAPI:
         self.tentativas = tentativas
         self.dormir = dormir
         self.cache_dir = Path(cache_dir) if cache_dir else None
-        # Usa cache apenas quando não é uma sessão mock injetada por testes unitários
-        self.usar_cache = bool(usar_cache and self.cache_dir and sessao is None)
+        # Usa cache quando cache_dir estiver configurado, inclusive em testes de somente_cache
+        self.usar_cache = bool(usar_cache and self.cache_dir and (sessao is None or self.somente_cache))
 
     def _caminho_cache(self, url: str, params: dict | None) -> Path:
         chave_dados = f"{url}?{json.dumps(params or {}, sort_keys=True)}"
@@ -112,6 +118,14 @@ class GitHubAPI:
                         return RespostaCache(conteudo["data"], conteudo.get("headers", {}))
                 except Exception:
                     pass
+            elif self.somente_cache:
+                raise RuntimeError(
+                    f"Acesso à API bloqueado no modo somente cache: requisição não encontrada no cache para {url}"
+                )
+        elif self.somente_cache:
+            raise RuntimeError(
+                f"Acesso à API bloqueado no modo somente cache: chamada à rede não permitida para {url}"
+            )
 
         for tentativa in range(self.tentativas):
             resp = self.sessao.get(url, params=params, timeout=30)

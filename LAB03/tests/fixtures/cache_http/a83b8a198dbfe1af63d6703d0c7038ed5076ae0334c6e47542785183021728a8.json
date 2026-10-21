@@ -1,0 +1,530 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v7.3.3...v7.3.4",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v7.3.3...v7.3.4",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:5d1b624...simdutf:dd192d6",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v7.3.3...v7.3.4.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v7.3.3...v7.3.4.patch",
+    "base_commit": {
+      "sha": "5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "node_id": "C_kwDOFAPj4doAKDVkMWI2MjQ4ZjI5YThlZDBlYjkwZjc5YmUyNjhiZTQxNzMwZTM5Zjg",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-07-13T14:49:43Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-07-13T14:49:43Z"
+        },
+        "message": "version 7.3.3",
+        "tree": {
+          "sha": "e1b7e666b90c62575dc6e3a2a63d995837d5e6b4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/e1b7e666b90c62575dc6e3a2a63d995837d5e6b4"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "html_url": "https://github.com/simdutf/simdutf/commit/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f5acdb0ecf2d3805e49c39bb3ec036780afdcac4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/f5acdb0ecf2d3805e49c39bb3ec036780afdcac4",
+          "html_url": "https://github.com/simdutf/simdutf/commit/f5acdb0ecf2d3805e49c39bb3ec036780afdcac4"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "node_id": "C_kwDOFAPj4doAKDVkMWI2MjQ4ZjI5YThlZDBlYjkwZjc5YmUyNjhiZTQxNzMwZTM5Zjg",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-07-13T14:49:43Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-07-13T14:49:43Z"
+        },
+        "message": "version 7.3.3",
+        "tree": {
+          "sha": "e1b7e666b90c62575dc6e3a2a63d995837d5e6b4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/e1b7e666b90c62575dc6e3a2a63d995837d5e6b4"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "html_url": "https://github.com/simdutf/simdutf/commit/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f5acdb0ecf2d3805e49c39bb3ec036780afdcac4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/f5acdb0ecf2d3805e49c39bb3ec036780afdcac4",
+          "html_url": "https://github.com/simdutf/simdutf/commit/f5acdb0ecf2d3805e49c39bb3ec036780afdcac4"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 2,
+    "behind_by": 0,
+    "total_commits": 2,
+    "commits": [
+      {
+        "sha": "a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+        "node_id": "C_kwDOFAPj4doAKGEzYTI2OGU1OGM1ZTIzZTk3MTI2OWZjOGZjOWY4ZmE0ZmJiZGI4OTY",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-01T03:59:15Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-08-01T03:59:15Z"
+          },
+          "message": "fixing Issue 824 (work in progress) (#825)\n\n* init\n\n* patching icelake\n\n* lint\n\n* adding more tests\n\n* minor update\n\n* update\n\n* fixing windows issue, I had the definition backward.\n\n* minor fix\n\n* fallback fix\n\n---------\n\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+          "tree": {
+            "sha": "21d4d51ea4ee46c11940630b8674587431df0e10",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/21d4d51ea4ee46c11940630b8674587431df0e10"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJojDuTCRC1aQ7uu5UhlAAAIyoQAIBo563JVBT/vNo9mcFdFB5E\nGPcxfmGC/7feiolH3VvlZJz938me2qwIwpjT28KthROrotnYg6hrMrZLYQBYSAOF\nu+snQJNx+qotJiNLgD4bKeuWqVJUxYxypsvAj+jQgq6Gpwug+6MI8E7IOo90UAtm\n6joMs0PjDMyvzUS8lLYPR41nLaCGofxHn4lihd98h/BEDIi3gE4CZ40/sk5k9UJk\neKC2yUo3E07ZZQaRcgvPGN9H9nMGt5WhFkP4Okvh2QzagPQ0pjzSof3zJnzkz2OI\nm3ANFSpy3sHMI3nlqIWibW/WIEzNvJhFCLb7BxTftU8Z1erSnbwvjRKP2K8OtcdL\n7J9iibWROSnaPuEe8AofhuVfdgtGo2JSdXkYiaj60B9pVuPPupD2u9DQWNi3TIgR\n6wzTx7dxNXAa0HptqSLKQAS3TpkysAYYunRkTKuZHyAGqlF/VQxp5qGfyF3oK6tW\nn9jNI8ouPoOZGM96VnOLTW9D3k+jNXtIY8xGV82SSwaUuiaj97cutW9tCWTAOjoK\nDfTzFydsPDomCWWKwtO16ECbpUjzrjxeA0QfIWJte2mGd+7t0tqSJ67obbrnVzqm\nhNFD41HjI3pffnZPWRvHuf+WMn+t7+TD3AYpuX/0VI/1sbNtAuQ3B3W5ysHHh4vO\nuazjG6pWtL4gASZPzwcX\n=MmkL\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 21d4d51ea4ee46c11940630b8674587431df0e10\nparent 5d1b6248f29a8ed0eb90f79be268be41730e39f8\nauthor Daniel Lemire <daniel@lemire.me> 1754020755 +0200\ncommitter GitHub <noreply@github.com> 1754020755 -0400\n\nfixing Issue 824 (work in progress) (#825)\n\n* init\n\n* patching icelake\n\n* lint\n\n* adding more tests\n\n* minor update\n\n* update\n\n* fixing windows issue, I had the definition backward.\n\n* minor fix\n\n* fallback fix\n\n---------\n\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+            "verified_at": "2025-08-01T03:59:15Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+        "html_url": "https://github.com/simdutf/simdutf/commit/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/5d1b6248f29a8ed0eb90f79be268be41730e39f8",
+            "html_url": "https://github.com/simdutf/simdutf/commit/5d1b6248f29a8ed0eb90f79be268be41730e39f8"
+          }
+        ]
+      },
+      {
+        "sha": "dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "node_id": "C_kwDOFAPj4doAKGRkMTkyZDZmYzVmZGYwYWQyMWMwNzU5Y2QzMTMzYmJjYzdhZTQxMjI",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-01T04:02:33Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-01T04:02:33Z"
+          },
+          "message": "release 7.3.4",
+          "tree": {
+            "sha": "d67e1b60e76195b9b0dec3af417e00aa2bd61c5b",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/d67e1b60e76195b9b0dec3af417e00aa2bd61c5b"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "html_url": "https://github.com/simdutf/simdutf/commit/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+            "html_url": "https://github.com/simdutf/simdutf/commit/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "fdcc23cf3770acdc23b4f6d1687692cc29901216",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 7.3.3\n+  VERSION 7.3.4\n )\n \n include (TestBigEndian)"
+      },
+      {
+        "sha": "9f366e07d45bf2c1ca720794ccc4b684d33309e7",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"7.3.3\"\n+PROJECT_NUMBER         = \"7.3.4\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "341c1d1fcf4f8e1796e6281a8417004e56e0397a",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -153,7 +153,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v7.3.3/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v7.3.4/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -224,7 +224,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v7.3.3/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v7.3.4/singleheader.zip\n \n You may generate it on your own using a Python script.\n "
+      },
+      {
+        "sha": "2f0c40a540d434b00279f15dbd9a77e5020b4979",
+        "filename": "include/simdutf/common_defs.h",
+        "status": "modified",
+        "additions": 32,
+        "deletions": 10,
+        "changes": 42,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/include%2Fsimdutf%2Fcommon_defs.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/include%2Fsimdutf%2Fcommon_defs.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fcommon_defs.h?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -124,20 +124,42 @@\n #endif // MSC_VER\n \n #ifndef SIMDUTF_DLLIMPORTEXPORT\n-  #if defined(SIMDUTF_VISUAL_STUDIO)\n-    /**\n-     * It does not matter here whether you are using\n-     * the regular visual studio or clang under visual\n-     * studio.\n-     */\n-    #if SIMDUTF_USING_LIBRARY\n+  #if defined(SIMDUTF_VISUAL_STUDIO) // Visual Studio\n+                                     /**\n+                                      * Windows users need to do some extra work when building\n+                                      * or using a dynamic library (DLL). When building, we need\n+                                      * to set SIMDUTF_DLLIMPORTEXPORT to __declspec(dllexport).\n+                                      * When *using* the DLL, the user needs to set\n+                                      * SIMDUTF_DLLIMPORTEXPORT __declspec(dllimport).\n+                                      *\n+                                      * Static libraries not need require such work.\n+                                      *\n+                                      * It does not matter here whether you are using\n+                                      * the regular visual studio or clang under visual\n+                                      * studio, you still need to handle these issues.\n+                                      *\n+                                      * Non-Windows systems do not have this complexity.\n+                                      */\n+    #if SIMDUTF_BUILDING_WINDOWS_DYNAMIC_LIBRARY\n+\n+      // We set SIMDUTF_BUILDING_WINDOWS_DYNAMIC_LIBRARY when we build a DLL\n+      // under Windows. It should never happen that both\n+      // SIMDUTF_BUILDING_WINDOWS_DYNAMIC_LIBRARY and\n+      // SIMDUTF_USING_WINDOWS_DYNAMIC_LIBRARY are set.\n+      #define SIMDUTF_DLLIMPORTEXPORT __declspec(dllexport)\n+    #elif SIMDUTF_USING_WINDOWS_DYNAMIC_LIBRARY\n+      // Windows user who call a dynamic library should set\n+      // SIMDUTF_USING_WINDOWS_DYNAMIC_LIBRARY to 1.\n+\n       #define SIMDUTF_DLLIMPORTEXPORT __declspec(dllimport)\n     #else\n-      #define SIMDUTF_DLLIMPORTEXPORT __declspec(dllexport)\n+      // We assume by default static linkage\n+      #define SIMDUTF_DLLIMPORTEXPORT\n     #endif\n-  #else\n+  #else // defined(SIMDUTF_VISUAL_STUDIO)\n+    // Non-Windows systems do not have this complexity.\n     #define SIMDUTF_DLLIMPORTEXPORT\n-  #endif\n+  #endif // defined(SIMDUTF_VISUAL_STUDIO)\n #endif\n \n #if SIMDUTF_MAYBE_UNUSED_AVAILABLE"
+      },
+      {
+        "sha": "1d8cd912d1418402cd666026e8d850383cdaa2cb",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"7.3.3\"\n+#define SIMDUTF_VERSION \"7.3.4\"\n \n namespace simdutf {\n enum {\n@@ -19,7 +19,7 @@ enum {\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_REVISION = 3\n+  SIMDUTF_VERSION_REVISION = 4\n };\n } // namespace simdutf\n "
+      },
+      {
+        "sha": "c0cc4ef4adc7310d80cd9a9015730c9bdd2f4fc6",
+        "filename": "src/CMakeLists.txt",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2FCMakeLists.txt?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -4,6 +4,13 @@ add_library(simdutf-source INTERFACE)\n target_sources(simdutf-source INTERFACE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>/simdutf.cpp)\n target_link_libraries(simdutf-source INTERFACE simdutf-include-source)\n add_library(simdutf simdutf.cpp)\n+if(WIN32 AND BUILD_SHARED_LIBS)\n+  target_compile_definitions(\n+      simdutf\n+      PRIVATE SIMDUTF_BUILDING_WINDOWS_DYNAMIC_LIBRARY=1\n+      INTERFACE SIMDUTF_USING_WINDOWS_DYNAMIC_LIBRARY=1\n+  )\n+endif()\n if(SIMDUTF_LOGGING)\n   target_compile_definitions(simdutf PUBLIC SIMDUTF_LOGGING=1)\n endif()"
+      },
+      {
+        "sha": "b549442e6af194e696007c74141943b7cbd082f2",
+        "filename": "src/arm64/arm_base64.cpp",
+        "status": "modified",
+        "additions": 21,
+        "deletions": 2,
+        "changes": 23,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Farm64%2Farm_base64.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Farm64%2Farm_base64.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Farm_base64.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -462,12 +462,11 @@ compress_decode_base64(char *dst, const char_type *src, size_t srclen,\n   size_t equalsigns = ri.equalsigns;\n   srclen = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (srclen == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   const char_type *const srcinit = src;\n   const char *const dstinit = dst;\n@@ -596,6 +595,26 @@ compress_decode_base64(char *dst, const char_type *src, size_t srclen,\n     r = scalar::base64::patch_tail_result(\n         r, size_t(src - srcinit), size_t(dst - dstinit), equallocation,\n         full_input_length, last_chunk_options);\n+    // When is_partial(last_chunk_options) is true, we must either end with\n+    // the end of the stream (beyond whitespace) or right after a non-ignorable\n+    // character or at the very beginning of the stream.\n+    // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+        r.input_count < full_input_length) {\n+      // First check if we can extend the input to the end of the stream\n+      while (r.input_count < full_input_length &&\n+             base64_ignorable(*(srcinit + r.input_count), options)) {\n+        r.input_count++;\n+      }\n+      // If we are still not at the end of the stream, then we must backtrack\n+      // to the last non-ignorable character.\n+      if (r.input_count < full_input_length) {\n+        while (r.input_count > 0 &&\n+               base64_ignorable(*(srcinit + r.input_count - 1), options)) {\n+          r.input_count--;\n+        }\n+      }\n+    }\n     return r;\n   }\n   if (equalsigns > 0 && !ignore_garbage) {"
+      },
+      {
+        "sha": "9c7d6b20cad7a315289b564e2bda0a46e3e70c51",
+        "filename": "src/generic/base64.h",
+        "status": "modified",
+        "additions": 21,
+        "deletions": 2,
+        "changes": 23,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fgeneric%2Fbase64.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fgeneric%2Fbase64.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fgeneric%2Fbase64.h?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -52,12 +52,11 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n   size_t equalsigns = ri.equalsigns;\n   srclen = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (srclen == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   char *end_of_safe_64byte_zone =\n       dst == nullptr\n@@ -197,6 +196,26 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n     r = scalar::base64::patch_tail_result(\n         r, size_t(src - srcinit), size_t(dst - dstinit), equallocation,\n         full_input_length, last_chunk_options);\n+    // When is_partial(last_chunk_options) is true, we must either end with\n+    // the end of the stream (beyond whitespace) or right after a non-ignorable\n+    // character or at the very beginning of the stream.\n+    // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+        r.input_count < full_input_length) {\n+      // First check if we can extend the input to the end of the stream\n+      while (r.input_count < full_input_length &&\n+             base64_ignorable(*(srcinit + r.input_count), options)) {\n+        r.input_count++;\n+      }\n+      // If we are still not at the end of the stream, then we must backtrack\n+      // to the last non-ignorable character.\n+      if (r.input_count < full_input_length) {\n+        while (r.input_count > 0 &&\n+               base64_ignorable(*(srcinit + r.input_count - 1), options)) {\n+          r.input_count--;\n+        }\n+      }\n+    }\n     return r;\n   }\n   if (!ignore_garbage && equalsigns > 0) {"
+      },
+      {
+        "sha": "4832002752021958382a1290cd8d9aaa2fd49d79",
+        "filename": "src/icelake/icelake_base64.inl.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 7,
+        "changes": 19,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Ficelake%2Ficelake_base64.inl.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Ficelake%2Ficelake_base64.inl.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Ficelake_base64.inl.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -229,7 +229,6 @@ full_result\n compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n                        base64_options options,\n                        last_chunk_handling_options last_chunk_options) {\n-\n   (void)options;\n   const uint8_t *to_base64 =\n       default_or_url ? tables::base64::to_base64_default_or_url_value\n@@ -240,12 +239,11 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n   size_t padding_characters = ri.equalsigns;\n   srclen = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (srclen == 0) {\n     if (!ignore_garbage && padding_characters > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   const chartype *const srcinit = src;\n   const char *const dstinit = dst;\n@@ -318,7 +316,6 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n     base64_decode_block(dst, buffer_start);\n     dst += 48;\n   }\n-\n   if ((bufferptr - buffer_start) != 0) {\n     // For efficiency reasons, we end up reproducing much of the code\n     // in base64_tail_decode_impl. Better engineering would be to\n@@ -356,7 +353,6 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n       return {INVALID_BASE64_CHARACTER, size_t(src - srcinit),\n               size_t(dst - dstinit), true};\n     } else\n-\n       // The idea here is that in strict mode, we do not want to accept\n       // incomplete base64 chunks. So if the chunk was otherwise valid, we\n       // return BASE64_INPUT_REMAINDER.\n@@ -373,7 +369,7 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n         // skip the minute there are padding characters.\n         if ((last_chunk_options ==\n                  last_chunk_handling_options::stop_before_partial &&\n-             (padding_characters + idx < 4) &&\n+             (padding_characters + idx < 4) && (idx != 0) &&\n              (idx >= 2 || padding_characters == 0)) ||\n             (last_chunk_options ==\n                  last_chunk_handling_options::only_full_chunks &&\n@@ -390,6 +386,16 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n               characters_to_skip--;\n             }\n           }\n+          // And then we need to skip ignored characters\n+          // See https://github.com/simdutf/simdutf/issues/824\n+          while (src > srcinit) {\n+            auto c = *(src - 1);\n+            uint8_t code = to_base64[uint8_t(c)];\n+            if (simdutf::scalar::base64::is_eight_byte(c) && code <= 63) {\n+              break;\n+            }\n+            src--;\n+          }\n           return {SUCCESS, size_t(src - srcinit), size_t(dst - dstinit)};\n         } else {\n           if (idx == 2) {\n@@ -443,7 +449,6 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n             dst += output_len;\n           }\n         }\n-\n     if (!ignore_garbage && !is_partial(last_chunk_options) &&\n         padding_characters > 0) {\n       size_t output_count = size_t(dst - dstinit);"
+      },
+      {
+        "sha": "be4cb9a1f7dbfcd3efc093609c9da4c9aeb79def",
+        "filename": "src/implementation.cpp",
+        "status": "modified",
+        "additions": 25,
+        "deletions": 2,
+        "changes": 27,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fimplementation.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -1548,6 +1548,7 @@ simdutf_warn_unused result atomic_base64_to_binary_safe_impl(\n   const char_type *const input_init = input;\n   size_t actual_out = 0;\n   bool last_chunk = false;\n+  const size_t length_init = length;\n   result r;\n   while (!last_chunk) {\n     last_chunk |= (temp_buffer.size() >= outlen - actual_out);\n@@ -1586,6 +1587,14 @@ simdutf_warn_unused result atomic_base64_to_binary_safe_impl(\n       break;\n     }\n   }\n+  if (size_t(input - input_init) != length_init) {\n+    // We did not process all input characters. In such case, we\n+    // should not end with an ignorable character. See\n+    // https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    while (input > input_init && base64_ignorable(*(input - 1), options)) {\n+      --input;\n+    }\n+  }\n   outlen = actual_out;\n   return {r.error, size_t(input - input_init)};\n }\n@@ -2290,18 +2299,17 @@ simdutf_warn_unused result base64_to_binary_safe_impl(\n     outlen = output_position;\n     return {r.error, input_position};\n   }\n+\n   if (done_with_partial) {\n     // We are done. We have decoded everything.\n     outlen = output_position;\n     return {simdutf::error_code::SUCCESS, input_position};\n   }\n-\n   // We have decoded some data, but we still have some data to decode.\n   // We need to decode the rest of the input buffer.\n   r = simdutf::scalar::base64::base64_to_binary_details_safe_impl(\n       input + input_position, remaining_input_length, output + output_position,\n       remaining_output_length, options, last_chunk_handling_options);\n-\n   input_position += r.input_count;\n   output_position += r.output_count;\n   remaining_input_length -= r.input_count;\n@@ -2317,6 +2325,21 @@ simdutf_warn_unused result base64_to_binary_safe_impl(\n     outlen = output_position;\n     return {r.error, input_position};\n   }\n+  if (input_position < length) {\n+    // We cannot process the entire input in one go, so we need to\n+    // process it in two steps: first the fast path, then the slow path.\n+    // In some cases, the processing might 'eat up' trailing ignorable\n+    // characters in the fast path, but that can be a problem.\n+    // suppose we have just white space followed by a single base64 character.\n+    // If we first process the white space with the fast path, it will\n+    // eat all of it. But, by the JavaScript standard, we should consume\n+    // no character. See\n+    // https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    while (input_position > 0 &&\n+           base64_ignorable(input[input_position - 1], options)) {\n+      input_position--;\n+    }\n+  }\n   outlen = output_position;\n   return {simdutf::error_code::SUCCESS, input_position};\n }"
+      },
+      {
+        "sha": "2af0f04a896a76c8ff7595396d22ac4487882ea5",
+        "filename": "src/lasx/lasx_base64.cpp",
+        "status": "modified",
+        "additions": 21,
+        "deletions": 2,
+        "changes": 23,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Flasx%2Flasx_base64.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Flasx%2Flasx_base64.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flasx%2Flasx_base64.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -446,12 +446,11 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n   size_t equalsigns = ri.equalsigns;\n   srclen = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (srclen == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   char *end_of_safe_64byte_zone =\n       (srclen + 3) / 4 * 3 >= 63 ? dst + (srclen + 3) / 4 * 3 - 63 : dst;\n@@ -591,6 +590,26 @@ compress_decode_base64(char *dst, const chartype *src, size_t srclen,\n     r = scalar::base64::patch_tail_result(\n         r, size_t(src - srcinit), size_t(dst - dstinit), equallocation,\n         full_input_length, last_chunk_options);\n+    // When is_partial(last_chunk_options) is true, we must either end with\n+    // the end of the stream (beyond whitespace) or right after a non-ignorable\n+    // character or at the very beginning of the stream.\n+    // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+        r.input_count < full_input_length) {\n+      // First check if we can extend the input to the end of the stream\n+      while (r.input_count < full_input_length &&\n+             base64_ignorable(*(srcinit + r.input_count), options)) {\n+        r.input_count++;\n+      }\n+      // If we are still not at the end of the stream, then we must backtrack\n+      // to the last non-ignorable character.\n+      if (r.input_count < full_input_length) {\n+        while (r.input_count > 0 &&\n+               base64_ignorable(*(srcinit + r.input_count - 1), options)) {\n+          r.input_count--;\n+        }\n+      }\n+    }\n     return r;\n   }\n   if (equalsigns > 0 && !ignore_garbage) {"
+      },
+      {
+        "sha": "73c20a6208ec01302283d1fc58b4f9218d385f19",
+        "filename": "src/lsx/lsx_base64.cpp",
+        "status": "modified",
+        "additions": 21,
+        "deletions": 2,
+        "changes": 23,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Flsx%2Flsx_base64.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Flsx%2Flsx_base64.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flsx%2Flsx_base64.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -443,12 +443,11 @@ compress_decode_base64(char *dst, const char_type *src, size_t srclen,\n   size_t equalsigns = ri.equalsigns;\n   srclen = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (srclen == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   const char_type *const srcinit = src;\n   const char *const dstinit = dst;\n@@ -573,6 +572,26 @@ compress_decode_base64(char *dst, const char_type *src, size_t srclen,\n     r = scalar::base64::patch_tail_result(\n         r, size_t(src - srcinit), size_t(dst - dstinit), equallocation,\n         full_input_length, last_chunk_options);\n+    // When is_partial(last_chunk_options) is true, we must either end with\n+    // the end of the stream (beyond whitespace) or right after a non-ignorable\n+    // character or at the very beginning of the stream.\n+    // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+    if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+        r.input_count < full_input_length) {\n+      // First check if we can extend the input to the end of the stream\n+      while (r.input_count < full_input_length &&\n+             base64_ignorable(*(srcinit + r.input_count), options)) {\n+        r.input_count++;\n+      }\n+      // If we are still not at the end of the stream, then we must backtrack\n+      // to the last non-ignorable character.\n+      if (r.input_count < full_input_length) {\n+        while (r.input_count > 0 &&\n+               base64_ignorable(*(srcinit + r.input_count - 1), options)) {\n+          r.input_count--;\n+        }\n+      }\n+    }\n     return r;\n   }\n   if (equalsigns > 0 && !ignore_garbage) {"
+      },
+      {
+        "sha": "1264df8437afac273cacb1c94c03e47dd6a25cd4",
+        "filename": "src/scalar/base64.h",
+        "status": "modified",
+        "additions": 49,
+        "deletions": 19,
+        "changes": 68,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fscalar%2Fbase64.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/src%2Fscalar%2Fbase64.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fscalar%2Fbase64.h?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -92,9 +92,8 @@ struct reduced_input {\n // find the end of the base64 input buffer\n // It returns the number of padding characters, the location of the first\n // padding character if any, the length of the input buffer before padding\n-// and the length of the input buffer with padding but without ignorable\n-// characters. The input buffer is not modified.\n-// The function assumes that there are at most two padding characters.\n+// and the length of the input buffer with padding. The input buffer is not\n+// modified. The function assumes that there are at most two padding characters.\n template <class char_type>\n reduced_input find_end(const char_type *src, size_t srclen,\n                        simdutf::base64_options options) {\n@@ -109,13 +108,15 @@ reduced_input find_end(const char_type *src, size_t srclen,\n       (options == base64_options::base64_default_or_url_accept_garbage);\n \n   size_t equalsigns = 0;\n+  // We intentionally include trailing spaces in the full input length.\n+  // See https://github.com/simdutf/simdutf/issues/824\n+  size_t full_input_length = srclen;\n   // skip trailing spaces\n   while (!ignore_garbage && srclen > 0 &&\n          scalar::base64::is_eight_byte(src[srclen - 1]) &&\n          to_base64[uint8_t(src[srclen - 1])] == 64) {\n     srclen--;\n   }\n-  size_t full_input_length = srclen;\n   size_t equallocation =\n       srclen; // location of the first padding character if any\n   if (ignore_garbage) {\n@@ -297,24 +298,14 @@ full_result base64_tail_decode_impl(\n           // mode, skip the minute there are padding characters.\n           if ((last_chunk_options ==\n                    last_chunk_handling_options::stop_before_partial &&\n-               (padding_characters + idx < 4) &&\n+               (padding_characters + idx < 4) && (idx != 0) &&\n                (idx >= 2 || padding_characters == 0)) ||\n               (last_chunk_options ==\n                    last_chunk_handling_options::only_full_chunks &&\n                (idx >= 2 || padding_characters == 0))) {\n-            // Rewind src to before partial chunk\n-\n             // partial means that we are *not* going to consume the read\n             // characters. We need to rewind the src pointer.\n             src = srccur;\n-            // adjust, skipping ignorable characters\n-            for (; src < srcend; src++) {\n-              char_type c = *src;\n-              uint8_t code = to_base64[uint8_t(c)];\n-              if (is_eight_byte(c) && code <= 63) {\n-                break;\n-              }\n-            }\n             return {SUCCESS, size_t(src - srcinit), size_t(dst - dstinit)};\n           } else {\n             if (idx == 2) {\n@@ -537,12 +528,11 @@ simdutf_warn_unused full_result base64_to_binary_details_impl(\n   size_t equalsigns = ri.equalsigns;\n   length = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (length == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   full_result r = scalar::base64::base64_tail_decode(\n       output, input, length, equalsigns, options, last_chunk_options);\n@@ -556,6 +546,26 @@ simdutf_warn_unused full_result base64_to_binary_details_impl(\n       return {INVALID_BASE64_CHARACTER, equallocation, r.output_count};\n     }\n   }\n+  // When is_partial(last_chunk_options) is true, we must either end with\n+  // the end of the stream (beyond whitespace) or right after a non-ignorable\n+  // character or at the very beginning of the stream.\n+  // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+  if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+      r.input_count < full_input_length) {\n+    // First check if we can extend the input to the end of the stream\n+    while (r.input_count < full_input_length &&\n+           base64_ignorable(*(input + r.input_count), options)) {\n+      r.input_count++;\n+    }\n+    // If we are still not at the end of the stream, then we must backtrack\n+    // to the last non-ignorable character.\n+    if (r.input_count < full_input_length) {\n+      while (r.input_count > 0 &&\n+             base64_ignorable(*(input + r.input_count - 1), options)) {\n+        r.input_count--;\n+      }\n+    }\n+  }\n   return r;\n }\n \n@@ -573,12 +583,11 @@ simdutf_warn_unused full_result base64_to_binary_details_safe_impl(\n   size_t equalsigns = ri.equalsigns;\n   length = ri.srclen;\n   size_t full_input_length = ri.full_input_length;\n-  (void)full_input_length;\n   if (length == 0) {\n     if (!ignore_garbage && equalsigns > 0) {\n       return {INVALID_BASE64_CHARACTER, equallocation, 0};\n     }\n-    return {SUCCESS, 0, 0};\n+    return {SUCCESS, full_input_length, 0};\n   }\n   full_result r = scalar::base64::base64_tail_decode_safe(\n       output, outlen, input, length, equalsigns, options, last_chunk_options);\n@@ -592,6 +601,27 @@ simdutf_warn_unused full_result base64_to_binary_details_safe_impl(\n       return {INVALID_BASE64_CHARACTER, equallocation, r.output_count};\n     }\n   }\n+\n+  // When is_partial(last_chunk_options) is true, we must either end with\n+  // the end of the stream (beyond whitespace) or right after a non-ignorable\n+  // character or at the very beginning of the stream.\n+  // See https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+  if (is_partial(last_chunk_options) && r.error == error_code::SUCCESS &&\n+      r.input_count < full_input_length) {\n+    // First check if we can extend the input to the end of the stream\n+    while (r.input_count < full_input_length &&\n+           base64_ignorable(*(input + r.input_count), options)) {\n+      r.input_count++;\n+    }\n+    // If we are still not at the end of the stream, then we must backtrack\n+    // to the last non-ignorable character.\n+    if (r.input_count < full_input_length) {\n+      while (r.input_count > 0 &&\n+             base64_ignorable(*(input + r.input_count - 1), options)) {\n+        r.input_count--;\n+      }\n+    }\n+  }\n   return r;\n }\n "
+      },
+      {
+        "sha": "f558223d24407ec65cbba8ad007e5071ce9246c7",
+        "filename": "tests/atomic_base64_tests.cpp",
+        "status": "modified",
+        "additions": 68,
+        "deletions": 1,
+        "changes": 69,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/tests%2Fatomic_base64_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/tests%2Fatomic_base64_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fatomic_base64_tests.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -30,6 +30,74 @@ static random_generator::result_type seed = 42;\n #endif\n \n #if !defined(SIMDUTF_NO_THREADS) && SIMDUTF_ATOMIC_REF && SIMDUTF_SPAN\n+\n+TEST(issue_824) {\n+  struct read_write {\n+    size_t read;\n+    size_t written;\n+  };\n+  std::vector<std::tuple<std::string, read_write, std::vector<char>>>\n+      test_cases = {\n+          {\"  \", {2, 0}, {}}, // return the entire input length, including\n+                              // trailing whitespace.\n+          {\" A A G A / v 8 \",\n+           {8, 3},\n+           {0, 1, char(128)}} // return the ending position of the previous\n+                              // chunk before skipping whitespace.\n+      };\n+  std::vector<unsigned char> case1(5463, 0x20);\n+  case1.back() = 0x38;\n+  test_cases.emplace_back(std::string(case1.begin(), case1.end()),\n+                          read_write{0, 0}, std::vector<char>{});\n+  std::string long_input(1000, ' ');\n+  test_cases.emplace_back(long_input, read_write{1000, 0}, std::vector<char>{});\n+  test_cases.emplace_back(long_input + \" A A G A / v 8 \",\n+                          read_write{1000 + 8, 3},\n+                          std::vector<char>{0, 1, char(128)});\n+  test_cases.emplace_back(long_input + \"A\", read_write{0, 0},\n+                          std::vector<char>{});\n+  test_cases.emplace_back(\"AAAA\" + long_input + \"A\", read_write{4, 3},\n+                          std::vector<char>{0, 0, 0});\n+\n+  for (const std::tuple<std::string, read_write, std::vector<char>> &t :\n+       test_cases) {\n+    auto input_data = std::get<0>(t);\n+    auto read_write_info = std::get<1>(t);\n+    auto expected_output = std::get<2>(t);\n+    std::vector<char> output_buffer(\n+        implementation.maximal_binary_length_from_base64(input_data.data(),\n+                                                         input_data.size()));\n+    size_t written = output_buffer.size();\n+    const auto r = simdutf::atomic_base64_to_binary_safe(\n+        input_data.data(), input_data.size(), output_buffer.data(), written,\n+        simdutf::base64_default,\n+        simdutf::last_chunk_handling_options::stop_before_partial, true);\n+    ASSERT_EQUAL(r.error, simdutf::error_code::SUCCESS);\n+    ASSERT_EQUAL(r.count, read_write_info.read);\n+    ASSERT_EQUAL(written, expected_output.size());\n+    output_buffer.resize(written);\n+    ASSERT_TRUE(output_buffer == expected_output);\n+  }\n+  for (const std::tuple<std::string, read_write, std::vector<char>> &t :\n+       test_cases) {\n+    auto input_data = std::get<0>(t);\n+    auto read_write_info = std::get<1>(t);\n+    auto expected_output = std::get<2>(t);\n+    std::vector<char> output_buffer(expected_output.size(),\n+                                    0); // we know the size of the output\n+    size_t written = output_buffer.size();\n+    const auto r = simdutf::atomic_base64_to_binary_safe(\n+        input_data.data(), input_data.size(), output_buffer.data(), written,\n+        simdutf::base64_default,\n+        simdutf::last_chunk_handling_options::stop_before_partial, true);\n+    ASSERT_EQUAL(r.error, simdutf::error_code::SUCCESS);\n+    ASSERT_EQUAL(r.count, read_write_info.read);\n+    ASSERT_EQUAL(written, expected_output.size());\n+    output_buffer.resize(written);\n+    ASSERT_TRUE(output_buffer == expected_output);\n+  }\n+}\n+\n TEST(atomic_roundtrip_base64) {\n   for (size_t len = 0; len < 2048; len++) {\n     std::vector<char> source(len, 0);\n@@ -142,7 +210,6 @@ void compare_decode(\n     const simdutf::base64_options options,\n     const simdutf::last_chunk_handling_options last_chunk_options,\n     const bool decode_up_to_bad_char) {\n-\n   const auto s = [&]() {\n     if constexpr (sizeof(b64_input[0]) == 1) {\n       return std::span<const char>("
+      },
+      {
+        "sha": "d5a100d165b26fceed64bf07c9b8d2f60735405b",
+        "filename": "tests/base64_tests.cpp",
+        "status": "modified",
+        "additions": 234,
+        "deletions": 86,
+        "changes": 320,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/tests%2Fbase64_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/tests%2Fbase64_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fbase64_tests.cpp?ref=dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "patch": "@@ -211,6 +211,31 @@ size_t add_garbage(std::vector<char_type> &v, std::mt19937 &gen,\n   return i;\n }\n \n+// https://github.com/tc39/test262/blob/f0dc15c6c7ec095ba3caf3acc0f8665394665841/test/built-ins/Uint8Array/fromBase64/last-chunk-invalid.js\n+TEST(tc39_illegal_padded_chunks) {\n+  std::string test_cases[] = {\n+      \"=\",         \"==\",        \"===\",       \"====\",     \"=====\",   \"A=\",\n+      \"A==\",       \"A===\",      \"A====\",     \"A=====\",   \"AA====\",  \"AA=====\",\n+      \"AAA==\",     \"AAA===\",    \"AAA====\",   \"AAA=====\", \"AAAA=\",   \"AAAA==\",\n+      \"AAAA===\",   \"AAAA====\",  \"AAAA=====\", \"AAAAA=\",   \"AAAAA==\", \"AAAAA===\",\n+      \"AAAAA====\", \"AAAAA=====\"};\n+  std::mt19937 gen((std::mt19937::result_type)(seed));\n+  for (const std::string &input : test_cases) {\n+    std::vector<uint8_t> back(255);\n+    size_t len = back.size();\n+    for (auto option :\n+         {simdutf::last_chunk_handling_options::strict,\n+          simdutf::last_chunk_handling_options::loose,\n+          simdutf::last_chunk_handling_options::stop_before_partial}) {\n+      auto r = simdutf::base64_to_binary_safe(\n+          input.data(), input.size(), reinterpret_cast<char *>(back.data()),\n+          len, simdutf::base64_default, option, true);\n+      ASSERT_FALSE(r.error == simdutf::error_code::SUCCESS);\n+      ASSERT_FALSE(r.error == simdutf::error_code::OUTPUT_BUFFER_TOO_SMALL);\n+    }\n+  }\n+}\n+\n // From Node.js tests:\n TEST(issue_node_anything_goes) {\n \n@@ -510,64 +535,6 @@ TEST(tc39_illegal_padded_chunks_unsafe) {\n   }\n }\n \n-// https://github.com/tc39/test262/blob/f0dc15c6c7ec095ba3caf3acc0f8665394665841/test/built-ins/Uint8Array/fromBase64/last-chunk-invalid.js\n-TEST(tc39_illegal_padded_chunks) {\n-  std::string test_cases[] = {\n-      \"=\",         \"==\",        \"===\",       \"====\",     \"=====\",   \"A=\",\n-      \"A==\",       \"A===\",      \"A====\",     \"A=====\",   \"AA====\",  \"AA=====\",\n-      \"AAA==\",     \"AAA===\",    \"AAA====\",   \"AAA=====\", \"AAAA=\",   \"AAAA==\",\n-      \"AAAA===\",   \"AAAA====\",  \"AAAA=====\", \"AAAAA=\",   \"AAAAA==\", \"AAAAA===\",\n-      \"AAAAA====\", \"AAAAA=====\"};\n-  std::mt19937 gen((std::mt19937::result_type)(seed));\n-  for (const std::string &input : test_cases) {\n-    std::vector<uint8_t> back(255);\n-    size_t len = back.size();\n-    for (auto option :\n-         {simdutf::last_chunk_handling_options::strict,\n-          simdutf::last_chunk_handling_options::loose,\n-          simdutf::last_chunk_handling_options::stop_before_partial}) {\n-      auto r = simdutf::base64_to_binary_safe(\n-          input.data(), input.size(), reinterpret_cast<char *>(back.data()),\n-          len, simdutf::base64_default, option, true);\n-      ASSERT_FALSE(r.error == simdutf::error_code::SUCCESS);\n-      ASSERT_FALSE(r.error == simdutf::error_code::OUTPUT_BUFFER_TOO_SMALL);\n-    }\n-  }\n-  std::string base(128, 'A');\n-  for (const std::string &input_orig : test_cases) {\n-    std::string input = base + input_orig;\n-    std::vector<uint8_t> back(255);\n-    size_t len = back.size();\n-    for (auto option :\n-         {simdutf::last_chunk_handling_options::strict,\n-          simdutf::last_chunk_handling_options::loose,\n-          simdutf::last_chunk_handling_options::stop_before_partial}) {\n-      auto r = simdutf::base64_to_binary_safe(\n-          input.data(), input.size(), reinterpret_cast<char *>(back.data()),\n-          len, simdutf::base64_default, option, true);\n-      ASSERT_FALSE(r.error == simdutf::error_code::SUCCESS);\n-      ASSERT_FALSE(r.error == simdutf::error_code::OUTPUT_BUFFER_TOO_SMALL);\n-    }\n-  }\n-\n-  for (const std::string &input_orig : test_cases) {\n-    std::string input = base + input_orig;\n-    add_simple_spaces(input, gen, 5 + 2 * input.size());\n-    std::vector<uint8_t> back(255);\n-    size_t len = back.size();\n-    for (auto option :\n-         {simdutf::last_chunk_handling_options::strict,\n-          simdutf::last_chunk_handling_options::loose,\n-          simdutf::last_chunk_handling_options::stop_before_partial}) {\n-      auto r = simdutf::base64_to_binary_safe(\n-          input.data(), input.size(), reinterpret_cast<char *>(back.data()),\n-          len, simdutf::base64_default, option, true);\n-      ASSERT_FALSE(r.error == simdutf::error_code::SUCCESS);\n-      ASSERT_FALSE(r.error == simdutf::error_code::OUTPUT_BUFFER_TOO_SMALL);\n-    }\n-  }\n-}\n-\n // stop-before-partial should behave like so:\n // 1. if the last chunk is not a multiple of 4, we should stop before the last\n //    chunk\n@@ -1110,7 +1077,7 @@ TEST(roundtrip_base64_with_lots_of_spaces_at_the_beginning) {\n \n TEST(base64_decode_just_one_padding_partial_safe) {\n   std::vector<std::tuple<std::string, simdutf::result, size_t>> test_cases = {\n-      {\"uuuu             uu=\", {simdutf::error_code::SUCCESS, 17}, 3},\n+      {\"uuuu             uu=\", {simdutf::error_code::SUCCESS, 4}, 3},\n       // 5. If char is \"=\", then If chunkLength < 2, then Let error be a new\n       // SyntaxError exception.\n       {\"uuuu             u==\",\n@@ -1573,34 +1540,188 @@ TEST(base64_decode_complete_input) {\n   }\n }\n \n+// https://github.com/simdutf/simdutf/issues/824\n+/*\n+The TC39 base64 proposal step 10.a and 10.b together means that, when using\n+stop-before-partial:\n+\n+If in the middle of decoding a chunk, return the ending position of the previous\n+chunk before skipping whitespace. If not in the middle of decoding a chunk,\n+return the entire input length, including trailing whitespace.\n+*/\n+TEST(issue_824) {\n+  struct read_write {\n+    size_t read;\n+    size_t written;\n+  };\n+  std::vector<std::tuple<std::string, read_write, std::vector<uint8_t>>>\n+      test_cases = {\n+          {\"  \", {2, 0}, {}}, // return the entire input length, including\n+                              // trailing whitespace.\n+          {\" A A G A / v 8 \",\n+           {8, 3},\n+           {0, 1, 128}} // return the ending position of the previous chunk\n+                        // before skipping whitespace.\n+      };\n+\n+  std::vector<unsigned char> case1(5463, 0x20);\n+  case1.back() = 0x38;\n+  test_cases.emplace_back(std::string(case1.begin(), case1.end()),\n+                          read_write{0, 0}, std::vector<uint8_t>{});\n+\n+  std::string long_input(1000, ' ');\n+  test_cases.emplace_back(long_input, read_write{1000, 0},\n+                          std::vector<uint8_t>{});\n+  test_cases.emplace_back(long_input + \" A A G A / v 8 \",\n+                          read_write{1000 + 8, 3},\n+                          std::vector<uint8_t>{0, 1, 128});\n+  // In https://tc39.es/proposal-arraybuffer-base64/spec/#sec-frombase64\n+  // the 'read' variable is only ever incremented when a full chunk is\n+  // successfully decoded. And we always return the 'read' variable,\n+  // except when we reach the end of the input with a chunkLength of zero.\n+  test_cases.emplace_back(long_input + \"A\", read_write{0, 0},\n+                          std::vector<uint8_t>{});\n+  test_cases.emplace_back(\"AAAA\" + long_input + \"A\", read_write{4, 3},\n+                          std::vector<uint8_t>{0, 0, 0});\n+\n+  for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+       test_cases) {\n+    auto input_data = std::get<0>(t);\n+    auto read_write_info = std::get<1>(t);\n+    auto expected_output = std::get<2>(t);\n+    std::vector<uint8_t> output_buffer(\n+        implementation.maximal_binary_length_from_base64(input_data.data(),\n+                                                         input_data.size()));\n+    size_t written = output_buffer.size();\n+    auto result = simdutf::base64_to_binary_safe(\n+        input_data.data(), input_data.size(),\n+        reinterpret_cast<char *>(output_buffer.data()), written,\n+        simdutf::base64_default,\n+        simdutf::last_chunk_handling_options::stop_before_partial, true);\n+    ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+    ASSERT_EQUAL(result.count, read_write_info.read);\n+    ASSERT_EQUAL(written, expected_output.size());\n+    output_buffer.resize(written);\n+    ASSERT_TRUE(output_buffer == expected_output);\n+  }\n+  for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+       test_cases) {\n+    auto input_data = std::get<0>(t);\n+    auto read_write_info = std::get<1>(t);\n+    auto expected_output = std::get<2>(t);\n+    std::vector<uint8_t> output_buffer(expected_output.size());\n+    size_t written = output_buffer.size();\n+    auto result = simdutf::base64_to_binary_safe(\n+        input_data.data(), input_data.size(),\n+        reinterpret_cast<char *>(output_buffer.data()), written,\n+        simdutf::base64_default,\n+        simdutf::last_chunk_handling_options::stop_before_partial, true);\n+    ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+    ASSERT_EQUAL(result.count, read_write_info.read);\n+    ASSERT_EQUAL(written, expected_output.size());\n+    output_buffer.resize(written);\n+    ASSERT_TRUE(output_buffer == expected_output);\n+  }\n+  for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+       test_cases) {\n+    auto input_data = std::get<0>(t);\n+    auto read_write_info = std::get<1>(t);\n+    auto expected_output = std::get<2>(t);\n+    std::vector<uint8_t> output_buffer(expected_output.size());\n+    size_t written = 3;\n+    auto result = simdutf::base64_to_binary_safe(\n+        input_data.data(), input_data.size(),\n+        reinterpret_cast<char *>(output_buffer.data()), written,\n+        simdutf::base64_default,\n+        simdutf::last_chunk_handling_options::stop_before_partial, true);\n+    ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+    ASSERT_EQUAL(result.count, read_write_info.read);\n+    ASSERT_EQUAL(written, expected_output.size());\n+    output_buffer.resize(written);\n+    ASSERT_TRUE(output_buffer == expected_output);\n+  }\n+}\n+\n+TEST(issue_824_a) {\n+  std::vector<unsigned char> base64(5463, 0x20);\n+  base64.back() = 0x38;\n+  std::vector<char> outbuf(8224);\n+  std::size_t outlen = outbuf.size();\n+  const auto result = simdutf::base64_to_binary_safe(\n+      (const char *)base64.data(), base64.size(), outbuf.data(), outlen,\n+      simdutf::base64_default,\n+      simdutf::last_chunk_handling_options::stop_before_partial, false);\n+  ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+  ASSERT_EQUAL(result.count, 0);\n+  ASSERT_EQUAL(outlen, 0);\n+}\n+\n+TEST(issue_06_05_2025_001) {\n+  const std::vector<unsigned char> base64{\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x0a, 0x0a,\n+      0x0a, 0x6f, 0x6e, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f,\n+      0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71,\n+      0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x6f, 0x0a,\n+      0x0a, 0x0a, 0x0a, 0x0a, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x0a,\n+      0x0a, 0x0a, 0x0a, 0x0a, 0x0a, 0x0a, 0x4b, 0x0a, 0x0a, 0x0a, 0x0a, 0x0a,\n+      0x0a, 0x0a, 0x0a, 0x0a, 0x0a, 0x0a, 0x0a, 0x0a,\n+  };\n+  std::vector<char> outbuf(28426);\n+  std::size_t outlen = outbuf.size();\n+  const auto result = simdutf::base64_to_binary_safe(\n+      (const char *)base64.data(), base64.size(), outbuf.data(), outlen,\n+      simdutf::base64_default,\n+      simdutf::last_chunk_handling_options::stop_before_partial, true);\n+  ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+  ASSERT_EQUAL(result.count, base64.size());\n+  ASSERT_EQUAL(outlen, 111);\n+};\n+\n // https://github.com/WebKit/WebKit/blob/18fad22e2078542316a576989676d31cfd08d777/JSTests/stress/uint8array-fromBase64.js#L135\n TEST(base64_decode_webkit_cases) {\n-  std::vector<std::pair<std::string, std::vector<uint8_t>>> test_cases = {\n-      {\"\", {}},\n-      {\"AA==\", {0}},\n-      {\"AQ==\", {1}},\n-      {\"gA==\", {128}},\n-      {\"/g==\", {254}},\n-      {\"/w==\", {255}},\n-      {\"AAE=\", {0, 1}},\n-      {\"/v8=\", {254, 255}},\n-      {\"AAGA/v8=\", {0, 1, 128, 254, 255}},\n-      {\"  \", {}},\n-      {\"  A  A  =  =  \", {0}},\n-      {\"  A  Q  =  =  \", {1}},\n-      {\"  g  A  =  =  \", {128}},\n-      {\"  /  g  =  =  \", {254}},\n-      {\"  /  w  =  =  \", {255}},\n-      {\"  A  A  E  =  \", {0, 1}},\n-      {\"  /  v  8  =  \", {254, 255}},\n-      {\"  A  A  G  A  /  v  8  =  \", {0, 1, 128, 254, 255}}};\n+\n+  struct read_write {\n+    size_t read;\n+    size_t written;\n+  };\n+  std::vector<std::tuple<std::string, read_write, std::vector<uint8_t>>>\n+      test_cases = {\n+          {\"\", {0, 0}, {}},\n+          {\"AA==\", {4, 1}, {0}},\n+          {\"AQ==\", {4, 1}, {1}},\n+          {\"gA==\", {4, 1}, {128}},\n+          {\"/g==\", {4, 1}, {254}},\n+          {\"/w==\", {4, 1}, {255}},\n+          {\"AAE=\", {4, 2}, {0, 1}},\n+          {\"/v8=\", {4, 2}, {254, 255}},\n+          {\"AAGA/v8=\", {8, 5}, {0, 1, 128, 254, 255}},\n+          {\"  \", {2, 0}, {}},\n+          {\"  A  A  =  =  \", {14, 1}, {0}},\n+          {\"  A  Q  =  =  \", {14, 1}, {1}},\n+          {\"  g  A  =  =  \", {14, 1}, {128}},\n+          {\"  /  g  =  =  \", {14, 1}, {254}},\n+          {\"  /  w  =  =  \", {14, 1}, {255}},\n+          {\"  A  A  E  =  \", {14, 2}, {0, 1}},\n+          {\"  /  v  8  =  \", {14, 2}, {254, 255}},\n+          {\"  A  A  G  A  /  v  8  =  \", {26, 5}, {0, 1, 128, 254, 255}}};\n \n   // Test with all last_chunk_handling_options\n-  for (auto option : {simdutf::last_chunk_handling_options::strict,\n-                      simdutf::last_chunk_handling_options::loose}) {\n-    for (const std::pair<std::string, std::vector<uint8_t>> &t : test_cases) {\n-      auto input_data = t.first;\n-      auto expected_output = t.second;\n+  for (auto option :\n+       {simdutf::last_chunk_handling_options::strict,\n+        simdutf::last_chunk_handling_options::loose,\n+        simdutf::last_chunk_handling_options::stop_before_partial}) {\n+    for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+         test_cases) {\n+      auto input_data = std::get<0>(t);\n+      auto expected_output = std::get<2>(t);\n       std::vector<uint8_t> output_buffer(\n           implementation.maximal_binary_length_from_base64(input_data.data(),\n                                                            input_data.size()));\n@@ -1615,12 +1736,38 @@ TEST(base64_decode_webkit_cases) {\n     }\n   }\n \n+  for (auto option :\n+       {simdutf::last_chunk_handling_options::strict,\n+        simdutf::last_chunk_handling_options::loose,\n+        simdutf::last_chunk_handling_options::stop_before_partial}) {\n+    for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+         test_cases) {\n+      auto input_data = std::get<0>(t);\n+      auto read_write_info = std::get<1>(t);\n+      auto expected_output = std::get<2>(t);\n+      std::vector<uint8_t> output_buffer(\n+          implementation.maximal_binary_length_from_base64(input_data.data(),\n+                                                           input_data.size()));\n+      auto result = implementation.base64_to_binary_details(\n+          input_data.data(), input_data.size(),\n+          reinterpret_cast<char *>(output_buffer.data()),\n+          simdutf::base64_default, option);\n+      ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+      ASSERT_EQUAL(result.output_count, expected_output.size());\n+      ASSERT_EQUAL(result.output_count, read_write_info.written);\n+      ASSERT_EQUAL(result.input_count, read_write_info.read);\n+      output_buffer.resize(result.output_count);\n+      ASSERT_TRUE(output_buffer == expected_output);\n+    }\n+  }\n   // Test with all last_chunk_handling_options\n   for (auto option : {simdutf::last_chunk_handling_options::strict,\n                       simdutf::last_chunk_handling_options::loose}) {\n-    for (const std::pair<std::string, std::vector<uint8_t>> &t : test_cases) {\n-      auto input_data = t.first;\n-      auto expected_output = t.second;\n+    for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n+         test_cases) {\n+      auto input_data = std::get<0>(t);\n+      auto read_write_info = std::get<1>(t);\n+      auto expected_output = std::get<2>(t);\n       std::vector<uint8_t> output_buffer(\n           implementation.maximal_binary_length_from_base64(input_data.data(),\n                                                            input_data.size()));\n@@ -1630,6 +1777,7 @@ TEST(base64_decode_webkit_cases) {\n           reinterpret_cast<char *>(output_buffer.data()), written,\n           simdutf::base64_default, option);\n       ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n+      ASSERT_EQUAL(result.count, read_write_info.read);\n       ASSERT_EQUAL(written, expected_output.size());\n       output_buffer.resize(written);\n       ASSERT_TRUE(output_buffer == expected_output);"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v7.3.3...v7.3.4?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3819",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

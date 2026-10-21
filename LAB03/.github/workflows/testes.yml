@@ -31,3 +31,10 @@ jobs:
             cd LAB03
           fi
           pytest --cov=metricas --cov-fail-under=80
+
+      - name: Executar smoke tests (pipeline offline sem rede)
+        run: |
+          if [ -d "LAB03" ]; then
+            cd LAB03
+          fi
+          pytest -m smoke -v

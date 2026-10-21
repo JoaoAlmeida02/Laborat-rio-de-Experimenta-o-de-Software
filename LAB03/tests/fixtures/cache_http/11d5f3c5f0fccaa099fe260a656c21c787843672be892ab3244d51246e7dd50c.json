@@ -1,0 +1,782 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v7.3.4...v7.3.5",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v7.3.4...v7.3.5",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:dd192d6...simdutf:df8bfed",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v7.3.4...v7.3.5.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v7.3.4...v7.3.5.patch",
+    "base_commit": {
+      "sha": "dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "node_id": "C_kwDOFAPj4doAKGRkMTkyZDZmYzVmZGYwYWQyMWMwNzU5Y2QzMTMzYmJjYzdhZTQxMjI",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-01T04:02:33Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-01T04:02:33Z"
+        },
+        "message": "release 7.3.4",
+        "tree": {
+          "sha": "d67e1b60e76195b9b0dec3af417e00aa2bd61c5b",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/d67e1b60e76195b9b0dec3af417e00aa2bd61c5b"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "html_url": "https://github.com/simdutf/simdutf/commit/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+          "html_url": "https://github.com/simdutf/simdutf/commit/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "node_id": "C_kwDOFAPj4doAKGRkMTkyZDZmYzVmZGYwYWQyMWMwNzU5Y2QzMTMzYmJjYzdhZTQxMjI",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-01T04:02:33Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-01T04:02:33Z"
+        },
+        "message": "release 7.3.4",
+        "tree": {
+          "sha": "d67e1b60e76195b9b0dec3af417e00aa2bd61c5b",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/d67e1b60e76195b9b0dec3af417e00aa2bd61c5b"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "html_url": "https://github.com/simdutf/simdutf/commit/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896",
+          "html_url": "https://github.com/simdutf/simdutf/commit/a3a268e58c5e23e971269fc8fc9f8fa4fbbdb896"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 6,
+    "behind_by": 0,
+    "total_commits": 6,
+    "commits": [
+      {
+        "sha": "0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+        "node_id": "C_kwDOFAPj4doAKDBhZWY4Y2VmY2FmN2IyNWU0ZmMwZDIzNjZlMjMwYzMzZmZkMjU2YWM",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T00:57:48Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T00:57:48Z"
+          },
+          "message": "removing part of the test that can trigger undef",
+          "tree": {
+            "sha": "3113c719b1f1732a1a2b70b6e566adfe915ce48f",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/3113c719b1f1732a1a2b70b6e566adfe915ce48f"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+        "html_url": "https://github.com/simdutf/simdutf/commit/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122",
+            "html_url": "https://github.com/simdutf/simdutf/commit/dd192d6fc5fdf0ad21c0759cd3133bbcc7ae4122"
+          }
+        ]
+      },
+      {
+        "sha": "4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+        "node_id": "C_kwDOFAPj4doAKDQ2MzZlNmE4MGViYTUzNjdkYjMyZDZjYzZjZDRlNTczZTFiZjVjNjc",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:19:41Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:19:41Z"
+          },
+          "message": "optimize find",
+          "tree": {
+            "sha": "47a94894207b30c65ee4a998f12bd6e0cf732433",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/47a94894207b30c65ee4a998f12bd6e0cf732433"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+        "html_url": "https://github.com/simdutf/simdutf/commit/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac",
+            "html_url": "https://github.com/simdutf/simdutf/commit/0aef8cefcaf7b25e4fc0d2366e230c33ffd256ac"
+          }
+        ]
+      },
+      {
+        "sha": "378d20225813bb804eb490e76172432b9328e37e",
+        "node_id": "C_kwDOFAPj4doAKDM3OGQyMDIyNTgxM2JiODA0ZWI0OTBlNzYxNzI0MzJiOTMyOGUzN2U",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:20:04Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:20:04Z"
+          },
+          "message": "release bump",
+          "tree": {
+            "sha": "a95b52458f7cfecdd84b9c1eb36f5e80a0c86feb",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/a95b52458f7cfecdd84b9c1eb36f5e80a0c86feb"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/378d20225813bb804eb490e76172432b9328e37e",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/378d20225813bb804eb490e76172432b9328e37e",
+        "html_url": "https://github.com/simdutf/simdutf/commit/378d20225813bb804eb490e76172432b9328e37e",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/378d20225813bb804eb490e76172432b9328e37e/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67",
+            "html_url": "https://github.com/simdutf/simdutf/commit/4636e6a80eba5367db32d6cc6cd4e573e1bf5c67"
+          }
+        ]
+      },
+      {
+        "sha": "46d166bcda0dbab2fd5a008e2f976a3804327550",
+        "node_id": "C_kwDOFAPj4doAKDQ2ZDE2NmJjZGEwZGJhYjJmZDVhMDA4ZTJmOTc2YTM4MDQzMjc1NTA",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:36:39Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T02:36:39Z"
+          },
+          "message": "adding missing find",
+          "tree": {
+            "sha": "3b358511df8b8b05f6898d8035bf1cf0da82a1ac",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/3b358511df8b8b05f6898d8035bf1cf0da82a1ac"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/46d166bcda0dbab2fd5a008e2f976a3804327550",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/46d166bcda0dbab2fd5a008e2f976a3804327550",
+        "html_url": "https://github.com/simdutf/simdutf/commit/46d166bcda0dbab2fd5a008e2f976a3804327550",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/46d166bcda0dbab2fd5a008e2f976a3804327550/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "378d20225813bb804eb490e76172432b9328e37e",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/378d20225813bb804eb490e76172432b9328e37e",
+            "html_url": "https://github.com/simdutf/simdutf/commit/378d20225813bb804eb490e76172432b9328e37e"
+          }
+        ]
+      },
+      {
+        "sha": "241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+        "node_id": "C_kwDOFAPj4doAKDI0MTAwNWYyY2I5NWJjNTg0OWVmMmJmODhmZDE2NjM0ZTUyN2EwZTU",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "dlemire@lemire.me",
+            "date": "2025-08-09T03:13:54Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "dlemire@lemire.me",
+            "date": "2025-08-09T03:13:54Z"
+          },
+          "message": "optimizing find",
+          "tree": {
+            "sha": "10c946c0c7f507788c1f9fc48da6fe6919e79c44",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/10c946c0c7f507788c1f9fc48da6fe6919e79c44"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+        "html_url": "https://github.com/simdutf/simdutf/commit/241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/241005f2cb95bc5849ef2bf88fd16634e527a0e5/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+          {
+            "sha": "46d166bcda0dbab2fd5a008e2f976a3804327550",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/46d166bcda0dbab2fd5a008e2f976a3804327550",
+            "html_url": "https://github.com/simdutf/simdutf/commit/46d166bcda0dbab2fd5a008e2f976a3804327550"
+          }
+        ]
+      },
+      {
+        "sha": "df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "node_id": "C_kwDOFAPj4doAKGRmOGJmZWQzMjU2Y2Y1Y2EyOTk2OWE5ZGQxZGI2NzdlODM1YjJjNmM",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T03:23:17Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-09T03:23:17Z"
+          },
+          "message": "various updates",
+          "tree": {
+            "sha": "5336b4feb122d4e772a263ad28d6abef12f0a2ed",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/5336b4feb122d4e772a263ad28d6abef12f0a2ed"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "html_url": "https://github.com/simdutf/simdutf/commit/df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/241005f2cb95bc5849ef2bf88fd16634e527a0e5",
+            "html_url": "https://github.com/simdutf/simdutf/commit/241005f2cb95bc5849ef2bf88fd16634e527a0e5"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "9acaf613f3b1475538ad211fcb29bf2c2ed22a11",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 7.3.4\n+  VERSION 7.3.5\n )\n \n include (TestBigEndian)"
+      },
+      {
+        "sha": "c81b65a42a2a6d21e9c92cc56edc82ba87262eb1",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"7.3.4\"\n+PROJECT_NUMBER         = \"7.3.5\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "f5358ab58079ede1da85c55c9794db6e2e764ff9",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -153,7 +153,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v7.3.4/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v7.3.5/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -224,7 +224,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v7.3.4/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v7.3.5/singleheader.zip\n \n You may generate it on your own using a Python script.\n "
+      },
+      {
+        "sha": "2f4db6b9cd6e075ff968f0b972ead0e10016a1b6",
+        "filename": "benchmarks/CMakeLists.txt",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2FCMakeLists.txt?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -92,3 +92,5 @@ target_link_libraries(benchmark_to_well_formed_utf16 PUBLIC simdutf)\n target_link_libraries(benchmark_to_well_formed_utf16 PUBLIC simdutf::benchmarks::benchmark)\n set_property(TARGET benchmark_to_well_formed_utf16 PROPERTY CXX_STANDARD 17)\n set_property(TARGET benchmark_to_well_formed_utf16 PROPERTY CXX_STANDARD_REQUIRED ON)\n+\n+add_subdirectory(find)"
+      },
+      {
+        "sha": "bf57c7432c390c2df2ac572cefccdce3e92f0442",
+        "filename": "benchmarks/find/CMakeLists.txt",
+        "status": "added",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Ffind%2FCMakeLists.txt?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -0,0 +1,6 @@\n+add_executable(findbenchmark findbenchmark.cpp)\n+set_property(TARGET findbenchmark PROPERTY CXX_STANDARD 20)\n+set_property(TARGET findbenchmark PROPERTY CXX_STANDARD_REQUIRED ON)\n+\n+target_link_libraries(findbenchmark PUBLIC simdutf::benchmarks::benchmark)\n+"
+      },
+      {
+        "sha": "16cb5e970e32defa6a627b09235176c8003597d6",
+        "filename": "benchmarks/find/findbenchmark.cpp",
+        "status": "added",
+        "additions": 59,
+        "deletions": 0,
+        "changes": 59,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2Ffindbenchmark.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2Ffindbenchmark.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Ffind%2Ffindbenchmark.cpp?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -0,0 +1,59 @@\n+#include <algorithm>\n+#include <string>\n+#include <iostream>\n+#include <chrono>\n+#include <random>\n+\n+#include \"findbenchmarker.h\"\n+\n+#include \"simdutf.h\"\n+\n+void pretty_print(const std::string &name, size_t num_values,\n+                  event_aggregate agg) {\n+  printf(\"%-50s : \", name.c_str());\n+  printf(\" %5.2f ns \", agg.elapsed_ns());\n+  if (collector.has_events()) {\n+    printf(\" %5.2f GHz \", agg.cycles() / agg.elapsed_ns());\n+    printf(\" %5.2f c \", agg.cycles() / num_values);\n+    printf(\" %5.2f i \", agg.instructions() / num_values);\n+    printf(\" %5.2f i/c \", agg.instructions() / agg.cycles());\n+  }\n+  printf(\"\\n\");\n+}\n+\n+std::string generate_random_ascii_string(size_t length) {\n+  const char charset[] =\n+      \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\";\n+  const size_t max_index = sizeof(charset) - 1;\n+  std::random_device rd;\n+  std::mt19937 gen(rd());\n+  std::uniform_int_distribution<> dis(0, max_index - 1);\n+\n+  std::string result;\n+  result.reserve(length);\n+  for (size_t i = 0; i < length; ++i) {\n+    result += charset[dis(gen)];\n+  }\n+  result += '='; // Add '=' at the end\n+  return result;\n+}\n+\n+int main(int argc, char **argv) {\n+  std::string input = generate_random_ascii_string(10000);\n+  size_t volume = input.size();\n+  volatile uint64_t counter = 0;\n+  for (size_t i = 0; i < 4; i++) {\n+    printf(\"Run %zu\\n\", i + 1);\n+    pretty_print(\"std::find\", input.size(), bench([&input, &counter]() {\n+                   auto it = std::find(input.data(),\n+                                       input.data() + input.size(), '=');\n+                   counter = counter + size_t(it - input.data());\n+                 }));\n+\n+    pretty_print(\"simdutf::find\", input.size(), bench([&input, &counter]() {\n+                   auto it = simdutf::find(input.data(),\n+                                           input.data() + input.size(), '=');\n+                   counter = counter + size_t(it - input.data());\n+                 }));\n+  }\n+}"
+      },
+      {
+        "sha": "807741f3c7fc02108e0bbf477a3415fab6293640",
+        "filename": "benchmarks/find/findbenchmarker.h",
+        "status": "added",
+        "additions": 46,
+        "deletions": 0,
+        "changes": 46,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2Ffindbenchmarker.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/benchmarks%2Ffind%2Ffindbenchmarker.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Ffind%2Ffindbenchmarker.h?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -0,0 +1,46 @@\n+#pragma once\n+\n+#include \"event_counter.h\"\n+#include <atomic>\n+event_collector collector;\n+\n+template <class function_type>\n+event_aggregate bench(const function_type &&function, size_t min_repeat = 10,\n+                      size_t min_time_ns = 400'000'000,\n+                      size_t max_repeat = 1000000) {\n+  size_t N = min_repeat;\n+  if (N == 0) {\n+    N = 1;\n+  }\n+  // We warm up first. We warmup for at least 0.4s (by default). This makes\n+  // sure that the processor is in a consistent state.\n+  event_aggregate warm_aggregate{};\n+  for (size_t i = 0; i < N; i++) {\n+    std::atomic_thread_fence(std::memory_order_acquire);\n+    collector.start();\n+    function();\n+    std::atomic_thread_fence(std::memory_order_release);\n+    event_count allocate_count = collector.end();\n+    warm_aggregate << allocate_count;\n+    if ((i + 1 == N) && (warm_aggregate.total_elapsed_ns() < min_time_ns) &&\n+        (N < max_repeat)) {\n+      N *= 10;\n+    }\n+  }\n+  // Actual measure, another 0.4s (by default), this time with a processor\n+  // warmed up.\n+  event_aggregate aggregate{};\n+  for (size_t i = 0; i < N; i++) {\n+    std::atomic_thread_fence(std::memory_order_acquire);\n+    collector.start();\n+    function();\n+    std::atomic_thread_fence(std::memory_order_release);\n+    event_count allocate_count = collector.end();\n+    aggregate << allocate_count;\n+    if ((i + 1 == N) && (aggregate.total_elapsed_ns() < min_time_ns) &&\n+        (N < max_repeat)) {\n+      N *= 10;\n+    }\n+  }\n+  return aggregate;\n+}"
+      },
+      {
+        "sha": "280e6e5808a1f0947f2a28736366b167edc58dbe",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"7.3.4\"\n+#define SIMDUTF_VERSION \"7.3.5\"\n \n namespace simdutf {\n enum {\n@@ -19,7 +19,7 @@ enum {\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_REVISION = 4\n+  SIMDUTF_VERSION_REVISION = 5\n };\n } // namespace simdutf\n "
+      },
+      {
+        "sha": "0caa9d806684b1abd3ef5d87d89cc62e8f3e21e9",
+        "filename": "src/arm64/arm_find.cpp",
+        "status": "modified",
+        "additions": 126,
+        "deletions": 5,
+        "changes": 131,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Farm64%2Farm_find.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Farm64%2Farm_find.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Farm_find.cpp?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -1,14 +1,79 @@\n-\n simdutf_really_inline const char *util_find(const char *start, const char *end,\n                                             char character) noexcept {\n   // Handle empty or invalid range\n   if (start >= end)\n     return end;\n \n-  // Process 16 bytes (128 bits) at a time with NEON\n+  const size_t widestep = 64;\n   const size_t step = 16;\n   uint8x16_t char_vec = vdupq_n_u8(static_cast<uint8_t>(character));\n \n+  // Handle unaligned beginning\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % step;\n+  if (misalignment != 0) {\n+    size_t adjustment = step - misalignment;\n+    if (size_t(end - start) < adjustment) {\n+      adjustment = end - start;\n+    }\n+    for (size_t i = 0; i < adjustment; ++i) {\n+      if (start[i] == character) {\n+        return start + i;\n+      }\n+    }\n+    start += adjustment;\n+  }\n+\n+  // Main loop for full 64-byte chunks\n+  while (size_t(end - start) >= widestep) {\n+    uint8x16_t data1 = vld1q_u8(reinterpret_cast<const uint8_t *>(start));\n+    uint8x16_t data2 = vld1q_u8(reinterpret_cast<const uint8_t *>(start) + 16);\n+    uint8x16_t data3 = vld1q_u8(reinterpret_cast<const uint8_t *>(start) + 32);\n+    uint8x16_t data4 = vld1q_u8(reinterpret_cast<const uint8_t *>(start) + 48);\n+\n+    uint8x16_t cmp1 = vceqq_u8(data1, char_vec);\n+    uint8x16_t cmp2 = vceqq_u8(data2, char_vec);\n+    uint8x16_t cmp3 = vceqq_u8(data3, char_vec);\n+    uint8x16_t cmp4 = vceqq_u8(data4, char_vec);\n+    uint8x16_t cmpall = vorrq_u8(vorrq_u8(cmp1, cmp2), vorrq_u8(cmp3, cmp4));\n+\n+    uint64_t mask = vget_lane_u64(\n+        vreinterpret_u64_u8(vshrn_n_u16(vreinterpretq_u16_u8(cmpall), 4)), 0);\n+\n+    if (mask != 0) {\n+      // Found a match, return the first one\n+      uint64_t mask1 = vget_lane_u64(\n+        vreinterpret_u64_u8(vshrn_n_u16(vreinterpretq_u16_u8(cmp1), 4)), 0);\n+      if(mask1 != 0) {\n+        // Found a match in the first chunk\n+        int index = trailing_zeroes(mask1) / 4; // Each character maps to 4 bits\n+        return start + index;\n+      }\n+      uint64_t mask2 = vget_lane_u64(\n+        vreinterpret_u64_u8(vshrn_n_u16(vreinterpretq_u16_u8(cmp2), 4)), 0);\n+      if(mask2 != 0) {\n+        // Found a match in the second chunk\n+        int index = trailing_zeroes(mask2) / 4; // Each character maps to 4 bits\n+        return start + index + 16;\n+      }\n+      uint64_t mask3 = vget_lane_u64(\n+        vreinterpret_u64_u8(vshrn_n_u16(vreinterpretq_u16_u8(cmp3), 4)), 0);\n+      if(mask3 != 0) {\n+        // Found a match in the third chunk\n+        int index = trailing_zeroes(mask3) / 4; // Each character maps to 4 bits\n+        return start + index + 32;\n+      }\n+      uint64_t mask4 = vget_lane_u64(\n+        vreinterpret_u64_u8(vshrn_n_u16(vreinterpretq_u16_u8(cmp4), 4)), 0);\n+      if(mask4 != 0) {\n+        // Found a match in the fourth chunk\n+        int index = trailing_zeroes(mask4) / 4; // Each character maps to 4 bits\n+        return start + index + 48;\n+      }\n+    }\n+\n+    start += widestep;\n+  }\n+\n   // Main loop for full 16-byte chunks\n   while (size_t(end - start) >= step) {\n     uint8x16_t data = vld1q_u8(reinterpret_cast<const uint8_t *>(start));\n@@ -42,10 +107,67 @@ simdutf_really_inline const char16_t *util_find(const char16_t *start,\n   if (start >= end)\n     return end;\n \n-  // Process 8 char16_t (16 bytes, 128 bits) at a time with NEON\n   const size_t step = 8;\n   uint16x8_t char_vec = vdupq_n_u16(character);\n \n+  // Handle unaligned beginning\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % (step * sizeof(char16_t));\n+  if (misalignment != 0 && misalignment % 2 == 0) {\n+    size_t adjustment = (step * sizeof(char16_t) - misalignment) / sizeof(char16_t);\n+    if (size_t(end - start) < adjustment) {\n+      adjustment = end - start;\n+    }\n+    for (size_t i = 0; i < adjustment; ++i) {\n+      if (start[i] == character) {\n+        return start + i;\n+      }\n+    }\n+    start += adjustment;\n+  }\n+\n+  // Main loop for full 8-element chunks with unrolling\n+  while (size_t(end - start) >= 4 * step) {\n+    uint16x8_t data1 = vld1q_u16(reinterpret_cast<const uint16_t *>(start));\n+    uint16x8_t data2 = vld1q_u16(reinterpret_cast<const uint16_t *>(start) + step);\n+    uint16x8_t data3 = vld1q_u16(reinterpret_cast<const uint16_t *>(start) + 2 * step);\n+    uint16x8_t data4 = vld1q_u16(reinterpret_cast<const uint16_t *>(start) + 3 * step);\n+\n+    uint16x8_t cmp1 = vceqq_u16(data1, char_vec);\n+    uint16x8_t cmp2 = vceqq_u16(data2, char_vec);\n+    uint16x8_t cmp3 = vceqq_u16(data3, char_vec);\n+    uint16x8_t cmp4 = vceqq_u16(data4, char_vec);\n+\n+    uint64_t mask1 = vget_lane_u64(\n+        vreinterpret_u64_u16(vshrn_n_u32(vreinterpretq_u32_u16(cmp1), 4)), 0);\n+    if (mask1 != 0) {\n+      int index = trailing_zeroes(mask1) / 8;\n+      return start + index;\n+    }\n+\n+    uint64_t mask2 = vget_lane_u64(\n+        vreinterpret_u64_u16(vshrn_n_u32(vreinterpretq_u32_u16(cmp2), 4)), 0);\n+    if (mask2 != 0) {\n+      int index = trailing_zeroes(mask2) / 8;\n+      return start + index + step;\n+    }\n+\n+    uint64_t mask3 = vget_lane_u64(\n+        vreinterpret_u64_u16(vshrn_n_u32(vreinterpretq_u32_u16(cmp3), 4)), 0);\n+    if (mask3 != 0) {\n+      int index = trailing_zeroes(mask3) / 8;\n+      return start + index + 2 * step;\n+    }\n+\n+    uint64_t mask4 = vget_lane_u64(\n+        vreinterpret_u64_u16(vshrn_n_u32(vreinterpretq_u32_u16(cmp4), 4)), 0);\n+    if (mask4 != 0) {\n+      int index = trailing_zeroes(mask4) / 8;\n+      return start + index + 3 * step;\n+    }\n+\n+    start += 4 * step;\n+  }\n+\n   // Main loop for full 8-element chunks\n   while (size_t(end - start) >= step) {\n     uint16x8_t data = vld1q_u16(reinterpret_cast<const uint16_t *>(start));\n@@ -54,8 +176,7 @@ simdutf_really_inline const char16_t *util_find(const char16_t *start,\n         vreinterpret_u64_u16(vshrn_n_u32(vreinterpretq_u32_u16(cmp), 4)), 0);\n \n     if (mask != 0) {\n-      // Found a match, return the first one\n-      int index = trailing_zeroes(mask) / 8; // Each character maps to 8 bits\n+      int index = trailing_zeroes(mask) / 8;\n       return start + index;\n     }\n "
+      },
+      {
+        "sha": "9cd925ac56d7679f5b46736fad03f3a79723b29b",
+        "filename": "src/generic/find.h",
+        "status": "modified",
+        "additions": 39,
+        "deletions": 1,
+        "changes": 40,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Fgeneric%2Ffind.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Fgeneric%2Ffind.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fgeneric%2Ffind.h?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -1,11 +1,29 @@\n-\n namespace simdutf {\n namespace SIMDUTF_IMPLEMENTATION {\n namespace {\n namespace util {\n \n simdutf_really_inline const char *find(const char *start, const char *end,\n                                        char character) noexcept {\n+  // Handle empty or invalid range\n+  if (start >= end)\n+    return end;\n+  // Align the start pointer to 64 bytes\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % 64;\n+  if (misalignment != 0) {\n+    size_t adjustment = 64 - misalignment;\n+    if (size_t(std::distance(start, end)) < adjustment) {\n+      adjustment = std::distance(start, end);\n+    }\n+    for (size_t i = 0; i < adjustment; i++) {\n+      if (start[i] == character) {\n+        return start + i;\n+      }\n+    }\n+    start += adjustment;\n+  }\n+\n+  // Main loop for 64-byte aligned data\n   for (; std::distance(start, end) >= 64; start += 64) {\n     simd8x64<uint8_t> input(reinterpret_cast<const uint8_t *>(start));\n     uint64_t matches = input.eq(uint8_t(character));\n@@ -20,6 +38,25 @@ simdutf_really_inline const char *find(const char *start, const char *end,\n \n simdutf_really_inline const char16_t *\n find(const char16_t *start, const char16_t *end, char16_t character) noexcept {\n+  // Handle empty or invalid range\n+  if (start >= end)\n+    return end;\n+  // Align the start pointer to 64 bytes if misalignment is even\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % 64;\n+  if (misalignment != 0 && misalignment % 2 == 0) {\n+    size_t adjustment = (64 - misalignment) / sizeof(char16_t);\n+    if (size_t(std::distance(start, end)) < adjustment) {\n+      adjustment = std::distance(start, end);\n+    }\n+    for (size_t i = 0; i < adjustment; i++) {\n+      if (start[i] == character) {\n+        return start + i;\n+      }\n+    }\n+    start += adjustment;\n+  }\n+\n+  // Main loop for 64-byte aligned data\n   for (; std::distance(start, end) >= 32; start += 32) {\n     simd16x32<uint16_t> input(reinterpret_cast<const uint16_t *>(start));\n     uint64_t matches = input.eq(uint16_t(character));\n@@ -31,6 +68,7 @@ find(const char16_t *start, const char16_t *end, char16_t character) noexcept {\n   }\n   return std::find(start, end, character);\n }\n+\n } // namespace util\n } // namespace\n } // namespace SIMDUTF_IMPLEMENTATION"
+      },
+      {
+        "sha": "c6d946d92d537256a79c970395e9f06a1c77e8c7",
+        "filename": "src/icelake/icelake_find.inl.cpp",
+        "status": "modified",
+        "additions": 58,
+        "deletions": 12,
+        "changes": 70,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Ficelake%2Ficelake_find.inl.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/src%2Ficelake%2Ficelake_find.inl.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Ficelake_find.inl.cpp?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -1,14 +1,48 @@\n-\n simdutf_really_inline const char *util_find(const char *start, const char *end,\n                                             char character) noexcept {\n   // Handle empty or invalid range\n   if (start >= end)\n     return end;\n-\n-  // Process 64 bytes (512 bits) at a time with AVX-512\n   const size_t step = 64;\n   __m512i char_vec = _mm512_set1_epi8(character);\n \n+  // Handle unaligned beginning with a masked load\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % step;\n+  if (misalignment != 0) {\n+    size_t adjustment = step - misalignment;\n+    if (size_t(end - start) < adjustment) {\n+      adjustment = end - start;\n+    }\n+    __mmask64 load_mask = 0xFFFFFFFFFFFFFFFF >> (64 - adjustment);\n+    __m512i data = _mm512_maskz_loadu_epi8(load_mask, reinterpret_cast<const __m512i *>(start));\n+    __mmask64 match_mask = _mm512_cmpeq_epi8_mask(data, char_vec);\n+\n+    if (match_mask != 0) {\n+      size_t index = _tzcnt_u64(match_mask);\n+      return start + index;\n+    }\n+    start += adjustment;\n+  }\n+  // Process 64 bytes (512 bits) at a time with AVX-512\n+  // Main loop for full 128-byte chunks\n+  while (size_t(end - start) >= 2*step) {\n+    __m512i data1 = _mm512_loadu_si512(reinterpret_cast<const __m512i *>(start));\n+    __mmask64 mask1 = _mm512_cmpeq_epi8_mask(data1, char_vec);\n+\n+    __m512i data2 = _mm512_loadu_si512(reinterpret_cast<const __m512i *>(start + step));\n+    __mmask64 mask2 = _mm512_cmpeq_epi8_mask(data2, char_vec);\n+    if (!_kortestz_mask64_u8(mask1, mask2)) {\n+      if (mask1 != 0) {\n+        // Found a match, return the first one\n+        size_t index = _tzcnt_u64(mask1);\n+        return start + index;\n+      }\n+      size_t index = _tzcnt_u64(mask2);\n+      return start + index + step;\n+    }\n+    start += 2 * step;\n+  }\n+\n   // Main loop for full 64-byte chunks\n   while (size_t(end - start) >= step) {\n     __m512i data = _mm512_loadu_si512(reinterpret_cast<const __m512i *>(start));\n@@ -56,14 +90,32 @@ simdutf_really_inline const char16_t *util_find(const char16_t *start,\n   const size_t step = 32;\n   __m512i char_vec = _mm512_set1_epi16(character);\n \n+  // Handle unaligned beginning with a masked load\n+  uintptr_t misalignment = reinterpret_cast<uintptr_t>(start) % (step * sizeof(char16_t));\n+  if (misalignment != 0 && misalignment % 2 == 0) {\n+    size_t adjustment = (step * sizeof(char16_t) - misalignment) / sizeof(char16_t);\n+    if (size_t(end - start) < adjustment) {\n+      adjustment = end - start;\n+    }\n+    __mmask32 load_mask = 0xFFFFFFFF >> (32 - adjustment);\n+    __m512i data = _mm512_maskz_loadu_epi16(load_mask, reinterpret_cast<const __m512i *>(start));\n+    __mmask32 match_mask = _mm512_cmpeq_epi16_mask(data, char_vec);\n+\n+    if (match_mask != 0) {\n+      size_t index = _tzcnt_u32(match_mask);\n+      return start + index;\n+    }\n+    start += adjustment;\n+  }\n+\n   // Main loop for full 32-element chunks\n   while (size_t(end - start) >= step) {\n     __m512i data = _mm512_loadu_si512(reinterpret_cast<const __m512i *>(start));\n     __mmask32 mask = _mm512_cmpeq_epi16_mask(data, char_vec);\n \n     if (mask != 0) {\n       // Found a match, return the first one\n-      size_t index = _tzcnt_u64(mask);\n+      size_t index = _tzcnt_u32(mask);\n       return start + index;\n     }\n \n@@ -73,18 +125,12 @@ simdutf_really_inline const char16_t *util_find(const char16_t *start,\n   // Handle remaining elements with masked load\n   size_t remaining = end - start;\n   if (remaining > 0) {\n-    // Create a mask for the remaining elements using shifted 0xFFFFFFFF\n     __mmask32 load_mask = 0xFFFFFFFF >> (32 - remaining);\n-    __m512i data = _mm512_maskz_loadu_epi16(\n-        load_mask, reinterpret_cast<const __m512i *>(start));\n+    __m512i data = _mm512_maskz_loadu_epi16(load_mask, reinterpret_cast<const __m512i *>(start));\n     __mmask32 match_mask = _mm512_cmpeq_epi16_mask(data, char_vec);\n \n-    // Apply load mask to avoid false positives\n-    match_mask &= load_mask;\n-\n     if (match_mask != 0) {\n-      // Found a match in the remaining elements\n-      size_t index = _tzcnt_u64(match_mask);\n+      size_t index = _tzcnt_u32(match_mask);\n       return start + index;\n     }\n   }"
+      },
+      {
+        "sha": "cb6c9325d0732931ac6b7d1a74964c388fc58672",
+        "filename": "tests/base64_tests.cpp",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 18,
+        "changes": 18,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/tests%2Fbase64_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/df8bfed3256cf5ca29969a9dd1db677e835b2c6c/tests%2Fbase64_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fbase64_tests.cpp?ref=df8bfed3256cf5ca29969a9dd1db677e835b2c6c",
+        "patch": "@@ -1622,24 +1622,6 @@ TEST(issue_824) {\n     output_buffer.resize(written);\n     ASSERT_TRUE(output_buffer == expected_output);\n   }\n-  for (const std::tuple<std::string, read_write, std::vector<uint8_t>> &t :\n-       test_cases) {\n-    auto input_data = std::get<0>(t);\n-    auto read_write_info = std::get<1>(t);\n-    auto expected_output = std::get<2>(t);\n-    std::vector<uint8_t> output_buffer(expected_output.size());\n-    size_t written = 3;\n-    auto result = simdutf::base64_to_binary_safe(\n-        input_data.data(), input_data.size(),\n-        reinterpret_cast<char *>(output_buffer.data()), written,\n-        simdutf::base64_default,\n-        simdutf::last_chunk_handling_options::stop_before_partial, true);\n-    ASSERT_EQUAL(result.error, simdutf::error_code::SUCCESS);\n-    ASSERT_EQUAL(result.count, read_write_info.read);\n-    ASSERT_EQUAL(written, expected_output.size());\n-    output_buffer.resize(written);\n-    ASSERT_TRUE(output_buffer == expected_output);\n-  }\n }\n \n TEST(issue_824_a) {"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v7.3.4...v7.3.5?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3818",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

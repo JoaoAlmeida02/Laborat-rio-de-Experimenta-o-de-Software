@@ -1,0 +1,1118 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/oxigraph/oxigraph/compare/v0.4.7...v0.4.8",
+    "html_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.7...v0.4.8",
+    "permalink_url": "https://github.com/oxigraph/oxigraph/compare/oxigraph:f4a45e1...oxigraph:716dfca",
+    "diff_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.7...v0.4.8.diff",
+    "patch_url": "https://github.com/oxigraph/oxigraph/compare/v0.4.7...v0.4.8.patch",
+    "base_commit": {
+      "sha": "f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "node_id": "C_kwDOB_fm8doAKGY0YTQ1ZTE0NTExZTUyYWVhY2MwNjBlZGRjYTg4YzlkNzk4ZGRjZGI",
+      "commit": {
+        "author": {
+          "name": "Tpt",
+          "email": "thomaspt@hotmail.fr",
+          "date": "2025-01-19T14:00:05Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-01-19T14:41:56Z"
+        },
+        "message": "Releases v0.4.7",
+        "tree": {
+          "sha": "7539751ca404d1697a3c838acecdb73d5f17b720",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/7539751ca404d1697a3c838acecdb73d5f17b720"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c1b906b4e986ef58e0ae18ebc51792648c57b1e9",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c1b906b4e986ef58e0ae18ebc51792648c57b1e9",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/c1b906b4e986ef58e0ae18ebc51792648c57b1e9"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "node_id": "C_kwDOB_fm8doAKGY0YTQ1ZTE0NTExZTUyYWVhY2MwNjBlZGRjYTg4YzlkNzk4ZGRjZGI",
+      "commit": {
+        "author": {
+          "name": "Tpt",
+          "email": "thomaspt@hotmail.fr",
+          "date": "2025-01-19T14:00:05Z"
+        },
+        "committer": {
+          "name": "Thomas Tanon",
+          "email": "thomas@pellissier-tanon.fr",
+          "date": "2025-01-19T14:41:56Z"
+        },
+        "message": "Releases v0.4.7",
+        "tree": {
+          "sha": "7539751ca404d1697a3c838acecdb73d5f17b720",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/7539751ca404d1697a3c838acecdb73d5f17b720"
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "html_url": "https://github.com/oxigraph/oxigraph/commit/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+      "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb/comments",
+      "author": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Tpt",
+        "id": 458123,
+        "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Tpt",
+        "html_url": "https://github.com/Tpt",
+        "followers_url": "https://api.github.com/users/Tpt/followers",
+        "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+        "organizations_url": "https://api.github.com/users/Tpt/orgs",
+        "repos_url": "https://api.github.com/users/Tpt/repos",
+        "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Tpt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c1b906b4e986ef58e0ae18ebc51792648c57b1e9",
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c1b906b4e986ef58e0ae18ebc51792648c57b1e9",
+          "html_url": "https://github.com/oxigraph/oxigraph/commit/c1b906b4e986ef58e0ae18ebc51792648c57b1e9"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 8,
+    "behind_by": 0,
+    "total_commits": 8,
+    "commits": [
+      {
+        "sha": "b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+        "node_id": "C_kwDOB_fm8doAKGIxNDM5ZWRiYzI4MGM4Yzg1ZTJlZjEyMWM4OGE5YWMwNWFhNzg3ZWU",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-01-20T17:14:00Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-01-20T20:33:49Z"
+          },
+          "message": "Run larger scale SPARQL BSBM benchmark",
+          "tree": {
+            "sha": "cb593e5e052aaab67d6188ef8321bc9966b36dcd",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/cb593e5e052aaab67d6188ef8321bc9966b36dcd"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b1439edbc280c8c85e2ef121c88a9ac05aa787ee/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f4a45e14511e52aeacc060eddca88c9d798ddcdb",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/f4a45e14511e52aeacc060eddca88c9d798ddcdb"
+          }
+        ]
+      },
+      {
+        "sha": "fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+        "node_id": "C_kwDOB_fm8doAKGZjZmEwZjM1ZTBkNDE5OTUzMjVhOTMxYzJmNmRiMTVkMjdjODZmYzA",
+        "commit": {
+          "author": {
+            "name": "Jakob Voß",
+            "email": "jakob@nichtich.de",
+            "date": "2025-01-29T05:49:46Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-01-29T07:33:18Z"
+          },
+          "message": "Update README.md to mention Docker\n\nPeople no familiar with Rust may prefer Docker to try out oxygraph, so existence of Docker image should be mentioned.\r\n\r\nCloses #1165.",
+          "tree": {
+            "sha": "e3d77e0c96b44d3465ce817c46a7978e200b0949",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/e3d77e0c96b44d3465ce817c46a7978e200b0949"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/fcfa0f35e0d41995325a931c2f6db15d27c86fc0/comments",
+        "author": {
+          "login": "nichtich",
+          "id": 299856,
+          "node_id": "MDQ6VXNlcjI5OTg1Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/299856?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/nichtich",
+          "html_url": "https://github.com/nichtich",
+          "followers_url": "https://api.github.com/users/nichtich/followers",
+          "following_url": "https://api.github.com/users/nichtich/following{/other_user}",
+          "gists_url": "https://api.github.com/users/nichtich/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/nichtich/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/nichtich/subscriptions",
+          "organizations_url": "https://api.github.com/users/nichtich/orgs",
+          "repos_url": "https://api.github.com/users/nichtich/repos",
+          "events_url": "https://api.github.com/users/nichtich/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/nichtich/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/b1439edbc280c8c85e2ef121c88a9ac05aa787ee",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/b1439edbc280c8c85e2ef121c88a9ac05aa787ee"
+          }
+        ]
+      },
+      {
+        "sha": "84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+        "node_id": "C_kwDOB_fm8doAKDg0ZDhlM2Y2MmIzZTg0M2YwOWM3NWNmNjlmMWNmMzJmNzg0ODU4YTQ",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-01-30T20:21:44Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-01-30T20:24:33Z"
+          },
+          "message": "Migrate out of cargo-wasi",
+          "tree": {
+            "sha": "b886627bc7b5483441e18ba649ca0e6cf10b907c",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/b886627bc7b5483441e18ba649ca0e6cf10b907c"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/84d8e3f62b3e843f09c75cf69f1cf32f784858a4/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/fcfa0f35e0d41995325a931c2f6db15d27c86fc0",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/fcfa0f35e0d41995325a931c2f6db15d27c86fc0"
+          }
+        ]
+      },
+      {
+        "sha": "f9c032d2866825807e6c176f218ea4c243f78d41",
+        "node_id": "C_kwDOB_fm8doAKGY5YzAzMmQyODY2ODI1ODA3ZTZjMTc2ZjIxOGVhNGMyNDNmNzhkNDE",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-01-30T17:05:47Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-01-30T20:24:49Z"
+          },
+          "message": "Fixes parsing of decimal at the end of the file\n\nIssue #1164",
+          "tree": {
+            "sha": "b4ac620c550e0942545188d220d0b7899b49f0f2",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/b4ac620c550e0942545188d220d0b7899b49f0f2"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/f9c032d2866825807e6c176f218ea4c243f78d41",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f9c032d2866825807e6c176f218ea4c243f78d41",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/f9c032d2866825807e6c176f218ea4c243f78d41",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f9c032d2866825807e6c176f218ea4c243f78d41/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/84d8e3f62b3e843f09c75cf69f1cf32f784858a4",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/84d8e3f62b3e843f09c75cf69f1cf32f784858a4"
+          }
+        ]
+      },
+      {
+        "sha": "1f7e312444367809f9e21fce32d96e002a4f386b",
+        "node_id": "C_kwDOB_fm8doAKDFmN2UzMTI0NDQzNjc4MDlmOWUyMWZjZTMyZDk2ZTAwMmE0ZjM4NmI",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-02-01T20:38:56Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-02-01T21:10:43Z"
+          },
+          "message": "Removes dead code and makes Clippy happy",
+          "tree": {
+            "sha": "3052972e0a020b2d428d14552dafa9ca0f2d5ff0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/3052972e0a020b2d428d14552dafa9ca0f2d5ff0"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/1f7e312444367809f9e21fce32d96e002a4f386b",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1f7e312444367809f9e21fce32d96e002a4f386b",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/1f7e312444367809f9e21fce32d96e002a4f386b",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1f7e312444367809f9e21fce32d96e002a4f386b/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "f9c032d2866825807e6c176f218ea4c243f78d41",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/f9c032d2866825807e6c176f218ea4c243f78d41",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/f9c032d2866825807e6c176f218ea4c243f78d41"
+          }
+        ]
+      },
+      {
+        "sha": "c1909aa1df098f01359f2f99078214665d962bd0",
+        "node_id": "C_kwDOB_fm8doAKGMxOTA5YWExZGYwOThmMDEzNTlmMmY5OTA3ODIxNDY2NWQ5NjJiZDA",
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "date": "2025-02-03T18:51:50Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-02-03T20:18:40Z"
+          },
+          "message": "Bump openssl in the cargo group across 1 directory\n\nBumps the cargo group with 1 update in the / directory: [openssl](https://github.com/sfackler/rust-openssl).\n\n\nUpdates `openssl` from 0.10.68 to 0.10.70\n- [Release notes](https://github.com/sfackler/rust-openssl/releases)\n- [Commits](https://github.com/sfackler/rust-openssl/compare/openssl-v0.10.68...openssl-v0.10.70)\n\n---\nupdated-dependencies:\n- dependency-name: openssl\n  dependency-type: indirect\n  dependency-group: cargo\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "tree": {
+            "sha": "ebb61515da323a865b9cb22e4f403fed69829b61",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/ebb61515da323a865b9cb22e4f403fed69829b61"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/c1909aa1df098f01359f2f99078214665d962bd0",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c1909aa1df098f01359f2f99078214665d962bd0",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/c1909aa1df098f01359f2f99078214665d962bd0",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c1909aa1df098f01359f2f99078214665d962bd0/comments",
+        "author": {
+          "login": "dependabot[bot]",
+          "id": 49699333,
+          "node_id": "MDM6Qm90NDk2OTkzMzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+          "html_url": "https://github.com/apps/dependabot",
+          "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "1f7e312444367809f9e21fce32d96e002a4f386b",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/1f7e312444367809f9e21fce32d96e002a4f386b",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/1f7e312444367809f9e21fce32d96e002a4f386b"
+          }
+        ]
+      },
+      {
+        "sha": "6030c9c95e9f9adb42fcce4e5765be6001278532",
+        "node_id": "C_kwDOB_fm8doAKDYwMzBjOWM5NWU5ZjlhZGI0MmZjY2U0ZTU3NjViZTYwMDEyNzg1MzI",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-02-02T14:57:43Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-02-14T16:41:55Z"
+          },
+          "message": "Use discriminant in custom Eq and Hash implementations",
+          "tree": {
+            "sha": "d78e893a6525e31b51b94c7a3d3e310a7401e340",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/d78e893a6525e31b51b94c7a3d3e310a7401e340"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/6030c9c95e9f9adb42fcce4e5765be6001278532",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6030c9c95e9f9adb42fcce4e5765be6001278532",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/6030c9c95e9f9adb42fcce4e5765be6001278532",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6030c9c95e9f9adb42fcce4e5765be6001278532/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "c1909aa1df098f01359f2f99078214665d962bd0",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/c1909aa1df098f01359f2f99078214665d962bd0",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/c1909aa1df098f01359f2f99078214665d962bd0"
+          }
+        ]
+      },
+      {
+        "sha": "716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "node_id": "C_kwDOB_fm8doAKDcxNmRmY2FjMTVkZDA4ZjM1MzU0ODc1ZGJjNDJlYjBkODRkOGY4M2E",
+        "commit": {
+          "author": {
+            "name": "Tpt",
+            "email": "thomaspt@hotmail.fr",
+            "date": "2025-02-14T16:21:25Z"
+          },
+          "committer": {
+            "name": "Thomas Tanon",
+            "email": "thomas@pellissier-tanon.fr",
+            "date": "2025-02-14T18:26:27Z"
+          },
+          "message": "Releases v0.4.8",
+          "tree": {
+            "sha": "a4746f675e624869d4bb21f501689cf922581632",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/git/trees/a4746f675e624869d4bb21f501689cf922581632"
+          },
+          "url": "https://api.github.com/repos/oxigraph/oxigraph/git/commits/716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "html_url": "https://github.com/oxigraph/oxigraph/commit/716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "comments_url": "https://api.github.com/repos/oxigraph/oxigraph/commits/716dfcac15dd08f35354875dbc42eb0d84d8f83a/comments",
+        "author": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "Tpt",
+          "id": 458123,
+          "node_id": "MDQ6VXNlcjQ1ODEyMw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/458123?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Tpt",
+          "html_url": "https://github.com/Tpt",
+          "followers_url": "https://api.github.com/users/Tpt/followers",
+          "following_url": "https://api.github.com/users/Tpt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Tpt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Tpt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Tpt/subscriptions",
+          "organizations_url": "https://api.github.com/users/Tpt/orgs",
+          "repos_url": "https://api.github.com/users/Tpt/repos",
+          "events_url": "https://api.github.com/users/Tpt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Tpt/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "6030c9c95e9f9adb42fcce4e5765be6001278532",
+            "url": "https://api.github.com/repos/oxigraph/oxigraph/commits/6030c9c95e9f9adb42fcce4e5765be6001278532",
+            "html_url": "https://github.com/oxigraph/oxigraph/commit/6030c9c95e9f9adb42fcce4e5765be6001278532"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "ffbc949d5b4e4efcf59ef48f557145d6945cb482",
+        "filename": ".github/workflows/tests.yml",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/.github%2Fworkflows%2Ftests.yml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/.github%2Fworkflows%2Ftests.yml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/.github%2Fworkflows%2Ftests.yml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -274,8 +274,10 @@ jobs:\n         with:\n           target: wasm32-wasip1\n       - uses: taiki-e/install-action@v2\n-        with: { tool: \"wasmtime,cargo-wasi\" }\n-      - run: cargo wasi test --workspace --exclude oxigraph-js --exclude oxigraph-cli --exclude oxigraph-testsuite --exclude oxrocksdb-sys --exclude pyoxigraph\n+        with: { tool: \"wasmtime\" }\n+      - run: cargo test --target wasm32-wasip1 --workspace --exclude oxigraph-js --exclude oxigraph-cli --exclude oxigraph-testsuite --exclude oxrocksdb-sys --exclude pyoxigraph\n+        env:\n+          CARGO_TARGET_WASM32_WASIP1_RUNNER: wasmtime run\n \n   rustdoc:\n     runs-on: ubuntu-latest"
+      },
+      {
+        "sha": "5e08a1183a50f760f7f7eb5bb17f770e0655bb26",
+        "filename": "CHANGELOG.md",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/CHANGELOG.md",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/CHANGELOG.md",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/CHANGELOG.md?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,3 +1,10 @@\n+## [0.4.8] - 2025-02-14\n+\n+### Changed\n+- SPARQL: Fixes a bug in `sameTerm` implementation on `xsd:decimal`.\n+- Turtle: fixes a parsing ambiguity when a file ends with an integer then a concatenated dot eg. `11.`.\n+\n+\n ## [0.4.7] - 2025-01-19\n \n ### Changed"
+      },
+      {
+        "sha": "93cac7a6cd25ce4ed34d76ee37a38a9b2ac845e1",
+        "filename": "Cargo.lock",
+        "status": "modified",
+        "additions": 163,
+        "deletions": 115,
+        "changes": 278,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/Cargo.lock",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/Cargo.lock",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/Cargo.lock?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -224,9 +224,9 @@ dependencies = [\n \n [[package]]\n name = \"bumpalo\"\n-version = \"3.16.0\"\n+version = \"3.17.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"79296716171880943b8470b5f8d03aa55eb2e645a4874bdbb28adb49162e012c\"\n+checksum = \"1628fb46dfa0b37568d12e5edd512553eccf6a22a78e8bde00bb4aed84d5bdbf\"\n \n [[package]]\n name = \"byteorder\"\n@@ -236,9 +236,29 @@ checksum = \"1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b\"\n \n [[package]]\n name = \"bytes\"\n-version = \"1.9.0\"\n+version = \"1.10.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"325918d6fe32f23b19878fe4b34794ae41fc19ddbe53b10571a4874d44ffd39b\"\n+checksum = \"f61dac84819c6588b558454b194026eb1f09c293b9036ae9b159e74e73ab6cf9\"\n+\n+[[package]]\n+name = \"bzip2\"\n+version = \"0.5.1\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"75b89e7c29231c673a61a46e722602bcd138298f6b9e81e71119693534585f5c\"\n+dependencies = [\n+ \"bzip2-sys\",\n+]\n+\n+[[package]]\n+name = \"bzip2-sys\"\n+version = \"0.1.12+1.0.8\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"72ebc2f1a417f01e1da30ef264ee86ae31d2dcd2d603ea283d3c244a883ca2a9\"\n+dependencies = [\n+ \"cc\",\n+ \"libc\",\n+ \"pkg-config\",\n+]\n \n [[package]]\n name = \"cast\"\n@@ -248,9 +268,9 @@ checksum = \"37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5\"\n \n [[package]]\n name = \"cc\"\n-version = \"1.2.10\"\n+version = \"1.2.14\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"13208fcbb66eaeffe09b99fffbe1af420f00a7b35aa99ad683dfc1aa76145229\"\n+checksum = \"0c3d1b2e905a3a7b00a6141adb0e4c0bb941d11caf55349d863942a1cc44e3c9\"\n dependencies = [\n  \"jobserver\",\n  \"libc\",\n@@ -312,19 +332,19 @@ dependencies = [\n \n [[package]]\n name = \"clap\"\n-version = \"4.5.26\"\n+version = \"4.5.29\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"a8eb5e908ef3a6efbe1ed62520fb7287959888c88485abe072543190ecc66783\"\n+checksum = \"8acebd8ad879283633b343856142139f2da2317c96b05b4dd6181c61e2480184\"\n dependencies = [\n  \"clap_builder\",\n  \"clap_derive\",\n ]\n \n [[package]]\n name = \"clap_builder\"\n-version = \"4.5.26\"\n+version = \"4.5.29\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"96b01801b5fc6a0a232407abc821660c9c6d25a1cafc0d4f85f29fb8d9afc121\"\n+checksum = \"f6ba32cbda51c7e1dfd49acc1457ba1a7dec5b64fe360e828acb13ca8dc9c2f9\"\n dependencies = [\n  \"anstream\",\n  \"anstyle\",\n@@ -334,18 +354,18 @@ dependencies = [\n \n [[package]]\n name = \"clap_complete\"\n-version = \"4.5.42\"\n+version = \"4.5.44\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"33a7e468e750fa4b6be660e8b5651ad47372e8fb114030b594c2d75d48c5ffd0\"\n+checksum = \"375f9d8255adeeedd51053574fd8d4ba875ea5fa558e86617b07f09f1680c8b6\"\n dependencies = [\n  \"clap\",\n ]\n \n [[package]]\n name = \"clap_derive\"\n-version = \"4.5.24\"\n+version = \"4.5.28\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"54b755194d6389280185988721fffba69495eed5ee9feeee9a599b53db80318c\"\n+checksum = \"bf4ced95c6f4a675af3da73304b9ac4ed991640c36374e4b46795c49e17cf1ed\"\n dependencies = [\n  \"heck\",\n  \"proc-macro2\",\n@@ -371,20 +391,22 @@ dependencies = [\n \n [[package]]\n name = \"codspeed\"\n-version = \"2.7.2\"\n+version = \"2.8.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"450a0e9df9df1c154156f4344f99d8f6f6e69d0fc4de96ef6e2e68b2ec3bce97\"\n+checksum = \"25d2f5a6570db487f5258e0bded6352fa2034c2aeb46bb5cc3ff060a0fcfba2f\"\n dependencies = [\n  \"colored\",\n  \"libc\",\n+ \"serde\",\n  \"serde_json\",\n+ \"uuid\",\n ]\n \n [[package]]\n name = \"codspeed-criterion-compat\"\n-version = \"2.7.2\"\n+version = \"2.8.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"8eb1a6cb9c20e177fde58cdef97c1c7c9264eb1424fe45c4fccedc2fb078a569\"\n+checksum = \"f53a55558dedec742b14aae3c5fec389361b8b5ca28c1aadf09dd91faf710074\"\n dependencies = [\n  \"codspeed\",\n  \"colored\",\n@@ -445,9 +467,9 @@ checksum = \"773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b\"\n \n [[package]]\n name = \"cpufeatures\"\n-version = \"0.2.16\"\n+version = \"0.2.17\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"16b80225097f2e5ae4e7179dd2266824648f3e2f49d9134d584b76389d31c4c3\"\n+checksum = \"59ed5838eebb26a2bb2e58f6d5b5316989ae9d08bab10e0e6d103e656d1b0280\"\n dependencies = [\n  \"libc\",\n ]\n@@ -524,9 +546,9 @@ checksum = \"d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28\"\n \n [[package]]\n name = \"crunchy\"\n-version = \"0.2.2\"\n+version = \"0.2.3\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7\"\n+checksum = \"43da5946c66ffcc7745f48db692ffbb10a83bfe0afd96235c5c2a4fb23994929\"\n \n [[package]]\n name = \"crypto-common\"\n@@ -538,6 +560,27 @@ dependencies = [\n  \"typenum\",\n ]\n \n+[[package]]\n+name = \"csv\"\n+version = \"1.3.1\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"acdc4883a9c96732e4733212c01447ebd805833b7275a73ca3ee080fd77afdaf\"\n+dependencies = [\n+ \"csv-core\",\n+ \"itoa\",\n+ \"ryu\",\n+ \"serde\",\n+]\n+\n+[[package]]\n+name = \"csv-core\"\n+version = \"0.1.12\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"7d02f3b0da4c6504f86e9cd789d8dbafab48c2321be74e9987593de5a894d93d\"\n+dependencies = [\n+ \"memchr\",\n+]\n+\n [[package]]\n name = \"dashmap\"\n version = \"6.1.0\"\n@@ -776,10 +819,22 @@ dependencies = [\n  \"cfg-if\",\n  \"js-sys\",\n  \"libc\",\n- \"wasi\",\n+ \"wasi 0.11.0+wasi-snapshot-preview1\",\n  \"wasm-bindgen\",\n ]\n \n+[[package]]\n+name = \"getrandom\"\n+version = \"0.3.1\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"43a49c392881ce6d5c3b8cb70f98717b7c07aabbdff06687b9030dbfbe2725f8\"\n+dependencies = [\n+ \"cfg-if\",\n+ \"libc\",\n+ \"wasi 0.13.3+wasi-0.2.2\",\n+ \"windows-targets\",\n+]\n+\n [[package]]\n name = \"gimli\"\n version = \"0.31.1\"\n@@ -875,9 +930,9 @@ checksum = \"7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70\"\n \n [[package]]\n name = \"httparse\"\n-version = \"1.9.5\"\n+version = \"1.10.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"7d71d3574edd2771538b901e6549113b4006ece66150fb69c0fb6d9a2adae946\"\n+checksum = \"f2d708df4e7140240a16cd6ab0ab65c972d7433ab77819ea693fde9c43811e2a\"\n \n [[package]]\n name = \"i_float\"\n@@ -1086,13 +1141,13 @@ checksum = \"b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5\"\n \n [[package]]\n name = \"is-terminal\"\n-version = \"0.4.13\"\n+version = \"0.4.15\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"261f68e344040fbd0edea105bef17c66edf46f984ddb1115b775ce31be948f4b\"\n+checksum = \"e19b23d53f35ce9f56aebc7d1bb4e6ac1e9c0db7ac85c8d1760c04379edced37\"\n dependencies = [\n  \"hermit-abi\",\n  \"libc\",\n- \"windows-sys 0.52.0\",\n+ \"windows-sys 0.59.0\",\n ]\n \n [[package]]\n@@ -1261,18 +1316,18 @@ checksum = \"68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a\"\n \n [[package]]\n name = \"miniz_oxide\"\n-version = \"0.8.3\"\n+version = \"0.8.4\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"b8402cab7aefae129c6977bb0ff1b8fd9a04eb5b51efc50a70bea51cda0c7924\"\n+checksum = \"b3b1c9bd4fe1f0f8b387f6eb9eb3b4a1aa26185e5750efb9140301703f62cd1b\"\n dependencies = [\n  \"adler2\",\n ]\n \n [[package]]\n name = \"native-tls\"\n-version = \"0.2.12\"\n+version = \"0.2.13\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"a8614eb2c83d59d1c8cc974dd3f920198647674a0a035e1af1fa58707e317466\"\n+checksum = \"0dab59f8e050d5df8e4dd87d9206fb6f65a483e20ac9fda365ade4fab353196c\"\n dependencies = [\n  \"libc\",\n  \"log\",\n@@ -1328,9 +1383,9 @@ dependencies = [\n \n [[package]]\n name = \"once_cell\"\n-version = \"1.20.2\"\n+version = \"1.20.3\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"1261fe7e33c73b354eab43b1273a57c8f967d0391e80353e51f764ac02cf6775\"\n+checksum = \"945462a4b81e43c4e3ba96bd7b49d834c6f61198356aa858733bc4acf3cbe62e\"\n \n [[package]]\n name = \"oorandom\"\n@@ -1340,9 +1395,9 @@ checksum = \"b410bbe7e14ab526a0e86877eb47c6996a2bd7746f027ba551028c925390e4e9\"\n \n [[package]]\n name = \"openssl\"\n-version = \"0.10.68\"\n+version = \"0.10.70\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"6174bc48f102d208783c2c84bf931bb75927a617866870de8a4ea85597f871f5\"\n+checksum = \"61cfb4e166a8bb8c9b55c500bc2308550148ece889be90f609377e58140f42c6\"\n dependencies = [\n  \"bitflags\",\n  \"cfg-if\",\n@@ -1366,15 +1421,15 @@ dependencies = [\n \n [[package]]\n name = \"openssl-probe\"\n-version = \"0.1.5\"\n+version = \"0.1.6\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"ff011a302c396a5197692431fc1948019154afc178baf7d8e37367442a4601cf\"\n+checksum = \"d05e27ee213611ffe7d6348b942e8f942b37114c00cc03cec254295a4a17852e\"\n \n [[package]]\n name = \"openssl-sys\"\n-version = \"0.9.104\"\n+version = \"0.9.105\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"45abf306cbf99debc8195b66b7346498d7b10c210de50418b5ccd7ceba08c741\"\n+checksum = \"8b22d5b84be05a8d6947c7cb71f7c849aa0f112acd4bf51c2a7c1c988ac0a9dc\"\n dependencies = [\n  \"cc\",\n  \"libc\",\n@@ -1400,11 +1455,13 @@ dependencies = [\n \n [[package]]\n name = \"oxigraph\"\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n dependencies = [\n+ \"bzip2\",\n  \"codspeed-criterion-compat\",\n+ \"csv\",\n  \"dashmap\",\n- \"getrandom\",\n+ \"getrandom 0.2.15\",\n  \"js-sys\",\n  \"libc\",\n  \"oxhttp\",\n@@ -1419,13 +1476,12 @@ dependencies = [\n  \"sparesults\",\n  \"spareval\",\n  \"spargebra\",\n- \"thiserror 1.0.69\",\n- \"zstd\",\n+ \"thiserror 2.0.11\",\n ]\n \n [[package]]\n name = \"oxigraph-cli\"\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n dependencies = [\n  \"anyhow\",\n  \"assert_cmd\",\n@@ -1446,7 +1502,7 @@ dependencies = [\n \n [[package]]\n name = \"oxigraph-js\"\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n dependencies = [\n  \"console_error_panic_hook\",\n  \"js-sys\",\n@@ -1501,7 +1557,7 @@ dependencies = [\n \n [[package]]\n name = \"oxrdfio\"\n-version = \"0.1.5\"\n+version = \"0.1.6\"\n dependencies = [\n  \"oxrdf\",\n  \"oxrdfxml\",\n@@ -1524,7 +1580,7 @@ dependencies = [\n \n [[package]]\n name = \"oxrocksdb-sys\"\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n dependencies = [\n  \"bindgen\",\n  \"cc\",\n@@ -1542,7 +1598,7 @@ dependencies = [\n \n [[package]]\n name = \"oxttl\"\n-version = \"0.1.5\"\n+version = \"0.1.6\"\n dependencies = [\n  \"memchr\",\n  \"oxilangtag\",\n@@ -1774,7 +1830,7 @@ dependencies = [\n \n [[package]]\n name = \"pyoxigraph\"\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n dependencies = [\n  \"oxigraph\",\n  \"pyo3\",\n@@ -1827,7 +1883,7 @@ version = \"0.6.4\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n checksum = \"ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c\"\n dependencies = [\n- \"getrandom\",\n+ \"getrandom 0.2.15\",\n ]\n \n [[package]]\n@@ -1890,15 +1946,14 @@ checksum = \"2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c\"\n \n [[package]]\n name = \"ring\"\n-version = \"0.17.8\"\n+version = \"0.17.9\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"c17fa4cb658e3583423e915b9f3acc01cceaee1860e33d59ebae66adc3a2dc0d\"\n+checksum = \"e75ec5e92c4d8aede845126adc388046234541629e76029599ed35a003c7ed24\"\n dependencies = [\n  \"cc\",\n  \"cfg-if\",\n- \"getrandom\",\n+ \"getrandom 0.2.15\",\n  \"libc\",\n- \"spin\",\n  \"untrusted\",\n  \"windows-sys 0.52.0\",\n ]\n@@ -1934,15 +1989,15 @@ checksum = \"719b953e2095829ee67db738b3bfa9fa368c94900df327b3f07fe6e794d2fe1f\"\n \n [[package]]\n name = \"rustc-hash\"\n-version = \"2.1.0\"\n+version = \"2.1.1\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"c7fb8039b3032c191086b10f11f319a6e99e1e82889c5cc6046f515c9db1d497\"\n+checksum = \"357703d41365b4b27c590e3ed91eabb1b663f07c4c084095e60cbed4362dff0d\"\n \n [[package]]\n name = \"rustix\"\n-version = \"0.38.43\"\n+version = \"0.38.44\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"a78891ee6bf2340288408954ac787aa063d8e8817e9f53abb37c695c6d834ef6\"\n+checksum = \"fdb5bc1ae2baa591800df16c9ca78619bf65c0488b41b96ccec5d11220d8c154\"\n dependencies = [\n  \"bitflags\",\n  \"errno\",\n@@ -1953,9 +2008,9 @@ dependencies = [\n \n [[package]]\n name = \"rustls\"\n-version = \"0.23.21\"\n+version = \"0.23.23\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"8f287924602bf649d949c63dc8ac8b235fa5387d394020705b80c4eb597ce5b8\"\n+checksum = \"47796c98c480fce5406ef69d1c76378375492c3b0a0de587be0c1d9feb12f395\"\n dependencies = [\n  \"once_cell\",\n  \"ring\",\n@@ -1979,9 +2034,9 @@ dependencies = [\n \n [[package]]\n name = \"rustls-pki-types\"\n-version = \"1.10.1\"\n+version = \"1.11.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"d2bf47e6ff922db3825eb750c4e2ff784c6ff8fb9e13046ef6a1d1c5401b0b37\"\n+checksum = \"917ce264624a4b4db1c364dcc35bfca9ded014d0a958cd47ad3e960e988ea51c\"\n \n [[package]]\n name = \"rustls-webpki\"\n@@ -2002,9 +2057,9 @@ checksum = \"f7c45b9784283f1b2e7fb61b42047c2fd678ef0960d4f6f1eba131594cc369d4\"\n \n [[package]]\n name = \"ryu\"\n-version = \"1.0.18\"\n+version = \"1.0.19\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"f3cb5ba0dc43242ce17de99c180e96db90b235b8a9fdc9543c96d2209116bd9f\"\n+checksum = \"6ea1a2d0a644769cc99faa24c3ad26b379b786fe7c36fd3c546254801650e6dd\"\n \n [[package]]\n name = \"same-file\"\n@@ -2088,9 +2143,9 @@ dependencies = [\n \n [[package]]\n name = \"serde_json\"\n-version = \"1.0.136\"\n+version = \"1.0.138\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"336a0c23cf42a38d9eaa7cd22c7040d04e1228a19a933890805ffd00a16437d2\"\n+checksum = \"d434192e7da787e94a6ea7e9670b26a036d0ca41e0b7efb2676dd32bae872949\"\n dependencies = [\n  \"itoa\",\n  \"memchr\",\n@@ -2164,7 +2219,7 @@ dependencies = [\n \n [[package]]\n name = \"spareval\"\n-version = \"0.1.1\"\n+version = \"0.1.2\"\n dependencies = [\n  \"hex\",\n  \"json-event-parser\",\n@@ -2180,7 +2235,7 @@ dependencies = [\n  \"sparesults\",\n  \"spargebra\",\n  \"sparopt\",\n- \"thiserror 1.0.69\",\n+ \"thiserror 2.0.11\",\n ]\n \n [[package]]\n@@ -2197,7 +2252,7 @@ dependencies = [\n \n [[package]]\n name = \"spargeo\"\n-version = \"0.1.4\"\n+version = \"0.1.5\"\n dependencies = [\n  \"geo\",\n  \"geojson\",\n@@ -2222,12 +2277,6 @@ dependencies = [\n  \"arbitrary\",\n ]\n \n-[[package]]\n-name = \"spin\"\n-version = \"0.9.8\"\n-source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67\"\n-\n [[package]]\n name = \"stable_deref_trait\"\n version = \"1.2.0\"\n@@ -2248,9 +2297,9 @@ checksum = \"13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292\"\n \n [[package]]\n name = \"syn\"\n-version = \"2.0.96\"\n+version = \"2.0.98\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"d5d0adab1ae378d7f53bdebc67a39f1f151407ef230f0ce2883572f5d8985c80\"\n+checksum = \"36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1\"\n dependencies = [\n  \"proc-macro2\",\n  \"quote\",\n@@ -2276,13 +2325,13 @@ checksum = \"61c41af27dd6d1e27b1b16b489db798443478cef1f06a660c96db617ba5de3b1\"\n \n [[package]]\n name = \"tempfile\"\n-version = \"3.15.0\"\n+version = \"3.16.0\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"9a8a559c81686f576e8cd0290cd2a24a2a9ad80c98b3478856500fcbd7acd704\"\n+checksum = \"38c246215d7d24f48ae091a2902398798e05d978b24315d6efbc00ede9a8bb91\"\n dependencies = [\n  \"cfg-if\",\n  \"fastrand\",\n- \"getrandom\",\n+ \"getrandom 0.3.1\",\n  \"once_cell\",\n  \"rustix\",\n  \"windows-sys 0.59.0\",\n@@ -2436,9 +2485,9 @@ checksum = \"42ff0bf0c66b8238c6f3b578df37d0b7848e55df8577b3f74f92a69acceeb825\"\n \n [[package]]\n name = \"unicode-ident\"\n-version = \"1.0.14\"\n+version = \"1.0.16\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83\"\n+checksum = \"a210d160f08b701c8721ba1c726c11662f877ea6b7094007e1ca9a1041945034\"\n \n [[package]]\n name = \"unicode-width\"\n@@ -2487,6 +2536,15 @@ version = \"0.2.2\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n checksum = \"06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821\"\n \n+[[package]]\n+name = \"uuid\"\n+version = \"1.13.1\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"ced87ca4be083373936a67f8de945faa23b6b42384bd5b64434850802c6dccd0\"\n+dependencies = [\n+ \"getrandom 0.3.1\",\n+]\n+\n [[package]]\n name = \"vcpkg\"\n version = \"0.2.15\"\n@@ -2501,9 +2559,9 @@ checksum = \"0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a\"\n \n [[package]]\n name = \"wait-timeout\"\n-version = \"0.2.0\"\n+version = \"0.2.1\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6\"\n+checksum = \"09ac3b126d3914f9849036f826e054cbabdc8519970b8998ddaf3b5bd3c65f11\"\n dependencies = [\n  \"libc\",\n ]\n@@ -2524,6 +2582,15 @@ version = \"0.11.0+wasi-snapshot-preview1\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n checksum = \"9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423\"\n \n+[[package]]\n+name = \"wasi\"\n+version = \"0.13.3+wasi-0.2.2\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"26816d2e1a4a36a2940b96c5296ce403917633dff8f3440e9b236ed6f6bacad2\"\n+dependencies = [\n+ \"wit-bindgen-rt\",\n+]\n+\n [[package]]\n name = \"wasm-bindgen\"\n version = \"0.2.100\"\n@@ -2594,9 +2661,9 @@ dependencies = [\n \n [[package]]\n name = \"webpki-roots\"\n-version = \"0.26.7\"\n+version = \"0.26.8\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"5d642ff16b7e79272ae451b7322067cdc17cadf68c23264be9d94a32319efe7e\"\n+checksum = \"2210b291f7ea53617fbafcc4939f10914214ec15aace5ba62293a668f322c5c9\"\n dependencies = [\n  \"rustls-pki-types\",\n ]\n@@ -2704,6 +2771,15 @@ version = \"0.52.6\"\n source = \"registry+https://github.com/rust-lang/crates.io-index\"\n checksum = \"589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec\"\n \n+[[package]]\n+name = \"wit-bindgen-rt\"\n+version = \"0.33.0\"\n+source = \"registry+https://github.com/rust-lang/crates.io-index\"\n+checksum = \"3268f3d866458b787f390cf61f4bbb563b922d091359f9608842999eaee3943c\"\n+dependencies = [\n+ \"bitflags\",\n+]\n+\n [[package]]\n name = \"wkt\"\n version = \"0.12.0\"\n@@ -2822,31 +2898,3 @@ dependencies = [\n  \"quote\",\n  \"syn\",\n ]\n-\n-[[package]]\n-name = \"zstd\"\n-version = \"0.13.2\"\n-source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"fcf2b778a664581e31e389454a7072dab1647606d44f7feea22cd5abb9c9f3f9\"\n-dependencies = [\n- \"zstd-safe\",\n-]\n-\n-[[package]]\n-name = \"zstd-safe\"\n-version = \"7.2.1\"\n-source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"54a3ab4db68cea366acc5c897c7b4d4d1b8994a9cd6e6f841f8964566a419059\"\n-dependencies = [\n- \"zstd-sys\",\n-]\n-\n-[[package]]\n-name = \"zstd-sys\"\n-version = \"2.0.13+zstd.1.5.6\"\n-source = \"registry+https://github.com/rust-lang/crates.io-index\"\n-checksum = \"38ff0f21cfee8f97d94cef41359e0c89aa6113028ab0291aa8ca0038995a95aa\"\n-dependencies = [\n- \"cc\",\n- \"pkg-config\",\n-]"
+      },
+      {
+        "sha": "8745bda093aeb731736b9554845644e86f7fc6e3",
+        "filename": "Cargo.toml",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 8,
+        "changes": 17,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/Cargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/Cargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/Cargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -21,7 +21,7 @@ members = [\n resolver = \"2\"\n \n [workspace.package]\n-version = \"0.4.7\"\n+version = \"0.4.8\"\n authors = [\"Tpt <thomas@pellissier-tanon.fr>\"]\n license = \"MIT OR Apache-2.0\"\n edition = \"2021\"\n@@ -33,12 +33,14 @@ arbitrary = \"1.3\"\n assert_cmd = \"2.0\"\n assert_fs = \"1.0\"\n bindgen = \">=0.62, <0.72\"\n+bzip2 = \">=0.4, <0.6\"\n cc = \"1.0.73\"\n clap = \"4.0\"\n clap_complete = \"4.0\"\n clap_mangen = \"0.2.19\"\n codspeed-criterion-compat = \"2.3.3\"\n console_error_panic_hook = \"0.1.7\"\n+csv = \"1.3\"\n dashmap = \">=5.4, <7.0\"\n flate2 = \"1.0\"\n geo = \">=0.28, <0.30\"\n@@ -73,21 +75,20 @@ tokio = \"1.29\"\n url = \"2.4\"\n wasm-bindgen = \"0.2.83\"\n wkt = \"0.12\"\n-zstd = \">=0.12, <0.14\"\n \n # Internal dependencies\n-oxigraph = { version = \"=0.4.7\", path = \"lib/oxigraph\" }\n+oxigraph = { version = \"=0.4.8\", path = \"lib/oxigraph\" }\n oxrdf = { version = \"=0.2.4\", path = \"lib/oxrdf\" }\n-oxrdfio = { version = \"=0.1.5\", path = \"lib/oxrdfio\" }\n+oxrdfio = { version = \"=0.1.6\", path = \"lib/oxrdfio\" }\n oxrdfxml = { version = \"=0.1.5\", path = \"lib/oxrdfxml\" }\n-oxrocksdb-sys = { version = \"=0.4.7\", path = \"./oxrocksdb-sys\" }\n+oxrocksdb-sys = { version = \"=0.4.8\", path = \"./oxrocksdb-sys\" }\n oxsdatatypes = { version = \"=0.2.2\", path = \"lib/oxsdatatypes\" }\n-oxttl = { version = \"=0.1.5\", path = \"lib/oxttl\" }\n+oxttl = { version = \"=0.1.6\", path = \"lib/oxttl\" }\n spargebra = { version = \"=0.3.4\", path = \"lib/spargebra\" }\n-spargeo = { version = \"=0.1.4\", path = \"lib/spargeo\" }\n+spargeo = { version = \"=0.1.5\", path = \"lib/spargeo\" }\n sparesults = { version = \"=0.2.4\", path = \"lib/sparesults\" }\n sparopt = { version = \"=0.2.0\", path = \"lib/sparopt\" }\n-spareval = { version = \"=0.1.1\", path = \"lib/spareval\" }\n+spareval = { version = \"=0.1.2\", path = \"lib/spareval\" }\n \n [workspace.lints.rust]\n absolute_paths_not_starting_with_crate = \"warn\""
+      },
+      {
+        "sha": "45994a7f0c900a68abcefcf9d4859fb184090074",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/README.md",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/README.md",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/README.md?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -34,7 +34,7 @@ It is split into multiple parts:\n - [`pyoxigraph` that exposes Oxigraph to the Python world](./python). Its source code is in the `python` directory. [![PyPI](https://img.shields.io/pypi/v/pyoxigraph)](https://pypi.org/project/pyoxigraph/)\n - [JavaScript bindings for Oxigraph](./js). WebAssembly is used to package Oxigraph into a NodeJS compatible NPM package. Its source code is in the `js` directory.\n   [![npm](https://img.shields.io/npm/v/oxigraph)](https://www.npmjs.com/package/oxigraph)\n-- [Oxigraph binary](./cli) that provides a standalone command-line tool allowing to manipulate RDF data and spawn a a web server implementing the [SPARQL 1.1 Protocol](https://www.w3.org/TR/sparql11-protocol/) and the [SPARQL 1.1 Graph Store Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/). Its source code is in the `cli` directory.\n+- [Oxigraph binary](./cli) that provides a standalone command-line tool allowing to manipulate RDF data and spawn a a web server implementing the [SPARQL 1.1 Protocol](https://www.w3.org/TR/sparql11-protocol/) and the [SPARQL 1.1 Graph Store Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/). Its source code and instructions (including Docker) are in the `cli` directory.\n   Note that it was previously named [Oxigraph server](https://crates.io/crates/oxigraph-server).\n   [![Latest Version](https://img.shields.io/crates/v/oxigraph-cli.svg)](https://crates.io/crates/oxigraph-cli)\n "
+      },
+      {
+        "sha": "e95124c973e15db52b6429fa3057a5c240da401c",
+        "filename": "cli/src/main.rs",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/cli%2Fsrc%2Fmain.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/cli%2Fsrc%2Fmain.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/cli%2Fsrc%2Fmain.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1340,7 +1340,7 @@ fn store_target(request: &Request) -> Result<Option<NamedGraphName>, HttpError>\n             match k.as_ref() {\n                 \"graph\" => graph = Some(v.into_owned()),\n                 \"default\" => default = true,\n-                _ => continue,\n+                _ => (),\n             }\n         }\n         if let Some(graph) = graph {"
+      },
+      {
+        "sha": "42bf0cbebb469e888459d3fd60005d99fea3bab2",
+        "filename": "js/package-lock.json",
+        "status": "modified",
+        "additions": 157,
+        "deletions": 153,
+        "changes": 310,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/js%2Fpackage-lock.json",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/js%2Fpackage-lock.json",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/js%2Fpackage-lock.json?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -8,11 +8,11 @@\n             \"devDependencies\": {\n                 \"@biomejs/biome\": \"^1.0.0\",\n                 \"@codspeed/vitest-plugin\": \"^4.0.0\",\n-                \"@rdfjs/data-model\": \"^2.0.1\",\n+                \"@rdfjs/data-model\": \">=2.0.1 <2.1.0\",\n                 \"@tsconfig/node18\": \"^18.2.4\",\n                 \"@tsconfig/strictest\": \"^2.0.5\",\n                 \"@types/node\": \"^18\",\n-                \"@types/rdfjs__data-model\": \"^2.0.8\",\n+                \"@types/rdfjs__data-model\": \">=2.0.8 <2.1.0\",\n                 \"fzstd\": \"^0.1.1\",\n                 \"typescript\": \"~5.7\",\n                 \"vitest\": \"^3.0.0\",\n@@ -619,19 +619,19 @@\n             }\n         },\n         \"node_modules/@rdfjs/types\": {\n-            \"version\": \"1.1.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@rdfjs/types/-/types-1.1.2.tgz\",\n-            \"integrity\": \"sha512-wqpOJK1QCbmsGNtyzYnojPU8gRDPid2JO0Q0kMtb4j65xhCK880cnKAfEOwC+dX85VJcCByQx5zOwyyfCjDJsg==\",\n+            \"version\": \"2.0.1\",\n+            \"resolved\": \"https://registry.npmjs.org/@rdfjs/types/-/types-2.0.1.tgz\",\n+            \"integrity\": \"sha512-uyAzpugX7KekAXAHq26m3JlUIZJOC0uSBhpnefGV5i15bevDyyejoB7I+9MKeUrzXD8OOUI3+4FeV1wwQr5ihA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n                 \"@types/node\": \"*\"\n             }\n         },\n         \"node_modules/@rollup/rollup-android-arm-eabi\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.31.0.tgz\",\n-            \"integrity\": \"sha512-9NrR4033uCbUBRgvLcBrJofa2KY9DzxL2UKZ1/4xA/mnTNyhZCWBuD8X3tPm1n4KxcgaraOYgrFKSgwjASfmlA==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.34.7.tgz\",\n+            \"integrity\": \"sha512-l6CtzHYo8D2TQ3J7qJNpp3Q1Iye56ssIAtqbM2H8axxCEEwvN7o8Ze9PuIapbxFL3OHrJU2JBX6FIIVnP/rYyw==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -643,9 +643,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-android-arm64\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.31.0.tgz\",\n-            \"integrity\": \"sha512-iBbODqT86YBFHajxxF8ebj2hwKm1k8PTBQSojSt3d1FFt1gN+xf4CowE47iN0vOSdnd+5ierMHBbu/rHc7nq5g==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.34.7.tgz\",\n+            \"integrity\": \"sha512-KvyJpFUueUnSp53zhAa293QBYqwm94TgYTIfXyOTtidhm5V0LbLCJQRGkQClYiX3FXDQGSvPxOTD/6rPStMMDg==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -657,9 +657,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-darwin-arm64\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.31.0.tgz\",\n-            \"integrity\": \"sha512-WHIZfXgVBX30SWuTMhlHPXTyN20AXrLH4TEeH/D0Bolvx9PjgZnn4H677PlSGvU6MKNsjCQJYczkpvBbrBnG6g==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.34.7.tgz\",\n+            \"integrity\": \"sha512-jq87CjmgL9YIKvs8ybtIC98s/M3HdbqXhllcy9EdLV0yMg1DpxES2gr65nNy7ObNo/vZ/MrOTxt0bE5LinL6mA==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -671,9 +671,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-darwin-x64\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.31.0.tgz\",\n-            \"integrity\": \"sha512-hrWL7uQacTEF8gdrQAqcDy9xllQ0w0zuL1wk1HV8wKGSGbKPVjVUv/DEwT2+Asabf8Dh/As+IvfdU+H8hhzrQQ==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.34.7.tgz\",\n+            \"integrity\": \"sha512-rSI/m8OxBjsdnMMg0WEetu/w+LhLAcCDEiL66lmMX4R3oaml3eXz3Dxfvrxs1FbzPbJMaItQiksyMfv1hoIxnA==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -685,9 +685,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-freebsd-arm64\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.31.0.tgz\",\n-            \"integrity\": \"sha512-S2oCsZ4hJviG1QjPY1h6sVJLBI6ekBeAEssYKad1soRFv3SocsQCzX6cwnk6fID6UQQACTjeIMB+hyYrFacRew==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.7.tgz\",\n+            \"integrity\": \"sha512-oIoJRy3ZrdsXpFuWDtzsOOa/E/RbRWXVokpVrNnkS7npz8GEG++E1gYbzhYxhxHbO2om1T26BZjVmdIoyN2WtA==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -699,9 +699,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-freebsd-x64\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.31.0.tgz\",\n-            \"integrity\": \"sha512-pCANqpynRS4Jirn4IKZH4tnm2+2CqCNLKD7gAdEjzdLGbH1iO0zouHz4mxqg0uEMpO030ejJ0aA6e1PJo2xrPA==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.34.7.tgz\",\n+            \"integrity\": \"sha512-X++QSLm4NZfZ3VXGVwyHdRf58IBbCu9ammgJxuWZYLX0du6kZvdNqPwrjvDfwmi6wFdvfZ/s6K7ia0E5kI7m8Q==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -713,9 +713,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm-gnueabihf\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.31.0.tgz\",\n-            \"integrity\": \"sha512-0O8ViX+QcBd3ZmGlcFTnYXZKGbFu09EhgD27tgTdGnkcYXLat4KIsBBQeKLR2xZDCXdIBAlWLkiXE1+rJpCxFw==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.34.7.tgz\",\n+            \"integrity\": \"sha512-Z0TzhrsNqukTz3ISzrvyshQpFnFRfLunYiXxlCRvcrb3nvC5rVKI+ZXPFG/Aa4jhQa1gHgH3A0exHaRRN4VmdQ==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -727,9 +727,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm-musleabihf\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.31.0.tgz\",\n-            \"integrity\": \"sha512-w5IzG0wTVv7B0/SwDnMYmbr2uERQp999q8FMkKG1I+j8hpPX2BYFjWe69xbhbP6J9h2gId/7ogesl9hwblFwwg==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.34.7.tgz\",\n+            \"integrity\": \"sha512-nkznpyXekFAbvFBKBy4nNppSgneB1wwG1yx/hujN3wRnhnkrYVugMTCBXED4+Ni6thoWfQuHNYbFjgGH0MBXtw==\",\n             \"cpu\": [\n                 \"arm\"\n             ],\n@@ -741,9 +741,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm64-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-JyFFshbN5xwy6fulZ8B/8qOqENRmDdEkcIMF0Zz+RsfamEW+Zabl5jAb0IozP/8UKnJ7g2FtZZPEUIAlUSX8cA==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-KCjlUkcKs6PjOcxolqrXglBDcfCuUCTVlX5BgzgoJHw+1rWH1MCkETLkLe5iLLS9dP5gKC7mp3y6x8c1oGBUtA==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -755,9 +755,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-arm64-musl\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.31.0.tgz\",\n-            \"integrity\": \"sha512-kpQXQ0UPFeMPmPYksiBL9WS/BDiQEjRGMfklVIsA0Sng347H8W2iexch+IEwaR7OVSKtr2ZFxggt11zVIlZ25g==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.34.7.tgz\",\n+            \"integrity\": \"sha512-uFLJFz6+utmpbR313TTx+NpPuAXbPz4BhTQzgaP0tozlLnGnQ6rCo6tLwaSa6b7l6gRErjLicXQ1iPiXzYotjw==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -769,9 +769,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-loongarch64-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-pMlxLjt60iQTzt9iBb3jZphFIl55a70wexvo8p+vVFK+7ifTRookdoXX3bOsRdmfD+OKnMozKO6XM4zR0sHRrQ==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-ws8pc68UcJJqCpneDFepnwlsMUFoWvPbWXT/XUrJ7rWUL9vLoIN3GAasgG+nCvq8xrE3pIrd+qLX/jotcLy0Qw==\",\n             \"cpu\": [\n                 \"loong64\"\n             ],\n@@ -783,9 +783,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-powerpc64le-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-D7TXT7I/uKEuWiRkEFbed1UUYZwcJDU4vZQdPTcepK7ecPhzKOYk4Er2YR4uHKme4qDeIh6N3XrLfpuM7vzRWQ==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-vrDk9JDa/BFkxcS2PbWpr0C/LiiSLxFbNOBgfbW6P8TBe9PPHx9Wqbvx2xgNi1TOAyQHQJ7RZFqBiEohm79r0w==\",\n             \"cpu\": [\n                 \"ppc64\"\n             ],\n@@ -797,9 +797,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-riscv64-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-wal2Tc8O5lMBtoePLBYRKj2CImUCJ4UNGJlLwspx7QApYny7K1cUYlzQ/4IGQBLmm+y0RS7dwc3TDO/pmcneTw==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-rB+ejFyjtmSo+g/a4eovDD1lHWHVqizN8P0Hm0RElkINpS0XOdpaXloqM4FBkF9ZWEzg6bezymbpLmeMldfLTw==\",\n             \"cpu\": [\n                 \"riscv64\"\n             ],\n@@ -811,9 +811,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-s390x-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-O1o5EUI0+RRMkK9wiTVpk2tyzXdXefHtRTIjBbmFREmNMy7pFeYXCFGbhKFwISA3UOExlo5GGUuuj3oMKdK6JQ==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-nNXNjo4As6dNqRn7OrsnHzwTgtypfRA3u3AKr0B3sOOo+HkedIbn8ZtFnB+4XyKJojIfqDKmbIzO1QydQ8c+Pw==\",\n             \"cpu\": [\n                 \"s390x\"\n             ],\n@@ -825,9 +825,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-x64-gnu\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.31.0.tgz\",\n-            \"integrity\": \"sha512-zSoHl356vKnNxwOWnLd60ixHNPRBglxpv2g7q0Cd3Pmr561gf0HiAcUBRL3S1vPqRC17Zo2CX/9cPkqTIiai1g==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.7.tgz\",\n+            \"integrity\": \"sha512-9kPVf9ahnpOMSGlCxXGv980wXD0zRR3wyk8+33/MXQIpQEOpaNe7dEHm5LMfyRZRNt9lMEQuH0jUKj15MkM7QA==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -839,9 +839,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-linux-x64-musl\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.31.0.tgz\",\n-            \"integrity\": \"sha512-ypB/HMtcSGhKUQNiFwqgdclWNRrAYDH8iMYH4etw/ZlGwiTVxBz2tDrGRrPlfZu6QjXwtd+C3Zib5pFqID97ZA==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.34.7.tgz\",\n+            \"integrity\": \"sha512-7wJPXRWTTPtTFDFezA8sle/1sdgxDjuMoRXEKtx97ViRxGGkVQYovem+Q8Pr/2HxiHp74SSRG+o6R0Yq0shPwQ==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -853,9 +853,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-arm64-msvc\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.31.0.tgz\",\n-            \"integrity\": \"sha512-JuhN2xdI/m8Hr+aVO3vspO7OQfUFO6bKLIRTAy0U15vmWjnZDLrEgCZ2s6+scAYaQVpYSh9tZtRijApw9IXyMw==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.34.7.tgz\",\n+            \"integrity\": \"sha512-MN7aaBC7mAjsiMEZcsJvwNsQVNZShgES/9SzWp1HC9Yjqb5OpexYnRjF7RmE4itbeesHMYYQiAtUAQaSKs2Rfw==\",\n             \"cpu\": [\n                 \"arm64\"\n             ],\n@@ -867,9 +867,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-ia32-msvc\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.31.0.tgz\",\n-            \"integrity\": \"sha512-U1xZZXYkvdf5MIWmftU8wrM5PPXzyaY1nGCI4KI4BFfoZxHamsIe+BtnPLIvvPykvQWlVbqUXdLa4aJUuilwLQ==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.34.7.tgz\",\n+            \"integrity\": \"sha512-aeawEKYswsFu1LhDM9RIgToobquzdtSc4jSVqHV8uApz4FVvhFl/mKh92wc8WpFc6aYCothV/03UjY6y7yLgbg==\",\n             \"cpu\": [\n                 \"ia32\"\n             ],\n@@ -881,9 +881,9 @@\n             ]\n         },\n         \"node_modules/@rollup/rollup-win32-x64-msvc\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.31.0.tgz\",\n-            \"integrity\": \"sha512-ul8rnCsUumNln5YWwz0ted2ZHFhzhRRnkpBZ+YRuHoRAlUji9KChpOUOndY7uykrPEPXVbHLlsdo6v5yXo/TXw==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.7.tgz\",\n+            \"integrity\": \"sha512-4ZedScpxxIrVO7otcZ8kCX1mZArtH2Wfj3uFCxRJ9NO80gg1XV0U/b2f/MKaGwj2X3QopHfoWiDQ917FRpwY3w==\",\n             \"cpu\": [\n                 \"x64\"\n             ],\n@@ -916,34 +916,34 @@\n             \"license\": \"MIT\"\n         },\n         \"node_modules/@types/node\": {\n-            \"version\": \"18.19.71\",\n-            \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-18.19.71.tgz\",\n-            \"integrity\": \"sha512-evXpcgtZm8FY4jqBSN8+DmOTcVkkvTmAayeo4Wf3m1xAruyVGzGuDh/Fb/WWX2yLItUiho42ozyJjB0dw//Tkw==\",\n+            \"version\": \"18.19.76\",\n+            \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-18.19.76.tgz\",\n+            \"integrity\": \"sha512-yvR7Q9LdPz2vGpmpJX5LolrgRdWvB67MJKDPSgIIzpFbaf9a1j/f5DnLp5VDyHGMR0QZHlTr1afsD87QCXFHKw==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n                 \"undici-types\": \"~5.26.4\"\n             }\n         },\n         \"node_modules/@types/rdfjs__data-model\": {\n-            \"version\": \"2.0.8\",\n-            \"resolved\": \"https://registry.npmjs.org/@types/rdfjs__data-model/-/rdfjs__data-model-2.0.8.tgz\",\n-            \"integrity\": \"sha512-7OVjhmA8QPEdRReHFieKuqn2mbYx3ndEIEmh/6FkeJC8QCMJGVeSuRKEUVXbZGwP0rDKZuhQGozaRv3O1z1gPQ==\",\n+            \"version\": \"2.0.9\",\n+            \"resolved\": \"https://registry.npmjs.org/@types/rdfjs__data-model/-/rdfjs__data-model-2.0.9.tgz\",\n+            \"integrity\": \"sha512-rgQSlM9jr7XMZdC0xUIr0zsxf5FvdB4cxxzv+MlHm6uJGip5qi0q+BluNhakAzaM2I56nKLDqSE3I/XuOaHGnA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@rdfjs/types\": \"^1.0.1\"\n+                \"@rdfjs/types\": \"*\"\n             }\n         },\n         \"node_modules/@vitest/expect\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/expect/-/expect-3.0.2.tgz\",\n-            \"integrity\": \"sha512-dKSHLBcoZI+3pmP5hiZ7I5grNru2HRtEW8Z5Zp4IXog8QYcxhlox7JUPyIIFWfN53+3HW3KPLIl6nSzUGgKSuQ==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/expect/-/expect-3.0.5.tgz\",\n+            \"integrity\": \"sha512-nNIOqupgZ4v5jWuQx2DSlHLEs7Q4Oh/7AYwNyE+k0UQzG7tSmjPXShUikn1mpNGzYEN2jJbTvLejwShMitovBA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/spy\": \"3.0.2\",\n-                \"@vitest/utils\": \"3.0.2\",\n+                \"@vitest/spy\": \"3.0.5\",\n+                \"@vitest/utils\": \"3.0.5\",\n                 \"chai\": \"^5.1.2\",\n                 \"tinyrainbow\": \"^2.0.0\"\n             },\n@@ -952,13 +952,13 @@\n             }\n         },\n         \"node_modules/@vitest/mocker\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/mocker/-/mocker-3.0.2.tgz\",\n-            \"integrity\": \"sha512-Hr09FoBf0jlwwSyzIF4Xw31OntpO3XtZjkccpcBf8FeVW3tpiyKlkeUzxS/txzHqpUCNIX157NaTySxedyZLvA==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/mocker/-/mocker-3.0.5.tgz\",\n+            \"integrity\": \"sha512-CLPNBFBIE7x6aEGbIjaQAX03ZZlBMaWwAjBdMkIf/cAn6xzLTiM3zYqO/WAbieEjsAZir6tO71mzeHZoodThvw==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/spy\": \"3.0.2\",\n+                \"@vitest/spy\": \"3.0.5\",\n                 \"estree-walker\": \"^3.0.3\",\n                 \"magic-string\": \"^0.30.17\"\n             },\n@@ -979,9 +979,9 @@\n             }\n         },\n         \"node_modules/@vitest/pretty-format\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-3.0.2.tgz\",\n-            \"integrity\": \"sha512-yBohcBw/T/p0/JRgYD+IYcjCmuHzjC3WLAKsVE4/LwiubzZkE8N49/xIQ/KGQwDRA8PaviF8IRO8JMWMngdVVQ==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-3.0.5.tgz\",\n+            \"integrity\": \"sha512-CjUtdmpOcm4RVtB+up8r2vVDLR16Mgm/bYdkGFe3Yj/scRfCpbSi2W/BDSDcFK7ohw8UXvjMbOp9H4fByd/cOA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -992,38 +992,38 @@\n             }\n         },\n         \"node_modules/@vitest/runner\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/runner/-/runner-3.0.2.tgz\",\n-            \"integrity\": \"sha512-GHEsWoncrGxWuW8s405fVoDfSLk6RF2LCXp6XhevbtDjdDme1WV/eNmUueDfpY1IX3MJaCRelVCEXsT9cArfEg==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/runner/-/runner-3.0.5.tgz\",\n+            \"integrity\": \"sha512-BAiZFityFexZQi2yN4OX3OkJC6scwRo8EhRB0Z5HIGGgd2q+Nq29LgHU/+ovCtd0fOfXj5ZI6pwdlUmC5bpi8A==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/utils\": \"3.0.2\",\n-                \"pathe\": \"^2.0.1\"\n+                \"@vitest/utils\": \"3.0.5\",\n+                \"pathe\": \"^2.0.2\"\n             },\n             \"funding\": {\n                 \"url\": \"https://opencollective.com/vitest\"\n             }\n         },\n         \"node_modules/@vitest/snapshot\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/snapshot/-/snapshot-3.0.2.tgz\",\n-            \"integrity\": \"sha512-h9s67yD4+g+JoYG0zPCo/cLTabpDqzqNdzMawmNPzDStTiwxwkyYM1v5lWE8gmGv3SVJ2DcxA2NpQJZJv9ym3g==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/snapshot/-/snapshot-3.0.5.tgz\",\n+            \"integrity\": \"sha512-GJPZYcd7v8QNUJ7vRvLDmRwl+a1fGg4T/54lZXe+UOGy47F9yUfE18hRCtXL5aHN/AONu29NGzIXSVFh9K0feA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/pretty-format\": \"3.0.2\",\n+                \"@vitest/pretty-format\": \"3.0.5\",\n                 \"magic-string\": \"^0.30.17\",\n-                \"pathe\": \"^2.0.1\"\n+                \"pathe\": \"^2.0.2\"\n             },\n             \"funding\": {\n                 \"url\": \"https://opencollective.com/vitest\"\n             }\n         },\n         \"node_modules/@vitest/spy\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/spy/-/spy-3.0.2.tgz\",\n-            \"integrity\": \"sha512-8mI2iUn+PJFMT44e3ISA1R+K6ALVs47W6eriDTfXe6lFqlflID05MB4+rIFhmDSLBj8iBsZkzBYlgSkinxLzSQ==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/spy/-/spy-3.0.5.tgz\",\n+            \"integrity\": \"sha512-5fOzHj0WbUNqPK6blI/8VzZdkBlQLnT25knX0r4dbZI9qoZDf3qAdjoMmDcLG5A83W6oUUFJgUd0EYBc2P5xqg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1034,13 +1034,13 @@\n             }\n         },\n         \"node_modules/@vitest/utils\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/@vitest/utils/-/utils-3.0.2.tgz\",\n-            \"integrity\": \"sha512-Qu01ZYZlgHvDP02JnMBRpX43nRaZtNpIzw3C1clDXmn8eakgX6iQVGzTQ/NjkIr64WD8ioqOjkaYRVvHQI5qiw==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/@vitest/utils/-/utils-3.0.5.tgz\",\n+            \"integrity\": \"sha512-N9AX0NUoUtVwKwy21JtwzaqR5L5R5A99GAbrHfCCXK1lp593i/3AZAXhSP43wRQuxYsflrdzEfXZFo1reR1Nkg==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/pretty-format\": \"3.0.2\",\n+                \"@vitest/pretty-format\": \"3.0.5\",\n                 \"loupe\": \"^3.1.2\",\n                 \"tinyrainbow\": \"^2.0.0\"\n             },\n@@ -1131,9 +1131,9 @@\n             }\n         },\n         \"node_modules/chai\": {\n-            \"version\": \"5.1.2\",\n-            \"resolved\": \"https://registry.npmjs.org/chai/-/chai-5.1.2.tgz\",\n-            \"integrity\": \"sha512-aGtmf24DW6MLHHG5gCx4zaI3uBq3KRtxeVs0DjFH6Z0rDNbsvTxFASFvdj79pxjxZ8/5u3PIiN3IwEIQkiiuPw==\",\n+            \"version\": \"5.2.0\",\n+            \"resolved\": \"https://registry.npmjs.org/chai/-/chai-5.2.0.tgz\",\n+            \"integrity\": \"sha512-mCuXncKXk5iCLhfhwTc0izo0gtEmpz5CtG2y8GiOINBlMVS6v8TMRc5TaLWKS6692m9+dVVfzgeVxR5UxWHTYw==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1457,9 +1457,9 @@\n             }\n         },\n         \"node_modules/loupe\": {\n-            \"version\": \"3.1.2\",\n-            \"resolved\": \"https://registry.npmjs.org/loupe/-/loupe-3.1.2.tgz\",\n-            \"integrity\": \"sha512-23I4pFZHmAemUnz8WZXbYRSKYj801VDaNv9ETuMh7IrMc7VuVVSo+Z9iLE3ni30+U48iDWfi30d3twAXBYmnCg==\",\n+            \"version\": \"3.1.3\",\n+            \"resolved\": \"https://registry.npmjs.org/loupe/-/loupe-3.1.3.tgz\",\n+            \"integrity\": \"sha512-kkIp7XSkP78ZxJEsSxW3712C6teJVoeHHwgo9zJ380de7IYyJ2ISlxojcH2pC5OFLewESmnRi/+XCDIEEVyoug==\",\n             \"dev\": true,\n             \"license\": \"MIT\"\n         },\n@@ -1660,9 +1660,9 @@\n             }\n         },\n         \"node_modules/pathe\": {\n-            \"version\": \"2.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/pathe/-/pathe-2.0.2.tgz\",\n-            \"integrity\": \"sha512-15Ztpk+nov8DR524R4BF7uEuzESgzUEAV4Ah7CUMNGXdE5ELuvxElxGXndBl32vMSsWa1jpNf22Z+Er3sKwq+w==\",\n+            \"version\": \"2.0.3\",\n+            \"resolved\": \"https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz\",\n+            \"integrity\": \"sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==\",\n             \"dev\": true,\n             \"license\": \"MIT\"\n         },\n@@ -1684,9 +1684,9 @@\n             \"license\": \"ISC\"\n         },\n         \"node_modules/postcss\": {\n-            \"version\": \"8.5.1\",\n-            \"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.1.tgz\",\n-            \"integrity\": \"sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==\",\n+            \"version\": \"8.5.2\",\n+            \"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.2.tgz\",\n+            \"integrity\": \"sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==\",\n             \"dev\": true,\n             \"funding\": [\n                 {\n@@ -1737,9 +1737,9 @@\n             }\n         },\n         \"node_modules/rollup\": {\n-            \"version\": \"4.31.0\",\n-            \"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.31.0.tgz\",\n-            \"integrity\": \"sha512-9cCE8P4rZLx9+PjoyqHLs31V9a9Vpvfo4qNcs6JCiGWYhw2gijSetFbH6SSy1whnkgcefnUwr8sad7tgqsGvnw==\",\n+            \"version\": \"4.34.7\",\n+            \"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.34.7.tgz\",\n+            \"integrity\": \"sha512-8qhyN0oZ4x0H6wmBgfKxJtxM7qS98YJ0k0kNh5ECVtuchIJ7z9IVVvzpmtQyT10PXKMtBxYr1wQ5Apg8RS8kXQ==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1753,25 +1753,25 @@\n                 \"npm\": \">=8.0.0\"\n             },\n             \"optionalDependencies\": {\n-                \"@rollup/rollup-android-arm-eabi\": \"4.31.0\",\n-                \"@rollup/rollup-android-arm64\": \"4.31.0\",\n-                \"@rollup/rollup-darwin-arm64\": \"4.31.0\",\n-                \"@rollup/rollup-darwin-x64\": \"4.31.0\",\n-                \"@rollup/rollup-freebsd-arm64\": \"4.31.0\",\n-                \"@rollup/rollup-freebsd-x64\": \"4.31.0\",\n-                \"@rollup/rollup-linux-arm-gnueabihf\": \"4.31.0\",\n-                \"@rollup/rollup-linux-arm-musleabihf\": \"4.31.0\",\n-                \"@rollup/rollup-linux-arm64-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-arm64-musl\": \"4.31.0\",\n-                \"@rollup/rollup-linux-loongarch64-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-powerpc64le-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-riscv64-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-s390x-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-x64-gnu\": \"4.31.0\",\n-                \"@rollup/rollup-linux-x64-musl\": \"4.31.0\",\n-                \"@rollup/rollup-win32-arm64-msvc\": \"4.31.0\",\n-                \"@rollup/rollup-win32-ia32-msvc\": \"4.31.0\",\n-                \"@rollup/rollup-win32-x64-msvc\": \"4.31.0\",\n+                \"@rollup/rollup-android-arm-eabi\": \"4.34.7\",\n+                \"@rollup/rollup-android-arm64\": \"4.34.7\",\n+                \"@rollup/rollup-darwin-arm64\": \"4.34.7\",\n+                \"@rollup/rollup-darwin-x64\": \"4.34.7\",\n+                \"@rollup/rollup-freebsd-arm64\": \"4.34.7\",\n+                \"@rollup/rollup-freebsd-x64\": \"4.34.7\",\n+                \"@rollup/rollup-linux-arm-gnueabihf\": \"4.34.7\",\n+                \"@rollup/rollup-linux-arm-musleabihf\": \"4.34.7\",\n+                \"@rollup/rollup-linux-arm64-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-arm64-musl\": \"4.34.7\",\n+                \"@rollup/rollup-linux-loongarch64-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-powerpc64le-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-riscv64-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-s390x-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-x64-gnu\": \"4.34.7\",\n+                \"@rollup/rollup-linux-x64-musl\": \"4.34.7\",\n+                \"@rollup/rollup-win32-arm64-msvc\": \"4.34.7\",\n+                \"@rollup/rollup-win32-ia32-msvc\": \"4.34.7\",\n+                \"@rollup/rollup-win32-x64-msvc\": \"4.34.7\",\n                 \"fsevents\": \"~2.3.2\"\n             }\n         },\n@@ -1890,9 +1890,9 @@\n             \"license\": \"MIT\"\n         },\n         \"node_modules/vite\": {\n-            \"version\": \"5.4.11\",\n-            \"resolved\": \"https://registry.npmjs.org/vite/-/vite-5.4.11.tgz\",\n-            \"integrity\": \"sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==\",\n+            \"version\": \"5.4.14\",\n+            \"resolved\": \"https://registry.npmjs.org/vite/-/vite-5.4.14.tgz\",\n+            \"integrity\": \"sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n@@ -1950,16 +1950,16 @@\n             }\n         },\n         \"node_modules/vite-node\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/vite-node/-/vite-node-3.0.2.tgz\",\n-            \"integrity\": \"sha512-hsEQerBAHvVAbv40m3TFQe/lTEbOp7yDpyqMJqr2Tnd+W58+DEYOt+fluQgekOePcsNBmR77lpVAnIU2Xu4SvQ==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/vite-node/-/vite-node-3.0.5.tgz\",\n+            \"integrity\": \"sha512-02JEJl7SbtwSDJdYS537nU6l+ktdvcREfLksk/NDAqtdKWGqHl+joXzEubHROmS3E6pip+Xgu2tFezMu75jH7A==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n                 \"cac\": \"^6.7.14\",\n                 \"debug\": \"^4.4.0\",\n                 \"es-module-lexer\": \"^1.6.0\",\n-                \"pathe\": \"^2.0.1\",\n+                \"pathe\": \"^2.0.2\",\n                 \"vite\": \"^5.0.0 || ^6.0.0\"\n             },\n             \"bin\": {\n@@ -1973,31 +1973,31 @@\n             }\n         },\n         \"node_modules/vitest\": {\n-            \"version\": \"3.0.2\",\n-            \"resolved\": \"https://registry.npmjs.org/vitest/-/vitest-3.0.2.tgz\",\n-            \"integrity\": \"sha512-5bzaHakQ0hmVVKLhfh/jXf6oETDBtgPo8tQCHYB+wftNgFJ+Hah67IsWc8ivx4vFL025Ow8UiuTf4W57z4izvQ==\",\n+            \"version\": \"3.0.5\",\n+            \"resolved\": \"https://registry.npmjs.org/vitest/-/vitest-3.0.5.tgz\",\n+            \"integrity\": \"sha512-4dof+HvqONw9bvsYxtkfUp2uHsTN9bV2CZIi1pWgoFpL1Lld8LA1ka9q/ONSsoScAKG7NVGf2stJTI7XRkXb2Q==\",\n             \"dev\": true,\n             \"license\": \"MIT\",\n             \"dependencies\": {\n-                \"@vitest/expect\": \"3.0.2\",\n-                \"@vitest/mocker\": \"3.0.2\",\n-                \"@vitest/pretty-format\": \"^3.0.2\",\n-                \"@vitest/runner\": \"3.0.2\",\n-                \"@vitest/snapshot\": \"3.0.2\",\n-                \"@vitest/spy\": \"3.0.2\",\n-                \"@vitest/utils\": \"3.0.2\",\n+                \"@vitest/expect\": \"3.0.5\",\n+                \"@vitest/mocker\": \"3.0.5\",\n+                \"@vitest/pretty-format\": \"^3.0.5\",\n+                \"@vitest/runner\": \"3.0.5\",\n+                \"@vitest/snapshot\": \"3.0.5\",\n+                \"@vitest/spy\": \"3.0.5\",\n+                \"@vitest/utils\": \"3.0.5\",\n                 \"chai\": \"^5.1.2\",\n                 \"debug\": \"^4.4.0\",\n                 \"expect-type\": \"^1.1.0\",\n                 \"magic-string\": \"^0.30.17\",\n-                \"pathe\": \"^2.0.1\",\n+                \"pathe\": \"^2.0.2\",\n                 \"std-env\": \"^3.8.0\",\n                 \"tinybench\": \"^2.9.0\",\n                 \"tinyexec\": \"^0.3.2\",\n                 \"tinypool\": \"^1.0.2\",\n                 \"tinyrainbow\": \"^2.0.0\",\n                 \"vite\": \"^5.0.0 || ^6.0.0\",\n-                \"vite-node\": \"3.0.2\",\n+                \"vite-node\": \"3.0.5\",\n                 \"why-is-node-running\": \"^2.3.0\"\n             },\n             \"bin\": {\n@@ -2011,16 +2011,20 @@\n             },\n             \"peerDependencies\": {\n                 \"@edge-runtime/vm\": \"*\",\n+                \"@types/debug\": \"^4.1.12\",\n                 \"@types/node\": \"^18.0.0 || ^20.0.0 || >=22.0.0\",\n-                \"@vitest/browser\": \"3.0.2\",\n-                \"@vitest/ui\": \"3.0.2\",\n+                \"@vitest/browser\": \"3.0.5\",\n+                \"@vitest/ui\": \"3.0.5\",\n                 \"happy-dom\": \"*\",\n                 \"jsdom\": \"*\"\n             },\n             \"peerDependenciesMeta\": {\n                 \"@edge-runtime/vm\": {\n                     \"optional\": true\n                 },\n+                \"@types/debug\": {\n+                    \"optional\": true\n+                },\n                 \"@types/node\": {\n                     \"optional\": true\n                 },"
+      },
+      {
+        "sha": "ba401570067d4aae4212351c94cac5dd63159502",
+        "filename": "js/package.json",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/js%2Fpackage.json",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/js%2Fpackage.json",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/js%2Fpackage.json?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -5,11 +5,11 @@\n     \"devDependencies\": {\n         \"@biomejs/biome\": \"^1.0.0\",\n         \"@codspeed/vitest-plugin\": \"^4.0.0\",\n-        \"@rdfjs/data-model\": \"^2.0.1\",\n+        \"@rdfjs/data-model\": \">=2.0.1 <2.1.0\",\n         \"@tsconfig/node18\": \"^18.2.4\",\n         \"@tsconfig/strictest\": \"^2.0.5\",\n         \"@types/node\": \"^18\",\n-        \"@types/rdfjs__data-model\": \"^2.0.8\",\n+        \"@types/rdfjs__data-model\": \">=2.0.8 <2.1.0\",\n         \"fzstd\": \"^0.1.1\",\n         \"typescript\": \"~5.7\",\n         \"vitest\": \"^3.0.0\","
+      },
+      {
+        "sha": "98a23cabce4541a3ca388f38483ebdbb17714335",
+        "filename": "lib/oxigraph/Cargo.toml",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2FCargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -51,8 +51,9 @@ js-sys = { workspace = true, optional = true }\n \n [target.'cfg(not(target_family = \"wasm\"))'.dev-dependencies]\n codspeed-criterion-compat.workspace = true\n-oxhttp.workspace = true\n-zstd.workspace = true\n+csv.workspace = true\n+oxhttp = { workspace = true, features = [\"rustls-ring-native\"] }\n+bzip2.workspace = true\n \n [lints]\n workspace = true"
+      },
+      {
+        "sha": "45bdf41dda01f6ae9b55ddcf3e7b34d642b25f0c",
+        "filename": "lib/oxigraph/benches/store.rs",
+        "status": "modified",
+        "additions": 85,
+        "deletions": 54,
+        "changes": 139,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fbenches%2Fstore.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fbenches%2Fstore.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2Fbenches%2Fstore.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,7 +1,8 @@\n #![allow(clippy::panic)]\n \n+use bzip2::read::MultiBzDecoder;\n use codspeed_criterion_compat::{criterion_group, criterion_main, Criterion, Throughput};\n-use oxhttp::model::{Method, Request, Status};\n+use oxhttp::model::{Method, Request, Status, Url};\n use oxigraph::io::{RdfFormat, RdfParser};\n use oxigraph::sparql::{Query, QueryOptions, QueryResults, Update};\n use oxigraph::store::Store;\n@@ -13,7 +14,7 @@ use std::path::{Path, PathBuf};\n use std::str;\n \n fn parse_nt(c: &mut Criterion) {\n-    let data = read_data(\"explore-1000.nt.zst\");\n+    let data = read_bz2_data(\"https://zenodo.org/records/12663333/files/dataset-1000.nt.bz2\");\n     let mut group = c.benchmark_group(\"parse\");\n     group.throughput(Throughput::Bytes(data.len() as u64));\n     group.sample_size(50);\n@@ -54,7 +55,7 @@ fn parse_nt(c: &mut Criterion) {\n }\n \n fn store_load(c: &mut Criterion) {\n-    let data = read_data(\"explore-1000.nt.zst\");\n+    let data = read_bz2_data(\"https://zenodo.org/records/12663333/files/dataset-1000.nt.bz2\");\n     let mut group = c.benchmark_group(\"store load\");\n     group.throughput(Throughput::Bytes(data.len() as u64));\n     group.sample_size(10);\n@@ -103,61 +104,95 @@ fn do_bulk_load(store: &Store, data: &[u8]) {\n }\n \n fn store_query_and_update(c: &mut Criterion) {\n-    let data = read_data(\"explore-1000.nt.zst\");\n-    let operations = bsbm_sparql_operation()\n+    for (data_size, without_opts) in [(1_000, true), (5_000, false)] {\n+        do_store_query_and_update(c, data_size, without_opts)\n+    }\n+}\n+\n+fn do_store_query_and_update(c: &mut Criterion, data_size: usize, without_ops: bool) {\n+    let data = read_bz2_data(&format!(\n+        \"https://zenodo.org/records/12663333/files/dataset-{data_size}.nt.bz2\"\n+    ));\n+    let explore_operations = bsbm_sparql_operation(\"exploreAndUpdate-1000.csv.bz2\")\n         .into_iter()\n         .map(|op| match op {\n             RawOperation::Query(q) => Operation::Query(Query::parse(&q, None).unwrap()),\n             RawOperation::Update(q) => Operation::Update(Update::parse(&q, None).unwrap()),\n         })\n         .collect::<Vec<_>>();\n-    let query_operations = operations\n+    let explore_query_operations = explore_operations\n         .iter()\n         .filter(|o| matches!(o, Operation::Query(_)))\n         .cloned()\n         .collect::<Vec<_>>();\n+    let business_operations = bsbm_sparql_operation(\"businessIntelligence-1000.csv.bz2\")\n+        .into_iter()\n+        .map(|op| match op {\n+            RawOperation::Query(q) => {\n+                Operation::Query(Query::parse(&q.replace('#', \"\"), None).unwrap())\n+            }\n+            RawOperation::Update(_) => unreachable!(),\n+        })\n+        .collect::<Vec<_>>();\n \n     let mut group = c.benchmark_group(\"store operations\");\n-    group.throughput(Throughput::Elements(operations.len() as u64));\n     group.sample_size(10);\n \n     {\n         let memory_store = Store::new().unwrap();\n         do_bulk_load(&memory_store, &data);\n-        group.bench_function(\"BSBM explore 1000 query in memory\", |b| {\n-            b.iter(|| run_operation(&memory_store, &query_operations, true))\n-        });\n-        group.bench_function(\n-            \"BSBM explore 1000 query in memory without optimizations\",\n-            |b| b.iter(|| run_operation(&memory_store, &query_operations, false)),\n-        );\n-        group.bench_function(\"BSBM explore 1000 queryAndUpdate in memory\", |b| {\n-            b.iter(|| run_operation(&memory_store, &operations, true))\n+        group.bench_function(format!(\"BSBM explore {data_size} query in memory\"), |b| {\n+            b.iter(|| run_operation(&memory_store, &explore_query_operations, true))\n         });\n+        if without_ops {\n+            group.bench_function(\n+                format!(\"BSBM explore {data_size} query in memory without optimizations\"),\n+                |b| b.iter(|| run_operation(&memory_store, &explore_query_operations, false)),\n+            );\n+        }\n         group.bench_function(\n-            \"BSBM explore 1000 queryAndUpdate in memory without optimizations\",\n-            |b| b.iter(|| run_operation(&memory_store, &operations, false)),\n+            format!(\"BSBM explore {data_size} queryAndUpdate in memory\"),\n+            |b| b.iter(|| run_operation(&memory_store, &explore_operations, true)),\n         );\n+        if without_ops {\n+            group.bench_function(\n+                format!(\"BSBM explore {data_size} queryAndUpdate in memory without optimizations\"),\n+                |b| b.iter(|| run_operation(&memory_store, &explore_operations, false)),\n+            );\n+            group.bench_function(\n+                format!(\"BSBM business intelligence {data_size} in memory\"),\n+                |b| b.iter(|| run_operation(&memory_store, &business_operations, true)),\n+            );\n+        }\n     }\n \n     {\n         let path = TempDir::default();\n         let disk_store = Store::open(&path).unwrap();\n         do_bulk_load(&disk_store, &data);\n-        group.bench_function(\"BSBM explore 1000 query on disk\", |b| {\n-            b.iter(|| run_operation(&disk_store, &query_operations, true))\n-        });\n-        group.bench_function(\n-            \"BSBM explore 1000 query on disk without optimizations\",\n-            |b| b.iter(|| run_operation(&disk_store, &query_operations, false)),\n-        );\n-        group.bench_function(\"BSBM explore 1000 queryAndUpdate on disk\", |b| {\n-            b.iter(|| run_operation(&disk_store, &operations, true))\n+        group.bench_function(format!(\"BSBM explore {data_size} query on disk\"), |b| {\n+            b.iter(|| run_operation(&disk_store, &explore_query_operations, true))\n         });\n+        if without_ops {\n+            group.bench_function(\n+                format!(\"BSBM explore {data_size} query on disk without optimizations\"),\n+                |b| b.iter(|| run_operation(&disk_store, &explore_query_operations, false)),\n+            );\n+        }\n         group.bench_function(\n-            \"BSBM explore 1000 queryAndUpdate on disk without optimizations\",\n-            |b| b.iter(|| run_operation(&disk_store, &operations, false)),\n+            format!(\"BSBM explore {data_size} queryAndUpdate on disk\"),\n+            |b| b.iter(|| run_operation(&disk_store, &explore_operations, true)),\n         );\n+        if without_ops {\n+            group.bench_function(\n+                format!(\"BSBM explore {data_size} queryAndUpdate on disk without optimizations\"),\n+                |b| b.iter(|| run_operation(&disk_store, &explore_operations, false)),\n+            );\n+            group.bench_function(\n+                format!(\"BSBM business intelligence {data_size} on disk\"),\n+                |b| b.iter(|| run_operation(&disk_store, &business_operations, true)),\n+            );\n+        }\n     }\n }\n \n@@ -187,7 +222,7 @@ fn run_operation(store: &Store, operations: &[Operation], with_opts: bool) {\n }\n \n fn sparql_parsing(c: &mut Criterion) {\n-    let operations = bsbm_sparql_operation();\n+    let operations = bsbm_sparql_operation(\"exploreAndUpdate-1000.csv.bz2\");\n     let mut group = c.benchmark_group(\"sparql parsing\");\n     group.sample_size(10);\n     group.throughput(Throughput::Bytes(\n@@ -220,42 +255,38 @@ criterion_group!(store, sparql_parsing, store_query_and_update, store_load);\n \n criterion_main!(parse, store);\n \n-fn read_data(file: &str) -> Vec<u8> {\n-    if !Path::new(file).exists() {\n+fn read_bz2_data(url: &str) -> Vec<u8> {\n+    let url = Url::parse(url).unwrap();\n+    let file_name = url.path_segments().unwrap().next_back().unwrap().to_owned();\n+    if !Path::new(&file_name).exists() {\n         let client = oxhttp::Client::new().with_redirection_limit(5);\n-        let url = format!(\"https://github.com/Tpt/bsbm-tools/releases/download/v0.2/{file}\");\n-        let request = Request::builder(Method::GET, url.parse().unwrap()).build();\n+        let request = Request::builder(Method::GET, url.clone()).build();\n         let response = client.request(request).unwrap();\n-        assert_eq!(\n-            response.status(),\n-            Status::OK,\n-            \"{}\",\n-            response.into_body().to_string().unwrap()\n-        );\n-        std::io::copy(&mut response.into_body(), &mut File::create(file).unwrap()).unwrap();\n+        assert_eq!(response.status(), Status::OK, \"{url}\");\n+        std::io::copy(\n+            &mut response.into_body(),\n+            &mut File::create(&file_name).unwrap(),\n+        )\n+        .unwrap();\n     }\n     let mut buf = Vec::new();\n-    zstd::Decoder::new(File::open(file).unwrap())\n-        .unwrap()\n+    MultiBzDecoder::new(File::open(&file_name).unwrap())\n         .read_to_end(&mut buf)\n         .unwrap();\n     buf\n }\n \n-fn bsbm_sparql_operation() -> Vec<RawOperation> {\n-    String::from_utf8(read_data(\"mix-exploreAndUpdate-1000.tsv.zst\"))\n-        .unwrap()\n-        .lines()\n+fn bsbm_sparql_operation(file_name: &str) -> Vec<RawOperation> {\n+    csv::Reader::from_reader(read_bz2_data(&format!(\"https://zenodo.org/records/12663333/files/{file_name}\")).as_slice()).records()\n+        .collect::<Result<Vec<_>, _>>().unwrap()\n+        .into_iter()\n         .rev()\n         .take(300) // We take only 10 groups\n         .map(|l| {\n-            let mut parts = l.trim().split('\\t');\n-            let kind = parts.next().unwrap();\n-            let operation = parts.next().unwrap();\n-            match kind {\n-                \"query\" => RawOperation::Query(operation.into()),\n-                \"update\" => RawOperation::Update(operation.into()),\n-                _ => panic!(\"Unexpected operation kind {kind}\"),\n+            match &l[1] {\n+                \"query\" => RawOperation::Query(l[2].into()),\n+                \"update\" => RawOperation::Update(l[2].into()),\n+                _ => panic!(\"Unexpected operation kind {}\", &l[1]),\n             }\n         })\n         .collect()"
+      },
+      {
+        "sha": "1b6df1fe50b37becb553ba0fecb77b6df6e6306b",
+        "filename": "lib/oxigraph/src/sparql/dataset.rs",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fsparql%2Fdataset.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fsparql%2Fdataset.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2Fsrc%2Fsparql%2Fdataset.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -11,6 +11,7 @@ use std::collections::hash_map::Entry;\n use std::collections::HashMap;\n use std::hash::BuildHasherDefault;\n use std::iter::empty;\n+use std::sync::Arc;\n \n pub struct DatasetView {\n     reader: StorageReader,\n@@ -271,12 +272,11 @@ impl QueryableDataset for DatasetView {\n             ExpressionTerm::DayTimeDurationLiteral(value) => {\n                 EncodedTerm::DayTimeDurationLiteral(value)\n             }\n-            ExpressionTerm::Triple(t) => EncodedTriple {\n+            ExpressionTerm::Triple(t) => EncodedTerm::Triple(Arc::new(EncodedTriple {\n                 subject: self.internalize_expression_term(t.subject.into())?,\n                 predicate: self.internalize_expression_term(t.predicate.into())?,\n                 object: self.internalize_expression_term(t.object)?,\n-            }\n-            .into(),\n+            })),\n             _ => self.internalize_term(term.into())?, // No fast path\n         })\n     }"
+      },
+      {
+        "sha": "069c548a6f4e006c464ff584a3379c0989321444",
+        "filename": "lib/oxigraph/src/storage/binary_encoder.rs",
+        "status": "modified",
+        "additions": 36,
+        "deletions": 21,
+        "changes": 57,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fstorage%2Fbinary_encoder.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fstorage%2Fbinary_encoder.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2Fsrc%2Fstorage%2Fbinary_encoder.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -4,6 +4,7 @@ use crate::storage::small_string::SmallString;\n use oxsdatatypes::*;\n use std::io::Read;\n use std::mem::size_of;\n+use std::sync::Arc;\n \n #[cfg(all(not(target_family = \"wasm\"), feature = \"rocksdb\"))]\n pub const LATEST_STORAGE_VERSION: u64 = 1;\n@@ -310,89 +311,100 @@ impl<R: Read> TermReader for R {\n                     value_id: StrHash::from_be_bytes(buffer),\n                 })\n             }\n-            TYPE_BOOLEAN_LITERAL_TRUE => Ok(true.into()),\n-            TYPE_BOOLEAN_LITERAL_FALSE => Ok(false.into()),\n+            TYPE_BOOLEAN_LITERAL_TRUE => Ok(EncodedTerm::BooleanLiteral(true.into())),\n+            TYPE_BOOLEAN_LITERAL_FALSE => Ok(EncodedTerm::BooleanLiteral(false.into())),\n             TYPE_FLOAT_LITERAL => {\n                 let mut buffer = [0; 4];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Float::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::FloatLiteral(Float::from_be_bytes(buffer)))\n             }\n             TYPE_DOUBLE_LITERAL => {\n                 let mut buffer = [0; 8];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Double::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DoubleLiteral(Double::from_be_bytes(buffer)))\n             }\n             TYPE_INTEGER_LITERAL => {\n                 let mut buffer = [0; 8];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Integer::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::IntegerLiteral(Integer::from_be_bytes(buffer)))\n             }\n             TYPE_DECIMAL_LITERAL => {\n                 let mut buffer = [0; 16];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Decimal::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DecimalLiteral(Decimal::from_be_bytes(buffer)))\n             }\n             TYPE_DATE_TIME_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(DateTime::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DateTimeLiteral(DateTime::from_be_bytes(\n+                    buffer,\n+                )))\n             }\n             TYPE_TIME_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Time::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::TimeLiteral(Time::from_be_bytes(buffer)))\n             }\n             TYPE_DATE_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Date::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DateLiteral(Date::from_be_bytes(buffer)))\n             }\n             TYPE_G_YEAR_MONTH_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(GYearMonth::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::GYearMonthLiteral(GYearMonth::from_be_bytes(\n+                    buffer,\n+                )))\n             }\n             TYPE_G_YEAR_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(GYear::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::GYearLiteral(GYear::from_be_bytes(buffer)))\n             }\n             TYPE_G_MONTH_DAY_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(GMonthDay::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::GMonthDayLiteral(GMonthDay::from_be_bytes(\n+                    buffer,\n+                )))\n             }\n             TYPE_G_DAY_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(GDay::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::GDayLiteral(GDay::from_be_bytes(buffer)))\n             }\n             TYPE_G_MONTH_LITERAL => {\n                 let mut buffer = [0; 18];\n                 self.read_exact(&mut buffer)?;\n-                Ok(GMonth::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::GMonthLiteral(GMonth::from_be_bytes(buffer)))\n             }\n             TYPE_DURATION_LITERAL => {\n                 let mut buffer = [0; 24];\n                 self.read_exact(&mut buffer)?;\n-                Ok(Duration::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DurationLiteral(Duration::from_be_bytes(\n+                    buffer,\n+                )))\n             }\n             TYPE_YEAR_MONTH_DURATION_LITERAL => {\n                 let mut buffer = [0; 8];\n                 self.read_exact(&mut buffer)?;\n-                Ok(YearMonthDuration::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::YearMonthDurationLiteral(\n+                    YearMonthDuration::from_be_bytes(buffer),\n+                ))\n             }\n             TYPE_DAY_TIME_DURATION_LITERAL => {\n                 let mut buffer = [0; 16];\n                 self.read_exact(&mut buffer)?;\n-                Ok(DayTimeDuration::from_be_bytes(buffer).into())\n+                Ok(EncodedTerm::DayTimeDurationLiteral(\n+                    DayTimeDuration::from_be_bytes(buffer),\n+                ))\n             }\n-            TYPE_TRIPLE => Ok(EncodedTriple {\n+            TYPE_TRIPLE => Ok(EncodedTerm::Triple(Arc::new(EncodedTriple {\n                 subject: self.read_term()?,\n                 predicate: self.read_term()?,\n                 object: self.read_term()?,\n-            }\n-            .into()),\n+            }))),\n             _ => Err(CorruptionError::msg(\"the term buffer has an invalid type id\").into()),\n         }\n     }\n@@ -684,8 +696,11 @@ mod tests {\n             Literal::new_simple_literal(\"literal\").into(),\n             BlankNode::new_unchecked(\"foo-literal-thisisaverylargestringliteral\").into(),\n             Literal::from(true).into(),\n-            Literal::from(1.2).into(),\n+            Literal::from(false).into(),\n             Literal::from(1).into(),\n+            Literal::from(Decimal::from(1)).into(),\n+            Literal::from(1.2_f32).into(),\n+            Literal::from(1.2_f64).into(),\n             Literal::from(\"foo-string\").into(),\n             Literal::new_language_tagged_literal_unchecked(\"foo-fr\", \"fr\").into(),\n             Literal::new_language_tagged_literal_unchecked("
+      },
+      {
+        "sha": "95b164bcca925143afd4edeacd74a9cd7f413e37",
+        "filename": "lib/oxigraph/src/storage/numeric_encoder.rs",
+        "status": "modified",
+        "additions": 107,
+        "deletions": 303,
+        "changes": 410,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fstorage%2Fnumeric_encoder.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxigraph%2Fsrc%2Fstorage%2Fnumeric_encoder.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxigraph%2Fsrc%2Fstorage%2Fnumeric_encoder.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -7,6 +7,7 @@ use oxsdatatypes::*;\n use siphasher::sip128::{Hasher128, SipHasher24};\n use std::fmt::Debug;\n use std::hash::{Hash, Hasher};\n+use std::mem::discriminant;\n use std::str;\n use std::sync::Arc;\n \n@@ -105,117 +106,119 @@ pub enum EncodedTerm {\n \n impl PartialEq for EncodedTerm {\n     fn eq(&self, other: &Self) -> bool {\n-        match (self, other) {\n-            (Self::DefaultGraph, Self::DefaultGraph) => true,\n-            (Self::NamedNode { iri_id: iri_id_a }, Self::NamedNode { iri_id: iri_id_b }) => {\n-                iri_id_a == iri_id_b\n-            }\n-            (Self::NumericalBlankNode { id: id_a }, Self::NumericalBlankNode { id: id_b }) => {\n-                id_a == id_b\n-            }\n-            (Self::SmallBlankNode(id_a), Self::SmallBlankNode(id_b)) => id_a == id_b,\n-            (Self::BigBlankNode { id_id: id_a }, Self::BigBlankNode { id_id: id_b }) => {\n-                id_a == id_b\n-            }\n-            (Self::SmallStringLiteral(a), Self::SmallStringLiteral(b)) => a == b,\n-            (\n-                Self::BigStringLiteral {\n-                    value_id: value_id_a,\n-                },\n-                Self::BigStringLiteral {\n-                    value_id: value_id_b,\n-                },\n-            ) => value_id_a == value_id_b,\n-            (\n-                Self::SmallSmallLangStringLiteral {\n-                    value: value_a,\n-                    language: language_a,\n-                },\n-                Self::SmallSmallLangStringLiteral {\n-                    value: value_b,\n-                    language: language_b,\n-                },\n-            ) => value_a == value_b && language_a == language_b,\n-            (\n-                Self::SmallBigLangStringLiteral {\n-                    value: value_a,\n-                    language_id: language_id_a,\n-                },\n-                Self::SmallBigLangStringLiteral {\n-                    value: value_b,\n-                    language_id: language_id_b,\n-                },\n-            ) => value_a == value_b && language_id_a == language_id_b,\n-            (\n-                Self::BigSmallLangStringLiteral {\n-                    value_id: value_id_a,\n-                    language: language_a,\n-                },\n-                Self::BigSmallLangStringLiteral {\n-                    value_id: value_id_b,\n-                    language: language_b,\n-                },\n-            ) => value_id_a == value_id_b && language_a == language_b,\n-            (\n-                Self::BigBigLangStringLiteral {\n-                    value_id: value_id_a,\n-                    language_id: language_id_a,\n-                },\n-                Self::BigBigLangStringLiteral {\n-                    value_id: value_id_b,\n-                    language_id: language_id_b,\n-                },\n-            ) => value_id_a == value_id_b && language_id_a == language_id_b,\n-            (\n-                Self::SmallTypedLiteral {\n-                    value: value_a,\n-                    datatype_id: datatype_id_a,\n-                },\n-                Self::SmallTypedLiteral {\n-                    value: value_b,\n-                    datatype_id: datatype_id_b,\n-                },\n-            ) => value_a == value_b && datatype_id_a == datatype_id_b,\n-            (\n-                Self::BigTypedLiteral {\n-                    value_id: value_id_a,\n-                    datatype_id: datatype_id_a,\n-                },\n-                Self::BigTypedLiteral {\n-                    value_id: value_id_b,\n-                    datatype_id: datatype_id_b,\n-                },\n-            ) => value_id_a == value_id_b && datatype_id_a == datatype_id_b,\n-            (Self::BooleanLiteral(a), Self::BooleanLiteral(b)) => a == b,\n-            (Self::FloatLiteral(a), Self::FloatLiteral(b)) => a.is_identical_with(*b),\n-            (Self::DoubleLiteral(a), Self::DoubleLiteral(b)) => a.is_identical_with(*b),\n-            (Self::IntegerLiteral(a), Self::IntegerLiteral(b)) => a.is_identical_with(*b),\n-            (Self::DecimalLiteral(a), Self::DecimalLiteral(b)) => a.is_identical_with(*b),\n-            (Self::DateTimeLiteral(a), Self::DateTimeLiteral(b)) => a.is_identical_with(*b),\n-            (Self::TimeLiteral(a), Self::TimeLiteral(b)) => a.is_identical_with(*b),\n-            (Self::DateLiteral(a), Self::DateLiteral(b)) => a.is_identical_with(*b),\n-            (Self::GYearMonthLiteral(a), Self::GYearMonthLiteral(b)) => a.is_identical_with(*b),\n-            (Self::GYearLiteral(a), Self::GYearLiteral(b)) => a.is_identical_with(*b),\n-            (Self::GMonthDayLiteral(a), Self::GMonthDayLiteral(b)) => a.is_identical_with(*b),\n-            (Self::GMonthLiteral(a), Self::GMonthLiteral(b)) => a.is_identical_with(*b),\n-            (Self::GDayLiteral(a), Self::GDayLiteral(b)) => a.is_identical_with(*b),\n-            (Self::DurationLiteral(a), Self::DurationLiteral(b)) => a.is_identical_with(*b),\n-            (Self::YearMonthDurationLiteral(a), Self::YearMonthDurationLiteral(b)) => {\n-                a.is_identical_with(*b)\n-            }\n-            (Self::DayTimeDurationLiteral(a), Self::DayTimeDurationLiteral(b)) => {\n-                a.is_identical_with(*b)\n+        discriminant(self) == discriminant(other)\n+            && match (self, other) {\n+                (Self::DefaultGraph, Self::DefaultGraph) => true,\n+                (Self::NamedNode { iri_id: iri_id_a }, Self::NamedNode { iri_id: iri_id_b }) => {\n+                    iri_id_a == iri_id_b\n+                }\n+                (Self::NumericalBlankNode { id: id_a }, Self::NumericalBlankNode { id: id_b }) => {\n+                    id_a == id_b\n+                }\n+                (Self::SmallBlankNode(id_a), Self::SmallBlankNode(id_b)) => id_a == id_b,\n+                (Self::BigBlankNode { id_id: id_a }, Self::BigBlankNode { id_id: id_b }) => {\n+                    id_a == id_b\n+                }\n+                (Self::SmallStringLiteral(a), Self::SmallStringLiteral(b)) => a == b,\n+                (\n+                    Self::BigStringLiteral {\n+                        value_id: value_id_a,\n+                    },\n+                    Self::BigStringLiteral {\n+                        value_id: value_id_b,\n+                    },\n+                ) => value_id_a == value_id_b,\n+                (\n+                    Self::SmallSmallLangStringLiteral {\n+                        value: value_a,\n+                        language: language_a,\n+                    },\n+                    Self::SmallSmallLangStringLiteral {\n+                        value: value_b,\n+                        language: language_b,\n+                    },\n+                ) => value_a == value_b && language_a == language_b,\n+                (\n+                    Self::SmallBigLangStringLiteral {\n+                        value: value_a,\n+                        language_id: language_id_a,\n+                    },\n+                    Self::SmallBigLangStringLiteral {\n+                        value: value_b,\n+                        language_id: language_id_b,\n+                    },\n+                ) => value_a == value_b && language_id_a == language_id_b,\n+                (\n+                    Self::BigSmallLangStringLiteral {\n+                        value_id: value_id_a,\n+                        language: language_a,\n+                    },\n+                    Self::BigSmallLangStringLiteral {\n+                        value_id: value_id_b,\n+                        language: language_b,\n+                    },\n+                ) => value_id_a == value_id_b && language_a == language_b,\n+                (\n+                    Self::BigBigLangStringLiteral {\n+                        value_id: value_id_a,\n+                        language_id: language_id_a,\n+                    },\n+                    Self::BigBigLangStringLiteral {\n+                        value_id: value_id_b,\n+                        language_id: language_id_b,\n+                    },\n+                ) => value_id_a == value_id_b && language_id_a == language_id_b,\n+                (\n+                    Self::SmallTypedLiteral {\n+                        value: value_a,\n+                        datatype_id: datatype_id_a,\n+                    },\n+                    Self::SmallTypedLiteral {\n+                        value: value_b,\n+                        datatype_id: datatype_id_b,\n+                    },\n+                ) => value_a == value_b && datatype_id_a == datatype_id_b,\n+                (\n+                    Self::BigTypedLiteral {\n+                        value_id: value_id_a,\n+                        datatype_id: datatype_id_a,\n+                    },\n+                    Self::BigTypedLiteral {\n+                        value_id: value_id_b,\n+                        datatype_id: datatype_id_b,\n+                    },\n+                ) => value_id_a == value_id_b && datatype_id_a == datatype_id_b,\n+                (Self::BooleanLiteral(a), Self::BooleanLiteral(b)) => a == b,\n+                (Self::FloatLiteral(a), Self::FloatLiteral(b)) => a.is_identical_with(*b),\n+                (Self::DoubleLiteral(a), Self::DoubleLiteral(b)) => a.is_identical_with(*b),\n+                (Self::IntegerLiteral(a), Self::IntegerLiteral(b)) => a.is_identical_with(*b),\n+                (Self::DecimalLiteral(a), Self::DecimalLiteral(b)) => a.is_identical_with(*b),\n+                (Self::DateTimeLiteral(a), Self::DateTimeLiteral(b)) => a.is_identical_with(*b),\n+                (Self::TimeLiteral(a), Self::TimeLiteral(b)) => a.is_identical_with(*b),\n+                (Self::DateLiteral(a), Self::DateLiteral(b)) => a.is_identical_with(*b),\n+                (Self::GYearMonthLiteral(a), Self::GYearMonthLiteral(b)) => a.is_identical_with(*b),\n+                (Self::GYearLiteral(a), Self::GYearLiteral(b)) => a.is_identical_with(*b),\n+                (Self::GMonthDayLiteral(a), Self::GMonthDayLiteral(b)) => a.is_identical_with(*b),\n+                (Self::GMonthLiteral(a), Self::GMonthLiteral(b)) => a.is_identical_with(*b),\n+                (Self::GDayLiteral(a), Self::GDayLiteral(b)) => a.is_identical_with(*b),\n+                (Self::DurationLiteral(a), Self::DurationLiteral(b)) => a.is_identical_with(*b),\n+                (Self::YearMonthDurationLiteral(a), Self::YearMonthDurationLiteral(b)) => {\n+                    a.is_identical_with(*b)\n+                }\n+                (Self::DayTimeDurationLiteral(a), Self::DayTimeDurationLiteral(b)) => {\n+                    a.is_identical_with(*b)\n+                }\n+                (Self::Triple(a), Self::Triple(b)) => a == b,\n+                (_, _) => unreachable!(),\n             }\n-            (Self::Triple(a), Self::Triple(b)) => a == b,\n-            (_, _) => false,\n-        }\n     }\n }\n \n impl Eq for EncodedTerm {}\n \n impl Hash for EncodedTerm {\n     fn hash<H: Hasher>(&self, state: &mut H) {\n+        discriminant(self).hash(state);\n         match self {\n             Self::NamedNode { iri_id } => iri_id.hash(state),\n             Self::NumericalBlankNode { id } => id.hash(state),\n@@ -276,209 +279,10 @@ impl Hash for EncodedTerm {\n }\n \n impl EncodedTerm {\n-    pub fn is_named_node(&self) -> bool {\n-        matches!(self, Self::NamedNode { .. })\n-    }\n-\n-    pub fn is_blank_node(&self) -> bool {\n-        matches!(\n-            self,\n-            Self::NumericalBlankNode { .. }\n-                | Self::SmallBlankNode { .. }\n-                | Self::BigBlankNode { .. }\n-        )\n-    }\n-\n-    pub fn is_literal(&self) -> bool {\n-        matches!(\n-            self,\n-            Self::SmallStringLiteral { .. }\n-                | Self::BigStringLiteral { .. }\n-                | Self::SmallSmallLangStringLiteral { .. }\n-                | Self::SmallBigLangStringLiteral { .. }\n-                | Self::BigSmallLangStringLiteral { .. }\n-                | Self::BigBigLangStringLiteral { .. }\n-                | Self::SmallTypedLiteral { .. }\n-                | Self::BigTypedLiteral { .. }\n-                | Self::BooleanLiteral(_)\n-                | Self::FloatLiteral(_)\n-                | Self::DoubleLiteral(_)\n-                | Self::IntegerLiteral(_)\n-                | Self::DecimalLiteral(_)\n-                | Self::DateTimeLiteral(_)\n-                | Self::TimeLiteral(_)\n-                | Self::DateLiteral(_)\n-                | Self::GYearMonthLiteral(_)\n-                | Self::GYearLiteral(_)\n-                | Self::GMonthDayLiteral(_)\n-                | Self::GDayLiteral(_)\n-                | Self::GMonthLiteral(_)\n-                | Self::DurationLiteral(_)\n-                | Self::YearMonthDurationLiteral(_)\n-                | Self::DayTimeDurationLiteral(_)\n-        )\n-    }\n-\n-    pub fn is_unknown_typed_literal(&self) -> bool {\n-        matches!(\n-            self,\n-            Self::SmallTypedLiteral { .. } | Self::BigTypedLiteral { .. }\n-        )\n-    }\n-\n     pub fn is_default_graph(&self) -> bool {\n         matches!(self, Self::DefaultGraph)\n     }\n-\n-    pub fn is_triple(&self) -> bool {\n-        matches!(self, Self::Triple { .. })\n-    }\n-}\n-\n-impl From<bool> for EncodedTerm {\n-    fn from(value: bool) -> Self {\n-        Self::BooleanLiteral(value.into())\n-    }\n-}\n-\n-impl From<i64> for EncodedTerm {\n-    fn from(value: i64) -> Self {\n-        Self::IntegerLiteral(value.into())\n-    }\n-}\n-\n-impl From<i32> for EncodedTerm {\n-    fn from(value: i32) -> Self {\n-        Self::IntegerLiteral(value.into())\n-    }\n-}\n-\n-impl From<u32> for EncodedTerm {\n-    fn from(value: u32) -> Self {\n-        Self::IntegerLiteral(value.into())\n-    }\n-}\n-\n-impl From<u8> for EncodedTerm {\n-    fn from(value: u8) -> Self {\n-        Self::IntegerLiteral(value.into())\n-    }\n-}\n-\n-impl From<f32> for EncodedTerm {\n-    fn from(value: f32) -> Self {\n-        Self::FloatLiteral(value.into())\n-    }\n-}\n-\n-impl From<Float> for EncodedTerm {\n-    fn from(value: Float) -> Self {\n-        Self::FloatLiteral(value)\n-    }\n-}\n-\n-impl From<f64> for EncodedTerm {\n-    fn from(value: f64) -> Self {\n-        Self::DoubleLiteral(value.into())\n-    }\n }\n-\n-impl From<Boolean> for EncodedTerm {\n-    fn from(value: Boolean) -> Self {\n-        Self::BooleanLiteral(value)\n-    }\n-}\n-\n-impl From<Double> for EncodedTerm {\n-    fn from(value: Double) -> Self {\n-        Self::DoubleLiteral(value)\n-    }\n-}\n-\n-impl From<Integer> for EncodedTerm {\n-    fn from(value: Integer) -> Self {\n-        Self::IntegerLiteral(value)\n-    }\n-}\n-\n-impl From<Decimal> for EncodedTerm {\n-    fn from(value: Decimal) -> Self {\n-        Self::DecimalLiteral(value)\n-    }\n-}\n-\n-impl From<DateTime> for EncodedTerm {\n-    fn from(value: DateTime) -> Self {\n-        Self::DateTimeLiteral(value)\n-    }\n-}\n-\n-impl From<Time> for EncodedTerm {\n-    fn from(value: Time) -> Self {\n-        Self::TimeLiteral(value)\n-    }\n-}\n-\n-impl From<Date> for EncodedTerm {\n-    fn from(value: Date) -> Self {\n-        Self::DateLiteral(value)\n-    }\n-}\n-\n-impl From<GMonthDay> for EncodedTerm {\n-    fn from(value: GMonthDay) -> Self {\n-        Self::GMonthDayLiteral(value)\n-    }\n-}\n-\n-impl From<GDay> for EncodedTerm {\n-    fn from(value: GDay) -> Self {\n-        Self::GDayLiteral(value)\n-    }\n-}\n-\n-impl From<GMonth> for EncodedTerm {\n-    fn from(value: GMonth) -> Self {\n-        Self::GMonthLiteral(value)\n-    }\n-}\n-\n-impl From<GYearMonth> for EncodedTerm {\n-    fn from(value: GYearMonth) -> Self {\n-        Self::GYearMonthLiteral(value)\n-    }\n-}\n-\n-impl From<GYear> for EncodedTerm {\n-    fn from(value: GYear) -> Self {\n-        Self::GYearLiteral(value)\n-    }\n-}\n-\n-impl From<Duration> for EncodedTerm {\n-    fn from(value: Duration) -> Self {\n-        Self::DurationLiteral(value)\n-    }\n-}\n-\n-impl From<YearMonthDuration> for EncodedTerm {\n-    fn from(value: YearMonthDuration) -> Self {\n-        Self::YearMonthDurationLiteral(value)\n-    }\n-}\n-\n-impl From<DayTimeDuration> for EncodedTerm {\n-    fn from(value: DayTimeDuration) -> Self {\n-        Self::DayTimeDurationLiteral(value)\n-    }\n-}\n-\n-impl From<EncodedTriple> for EncodedTerm {\n-    fn from(value: EncodedTriple) -> Self {\n-        Self::Triple(Arc::new(value))\n-    }\n-}\n-\n impl From<NamedNodeRef<'_>> for EncodedTerm {\n     fn from(named_node: NamedNodeRef<'_>) -> Self {\n         Self::NamedNode {\n@@ -1064,7 +868,7 @@ impl Hasher for StrHashHasher {\n #[cfg(test)]\n mod tests {\n     use super::*;\n-    #[cfg(not(target_family = \"wasm\"))]\n+    #[cfg(target_pointer_width = \"64\")]\n     use std::mem::{align_of, size_of};\n \n     #[test]"
+      },
+      {
+        "sha": "350f598cc413096b0789e83bf22173cb34707333",
+        "filename": "lib/oxrdfio/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxrdfio%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxrdfio%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxrdfio%2FCargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,6 +1,6 @@\n [package]\n name = \"oxrdfio\"\n-version = \"0.1.5\"\n+version = \"0.1.6\"\n authors.workspace = true\n license.workspace = true\n readme = \"README.md\""
+      },
+      {
+        "sha": "e57952fbdad9669b17f9b25dde5796c8c08924e6",
+        "filename": "lib/oxttl/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxttl%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxttl%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxttl%2FCargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,6 +1,6 @@\n [package]\n name = \"oxttl\"\n-version = \"0.1.5\"\n+version = \"0.1.6\"\n authors.workspace = true\n license.workspace = true\n readme = \"README.md\""
+      },
+      {
+        "sha": "c5d2eb8ca237c8aa1adb2b97f8b3fd6f98e256e5",
+        "filename": "lib/oxttl/src/lexer.rs",
+        "status": "modified",
+        "additions": 46,
+        "deletions": 41,
+        "changes": 87,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxttl%2Fsrc%2Flexer.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Foxttl%2Fsrc%2Flexer.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Foxttl%2Fsrc%2Flexer.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -124,7 +124,7 @@ impl TokenRecognizer for N3Lexer {\n             }\n             b'@' => self.recognize_lang_tag(data),\n             b'.' => match data.get(1) {\n-                Some(b'0'..=b'9') => Self::recognize_number(data),\n+                Some(b'0'..=b'9') => Self::recognize_number(data, is_ending),\n                 Some(_) => Some((1, Ok(N3Token::Punctuation(\".\")))),\n                 None => is_ending.then_some((1, Ok(N3Token::Punctuation(\".\")))),\n             },\n@@ -164,7 +164,7 @@ impl TokenRecognizer for N3Lexer {\n                     Some((1, Ok(N3Token::Punctuation(\"=\"))))\n                 }\n             }\n-            b'0'..=b'9' | b'+' | b'-' => Self::recognize_number(data),\n+            b'0'..=b'9' | b'+' | b'-' => Self::recognize_number(data, is_ending),\n             b'?' => self.recognize_variable(data, is_ending),\n             _ => self.recognize_pname_or_keyword(data, is_ending),\n         }\n@@ -680,7 +680,10 @@ impl N3Lexer {\n         }\n     }\n \n-    fn recognize_number(data: &[u8]) -> Option<(usize, Result<N3Token<'_>, TokenRecognizerError>)> {\n+    fn recognize_number(\n+        data: &[u8],\n+        is_ending: bool,\n+    ) -> Option<(usize, Result<N3Token<'_>, TokenRecognizerError>)> {\n         // [19]  INTEGER    ::=  [+-]? [0-9]+\n         // [20]  DECIMAL    ::=  [+-]? [0-9]* '.' [0-9]+\n         // [21]  DOUBLE     ::=  [+-]? ([0-9]+ '.' [0-9]* EXPONENT | '.' [0-9]+ EXPONENT | [0-9]+ EXPONENT)\n@@ -691,60 +694,53 @@ impl N3Lexer {\n             i += 1;\n         }\n         // We read the digits before .\n-        let mut count_before: usize = 0;\n-        loop {\n-            let c = *data.get(i)?;\n-            if c.is_ascii_digit() {\n-                i += 1;\n-                count_before += 1;\n-            } else {\n-                break;\n-            }\n-        }\n+        let count_before = Self::recognize_digits(&data[i..], is_ending)?;\n+        i += count_before;\n \n         // We read the digits after .\n-        #[allow(clippy::if_then_some_else_none)]\n-        let count_after = if *data.get(i)? == b'.' {\n+        let c = if let Some(c) = data.get(i) {\n+            Some(c)\n+        } else if is_ending {\n+            None\n+        } else {\n+            return None;\n+        };\n+        let count_after = if c == Some(&b'.') {\n             i += 1;\n-\n-            let mut count_after = 0;\n-            loop {\n-                let c = *data.get(i)?;\n-                if c.is_ascii_digit() {\n-                    i += 1;\n-                    count_after += 1;\n-                } else {\n-                    break;\n-                }\n-            }\n+            let count_after = Self::recognize_digits(&data[i..], is_ending)?;\n+            i += count_after;\n             Some(count_after)\n         } else {\n             None\n         };\n \n         // End\n-        let c = *data.get(i)?;\n-        if matches!(c, b'e' | b'E') {\n+        let c = if let Some(c) = data.get(i) {\n+            Some(c)\n+        } else if is_ending {\n+            None\n+        } else {\n+            return None;\n+        };\n+        if matches!(c, Some(b'e' | b'E')) {\n             i += 1;\n \n-            let c = *data.get(i)?;\n-            if matches!(c, b'+' | b'-') {\n+            let c = if let Some(c) = data.get(i) {\n+                Some(c)\n+            } else if is_ending {\n+                None\n+            } else {\n+                return None;\n+            };\n+            if matches!(c, Some(b'+' | b'-')) {\n                 i += 1;\n             }\n \n-            let mut found = false;\n-            loop {\n-                let c = *data.get(i)?;\n-                if c.is_ascii_digit() {\n-                    i += 1;\n-                    found = true;\n-                } else {\n-                    break;\n-                }\n-            }\n+            let count_exp = Self::recognize_digits(&data[i..], is_ending)?;\n+            i += count_exp;\n             Some((\n                 i,\n-                if !found {\n+                if count_exp == 0 {\n                     Err((0..i, \"A double exponent cannot be empty\").into())\n                 } else if count_before == 0 && count_after.unwrap_or(0) == 0 {\n                     Err((0..i, \"A double should not be empty\").into())\n@@ -779,6 +775,15 @@ impl N3Lexer {\n         }\n     }\n \n+    fn recognize_digits(data: &[u8], is_ending: bool) -> Option<usize> {\n+        for (i, c) in data.iter().enumerate() {\n+            if !c.is_ascii_digit() {\n+                return Some(i);\n+            }\n+        }\n+        is_ending.then_some(data.len())\n+    }\n+\n     fn recognize_escape(\n         &self,\n         data: &[u8],"
+      },
+      {
+        "sha": "384dd34633d190bfdc31ce109618f774de1c0256",
+        "filename": "lib/spareval/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspareval%2FCargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,6 +1,6 @@\n [package]\n name = \"spareval\"\n-version = \"0.1.1\"\n+version = \"0.1.2\"\n authors.workspace = true\n license.workspace = true\n readme = \"README.md\""
+      },
+      {
+        "sha": "527c51c351b0d13963c01f582aa71c166fb92ddc",
+        "filename": "lib/spareval/src/dataset.rs",
+        "status": "modified",
+        "additions": 57,
+        "deletions": 53,
+        "changes": 110,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2Fsrc%2Fdataset.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2Fsrc%2Fdataset.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspareval%2Fsrc%2Fdataset.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -13,6 +13,7 @@ use std::convert::Infallible;\n use std::error::Error;\n use std::hash::{Hash, Hasher};\n use std::iter::empty;\n+use std::mem::discriminant;\n \n /// A [RDF dataset](https://www.w3.org/TR/sparql11-query/#rdfDataset) that can be queried using SPARQL\n pub trait QueryableDataset: Sized + 'static {\n@@ -276,59 +277,61 @@ pub enum ExpressionTerm {\n impl PartialEq for ExpressionTerm {\n     #[inline]\n     fn eq(&self, other: &Self) -> bool {\n-        match (self, other) {\n-            (Self::NamedNode(l), Self::NamedNode(r)) => l == r,\n-            (Self::BlankNode(l), Self::BlankNode(r)) => l == r,\n-            (Self::StringLiteral(l), Self::StringLiteral(r)) => l == r,\n-            (\n-                Self::LangStringLiteral {\n-                    value: lv,\n-                    language: ll,\n-                },\n-                Self::LangStringLiteral {\n-                    value: rv,\n-                    language: rl,\n-                },\n-            ) => lv == rv && ll == rl,\n-            (Self::BooleanLiteral(l), Self::BooleanLiteral(r)) => l == r,\n-            (Self::IntegerLiteral(l), Self::IntegerLiteral(r)) => l == r,\n-            (Self::FloatLiteral(l), Self::FloatLiteral(r)) => l.is_identical_with(*r),\n-            (Self::DoubleLiteral(l), Self::DoubleLiteral(r)) => l.is_identical_with(*r),\n-            (Self::DateTimeLiteral(l), Self::DateTimeLiteral(r)) => l == r,\n-            #[cfg(feature = \"sep-0002\")]\n-            (Self::DateLiteral(l), Self::DateLiteral(r)) => l == r,\n-            #[cfg(feature = \"sep-0002\")]\n-            (Self::TimeLiteral(l), Self::TimeLiteral(r)) => l == r,\n-            #[cfg(feature = \"calendar-ext\")]\n-            (Self::GYearMonthLiteral(l), Self::GYearMonthLiteral(r)) => l == r,\n-            #[cfg(feature = \"calendar-ext\")]\n-            (Self::GYearLiteral(l), Self::GYearLiteral(r)) => l == r,\n-            #[cfg(feature = \"calendar-ext\")]\n-            (Self::GMonthLiteral(l), Self::GMonthLiteral(r)) => l == r,\n-            #[cfg(feature = \"calendar-ext\")]\n-            (Self::GMonthDayLiteral(l), Self::GMonthDayLiteral(r)) => l == r,\n-            #[cfg(feature = \"calendar-ext\")]\n-            (Self::GDayLiteral(l), Self::GDayLiteral(r)) => l == r,\n-            #[cfg(feature = \"sep-0002\")]\n-            (Self::DurationLiteral(l), Self::DurationLiteral(r)) => l == r,\n-            #[cfg(feature = \"sep-0002\")]\n-            (Self::YearMonthDurationLiteral(l), Self::YearMonthDurationLiteral(r)) => l == r,\n-            #[cfg(feature = \"sep-0002\")]\n-            (Self::DayTimeDurationLiteral(l), Self::DayTimeDurationLiteral(r)) => l == r,\n-            (\n-                Self::OtherTypedLiteral {\n-                    value: lv,\n-                    datatype: ld,\n-                },\n-                Self::OtherTypedLiteral {\n-                    value: rv,\n-                    datatype: rd,\n-                },\n-            ) => lv == rv && ld == rd,\n-            #[cfg(feature = \"rdf-star\")]\n-            (Self::Triple(l), Self::Triple(r)) => l == r,\n-            (_, _) => false,\n-        }\n+        discriminant(self) == discriminant(other)\n+            && match (self, other) {\n+                (Self::NamedNode(l), Self::NamedNode(r)) => l == r,\n+                (Self::BlankNode(l), Self::BlankNode(r)) => l == r,\n+                (Self::StringLiteral(l), Self::StringLiteral(r)) => l == r,\n+                (\n+                    Self::LangStringLiteral {\n+                        value: lv,\n+                        language: ll,\n+                    },\n+                    Self::LangStringLiteral {\n+                        value: rv,\n+                        language: rl,\n+                    },\n+                ) => lv == rv && ll == rl,\n+                (Self::BooleanLiteral(l), Self::BooleanLiteral(r)) => l == r,\n+                (Self::IntegerLiteral(l), Self::IntegerLiteral(r)) => l == r,\n+                (Self::DecimalLiteral(l), Self::DecimalLiteral(r)) => l == r,\n+                (Self::FloatLiteral(l), Self::FloatLiteral(r)) => l.is_identical_with(*r),\n+                (Self::DoubleLiteral(l), Self::DoubleLiteral(r)) => l.is_identical_with(*r),\n+                (Self::DateTimeLiteral(l), Self::DateTimeLiteral(r)) => l == r,\n+                #[cfg(feature = \"sep-0002\")]\n+                (Self::DateLiteral(l), Self::DateLiteral(r)) => l == r,\n+                #[cfg(feature = \"sep-0002\")]\n+                (Self::TimeLiteral(l), Self::TimeLiteral(r)) => l == r,\n+                #[cfg(feature = \"calendar-ext\")]\n+                (Self::GYearMonthLiteral(l), Self::GYearMonthLiteral(r)) => l == r,\n+                #[cfg(feature = \"calendar-ext\")]\n+                (Self::GYearLiteral(l), Self::GYearLiteral(r)) => l == r,\n+                #[cfg(feature = \"calendar-ext\")]\n+                (Self::GMonthLiteral(l), Self::GMonthLiteral(r)) => l == r,\n+                #[cfg(feature = \"calendar-ext\")]\n+                (Self::GMonthDayLiteral(l), Self::GMonthDayLiteral(r)) => l == r,\n+                #[cfg(feature = \"calendar-ext\")]\n+                (Self::GDayLiteral(l), Self::GDayLiteral(r)) => l == r,\n+                #[cfg(feature = \"sep-0002\")]\n+                (Self::DurationLiteral(l), Self::DurationLiteral(r)) => l == r,\n+                #[cfg(feature = \"sep-0002\")]\n+                (Self::YearMonthDurationLiteral(l), Self::YearMonthDurationLiteral(r)) => l == r,\n+                #[cfg(feature = \"sep-0002\")]\n+                (Self::DayTimeDurationLiteral(l), Self::DayTimeDurationLiteral(r)) => l == r,\n+                (\n+                    Self::OtherTypedLiteral {\n+                        value: lv,\n+                        datatype: ld,\n+                    },\n+                    Self::OtherTypedLiteral {\n+                        value: rv,\n+                        datatype: rd,\n+                    },\n+                ) => lv == rv && ld == rd,\n+                #[cfg(feature = \"rdf-star\")]\n+                (Self::Triple(l), Self::Triple(r)) => l == r,\n+                (_, _) => unreachable!(),\n+            }\n     }\n }\n \n@@ -337,6 +340,7 @@ impl Eq for ExpressionTerm {}\n impl Hash for ExpressionTerm {\n     #[inline]\n     fn hash<H: Hasher>(&self, state: &mut H) {\n+        discriminant(self).hash(state);\n         match self {\n             ExpressionTerm::NamedNode(v) => v.hash(state),\n             ExpressionTerm::BlankNode(v) => v.hash(state),"
+      },
+      {
+        "sha": "767def2929c3ee39d4ef2c40b8145f0d7325b2a4",
+        "filename": "lib/spareval/src/eval.rs",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2Fsrc%2Feval.rs",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspareval%2Fsrc%2Feval.rs",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspareval%2Fsrc%2Feval.rs?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1904,7 +1904,7 @@ impl<D: QueryableDataset> SimpleEvaluator<D> {\n                     for child in &*children {\n                         match child(tuple) {\n                             Some(true) => return Some(true.into()),\n-                            Some(false) => continue,\n+                            Some(false) => (),\n                             None => error = true,\n                         }\n                     }\n@@ -1930,7 +1930,7 @@ impl<D: QueryableDataset> SimpleEvaluator<D> {\n                     let mut error = false;\n                     for child in &*children {\n                         match child(tuple) {\n-                            Some(true) => continue,\n+                            Some(true) => (),\n                             Some(false) => return Some(false.into()),\n                             None => error = true,\n                         }"
+      },
+      {
+        "sha": "843e276eb605bbc97a8ea1ed797f3a141a04bf13",
+        "filename": "lib/spargeo/Cargo.toml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspargeo%2FCargo.toml",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/lib%2Fspargeo%2FCargo.toml",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/lib%2Fspargeo%2FCargo.toml?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -1,6 +1,6 @@\n [package]\n name = \"spargeo\"\n-version = \"0.1.4\"\n+version = \"0.1.5\"\n authors.workspace = true\n license.workspace = true\n readme = \"README.md\""
+      },
+      {
+        "sha": "1cfaf45b715c4d092fe18e2d9b0b6e7c87b5803a",
+        "filename": "testsuite/oxigraph-tests/parser/decimal_dot_vs_triple_dot.nt",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.nt",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.nt",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.nt?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -0,0 +1 @@\n+<http://example.com/s> <http://example.com/p> \"1\"^^<http://www.w3.org/2001/XMLSchema#integer> ."
+      },
+      {
+        "sha": "3da6b889ebced45c78eb8047ae08087556b41792",
+        "filename": "testsuite/oxigraph-tests/parser/decimal_dot_vs_triple_dot.ttl",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.ttl",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.ttl",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/testsuite%2Foxigraph-tests%2Fparser%2Fdecimal_dot_vs_triple_dot.ttl?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -0,0 +1 @@\n+<http://example.com/s> <http://example.com/p> 1.\n\\ No newline at end of file"
+      },
+      {
+        "sha": "e0caa7a319bebb379cc1094aed728aa35cf1d777",
+        "filename": "testsuite/oxigraph-tests/parser/manifest.ttl",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 1,
+        "changes": 9,
+        "blob_url": "https://github.com/oxigraph/oxigraph/blob/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fmanifest.ttl",
+        "raw_url": "https://github.com/oxigraph/oxigraph/raw/716dfcac15dd08f35354875dbc42eb0d84d8f83a/testsuite%2Foxigraph-tests%2Fparser%2Fmanifest.ttl",
+        "contents_url": "https://api.github.com/repos/oxigraph/oxigraph/contents/testsuite%2Foxigraph-tests%2Fparser%2Fmanifest.ttl?ref=716dfcac15dd08f35354875dbc42eb0d84d8f83a",
+        "patch": "@@ -23,6 +23,7 @@\n         <#string_line_jump_ttl>\n         <#xml_multiple_objects>\n         <#slightly_invalid_escape_sequence>\n+        <#decimal_dot_vs_triple_dot>\n \t) .\n \n <#no_end_line_jump>\n@@ -119,4 +120,10 @@\n <#slightly_invalid_escape_sequence>\n \trdf:type rdft:TestTurtleNegativeSyntax ;\n \tmf:name \"+ sign at the start of escape sequences\" ;\n-\tmf:action <slightly_invalid_escape_sequence.ttl> .\n\\ No newline at end of file\n+\tmf:action <slightly_invalid_escape_sequence.ttl> .\n+\n+<#decimal_dot_vs_triple_dot>\n+\trdf:type rdft:TestTurtleEval ;\n+\tmf:name \"1. is not a decimal but 1 then a dot\" ;\n+\tmf:action <decimal_dot_vs_triple_dot.ttl> ;\n+\tmf:result <decimal_dot_vs_triple_dot.nt> ."
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/133687025/compare/v0.4.7...v0.4.8?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3495",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

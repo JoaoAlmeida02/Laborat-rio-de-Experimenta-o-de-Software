@@ -1,0 +1,670 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v7.3.1...v7.3.2",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v7.3.1...v7.3.2",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:9db07f0...simdutf:1a62f92",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v7.3.1...v7.3.2.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v7.3.1...v7.3.2.patch",
+    "base_commit": {
+      "sha": "9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "node_id": "C_kwDOFAPj4doAKDlkYjA3ZjBjZDFiZGRkMjA1Nzg4ZGY0OTI4YjRmZjg5ZWEwZjFlODY",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-06-17T22:00:58Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-06-17T22:00:58Z"
+        },
+        "message": "version 7.3.1",
+        "tree": {
+          "sha": "23535da1193aab408890295fd4dc8fcb86b2aa68",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/23535da1193aab408890295fd4dc8fcb86b2aa68"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "html_url": "https://github.com/simdutf/simdutf/commit/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "462fdaa9d7fd759cee17cf294d24edc3dd62c5f4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/462fdaa9d7fd759cee17cf294d24edc3dd62c5f4",
+          "html_url": "https://github.com/simdutf/simdutf/commit/462fdaa9d7fd759cee17cf294d24edc3dd62c5f4"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "node_id": "C_kwDOFAPj4doAKDlkYjA3ZjBjZDFiZGRkMjA1Nzg4ZGY0OTI4YjRmZjg5ZWEwZjFlODY",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-06-17T22:00:58Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-06-17T22:00:58Z"
+        },
+        "message": "version 7.3.1",
+        "tree": {
+          "sha": "23535da1193aab408890295fd4dc8fcb86b2aa68",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/23535da1193aab408890295fd4dc8fcb86b2aa68"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "html_url": "https://github.com/simdutf/simdutf/commit/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "462fdaa9d7fd759cee17cf294d24edc3dd62c5f4",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/462fdaa9d7fd759cee17cf294d24edc3dd62c5f4",
+          "html_url": "https://github.com/simdutf/simdutf/commit/462fdaa9d7fd759cee17cf294d24edc3dd62c5f4"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 4,
+    "behind_by": 0,
+    "total_commits": 4,
+    "commits": [
+      {
+        "sha": "aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+        "node_id": "C_kwDOFAPj4doAKGFhZmY1OGYyMmIyYzdjZWUyNDJlMjZjMjdmYjJkMTljNzU4OTllMDg",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:06:06Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-06-26T03:06:06Z"
+          },
+          "message": "adding tests to check feature macros (#813)",
+          "tree": {
+            "sha": "370888f379b4ca9c77bd56c8de48bb585085bbcf",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/370888f379b4ca9c77bd56c8de48bb585085bbcf"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXLkfCRC1aQ7uu5UhlAAAFEAQAGW2efYE5CZ7vGYiSzeQ93SJ\nSQb3GoRXryv2GvNU6ZHDjUaPow8LOtJ7407olWV8NX4MbxsF2Ef4iGHVqkRGi0tV\nACVYbDHLmQckvU7duUuzQKoQy6Rc+W/LaTga/uy72su2ZiQ7fzZOn5Yk8M80Suel\nGV6h2hJGsZYMe/3skU6nbH9h7LfldU9R70c/O0N4U7Ky+aNozx02pJQH6M3RZyAX\nKXaGgtxqRXOAk6OxcE/C7KmXpBO0hEaXYvxy+Tz7MCJtlXSBnSD6ek6OVdZVC311\nqQioELnM7m9hn5Gk05S+grRj3jzyggCNo9dJ/eTy84sYH9GVEZx63aCVXNxB7iDp\n233ZyGIRPv7i3zOemoovg5qAUQr9CRkENpocE+sKhifMOQ3m7yVci26AQqdIMJpa\nAv1aXOICc7ks3F/s19j/vSujwikRH/LW22STkjv7VRpzVFJ8aebL++shjxiHJTSd\n9dlLKKrGDSMC2se5WV1mVpnGVRzMGHgsHiQxFg6DXor9Nb+BzRL8fLZjA+b5c4gp\nk3Duhd1tUm6qv+HYYVVx8w/bsfkn00bd71byaCF/4X3N37Nac0fgWHfQIQH+KQLn\neFOMNyT+YrPUwtS9ER74L0Ykw69cYycqBGOXs+niecjWYewrqyWnjdTj235zCvl9\n9npC2C6NvkcWNZQqVZc9\n=4Mx4\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 370888f379b4ca9c77bd56c8de48bb585085bbcf\nparent 9db07f0cd1bddd205788df4928b4ff89ea0f1e86\nauthor Daniel Lemire <daniel@lemire.me> 1750907166 -0400\ncommitter GitHub <noreply@github.com> 1750907166 -0400\n\nadding tests to check feature macros (#813)\n\n",
+            "verified_at": "2025-06-26T03:06:07Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+        "html_url": "https://github.com/simdutf/simdutf/commit/aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/aaff58f22b2c7cee242e26c27fb2d19c75899e08/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/9db07f0cd1bddd205788df4928b4ff89ea0f1e86",
+            "html_url": "https://github.com/simdutf/simdutf/commit/9db07f0cd1bddd205788df4928b4ff89ea0f1e86"
+          }
+        ]
+      },
+      {
+        "sha": "ed646741ea66580388154df92e4adad286e3c060",
+        "node_id": "C_kwDOFAPj4doAKGVkNjQ2NzQxZWE2NjU4MDM4ODE1NGRmOTJlNGFkYWQyODZlM2MwNjA",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:06:18Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-06-26T03:06:18Z"
+          },
+          "message": "adding a nice to_well_formed benchmark (#814)\n\n* adding a nice to_well_formed benchmark\n\n* adding functional header",
+          "tree": {
+            "sha": "4ecd3c2fa1127f2583f123a2fad15c2ed39d9387",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/4ecd3c2fa1127f2583f123a2fad15c2ed39d9387"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/ed646741ea66580388154df92e4adad286e3c060",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXLkqCRC1aQ7uu5UhlAAAhxkQAJ/DPI6rB1oI6mvkOIIjHaJf\nbnxglhNDQJo/ljsz8FBVLz6sjHt7VoyEr+UjQ1R7O5E8KI9e6LGrUX5n5Z64hx5S\nWf3dlcKGQ4SKQb88AlzlvwYZGdlEvr9sn9eP5LMG3xFEW+ooXqFe3JV8c4nPVwEl\nlsTvrwMeY7QB1F42Fshc9rCiRzeaqRsHlZqmVUKEwbjRrarYYUDcMyFjZZpbhe2l\n6VKHEQhz2ps1fIwGI3SvHwtYkmkcANgMSLD7AtdbnHCLPy3db6GACVKPsqIjGiE9\nYgj8XkRQ4aGzYp6nUXORtKnmDg2lIp3aE+pdmRbu3tYLEHVvLM+MNrR84OO3EanU\nYUd2O+D1UbTq30w9MUWHF4E0VlLwiHCkLN4GyRpJqb2XyYLf9uPYe9AlfgzuG6Wr\nWUr8iTARlu0QXpHjXPddrVLDmVL+A2jZSIdpipqDrqvgpms+GkcfRKaMnjEgApcP\nj0JhKUWxiJ1kB7kJFKqanqKbb3R4+qN03mAr1uTI1aN6lMuEsYkp1T02BjRxeLjK\ntZi5gOkKp7Fs+ZSweIw28vIAi8FLdFCfn05ZLohrTLjMIz7qYkSTiXxiAtwxUPjD\nJAYVfWyHDUZAtgtMlRp3vNZxe9IdvBCH2rEZz42PLtmvLXaekaDD8R3ztAE98K0u\nPP+o7xR0+XUj+T6FWMLO\n=HFIp\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 4ecd3c2fa1127f2583f123a2fad15c2ed39d9387\nparent aaff58f22b2c7cee242e26c27fb2d19c75899e08\nauthor Daniel Lemire <daniel@lemire.me> 1750907178 -0400\ncommitter GitHub <noreply@github.com> 1750907178 -0400\n\nadding a nice to_well_formed benchmark (#814)\n\n* adding a nice to_well_formed benchmark\n\n* adding functional header",
+            "verified_at": "2025-06-26T03:06:19Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/ed646741ea66580388154df92e4adad286e3c060",
+        "html_url": "https://github.com/simdutf/simdutf/commit/ed646741ea66580388154df92e4adad286e3c060",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/ed646741ea66580388154df92e4adad286e3c060/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/aaff58f22b2c7cee242e26c27fb2d19c75899e08",
+            "html_url": "https://github.com/simdutf/simdutf/commit/aaff58f22b2c7cee242e26c27fb2d19c75899e08"
+          }
+        ]
+      },
+      {
+        "sha": "1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+        "node_id": "C_kwDOFAPj4doAKDFmNjg0ODc2MDgzYTEyOWYwYTE4ZTVjYWJiNTlmOWJjZjIzY2YzOWM",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:07:48Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:07:48Z"
+          },
+          "message": "lint",
+          "tree": {
+            "sha": "64fd65ac62f342c114f2623d3f000e0092640c5c",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/64fd65ac62f342c114f2623d3f000e0092640c5c"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+        "html_url": "https://github.com/simdutf/simdutf/commit/1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/1f684876083a129f0a18e5cabb59f9bcf23cf39c/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "ed646741ea66580388154df92e4adad286e3c060",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/ed646741ea66580388154df92e4adad286e3c060",
+            "html_url": "https://github.com/simdutf/simdutf/commit/ed646741ea66580388154df92e4adad286e3c060"
+          }
+        ]
+      },
+      {
+        "sha": "1a62f928fcce103868d22df80376feea158060b9",
+        "node_id": "C_kwDOFAPj4doAKDFhNjJmOTI4ZmNjZTEwMzg2OGQyMmRmODAzNzZmZWVhMTU4MDYwYjk",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:08:28Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-06-26T03:08:28Z"
+          },
+          "message": "patch release",
+          "tree": {
+            "sha": "cc07658169b91d8722868a7615b64bc377bb16b1",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/cc07658169b91d8722868a7615b64bc377bb16b1"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/1a62f928fcce103868d22df80376feea158060b9",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/1a62f928fcce103868d22df80376feea158060b9",
+        "html_url": "https://github.com/simdutf/simdutf/commit/1a62f928fcce103868d22df80376feea158060b9",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/1a62f928fcce103868d22df80376feea158060b9/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/1f684876083a129f0a18e5cabb59f9bcf23cf39c",
+            "html_url": "https://github.com/simdutf/simdutf/commit/1f684876083a129f0a18e5cabb59f9bcf23cf39c"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "239c169f840d5a535a25efb5296e03cc096b0c93",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 7.3.1\n+  VERSION 7.3.2\n )\n \n include (TestBigEndian)"
+      },
+      {
+        "sha": "5110db7c8e25b3287ef77f436de95db8b47bcd07",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"7.3.1\"\n+PROJECT_NUMBER         = \"7.3.2\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "ec77474a71350ed46e7f11f101d742b73a28e104",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -153,7 +153,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v7.3.1/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v7.3.2/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -224,7 +224,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v7.3.1/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v7.3.2/singleheader.zip\n \n You may generate it on your own using a Python script.\n "
+      },
+      {
+        "sha": "42dea52fac6c39468d5bbdeea773cb149255e814",
+        "filename": "benchmarks/CMakeLists.txt",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/benchmarks%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/benchmarks%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2FCMakeLists.txt?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -85,3 +85,10 @@ if(SIMDUTF_BENCHMARK_BASE64)\n     add_subdirectory(base64)\n   endif()\n endif(SIMDUTF_BENCHMARK_BASE64)\n+\n+\n+add_executable(benchmark_to_well_formed_utf16 benchmark_to_well_formed_utf16.cpp)\n+target_link_libraries(benchmark_to_well_formed_utf16 PUBLIC simdutf)\n+target_link_libraries(benchmark_to_well_formed_utf16 PUBLIC simdutf::benchmarks::benchmark)\n+set_property(TARGET benchmark_to_well_formed_utf16 PROPERTY CXX_STANDARD 17)\n+set_property(TARGET benchmark_to_well_formed_utf16 PROPERTY CXX_STANDARD_REQUIRED ON)"
+      },
+      {
+        "sha": "9ec096555f8db996fbcb4269b08382ea699d2e80",
+        "filename": "benchmarks/benchmark_to_well_formed_utf16.cpp",
+        "status": "added",
+        "additions": 319,
+        "deletions": 0,
+        "changes": 319,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/benchmarks%2Fbenchmark_to_well_formed_utf16.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/benchmarks%2Fbenchmark_to_well_formed_utf16.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Fbenchmark_to_well_formed_utf16.cpp?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -0,0 +1,319 @@\n+#include <vector>\n+#include <random>\n+#include <stdexcept>\n+#include <functional>\n+#include \"benchmark_base.h\"\n+#include \"simdutf.h\"\n+\n+// Generates a random UTF-16 string with specified surrogate pairs and\n+// mismatched surrogates Parameters:\n+//   length: The total number of UTF-16 code units in the output (size_t)\n+//   surrogate_pair_percentage: Percentage of code units forming valid surrogate\n+//   pairs (double, 0.0 to 100.0)\n+//     Each pair counts as two code units (high surrogate: U+D800 to U+DBFF, low\n+//     surrogate: U+DC00 to U+DFFF)\n+//   mismatched_surrogate_percentage: Percentage of code units as isolated\n+//   surrogates (double, 0.0 to 100.0)\n+//     These are standalone high or low surrogates not forming valid pairs\n+// Returns: A vector of char16_t containing the random UTF-16 string\n+// Throws: std::invalid_argument if percentages are invalid or their sum exceeds\n+// 100\n+std::vector<char16_t>\n+generate_random_utf16(size_t length, double surrogate_pair_percentage,\n+                      double mismatched_surrogate_percentage) {\n+  // Validate input parameters\n+  if (surrogate_pair_percentage < 0.0 || surrogate_pair_percentage > 100.0 ||\n+      mismatched_surrogate_percentage < 0.0 ||\n+      mismatched_surrogate_percentage > 100.0) {\n+    throw std::invalid_argument(\"Percentages must be between 0 and 100\");\n+  }\n+  if (surrogate_pair_percentage + mismatched_surrogate_percentage > 100.0) {\n+    throw std::invalid_argument(\"Sum of percentages cannot exceed 100\");\n+  }\n+\n+  // Initialize random number generator\n+  std::random_device rd;\n+  std::mt19937 gen(rd());\n+  std::uniform_int_distribution<> basic_dist(0x0000,\n+                                             0xD7FF); // Basic UTF-16 characters\n+  std::uniform_int_distribution<> high_surrogate_dist(\n+      0xD800, 0xDBFF); // High surrogate range\n+  std::uniform_int_distribution<> low_surrogate_dist(\n+      0xDC00, 0xDFFF); // Low surrogate range\n+  std::uniform_real_distribution<> percent_dist(0.0, 100.0);\n+\n+  std::vector<char16_t> result;\n+  result.reserve(length);\n+\n+  size_t i = 0;\n+  while (i < length) {\n+    double rand_percent = percent_dist(gen);\n+\n+    // Generate a valid surrogate pair\n+    if (rand_percent < surrogate_pair_percentage && i + 1 < length) {\n+      result.push_back(static_cast<char16_t>(high_surrogate_dist(gen)));\n+      result.push_back(static_cast<char16_t>(low_surrogate_dist(gen)));\n+      i += 2;\n+    }\n+    // Generate a mismatched surrogate\n+    else if (rand_percent <\n+             surrogate_pair_percentage + mismatched_surrogate_percentage) {\n+      // 50% chance of high or low surrogate\n+      if (percent_dist(gen) < 50.0) {\n+        result.push_back(static_cast<char16_t>(high_surrogate_dist(gen)));\n+      } else {\n+        result.push_back(static_cast<char16_t>(low_surrogate_dist(gen)));\n+      }\n+      i += 1;\n+    }\n+    // Generate a basic UTF-16 character\n+    else {\n+      result.push_back(static_cast<char16_t>(basic_dist(gen)));\n+      i += 1;\n+    }\n+  }\n+\n+  return result;\n+}\n+\n+struct utf16_statistics {\n+  double surrogate_pair_percentage;\n+  double mismatched_surrogate_percentage;\n+};\n+\n+std::vector<char16_t> generate_random_utf16(size_t length, utf16_statistics s) {\n+  return generate_random_utf16(length, s.surrogate_pair_percentage,\n+                               s.mismatched_surrogate_percentage);\n+}\n+\n+typedef std::function<void(const char16_t *, size_t, char16_t *)> utf16_fixer;\n+\n+struct utf16_fixe_implementation {\n+  utf16_fixe_implementation(utf16_fixer f, const std::string &n)\n+      : fix(f), name(n) {}\n+  utf16_fixer fix;\n+  std::string name;\n+};\n+\n+// copied and pasted from v8 source code prior to the inclusion of simdutf.\n+namespace v8 {\n+static inline bool IsLeadSurrogate(char16_t code) {\n+  return (code & 0x1ffc00) == 0xd800;\n+}\n+static inline bool IsTrailSurrogate(char16_t code) {\n+  return (code & 0x1ffc00) == 0xdc00;\n+}\n+void ReplaceUnpairedSurrogates(const char16_t *source_code_units, size_t length,\n+                               char16_t *dest_code_units) {\n+  // U+FFFD (REPLACEMENT CHARACTER)\n+  constexpr char16_t kReplacement = 0xFFFD;\n+\n+  for (size_t i = 0; i < length; i++) {\n+    const char16_t source_code_unit = source_code_units[i];\n+    const size_t copy_index = i;\n+    char16_t dest_code_unit = source_code_unit;\n+    if (IsLeadSurrogate(source_code_unit)) {\n+      // The current code unit is a leading surrogate. If it's not followed by a\n+      // trailing surrogate, replace it with the replacement character.\n+      if (i == length - 1 || !IsTrailSurrogate(source_code_units[i + 1])) {\n+        dest_code_unit = kReplacement;\n+      } else {\n+        // Copy the paired trailing surrogate. The paired leading surrogate will\n+        // be copied below.\n+        ++i;\n+        dest_code_units[i] = source_code_units[i];\n+      }\n+    } else if (IsTrailSurrogate(source_code_unit)) {\n+      // All paired trailing surrogates are skipped above, so this branch is\n+      // only for those that are unpaired.\n+      dest_code_unit = kReplacement;\n+    }\n+    dest_code_units[copy_index] = dest_code_unit;\n+  }\n+}\n+} // namespace v8\n+\n+event_aggregate bench(const utf16_fixe_implementation &f, const char16_t *input,\n+                      size_t length, char16_t *output,\n+                      size_t iterations = 100) {\n+  event_collector collector;\n+  event_aggregate all{};\n+  // Some inputs are just too small to measure accurately, so we need to scale\n+  // them up.\n+  size_t multiplier = 1;\n+  while (true) {\n+    event_aggregate test{};\n+    collector.start();\n+    for (size_t i = 0; i < multiplier; i++) {\n+      f.fix(input, length, output);\n+    }\n+    event_count allocate_count = collector.end();\n+    test << allocate_count;\n+    if (test.best.elapsed_ns() < 4000) {\n+      multiplier *= 2;\n+    } else {\n+      break;\n+    }\n+  }\n+  for (size_t i = 0; i < iterations; i++) {\n+    collector.start();\n+    for (size_t i = 0; i < multiplier; i++) {\n+      f.fix(input, length, output);\n+    }\n+    event_count allocate_count = collector.end();\n+    all << allocate_count / multiplier;\n+  }\n+  all.has_events = collector.has_events();\n+  return all;\n+}\n+\n+// https://lemire.me/blog/2025/05/22/dividing-an-array-into-fair-sized-chunks/\n+// Returns the start index and length of the i-th chunk when dividing an array\n+// of size N into M nearly equal parts. Parameters:\n+//   N: total size of the array\n+//   M: number of chunks\n+//   i: index of the chunk (0-based)\n+std::pair<size_t, size_t> get_chunk_range_simple(size_t N, size_t M, size_t i) {\n+  // Calculate the quotient and remainder\n+  size_t quotient = N / M;\n+  size_t remainder = N % M;\n+  size_t start = quotient * i + (i < remainder ? i : remainder);\n+  size_t length = quotient + (i < remainder ? 1 : 0);\n+  return {start, length};\n+}\n+\n+struct data_point {\n+  // Constructor\n+  // Parameters:\n+  //   size: input size for this data point\n+  //   e: event_aggregate with measured events\n+  data_point(size_t size, event_aggregate e)\n+      : input_size(size), events(std::move(e)) {}\n+  size_t input_size;\n+  event_aggregate events;\n+};\n+\n+// Prints the table header for all tested fixers.\n+// Parameters:\n+//   fixers: vector of all tested UTF-16 fixer implementations\n+void print_header(std::vector<utf16_fixe_implementation> &fixers) {\n+  printf(\"size \");\n+  for (const auto &fixer : fixers) {\n+    const char *name = fixer.name.c_str();\n+    printf(\"%sGB_s %serror_percent \", name, name);\n+    event_collector collector;\n+    if (collector.has_events()) {\n+      printf(\"%sins_byte %scycle_byte  %sGHz %sins_cycle \", name, name, name,\n+             name);\n+    }\n+  }\n+  printf(\"\\n\");\n+}\n+\n+// Prints the results for a single data point (performance and hardware counters\n+// if available). Parameters:\n+//   dp: the data_point to print\n+void print_data_point(const data_point &dp) {\n+  const double best_time = dp.events.best.elapsed_ns();\n+  const double avg_time = dp.events.total.elapsed_ns() / dp.events.iterations;\n+  const double gbs = dp.input_size / best_time;\n+  const double error_margin = (avg_time / best_time - 1) * 100;\n+  printf(\"%8.3f %.1f \", gbs, error_margin);\n+  if (dp.events.has_events) {\n+    const double _1GHz = 1000000000.0;\n+    const double freq =\n+        (dp.events.best.cycles() / dp.events.best.elapsed_sec()) / _1GHz;\n+    const double insperbyte = dp.events.best.instructions() / dp.input_size;\n+    const double cycleperbyte = dp.events.best.cycles() / dp.input_size;\n+\n+    const double inspercycle =\n+        dp.events.best.instructions() / dp.events.best.cycles();\n+\n+    printf(\"%8.3f %8.3f %8.3f %8.3f \", insperbyte, cycleperbyte, freq,\n+           inspercycle);\n+  }\n+}\n+// Prints a row of results for a set of data points (one per fixer for a given\n+// input size). Parameters:\n+//   dp: vector of data_point for a given input size\n+void print_data_point(const std::vector<data_point> &dp) {\n+  if (dp.empty()) {\n+    return;\n+  }\n+  printf(\"%zu \", dp[0].input_size);\n+  for (const auto &d : dp) {\n+    print_data_point(d);\n+  }\n+  printf(\"\\n\");\n+}\n+// Runs the benchmarks for each fixer on subarrays of increasing size, returns\n+// the results. Parameters:\n+//   fixers: vector of all tested UTF-16 fixer implementations\n+//   s: statistics describing the surrogate/mismatched surrogate ratio\n+//   max_size: maximum input size to test (default: 1,000,000)\n+//   output_datapoints: number of different input sizes to test (default: 128)\n+// Returns: a 2D vector of data_point, indexed by [input size][fixer]\n+std::vector<std::vector<data_point>>\n+run_from_utf16(std::vector<utf16_fixe_implementation> &fixers,\n+               utf16_statistics s, size_t max_size = 1000'000,\n+               size_t output_datapoints = 128) {\n+  const std::vector<char16_t> data = generate_random_utf16(max_size, s);\n+  std::vector<char16_t> output_data(data.begin(), data.end());\n+  std::vector<std::vector<data_point>> data_points;\n+  data_points.reserve(output_datapoints);\n+  for (size_t i = 0; i < output_datapoints; i++) {\n+    auto [start, length] =\n+        get_chunk_range_simple(max_size, output_datapoints, i);\n+    std::vector<char16_t> input_data(data.begin() + start,\n+                                     data.begin() + start + length);\n+    std::vector<data_point> current_data_points;\n+    for (const auto &fixer : fixers) {\n+\n+      current_data_points.emplace_back(\n+          start + length,\n+          bench(fixer, data.data(), length + start, output_data.data()));\n+    }\n+    data_points.push_back(current_data_points);\n+  }\n+  return data_points;\n+}\n+\n+int main(int argc, char *argv[]) {\n+  if (argc < 4) {\n+    fprintf(stderr,\n+            \"Usage: %s <length> <surrogate_pair_percentage> \"\n+            \"<mismatched_surrogate_percentage>\\n\",\n+            argv[0]);\n+    return 1;\n+  }\n+  std::vector<utf16_fixe_implementation> fixers;\n+  fixers.emplace_back(v8::ReplaceUnpairedSurrogates, \"v8\");\n+\n+  for (auto &e : simdutf::get_available_implementations()) {\n+    if (!e->supported_by_runtime_system()) {\n+      continue;\n+    }\n+\n+    utf16_fixer fix = [&e](const char16_t *input, size_t length,\n+                           char16_t *output) {\n+      e->to_well_formed_utf16le(input, length, output);\n+    };\n+    std::string name = e->name();\n+    utf16_fixe_implementation fix_implementation{fix, name};\n+\n+    fixers.push_back(fix_implementation);\n+  }\n+  size_t length = std::stoul(argv[1]);\n+  double surrogate_pair_percentage = std::stod(argv[2]);\n+  double mismatched_surrogate_percentage = std::stod(argv[3]);\n+\n+  print_header(fixers);\n+  std::vector<std::vector<data_point>> dp = run_from_utf16(\n+      fixers, {surrogate_pair_percentage, mismatched_surrogate_percentage},\n+      length);\n+  for (const std::vector<data_point> &data_points : dp) {\n+    print_data_point(data_points);\n+  }\n+\n+  return EXIT_SUCCESS;\n+}"
+      },
+      {
+        "sha": "3636ee5da08e93b4033f3a598a127a68ed4a743a",
+        "filename": "cmake/CPM.cmake",
+        "status": "modified",
+        "additions": 234,
+        "deletions": 32,
+        "changes": 266,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/cmake%2FCPM.cmake",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/cmake%2FCPM.cmake",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/cmake%2FCPM.cmake?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -42,7 +42,11 @@ if(NOT COMMAND cpm_message)\n   endfunction()\n endif()\n \n-set(CURRENT_CPM_VERSION 0.38.7)\n+if(DEFINED EXTRACTED_CPM_VERSION)\n+  set(CURRENT_CPM_VERSION \"${EXTRACTED_CPM_VERSION}${CPM_DEVELOPMENT}\")\n+else()\n+  set(CURRENT_CPM_VERSION 0.42.0)\n+endif()\n \n get_filename_component(CPM_CURRENT_DIRECTORY \"${CMAKE_CURRENT_LIST_DIR}\" REALPATH)\n if(CPM_DIRECTORY)\n@@ -162,7 +166,7 @@ set(CPM_SOURCE_CACHE\n     CACHE PATH \"Directory to download CPM dependencies\"\n )\n \n-if(NOT CPM_DONT_UPDATE_MODULE_PATH)\n+if(NOT CPM_DONT_UPDATE_MODULE_PATH AND NOT DEFINED CMAKE_FIND_PACKAGE_REDIRECTS_DIR)\n   set(CPM_MODULE_PATH\n       \"${CMAKE_BINARY_DIR}/CPM_modules\"\n       CACHE INTERNAL \"\"\n@@ -198,6 +202,60 @@ function(cpm_package_name_from_git_uri URI RESULT)\n   endif()\n endfunction()\n \n+# Find the shortest hash that can be used eg, if origin_hash is\n+# cccb77ae9609d2768ed80dd42cec54f77b1f1455 the following files will be checked, until one is found\n+# that is either empty (allowing us to assign origin_hash), or whose contents matches ${origin_hash}\n+#\n+# * .../cccb.hash\n+# * .../cccb77ae.hash\n+# * .../cccb77ae9609.hash\n+# * .../cccb77ae9609d276.hash\n+# * etc\n+#\n+# We will be able to use a shorter path with very high probability, but in the (rare) event that the\n+# first couple characters collide, we will check longer and longer substrings.\n+function(cpm_get_shortest_hash source_cache_dir origin_hash short_hash_output_var)\n+  # for compatibility with caches populated by a previous version of CPM, check if a directory using\n+  # the full hash already exists\n+  if(EXISTS \"${source_cache_dir}/${origin_hash}\")\n+    set(${short_hash_output_var}\n+        \"${origin_hash}\"\n+        PARENT_SCOPE\n+    )\n+    return()\n+  endif()\n+\n+  foreach(len RANGE 4 40 4)\n+    string(SUBSTRING \"${origin_hash}\" 0 ${len} short_hash)\n+    set(hash_lock ${source_cache_dir}/${short_hash}.lock)\n+    set(hash_fp ${source_cache_dir}/${short_hash}.hash)\n+    # Take a lock, so we don't have a race condition with another instance of cmake. We will release\n+    # this lock when we can, however, if there is an error, we want to ensure it gets released on\n+    # it's own on exit from the function.\n+    file(LOCK ${hash_lock} GUARD FUNCTION)\n+\n+    # Load the contents of .../${short_hash}.hash\n+    file(TOUCH ${hash_fp})\n+    file(READ ${hash_fp} hash_fp_contents)\n+\n+    if(hash_fp_contents STREQUAL \"\")\n+      # Write the origin hash\n+      file(WRITE ${hash_fp} ${origin_hash})\n+      file(LOCK ${hash_lock} RELEASE)\n+      break()\n+    elseif(hash_fp_contents STREQUAL origin_hash)\n+      file(LOCK ${hash_lock} RELEASE)\n+      break()\n+    else()\n+      file(LOCK ${hash_lock} RELEASE)\n+    endif()\n+  endforeach()\n+  set(${short_hash_output_var}\n+      \"${short_hash}\"\n+      PARENT_SCOPE\n+  )\n+endfunction()\n+\n # Try to infer package name and version from a url\n function(cpm_package_name_and_ver_from_url url outName outVer)\n   if(url MATCHES \"[/\\\\?]([a-zA-Z0-9_\\\\.-]+)\\\\.(tar|tar\\\\.gz|tar\\\\.bz2|zip|ZIP)(\\\\?|/|$)\")\n@@ -269,10 +327,25 @@ endfunction()\n # finding the system library\n function(cpm_create_module_file Name)\n   if(NOT CPM_DONT_UPDATE_MODULE_PATH)\n-    # erase any previous modules\n-    file(WRITE ${CPM_MODULE_PATH}/Find${Name}.cmake\n-         \"include(\\\"${CPM_FILE}\\\")\\n${ARGN}\\nset(${Name}_FOUND TRUE)\"\n-    )\n+    if(DEFINED CMAKE_FIND_PACKAGE_REDIRECTS_DIR)\n+      # Redirect find_package calls to the CPM package. This is what FetchContent does when you set\n+      # OVERRIDE_FIND_PACKAGE. The CMAKE_FIND_PACKAGE_REDIRECTS_DIR works for find_package in CONFIG\n+      # mode, unlike the Find${Name}.cmake fallback. CMAKE_FIND_PACKAGE_REDIRECTS_DIR is not defined\n+      # in script mode, or in CMake < 3.24.\n+      # https://cmake.org/cmake/help/latest/module/FetchContent.html#fetchcontent-find-package-integration-examples\n+      string(TOLOWER ${Name} NameLower)\n+      file(WRITE ${CMAKE_FIND_PACKAGE_REDIRECTS_DIR}/${NameLower}-config.cmake\n+           \"include(\\\"\\${CMAKE_CURRENT_LIST_DIR}/${NameLower}-extra.cmake\\\" OPTIONAL)\\n\"\n+           \"include(\\\"\\${CMAKE_CURRENT_LIST_DIR}/${Name}Extra.cmake\\\" OPTIONAL)\\n\"\n+      )\n+      file(WRITE ${CMAKE_FIND_PACKAGE_REDIRECTS_DIR}/${NameLower}-config-version.cmake\n+           \"set(PACKAGE_VERSION_COMPATIBLE TRUE)\\n\" \"set(PACKAGE_VERSION_EXACT TRUE)\\n\"\n+      )\n+    else()\n+      file(WRITE ${CPM_MODULE_PATH}/Find${Name}.cmake\n+           \"include(\\\"${CPM_FILE}\\\")\\n${ARGN}\\nset(${Name}_FOUND TRUE)\"\n+      )\n+    endif()\n   endif()\n endfunction()\n \n@@ -300,12 +373,6 @@ function(CPMFindPackage)\n     return()\n   endif()\n \n-  cpm_check_if_package_already_added(${CPM_ARGS_NAME} \"${CPM_ARGS_VERSION}\")\n-  if(CPM_PACKAGE_ALREADY_ADDED)\n-    cpm_export_variables(${CPM_ARGS_NAME})\n-    return()\n-  endif()\n-\n   cpm_find_package(${CPM_ARGS_NAME} \"${CPM_ARGS_VERSION}\" ${CPM_ARGS_FIND_PACKAGE_ARGUMENTS})\n \n   if(NOT CPM_PACKAGE_FOUND)\n@@ -397,8 +464,8 @@ function(cpm_parse_add_package_single_arg arg outArgs)\n     # We don't try to parse the version if it's not provided explicitly. cpm_get_version_from_url\n     # should do this at a later point\n   else()\n-    # We should never get here. This is an assertion and hitting it means there's a bug in the code\n-    # above. A packageType was set, but not handled by this if-else.\n+    # We should never get here. This is an assertion and hitting it means there's a problem with the\n+    # code above. A packageType was set, but not handled by this if-else.\n     message(FATAL_ERROR \"${CPM_INDENT} Unsupported package type '${packageType}' of '${arg}'\")\n   endif()\n \n@@ -470,6 +537,72 @@ function(cpm_check_git_working_dir_is_clean repoPath gitTag isClean)\n \n endfunction()\n \n+# Add PATCH_COMMAND to CPM_ARGS_UNPARSED_ARGUMENTS. This method consumes a list of files in ARGN\n+# then generates a `PATCH_COMMAND` appropriate for `ExternalProject_Add()`. This command is appended\n+# to the parent scope's `CPM_ARGS_UNPARSED_ARGUMENTS`.\n+function(cpm_add_patches)\n+  # Return if no patch files are supplied.\n+  if(NOT ARGN)\n+    return()\n+  endif()\n+\n+  # Find the patch program.\n+  find_program(PATCH_EXECUTABLE patch)\n+  if(CMAKE_HOST_WIN32 AND NOT PATCH_EXECUTABLE)\n+    # The Windows git executable is distributed with patch.exe. Find the path to the executable, if\n+    # it exists, then search `../usr/bin` and `../../usr/bin` for patch.exe.\n+    find_package(Git QUIET)\n+    if(GIT_EXECUTABLE)\n+      get_filename_component(extra_search_path ${GIT_EXECUTABLE} DIRECTORY)\n+      get_filename_component(extra_search_path_1up ${extra_search_path} DIRECTORY)\n+      get_filename_component(extra_search_path_2up ${extra_search_path_1up} DIRECTORY)\n+      find_program(\n+        PATCH_EXECUTABLE patch HINTS \"${extra_search_path_1up}/usr/bin\"\n+                                     \"${extra_search_path_2up}/usr/bin\"\n+      )\n+    endif()\n+  endif()\n+  if(NOT PATCH_EXECUTABLE)\n+    message(FATAL_ERROR \"Couldn't find `patch` executable to use with PATCHES keyword.\")\n+  endif()\n+\n+  # Create a temporary\n+  set(temp_list ${CPM_ARGS_UNPARSED_ARGUMENTS})\n+\n+  # Ensure each file exists (or error out) and add it to the list.\n+  set(first_item True)\n+  foreach(PATCH_FILE ${ARGN})\n+    # Make sure the patch file exists, if we can't find it, try again in the current directory.\n+    if(NOT EXISTS \"${PATCH_FILE}\")\n+      if(NOT EXISTS \"${CMAKE_CURRENT_LIST_DIR}/${PATCH_FILE}\")\n+        message(FATAL_ERROR \"Couldn't find patch file: '${PATCH_FILE}'\")\n+      endif()\n+      set(PATCH_FILE \"${CMAKE_CURRENT_LIST_DIR}/${PATCH_FILE}\")\n+    endif()\n+\n+    # Convert to absolute path for use with patch file command.\n+    get_filename_component(PATCH_FILE \"${PATCH_FILE}\" ABSOLUTE)\n+\n+    # The first patch entry must be preceded by \"PATCH_COMMAND\" while the following items are\n+    # preceded by \"&&\".\n+    if(first_item)\n+      set(first_item False)\n+      list(APPEND temp_list \"PATCH_COMMAND\")\n+    else()\n+      list(APPEND temp_list \"&&\")\n+    endif()\n+    # Add the patch command to the list\n+    list(APPEND temp_list \"${PATCH_EXECUTABLE}\" \"-p1\" \"<\" \"${PATCH_FILE}\")\n+  endforeach()\n+\n+  # Move temp out into parent scope.\n+  set(CPM_ARGS_UNPARSED_ARGUMENTS\n+      ${temp_list}\n+      PARENT_SCOPE\n+  )\n+\n+endfunction()\n+\n # method to overwrite internal FetchContent properties, to allow using CPM.cmake to overload\n # FetchContent calls. As these are internal cmake properties, this method should be used carefully\n # and may need modification in future CMake versions. Source:\n@@ -515,14 +648,6 @@ endfunction()\n function(CPMAddPackage)\n   cpm_set_policies()\n \n-  list(LENGTH ARGN argnLength)\n-  if(argnLength EQUAL 1)\n-    cpm_parse_add_package_single_arg(\"${ARGN}\" ARGN)\n-\n-    # The shorthand syntax implies EXCLUDE_FROM_ALL and SYSTEM\n-    set(ARGN \"${ARGN};EXCLUDE_FROM_ALL;YES;SYSTEM;YES;\")\n-  endif()\n-\n   set(oneValueArgs\n       NAME\n       FORCE\n@@ -540,14 +665,31 @@ function(CPMAddPackage)\n       GIT_SHALLOW\n       EXCLUDE_FROM_ALL\n       SOURCE_SUBDIR\n+      CUSTOM_CACHE_KEY\n   )\n \n-  set(multiValueArgs URL OPTIONS DOWNLOAD_COMMAND)\n+  set(multiValueArgs URL OPTIONS DOWNLOAD_COMMAND PATCHES)\n+\n+  list(LENGTH ARGN argnLength)\n+\n+  # Parse single shorthand argument\n+  if(argnLength EQUAL 1)\n+    cpm_parse_add_package_single_arg(\"${ARGN}\" ARGN)\n+\n+    # The shorthand syntax implies EXCLUDE_FROM_ALL and SYSTEM\n+    set(ARGN \"${ARGN};EXCLUDE_FROM_ALL;YES;SYSTEM;YES;\")\n+\n+    # Parse URI shorthand argument\n+  elseif(argnLength GREATER 1 AND \"${ARGV0}\" STREQUAL \"URI\")\n+    list(REMOVE_AT ARGN 0 1) # remove \"URI gh:<...>@version#tag\"\n+    cpm_parse_add_package_single_arg(\"${ARGV1}\" ARGV0)\n+\n+    set(ARGN \"${ARGV0};EXCLUDE_FROM_ALL;YES;SYSTEM;YES;${ARGN}\")\n+  endif()\n \n   cmake_parse_arguments(CPM_ARGS \"\" \"${oneValueArgs}\" \"${multiValueArgs}\" \"${ARGN}\")\n \n   # Set default values for arguments\n-\n   if(NOT DEFINED CPM_ARGS_VERSION)\n     if(DEFINED CPM_ARGS_GIT_TAG)\n       cpm_get_version_from_git_tag(\"${CPM_ARGS_GIT_TAG}\" CPM_ARGS_VERSION)\n@@ -633,6 +775,7 @@ function(CPMAddPackage)\n       SOURCE_DIR \"${PACKAGE_SOURCE}\"\n       EXCLUDE_FROM_ALL \"${CPM_ARGS_EXCLUDE_FROM_ALL}\"\n       SYSTEM \"${CPM_ARGS_SYSTEM}\"\n+      PATCHES \"${CPM_ARGS_PATCHES}\"\n       OPTIONS \"${CPM_ARGS_OPTIONS}\"\n       SOURCE_SUBDIR \"${CPM_ARGS_SOURCE_SUBDIR}\"\n       DOWNLOAD_ONLY \"${DOWNLOAD_ONLY}\"\n@@ -688,6 +831,8 @@ function(CPMAddPackage)\n     set(CPM_FETCHCONTENT_BASE_DIR ${CMAKE_BINARY_DIR}/_deps)\n   endif()\n \n+  cpm_add_patches(${CPM_ARGS_PATCHES})\n+\n   if(DEFINED CPM_ARGS_DOWNLOAD_COMMAND)\n     list(APPEND CPM_ARGS_UNPARSED_ARGUMENTS DOWNLOAD_COMMAND ${CPM_ARGS_DOWNLOAD_COMMAND})\n   elseif(DEFINED CPM_ARGS_SOURCE_DIR)\n@@ -710,11 +855,24 @@ function(CPMAddPackage)\n     string(TOLOWER ${CPM_ARGS_NAME} lower_case_name)\n     set(origin_parameters ${CPM_ARGS_UNPARSED_ARGUMENTS})\n     list(SORT origin_parameters)\n-    if(CPM_USE_NAMED_CACHE_DIRECTORIES)\n+    if(CPM_ARGS_CUSTOM_CACHE_KEY)\n+      # Application set a custom unique directory name\n+      set(download_directory ${CPM_SOURCE_CACHE}/${lower_case_name}/${CPM_ARGS_CUSTOM_CACHE_KEY})\n+    elseif(CPM_USE_NAMED_CACHE_DIRECTORIES)\n       string(SHA1 origin_hash \"${origin_parameters};NEW_CACHE_STRUCTURE_TAG\")\n+      cpm_get_shortest_hash(\n+        \"${CPM_SOURCE_CACHE}/${lower_case_name}\" # source cache directory\n+        \"${origin_hash}\" # Input hash\n+        origin_hash # Computed hash\n+      )\n       set(download_directory ${CPM_SOURCE_CACHE}/${lower_case_name}/${origin_hash}/${CPM_ARGS_NAME})\n     else()\n       string(SHA1 origin_hash \"${origin_parameters}\")\n+      cpm_get_shortest_hash(\n+        \"${CPM_SOURCE_CACHE}/${lower_case_name}\" # source cache directory\n+        \"${origin_hash}\" # Input hash\n+        origin_hash # Computed hash\n+      )\n       set(download_directory ${CPM_SOURCE_CACHE}/${lower_case_name}/${origin_hash})\n     endif()\n     # Expand `download_directory` relative path. This is important because EXISTS doesn't work for\n@@ -781,7 +939,9 @@ function(CPMAddPackage)\n     endif()\n   endif()\n \n-  cpm_create_module_file(${CPM_ARGS_NAME} \"CPMAddPackage(\\\"${ARGN}\\\")\")\n+  if(NOT \"${DOWNLOAD_ONLY}\")\n+    cpm_create_module_file(${CPM_ARGS_NAME} \"CPMAddPackage(\\\"${ARGN}\\\")\")\n+  endif()\n \n   if(CPM_PACKAGE_LOCK_ENABLED)\n     if((CPM_ARGS_VERSION AND NOT CPM_ARGS_SOURCE_DIR) OR CPM_INCLUDE_ALL_IN_PACKAGE_LOCK)\n@@ -798,14 +958,39 @@ function(CPMAddPackage)\n   )\n \n   if(NOT CPM_SKIP_FETCH)\n+    # CMake 3.28 added EXCLUDE, SYSTEM (3.25), and SOURCE_SUBDIR (3.18) to FetchContent_Declare.\n+    # Calling FetchContent_MakeAvailable will then internally forward these options to\n+    # add_subdirectory. Up until these changes, we had to call FetchContent_Populate and\n+    # add_subdirectory separately, which is no longer necessary and has been deprecated as of 3.30.\n+    # A Bug in CMake prevents us to use the non-deprecated functions until 3.30.3.\n+    set(fetchContentDeclareExtraArgs \"\")\n+    if(${CMAKE_VERSION} VERSION_GREATER_EQUAL \"3.30.3\")\n+      if(${CPM_ARGS_EXCLUDE_FROM_ALL})\n+        list(APPEND fetchContentDeclareExtraArgs EXCLUDE_FROM_ALL)\n+      endif()\n+      if(${CPM_ARGS_SYSTEM})\n+        list(APPEND fetchContentDeclareExtraArgs SYSTEM)\n+      endif()\n+      if(DEFINED CPM_ARGS_SOURCE_SUBDIR)\n+        list(APPEND fetchContentDeclareExtraArgs SOURCE_SUBDIR ${CPM_ARGS_SOURCE_SUBDIR})\n+      endif()\n+      # For CMake version <3.28 OPTIONS are parsed in cpm_add_subdirectory\n+      if(CPM_ARGS_OPTIONS AND NOT DOWNLOAD_ONLY)\n+        foreach(OPTION ${CPM_ARGS_OPTIONS})\n+          cpm_parse_option(\"${OPTION}\")\n+          set(${OPTION_KEY} \"${OPTION_VALUE}\")\n+        endforeach()\n+      endif()\n+    endif()\n     cpm_declare_fetch(\n-      \"${CPM_ARGS_NAME}\" \"${CPM_ARGS_VERSION}\" \"${PACKAGE_INFO}\" \"${CPM_ARGS_UNPARSED_ARGUMENTS}\"\n+      \"${CPM_ARGS_NAME}\" ${fetchContentDeclareExtraArgs} \"${CPM_ARGS_UNPARSED_ARGUMENTS}\"\n     )\n-    cpm_fetch_package(\"${CPM_ARGS_NAME}\" populated)\n+\n+    cpm_fetch_package(\"${CPM_ARGS_NAME}\" ${DOWNLOAD_ONLY} populated ${CPM_ARGS_UNPARSED_ARGUMENTS})\n     if(CPM_SOURCE_CACHE AND download_directory)\n       file(LOCK ${download_directory}/../cmake.lock RELEASE)\n     endif()\n-    if(${populated})\n+    if(${populated} AND ${CMAKE_VERSION} VERSION_LESS \"3.30.3\")\n       cpm_add_subdirectory(\n         \"${CPM_ARGS_NAME}\"\n         \"${DOWNLOAD_ONLY}\"\n@@ -916,7 +1101,7 @@ function(CPMGetPackageVersion PACKAGE OUTPUT)\n endfunction()\n \n # declares a package in FetchContent_Declare\n-function(cpm_declare_fetch PACKAGE VERSION INFO)\n+function(cpm_declare_fetch PACKAGE)\n   if(${CPM_DRY_RUN})\n     cpm_message(STATUS \"${CPM_INDENT} Package not declared (dry run)\")\n     return()\n@@ -992,7 +1177,7 @@ endfunction()\n \n # downloads a previously declared package via FetchContent and exports the variables\n # `${PACKAGE}_SOURCE_DIR` and `${PACKAGE}_BINARY_DIR` to the parent scope\n-function(cpm_fetch_package PACKAGE populated)\n+function(cpm_fetch_package PACKAGE DOWNLOAD_ONLY populated)\n   set(${populated}\n       FALSE\n       PARENT_SCOPE\n@@ -1007,7 +1192,24 @@ function(cpm_fetch_package PACKAGE populated)\n   string(TOLOWER \"${PACKAGE}\" lower_case_name)\n \n   if(NOT ${lower_case_name}_POPULATED)\n-    FetchContent_Populate(${PACKAGE})\n+    if(${CMAKE_VERSION} VERSION_GREATER_EQUAL \"3.30.3\")\n+      if(DOWNLOAD_ONLY)\n+        # MakeAvailable will call add_subdirectory internally which is not what we want when\n+        # DOWNLOAD_ONLY is set. Populate will only download the dependency without adding it to the\n+        # build\n+        FetchContent_Populate(\n+          ${PACKAGE}\n+          SOURCE_DIR \"${CPM_FETCHCONTENT_BASE_DIR}/${lower_case_name}-src\"\n+          BINARY_DIR \"${CPM_FETCHCONTENT_BASE_DIR}/${lower_case_name}-build\"\n+          SUBBUILD_DIR \"${CPM_FETCHCONTENT_BASE_DIR}/${lower_case_name}-subbuild\"\n+          ${ARGN}\n+        )\n+      else()\n+        FetchContent_MakeAvailable(${PACKAGE})\n+      endif()\n+    else()\n+      FetchContent_Populate(${PACKAGE})\n+    endif()\n     set(${populated}\n         TRUE\n         PARENT_SCOPE"
+      },
+      {
+        "sha": "e616be15df7c85a40d82ee3aabf40acb44411668",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"7.3.1\"\n+#define SIMDUTF_VERSION \"7.3.2\"\n \n namespace simdutf {\n enum {\n@@ -19,7 +19,7 @@ enum {\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_REVISION = 1\n+  SIMDUTF_VERSION_REVISION = 2\n };\n } // namespace simdutf\n "
+      },
+      {
+        "sha": "1462a6b79c4187a17b86454700fc99deaa6bad0a",
+        "filename": "scripts/check_feature_macros.py",
+        "status": "added",
+        "additions": 126,
+        "deletions": 0,
+        "changes": 126,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/scripts%2Fcheck_feature_macros.py",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/scripts%2Fcheck_feature_macros.py",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/scripts%2Fcheck_feature_macros.py?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -0,0 +1,126 @@\n+import subprocess\n+import re\n+import os\n+import argparse\n+import sys\n+from typing import List, Tuple\n+\n+def get_git_files(limit_to_src_include: bool) -> List[str]:\n+    \"\"\"Retrieve list of .cpp and .h files checked into the Git repository.\"\"\"\n+    try:\n+        patterns = ['src/*.cpp', 'src/*.h', 'include/*.cpp', 'include/*.h'] if limit_to_src_include else ['*.cpp', '*.h']\n+        result = subprocess.run(\n+            ['git', 'ls-files'] + patterns,\n+            capture_output=True,\n+            text=True,\n+            check=True\n+        )\n+        files = result.stdout.splitlines()\n+        if limit_to_src_include:\n+            files = [f for f in files if f.startswith(('src/', 'include/'))]\n+        return files\n+    except subprocess.CalledProcessError as e:\n+        print(f\"Error running git ls-files: {e}\")\n+        return []\n+\n+def is_preprocessor_directive(line: str) -> bool:\n+    \"\"\"Check if the line contains a preprocessor directive (not in a comment).\"\"\"\n+    line = re.sub(r'//.*$', '', line)\n+    return bool(re.match(r'^\\s*#', line))\n+\n+def extract_directive(line: str) -> Tuple[str, str]:\n+    \"\"\"Extract directive type and condition (if any) from a preprocessor line.\"\"\"\n+    line = line.strip()\n+    if line.startswith('#if '):\n+        return 'if', line[4:].strip()\n+    elif line.startswith('#ifdef '):\n+        return 'ifdef', line[7:].strip()\n+    elif line.startswith('#ifndef '):\n+        return 'ifndef', line[8:].strip()\n+    elif line.startswith('#endif'):\n+        match = re.match(r'#endif\\s*(?://\\s*(.*))?$', line)\n+        comment = match.group(1).strip() if match and match.group(1) else ''\n+        return 'endif', comment\n+    return '', ''\n+\n+def is_feature_if_directive(condition: str) -> bool:\n+    \"\"\"Check if the #if condition contains a macro starting with SIMDUTF_FEATURE.\"\"\"\n+    return bool(re.search(r'\\bSIMDUTF_FEATURE\\w*\\b', condition))\n+\n+def check_file(filename: str) -> List[str]:\n+    \"\"\"Check #if directives with SIMDUTF_FEATURE macros for matching #endif comments.\"\"\"\n+    errors = []\n+    stack = []  # Stack of (directive, condition, is_feature, line_number)\n+    line_number = 0\n+\n+    try:\n+        with open(filename, 'r', encoding='utf-8') as f:\n+            lines = f.readlines()\n+\n+        for line in lines:\n+            line_number += 1\n+            if not is_preprocessor_directive(line):\n+                continue\n+\n+            directive, condition = extract_directive(line)\n+            if not directive:\n+                continue\n+\n+            if directive in ('if', 'ifdef', 'ifndef'):\n+                is_feature = directive == 'if' and is_feature_if_directive(condition)\n+                stack.append((directive, condition, is_feature, line_number))\n+            elif directive == 'endif' and stack:\n+                orig_directive, orig_condition, is_feature, orig_line = stack.pop()\n+                if is_feature:\n+                    if not condition:\n+                        errors.append(\n+                            f\"\\033[31mERROR: {filename}:{line_number}: #endif missing comment (expected '{orig_condition}')\\033[0m\"\n+                        )\n+                    elif not re.match(r'SIMDUTF_FEATURE\\w*', condition):\n+                        errors.append(\n+                            f\"\\033[31mERROR: {filename}:{line_number}: #endif comment '{condition}' does not start with SIMDUTF_FEATURE \"\n+                            f\"(expected '{orig_condition}')\\033[0m\"\n+                        )\n+                    elif condition != orig_condition:\n+                        errors.append(\n+                            f\"\\033[31mERROR: {filename}:{line_number}: #endif comment '{condition}' does not match \"\n+                            f\"#if condition '{orig_condition}' at line {orig_line}\\033[0m\"\n+                        )\n+\n+        # Check for unclosed feature-related #if directives\n+        for directive, condition, is_feature, line in stack:\n+            if is_feature:\n+                red_warning = f\"\\033[31mWARNING: {filename}:{line}: Unclosed #if '{condition}' at end of file\\033[0m\"\n+                errors.append(red_warning)\n+\n+        return errors\n+\n+    except FileNotFoundError:\n+        return [f\"{filename}: File not found\"]\n+    except UnicodeDecodeError:\n+        return [f\"{filename}: Unable to decode file (invalid encoding)\"]\n+\n+def main():\n+    \"\"\"Main function to check .cpp and .h files for SIMDUTF feature #if...#endif pairs.\"\"\"\n+    parser = argparse.ArgumentParser(description=\"Check #if...#endif pairs for SIMDUTF feature macros in .cpp and .h files.\")\n+    parser.add_argument('--limit', action='store_true', help=\"Limit checks to files in src/ and include/ directories\")\n+    args = parser.parse_args()\n+\n+    files = get_git_files(args.limit)\n+    if not files:\n+        print(\"No .cpp or .h files found in the Git repository\" + (\" in src/ or include/\" if args.limit else \"\") + \".\")\n+        sys.exit(1)  # Exit with error code if no files are found\n+\n+    all_errors = []\n+    for filename in files:\n+        errors = check_file(filename)\n+        all_errors.extend(errors)\n+\n+    if all_errors:\n+        print(\"Errors found:\")\n+        for error in all_errors:\n+            print(error)\n+        sys.exit(1)  # Exit with error code if errors are found\n+    else:\n+        print(\"All #if...#endif pairs for SIMDUTF feature macros are correctly matched with valid comments.\")\n+        sys.exit(0)  # Exit with success code\n\\ No newline at end of file"
+      },
+      {
+        "sha": "af468d78143cf282a2c12144fa35c1747a87ad9f",
+        "filename": "singleheader/amalgamation_demo.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/singleheader%2Famalgamation_demo.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/singleheader%2Famalgamation_demo.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/singleheader%2Famalgamation_demo.cpp?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -14,7 +14,7 @@ int main(int, char *[]) {\n     puts(\"invalid UTF-8\");\n     return EXIT_FAILURE;\n   }\n-#endif\n+#endif // SIMDUTF_FEATURE_UTF8\n \n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   // We need a buffer of size where to write the UTF-16LE words.\n@@ -49,6 +49,6 @@ int main(int, char *[]) {\n   } else {\n     puts(\"perfect round trip\");\n   }\n-#endif\n+#endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n   return EXIT_SUCCESS;\n }"
+      },
+      {
+        "sha": "64085676a4c5785b5bfde3e2353eb445e4bcece3",
+        "filename": "src/rvv/implementation.cpp",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/src%2Frvv%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/src%2Frvv%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Frvv%2Fimplementation.cpp?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -28,7 +28,7 @@ namespace SIMDUTF_IMPLEMENTATION {\n \n #if SIMDUTF_FEATURE_BASE64\n   #include \"rvv/rvv_find.cpp\"\n-#endif\n+#endif // SIMDUTF_FEATURE_BASE64\n \n #if SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused int"
+      },
+      {
+        "sha": "97ee9fb962c339675fa87fb52b817d851f525280",
+        "filename": "src/simdutf/ppc64/implementation.h",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fppc64%2Fimplementation.h?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -311,7 +311,7 @@ class implementation final : public simdutf::implementation {\n                               char16_t *output) const noexcept final;\n   void to_well_formed_utf16le(const char16_t *input, size_t len,\n                               char16_t *output) const noexcept final;\n-#endif\n+#endif // SIMDUTF_FEATURE_UTF16\n };\n \n } // namespace ppc64"
+      },
+      {
+        "sha": "1e1c52317586a881dd5848b88139fe66b005860e",
+        "filename": "tests/CMakeLists.txt",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 1,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/tests%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/tests%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2FCMakeLists.txt?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -408,4 +408,12 @@ target_link_libraries(utf8_length_from_utf16_tests\n add_cpp_test(to_well_formed_utf16_tests)\n target_link_libraries(to_well_formed_utf16_tests\n   PUBLIC simdutf::tests::helpers\n-         simdutf::tests::reference)\n\\ No newline at end of file\n+         simdutf::tests::reference)\n+\n+find_program(GIT_EXECUTABLE git)\n+if(Python3_FOUND AND GIT_EXECUTABLE)\n+  add_test(NAME check_feature_macros\n+    COMMAND ${Python3_EXECUTABLE} ${SIMDUTF_SOURCE_DIR}/scripts/check_feature_macros.py\n+    WORKING_DIRECTORY ${SIMDUTF_SOURCE_DIR}\n+  )\n+endif()\n\\ No newline at end of file"
+      },
+      {
+        "sha": "657828a216f40c599d35fc60db239a17a8a2b61c",
+        "filename": "tools/CMakeLists.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/1a62f928fcce103868d22df80376feea158060b9/tools%2FCMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/1a62f928fcce103868d22df80376feea158060b9/tools%2FCMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tools%2FCMakeLists.txt?ref=1a62f928fcce103868d22df80376feea158060b9",
+        "patch": "@@ -22,7 +22,7 @@ else(SIMDUTF_ICONV)\n   message(STATUS \"We are not seeking iconv.\")\n endif(SIMDUTF_ICONV)\n if(APPLE)\n-  message(STATUS \"This is an Apple platform \"${CMAKE_CXX_COMPILER_ID})\n+  message(STATUS \"This is an Apple platform \" ${CMAKE_CXX_COMPILER_ID})\n \n   if(CMAKE_CXX_COMPILER_ID STREQUAL \"AppleClang\" OR CMAKE_CXX_COMPILER_ID STREQUAL \"Clang\")\n     message(STATUS \"Apple platform detected, using dead_strip and LTO\")"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v7.3.1...v7.3.2?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3821",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

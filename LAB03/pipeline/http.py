@@ -44,6 +44,7 @@ class ClienteHTTP:
         cache_dir: str | Path | None = ".cache_http",
         usar_cache: bool = True,
         margem_reset: float = 1.0,
+        somente_cache: bool = False,
     ) -> None:
         """Inicializa o cliente HTTP configurando autenticação e mecanismos de resiliência."""
         # Tenta carregar .env caso exista
@@ -53,6 +54,11 @@ class ClienteHTTP:
                 load_dotenv(p)
                 break
 
+        self.somente_cache = bool(
+            somente_cache
+            or os.getenv("GITHUB_SOMENTE_CACHE", "").lower() in ("1", "true", "yes")
+            or os.getenv("HTTP_SOMENTE_CACHE", "").lower() in ("1", "true", "yes")
+        )
         self.token = token if token is not None else os.getenv("GITHUB_TOKEN")
         self.sessao = sessao or requests.Session()
         self.tentativas = tentativas
@@ -72,7 +78,7 @@ class ClienteHTTP:
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": "2022-11-28",
             })
-        else:
+        elif not self.somente_cache:
             warnings.warn(
                 "Aviso: GITHUB_TOKEN não configurado. As requisições serão anônimas "
                 "com limite severo de taxa (60 req/h). Defina GITHUB_TOKEN no ambiente ou .env.",
@@ -117,6 +123,11 @@ class ClienteHTTP:
         self, url: str, params: dict[str, Any] | None = None
     ) -> tuple[Any, dict[str, str]]:
         """Executa a chamada HTTP com backoff exponencial e gerenciamento de rate limit."""
+        if self.somente_cache:
+            raise RuntimeError(
+                f"Acesso à API bloqueado no modo somente cache: chamada à rede não permitida para {url}"
+            )
+
         for tentativa in range(self.tentativas):
             resp = self.sessao.get(url, params=params, timeout=30)
             headers = dict(resp.headers)
@@ -163,6 +174,14 @@ class ClienteHTTP:
                 with open(caminho, "r", encoding="utf-8") as f:
                     conteudo = json.load(f)
                     return conteudo["data"], conteudo.get("headers", {})
+            elif self.somente_cache:
+                raise RuntimeError(
+                    f"Acesso à API bloqueado no modo somente cache: requisição não encontrada no cache para {url}"
+                )
+        elif self.somente_cache:
+            raise RuntimeError(
+                f"Acesso à API bloqueado no modo somente cache: cache desativado para {url}"
+            )
 
         dados, headers = self._requisitar(url, params)
 

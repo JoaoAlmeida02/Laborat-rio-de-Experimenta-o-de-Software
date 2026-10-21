@@ -1,0 +1,2 @@
+metrica_x,metrica_y,coluna_x,coluna_y,n,rho,p_valor,p_valor_formatado,ci_inferior_95,ci_superior_95,significativo_5pct,interpretacao
+Rework Rate (Heurística v4),CFR variante b (proxy de entrega),rework_rate,cfr_entrega,299,0.5782,4.557753416717165e-28,4.56e-28,0.4853,0.6641,True,Correlação positiva moderada: maior retrabalho associa-se a maior incidência de correções rápidas

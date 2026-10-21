@@ -1,0 +1,1159 @@
+{
+  "data": {
+    "url": "https://api.github.com/repos/simdutf/simdutf/compare/v7.3.6...v7.4.0",
+    "html_url": "https://github.com/simdutf/simdutf/compare/v7.3.6...v7.4.0",
+    "permalink_url": "https://github.com/simdutf/simdutf/compare/simdutf:6aacd74...simdutf:7b3f5af",
+    "diff_url": "https://github.com/simdutf/simdutf/compare/v7.3.6...v7.4.0.diff",
+    "patch_url": "https://github.com/simdutf/simdutf/compare/v7.3.6...v7.4.0.patch",
+    "base_commit": {
+      "sha": "6aacd743d20528a2082189504ac96caf749e6c2e",
+      "node_id": "C_kwDOFAPj4doAKDZhYWNkNzQzZDIwNTI4YTIwODIxODk1MDRhYzk2Y2FmNzQ5ZTZjMmU",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-14T18:25:28Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-14T18:25:28Z"
+        },
+        "message": "release 7.3.6",
+        "tree": {
+          "sha": "5768acee4911095b88344f8ffbbd37891e664b23",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/5768acee4911095b88344f8ffbbd37891e664b23"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/6aacd743d20528a2082189504ac96caf749e6c2e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/6aacd743d20528a2082189504ac96caf749e6c2e",
+      "html_url": "https://github.com/simdutf/simdutf/commit/6aacd743d20528a2082189504ac96caf749e6c2e",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/6aacd743d20528a2082189504ac96caf749e6c2e/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2922256143bf29cbb18bae61fdf9b88cb456641e",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/2922256143bf29cbb18bae61fdf9b88cb456641e",
+          "html_url": "https://github.com/simdutf/simdutf/commit/2922256143bf29cbb18bae61fdf9b88cb456641e"
+        }
+      ]
+    },
+    "merge_base_commit": {
+      "sha": "6aacd743d20528a2082189504ac96caf749e6c2e",
+      "node_id": "C_kwDOFAPj4doAKDZhYWNkNzQzZDIwNTI4YTIwODIxODk1MDRhYzk2Y2FmNzQ5ZTZjMmU",
+      "commit": {
+        "author": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-14T18:25:28Z"
+        },
+        "committer": {
+          "name": "Daniel Lemire",
+          "email": "daniel@lemire.me",
+          "date": "2025-08-14T18:25:28Z"
+        },
+        "message": "release 7.3.6",
+        "tree": {
+          "sha": "5768acee4911095b88344f8ffbbd37891e664b23",
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/5768acee4911095b88344f8ffbbd37891e664b23"
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/6aacd743d20528a2082189504ac96caf749e6c2e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/simdutf/simdutf/commits/6aacd743d20528a2082189504ac96caf749e6c2e",
+      "html_url": "https://github.com/simdutf/simdutf/commit/6aacd743d20528a2082189504ac96caf749e6c2e",
+      "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/6aacd743d20528a2082189504ac96caf749e6c2e/comments",
+      "author": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lemire",
+        "id": 391987,
+        "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lemire",
+        "html_url": "https://github.com/lemire",
+        "followers_url": "https://api.github.com/users/lemire/followers",
+        "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+        "organizations_url": "https://api.github.com/users/lemire/orgs",
+        "repos_url": "https://api.github.com/users/lemire/repos",
+        "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lemire/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2922256143bf29cbb18bae61fdf9b88cb456641e",
+          "url": "https://api.github.com/repos/simdutf/simdutf/commits/2922256143bf29cbb18bae61fdf9b88cb456641e",
+          "html_url": "https://github.com/simdutf/simdutf/commit/2922256143bf29cbb18bae61fdf9b88cb456641e"
+        }
+      ]
+    },
+    "status": "ahead",
+    "ahead_by": 6,
+    "behind_by": 0,
+    "total_commits": 6,
+    "commits": [
+      {
+        "sha": "0ae24078e987302880a8a1aa500198789fd7cfb3",
+        "node_id": "C_kwDOFAPj4doAKDBhZTI0MDc4ZTk4NzMwMjg4MGE4YTFhYTUwMDE5ODc4OWZkN2NmYjM",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-19T16:19:27Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-19T16:19:27Z"
+          },
+          "message": "adding memchr",
+          "tree": {
+            "sha": "683fe4991f1c6afe5f65d71a6807daa6e1f29131",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/683fe4991f1c6afe5f65d71a6807daa6e1f29131"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/0ae24078e987302880a8a1aa500198789fd7cfb3",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/0ae24078e987302880a8a1aa500198789fd7cfb3",
+        "html_url": "https://github.com/simdutf/simdutf/commit/0ae24078e987302880a8a1aa500198789fd7cfb3",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/0ae24078e987302880a8a1aa500198789fd7cfb3/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "6aacd743d20528a2082189504ac96caf749e6c2e",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/6aacd743d20528a2082189504ac96caf749e6c2e",
+            "html_url": "https://github.com/simdutf/simdutf/commit/6aacd743d20528a2082189504ac96caf749e6c2e"
+          }
+        ]
+      },
+      {
+        "sha": "0e3560628622cdc1db66306850c7a26646b279ac",
+        "node_id": "C_kwDOFAPj4doAKDBlMzU2MDYyODYyMmNkYzFkYjY2MzA2ODUwYzdhMjY2NDZiMjc5YWM",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "dlemire@lemire.me",
+            "date": "2025-08-19T16:22:02Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "dlemire@lemire.me",
+            "date": "2025-08-19T16:22:02Z"
+          },
+          "message": "minor tuning",
+          "tree": {
+            "sha": "520727c838acc1ff6df7b882b6c1a6a829764f1b",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/520727c838acc1ff6df7b882b6c1a6a829764f1b"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/0e3560628622cdc1db66306850c7a26646b279ac",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/0e3560628622cdc1db66306850c7a26646b279ac",
+        "html_url": "https://github.com/simdutf/simdutf/commit/0e3560628622cdc1db66306850c7a26646b279ac",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/0e3560628622cdc1db66306850c7a26646b279ac/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+          {
+            "sha": "0ae24078e987302880a8a1aa500198789fd7cfb3",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/0ae24078e987302880a8a1aa500198789fd7cfb3",
+            "html_url": "https://github.com/simdutf/simdutf/commit/0ae24078e987302880a8a1aa500198789fd7cfb3"
+          }
+        ]
+      },
+      {
+        "sha": "0063f27b59d5064e673281347b363b89519a9148",
+        "node_id": "C_kwDOFAPj4doAKDAwNjNmMjdiNTlkNTA2NGU2NzMyODEzNDdiMzYzYjg5NTE5YTkxNDg",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-20T14:28:56Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-20T14:28:56Z"
+          },
+          "message": "safety check",
+          "tree": {
+            "sha": "9967b9c9e0148aa82b0751475fc607d222a08d15",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/9967b9c9e0148aa82b0751475fc607d222a08d15"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/0063f27b59d5064e673281347b363b89519a9148",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/0063f27b59d5064e673281347b363b89519a9148",
+        "html_url": "https://github.com/simdutf/simdutf/commit/0063f27b59d5064e673281347b363b89519a9148",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/0063f27b59d5064e673281347b363b89519a9148/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0e3560628622cdc1db66306850c7a26646b279ac",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/0e3560628622cdc1db66306850c7a26646b279ac",
+            "html_url": "https://github.com/simdutf/simdutf/commit/0e3560628622cdc1db66306850c7a26646b279ac"
+          }
+        ]
+      },
+      {
+        "sha": "28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+        "node_id": "C_kwDOFAPj4doAKDI4NDg2ZmI1YjIwYjdkZDJhNzNkNzgxZTk5MTBhZjY4ZmU4OWNjZTk",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-24T00:18:15Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2025-08-24T00:18:15Z"
+          },
+          "message": "improving support for legacy GCC and validate_utf16_as_ascii (#833)\n\n* improving support for legacy GCC\n\n* completing the validate_utf16_as_ascii for x64\n\n* implemented fast NEON version of validate_utf16_as_ascii\n\n* minor fixes\n\n* fixes\n\n* update\n\n* tweak\n\n* explicit cast\n\n* minor update\n\n---------\n\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+          "tree": {
+            "sha": "2db7c9173ab638f75f3d2564fc9c79cbb0e27666",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/2db7c9173ab638f75f3d2564fc9c79cbb0e27666"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoqlpHCRC1aQ7uu5UhlAAA9VoQAFk4uF5CoXp2HziwmXa+/zsf\ncg7lX4P30fm3lJHtoLrAMuo9AyDXoBUCYJCG375aOTFuKEvJw6h1R4TdqlDD/tTa\nfXDNH5yPqIMNCTGI/sFVhWJ8fMMobZKkFJWw37uEoW9ZJVSbl6cKRsHFEz4zo+Fc\nCSBoslrwGdSEhT1wlxMSybVkOa2wHxj4ccpwxG7Bf2Jb5Z8pPqqnCDoxuwwWImCh\noVvtdl4G1LVHY0ME7kRHaIM3lvy0fsNP60O4LViKHynTlRw59vGdnv6XIkM+Wgsi\n9M4AISragpUlXt73j4oIwYJXKou+UXqysIQdmct+zhLgPdvvdkOn5QgeZJZOKsdV\nyoU3sypIwo+CT3leIHD45A+VmAJ5FbGP9D6rKCY7qshsYnXIMD1zeshMruxEnIhh\n2W55wAtYW2SnUrU3Zqe6mb4MpvCBUOnH9S8eZzuwpSv4T6cJNjEtSVq7rY6yImrL\nmV9vu6jXtfZm6kPgl/LMye6edJpPbL3YkLNgEufWkguSrvLT+ertiGvhdw5ZeX8K\n+gKK3F/0zM+48Ndv573WcRSOAkbGV+7ABorRU69GvRzQxHi10sAO4STIHmm4pNk1\nkl34qds3HhS1Sltz/pRDchAajsO7XMGRVdOlsTFIUBHKtPIlaeG5l9qnQSB0cJaX\nacXjk7fD7J6h4dCvr2OK\n=TtGT\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 2db7c9173ab638f75f3d2564fc9c79cbb0e27666\nparent 0063f27b59d5064e673281347b363b89519a9148\nauthor Daniel Lemire <daniel@lemire.me> 1755994695 -0400\ncommitter GitHub <noreply@github.com> 1755994695 -0400\n\nimproving support for legacy GCC and validate_utf16_as_ascii (#833)\n\n* improving support for legacy GCC\n\n* completing the validate_utf16_as_ascii for x64\n\n* implemented fast NEON version of validate_utf16_as_ascii\n\n* minor fixes\n\n* fixes\n\n* update\n\n* tweak\n\n* explicit cast\n\n* minor update\n\n---------\n\nCo-authored-by: Daniel Lemire <dlemire@lemire.me>",
+            "verified_at": "2025-08-24T00:18:16Z"
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+        "html_url": "https://github.com/simdutf/simdutf/commit/28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/28486fb5b20b7dd2a73d781e9910af68fe89cce9/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0063f27b59d5064e673281347b363b89519a9148",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/0063f27b59d5064e673281347b363b89519a9148",
+            "html_url": "https://github.com/simdutf/simdutf/commit/0063f27b59d5064e673281347b363b89519a9148"
+          }
+        ]
+      },
+      {
+        "sha": "60d8b001e787675fb5211c7eaac2dc054d3a573c",
+        "node_id": "C_kwDOFAPj4doAKDYwZDhiMDAxZTc4NzY3NWZiNTIxMWM3ZWFhYzJkYzA1NGQzYTU3M2M",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-24T00:19:27Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-24T00:19:27Z"
+          },
+          "message": "version bump",
+          "tree": {
+            "sha": "e3af6843666407e539442b0756fca5bfd466697f",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/e3af6843666407e539442b0756fca5bfd466697f"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/60d8b001e787675fb5211c7eaac2dc054d3a573c",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/60d8b001e787675fb5211c7eaac2dc054d3a573c",
+        "html_url": "https://github.com/simdutf/simdutf/commit/60d8b001e787675fb5211c7eaac2dc054d3a573c",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/60d8b001e787675fb5211c7eaac2dc054d3a573c/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0063f27b59d5064e673281347b363b89519a9148",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/0063f27b59d5064e673281347b363b89519a9148",
+            "html_url": "https://github.com/simdutf/simdutf/commit/0063f27b59d5064e673281347b363b89519a9148"
+          }
+        ]
+      },
+      {
+        "sha": "7b3f5afcae322391a03736809ef6eea0c2934388",
+        "node_id": "C_kwDOFAPj4doAKDdiM2Y1YWZjYWUzMjIzOTFhMDM3MzY4MDllZjZlZWEwYzI5MzQzODg",
+        "commit": {
+          "author": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-24T00:19:36Z"
+          },
+          "committer": {
+            "name": "Daniel Lemire",
+            "email": "daniel@lemire.me",
+            "date": "2025-08-24T00:19:36Z"
+          },
+          "message": "Merge branch 'master' of github.com:simdutf/simdutf",
+          "tree": {
+            "sha": "ff9e967095148e3096d20e38761f335a0b461e4f",
+            "url": "https://api.github.com/repos/simdutf/simdutf/git/trees/ff9e967095148e3096d20e38761f335a0b461e4f"
+          },
+          "url": "https://api.github.com/repos/simdutf/simdutf/git/commits/7b3f5afcae322391a03736809ef6eea0c2934388",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/simdutf/simdutf/commits/7b3f5afcae322391a03736809ef6eea0c2934388",
+        "html_url": "https://github.com/simdutf/simdutf/commit/7b3f5afcae322391a03736809ef6eea0c2934388",
+        "comments_url": "https://api.github.com/repos/simdutf/simdutf/commits/7b3f5afcae322391a03736809ef6eea0c2934388/comments",
+        "author": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "lemire",
+          "id": 391987,
+          "node_id": "MDQ6VXNlcjM5MTk4Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/391987?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lemire",
+          "html_url": "https://github.com/lemire",
+          "followers_url": "https://api.github.com/users/lemire/followers",
+          "following_url": "https://api.github.com/users/lemire/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lemire/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lemire/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lemire/subscriptions",
+          "organizations_url": "https://api.github.com/users/lemire/orgs",
+          "repos_url": "https://api.github.com/users/lemire/repos",
+          "events_url": "https://api.github.com/users/lemire/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lemire/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "60d8b001e787675fb5211c7eaac2dc054d3a573c",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/60d8b001e787675fb5211c7eaac2dc054d3a573c",
+            "html_url": "https://github.com/simdutf/simdutf/commit/60d8b001e787675fb5211c7eaac2dc054d3a573c"
+          },
+          {
+            "sha": "28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+            "url": "https://api.github.com/repos/simdutf/simdutf/commits/28486fb5b20b7dd2a73d781e9910af68fe89cce9",
+            "html_url": "https://github.com/simdutf/simdutf/commit/28486fb5b20b7dd2a73d781e9910af68fe89cce9"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "sha": "2021c536db6272a834dd7d88acdfbdaa610fc8ed",
+        "filename": "CMakeLists.txt",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/CMakeLists.txt",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/CMakeLists.txt",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/CMakeLists.txt?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)\n project(simdutf\n   DESCRIPTION \"Fast Unicode validation, transcoding and processing\"\n   LANGUAGES CXX\n-  VERSION 7.3.6\n+  VERSION 7.4.0\n )\n \n include (TestBigEndian)\n@@ -23,8 +23,8 @@ include(GNUInstallDirs)\n include(CTest)\n include(cmake/simdutf-flags.cmake)\n \n-set(SIMDUTF_LIB_VERSION \"25.0.0\" CACHE STRING \"simdutf library version\")\n-set(SIMDUTF_LIB_SOVERSION \"25\" CACHE STRING \"simdutf library soversion\")\n+set(SIMDUTF_LIB_VERSION \"26.0.0\" CACHE STRING \"simdutf library version\")\n+set(SIMDUTF_LIB_SOVERSION \"26\" CACHE STRING \"simdutf library soversion\")\n option(SIMDUTF_TESTS \"Whether the tests are included as part of the CMake Build.\" ON)\n option(SIMDUTF_ATOMIC_BASE64_TESTS \"Whether to test the atomic base64 functions. (OFF by default)\" OFF)\n option(SIMDUTF_BENCHMARKS \"Whether the benchmarks are included as part of the CMake Build.\" OFF)"
+      },
+      {
+        "sha": "45db5b07e989103aaa5686b1fda950ce4fb98b8a",
+        "filename": "Doxyfile",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/Doxyfile",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/Doxyfile",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/Doxyfile?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -38,7 +38,7 @@ PROJECT_NAME           = simdutf\n # could be handy for archiving the generated documentation or if some version\n # control system is used.\n \n-PROJECT_NUMBER         = \"7.3.6\"\n+PROJECT_NUMBER         = \"7.4.0\"\n \n # Using the PROJECT_BRIEF tag one can provide an optional one line description\n # for a project that appears at the top of each page and should give viewer a"
+      },
+      {
+        "sha": "6a62d231dd5f00a5da5bb5e5395a60c3a10052d1",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 43,
+        "deletions": 2,
+        "changes": 45,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/README.md",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/README.md",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/README.md?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -152,7 +152,7 @@ Linux or macOS users might follow the following instructions if they have a rece\n \n 1. Pull the library in a directory\n    ```\n-   wget https://github.com/simdutf/simdutf/releases/download/v7.3.6/singleheader.zip\n+   wget https://github.com/simdutf/simdutf/releases/download/v7.4.0/singleheader.zip\n    unzip singleheader.zip\n    ```\n    You can replace `wget` by `curl -OL https://...` if you prefer.\n@@ -223,7 +223,7 @@ Single-header version\n You can create a single-header version of the library where\n all of the code is put into two files (`simdutf.h` and `simdutf.cpp`).\n We publish a zip archive containing these files, e.g., see\n-https://github.com/simdutf/simdutf/releases/download/v7.3.6/singleheader.zip\n+https://github.com/simdutf/simdutf/releases/download/v7.4.0/singleheader.zip\n \n You may generate it on your own using a Python script.\n \n@@ -527,6 +527,47 @@ simdutf_warn_unused bool validate_ascii(const char *buf, size_t len) noexcept;\n  */\n simdutf_warn_unused result validate_ascii_with_errors(const char *buf, size_t len) noexcept;\n \n+/**\n+ * Validate the ASCII string as a UTF-16 sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16 string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16_as_ascii(const char16_t *buf,\n+                                                 size_t len) noexcept;\n+\n+/**\n+ * Validate the ASCII string as a UTF-16BE sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16BE string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16be_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept;\n+/**\n+ * Validate the ASCII string as a UTF-16LE sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16LE string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16le_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept;\n+\n /**\n  * Validate the UTF-8 string. This function may be best when you expect\n  * the input to be almost always valid. Otherwise, consider using"
+      },
+      {
+        "sha": "fa10a4156f45a1ef0b8ecac75d739d27210698ce",
+        "filename": "benchmarks/find/findbenchmark.cpp",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 3,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/benchmarks%2Ffind%2Ffindbenchmark.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/benchmarks%2Ffind%2Ffindbenchmark.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/benchmarks%2Ffind%2Ffindbenchmark.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -38,9 +38,8 @@ std::string generate_random_ascii_string(size_t length) {\n   return result;\n }\n \n-int main(int argc, char **argv) {\n+int main(int, char **) {\n   std::string input = generate_random_ascii_string(10000);\n-  size_t volume = input.size();\n   volatile uint64_t counter = 0;\n   for (size_t i = 0; i < 4; i++) {\n     printf(\"Run %zu\\n\", i + 1);\n@@ -49,7 +48,12 @@ int main(int argc, char **argv) {\n                                        input.data() + input.size(), '=');\n                    counter = counter + size_t(it - input.data());\n                  }));\n-\n+    pretty_print(\"memchr\", input.size(), bench([&input, &counter]() {\n+                   char *ptr = (char *)memchr(input.data(), '=', input.size());\n+                   if (ptr) {\n+                     counter = counter + size_t(ptr - input.data());\n+                   }\n+                 }));\n     pretty_print(\"simdutf::find\", input.size(), bench([&input, &counter]() {\n                    auto it = simdutf::find(input.data(),\n                                            input.data() + input.size(), '=');"
+      },
+      {
+        "sha": "91cb2fa68be830e15badd19783132d9fff10ba65",
+        "filename": "include/simdutf/implementation.h",
+        "status": "modified",
+        "additions": 93,
+        "deletions": 0,
+        "changes": 93,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -240,6 +240,68 @@ simdutf_really_inline simdutf_warn_unused result validate_ascii_with_errors(\n   #endif // SIMDUTF_SPAN\n #endif   // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+/**\n+ * Validate the ASCII string as a UTF-16 sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16 string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16_as_ascii(const char16_t *buf,\n+                                                 size_t len) noexcept;\n+  #if SIMDUTF_SPAN\n+simdutf_really_inline simdutf_warn_unused bool\n+validate_utf16_as_ascii(std::span<const char16_t> input) noexcept {\n+  return validate_utf16_as_ascii(input.data(), input.size());\n+}\n+  #endif // SIMDUTF_SPAN\n+\n+/**\n+ * Validate the ASCII string as a UTF-16BE sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16BE string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16be_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept;\n+  #if SIMDUTF_SPAN\n+simdutf_really_inline simdutf_warn_unused bool\n+validate_utf16be_as_ascii(std::span<const char16_t> input) noexcept {\n+  return validate_utf16be_as_ascii(input.data(), input.size());\n+}\n+  #endif // SIMDUTF_SPAN\n+#endif   // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n+/**\n+ * Validate the ASCII string as a UTF-16LE sequence.\n+ * An UTF-16 sequence is considered an ASCII sequence\n+ * if it could be converted to an ASCII string losslessly.\n+ *\n+ * Overridden by each implementation.\n+ *\n+ * @param buf the UTF-16LE string to validate.\n+ * @param len the length of the string in bytes.\n+ * @return true if and only if the string is valid ASCII.\n+ */\n+simdutf_warn_unused bool validate_utf16le_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept;\n+#if SIMDUTF_SPAN\n+simdutf_really_inline simdutf_warn_unused bool\n+validate_utf16le_as_ascii(std::span<const char16_t> input) noexcept {\n+  return validate_utf16le_as_ascii(input.data(), input.size());\n+}\n+#endif // SIMDUTF_SPAN\n+\n #if SIMDUTF_FEATURE_UTF16\n /**\n  * Using native endianness; Validate the UTF-16 string.\n@@ -3591,8 +3653,39 @@ class implementation {\n    */\n   simdutf_warn_unused virtual result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept = 0;\n+\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  /**\n+   * Validate the ASCII string as a UTF-16BE sequence.\n+   * An UTF-16 sequence is considered an ASCII sequence\n+   * if it could be converted to an ASCII string losslessly.\n+   *\n+   * Overridden by each implementation.\n+   *\n+   * @param buf the UTF-16BE string to validate.\n+   * @param len the length of the string in bytes.\n+   * @return true if and only if the string is valid ASCII.\n+   */\n+  simdutf_warn_unused virtual bool\n+  validate_utf16be_as_ascii(const char16_t *buf, size_t len) const noexcept = 0;\n+\n+  /**\n+   * Validate the ASCII string as a UTF-16LE sequence.\n+   * An UTF-16 sequence is considered an ASCII sequence\n+   * if it could be converted to an ASCII string losslessly.\n+   *\n+   * Overridden by each implementation.\n+   *\n+   * @param buf the UTF-16LE string to validate.\n+   * @param len the length of the string in bytes.\n+   * @return true if and only if the string is valid ASCII.\n+   */\n+  simdutf_warn_unused virtual bool\n+  validate_utf16le_as_ascii(const char16_t *buf, size_t len) const noexcept = 0;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   /**\n    * Validate the UTF-16LE string.This function may be best when you expect"
+      },
+      {
+        "sha": "1644e6f6e85fbaafa4e5c00c455f0890233f82ed",
+        "filename": "include/simdutf/portability.h",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fportability.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fportability.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fportability.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -258,6 +258,12 @@\n   #if __GNUC__ >= 11\n     #define SIMDUTF_GCC11ORMORE 1\n   #endif //  __GNUC__ >= 11\n+  #if __GNUC__ == 10\n+    #define SIMDUTF_GCC10 1\n+  #endif //  __GNUC__ == 10\n+  #if __GNUC__ < 10\n+    #define SIMDUTF_GCC9OROLDER 1\n+  #endif //  __GNUC__ == 10\n #endif   // defined(__GNUC__) && !defined(__clang__)\n \n #endif // SIMDUTF_PORTABILITY_H"
+      },
+      {
+        "sha": "1cc1d81dca877248610c2d87e8d7559294856448",
+        "filename": "include/simdutf/simdutf_version.h",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fsimdutf_version.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/include%2Fsimdutf%2Fsimdutf_version.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/include%2Fsimdutf%2Fsimdutf_version.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -4,7 +4,7 @@\n #define SIMDUTF_SIMDUTF_VERSION_H\n \n /** The version of simdutf being used (major.minor.revision) */\n-#define SIMDUTF_VERSION \"7.3.6\"\n+#define SIMDUTF_VERSION \"7.4.0\"\n \n namespace simdutf {\n enum {\n@@ -15,11 +15,11 @@ enum {\n   /**\n    * The minor version (major.MINOR.revision) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_MINOR = 3,\n+  SIMDUTF_VERSION_MINOR = 4,\n   /**\n    * The revision (major.minor.REVISION) of simdutf being used.\n    */\n-  SIMDUTF_VERSION_REVISION = 6\n+  SIMDUTF_VERSION_REVISION = 0\n };\n } // namespace simdutf\n "
+      },
+      {
+        "sha": "5b541e384829b292e855aeaff30aaa751cfe70d6",
+        "filename": "src/arm64/arm_validate_utf16.cpp",
+        "status": "modified",
+        "additions": 22,
+        "deletions": 0,
+        "changes": 22,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Farm64%2Farm_validate_utf16.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Farm64%2Farm_validate_utf16.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Farm_validate_utf16.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -68,6 +68,28 @@ const char16_t *arm_validate_utf16(const char16_t *input, size_t size) {\n   return input;\n }\n \n+template <endianness big_endian>\n+const char16_t *arm_validate_utf16_as_ascii(const char16_t *input,\n+                                            size_t size) {\n+  const char16_t *end = input + size;\n+  while (end - input >= 16) {\n+    uint16x8_t in1 = vld1q_u16(reinterpret_cast<const uint16_t *>(input));\n+    uint16x8_t in2 = vld1q_u16(reinterpret_cast<const uint16_t *>(input + 8));\n+    uint16x8_t inor = vorrq_u16(in1, in2);\n+    if (!match_system(big_endian)) {\n+      inor = vreinterpretq_u16_u8(vrev16q_u8(vreinterpretq_u8_u16(inor)));\n+    }\n+    // next we compute inor > 0x7f\n+    uint16x8_t cmp = vcgtq_u16(inor, vdupq_n_u16(0x7f));\n+    uint64_t mask = vget_lane_u64(vreinterpret_u64_u8(vshrn_n_u16(cmp, 4)), 0);\n+    if (mask) {\n+      return nullptr;\n+    }\n+    input += 16;\n+  }\n+  return input;\n+}\n+\n template <endianness big_endian>\n const result arm_validate_utf16_with_errors(const char16_t *input,\n                                             size_t size) {"
+      },
+      {
+        "sha": "ca9f471d7e0c24af5b1914cb3550cb007ca159ec",
+        "filename": "src/arm64/implementation.cpp",
+        "status": "modified",
+        "additions": 34,
+        "deletions": 0,
+        "changes": 34,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Farm64%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Farm64%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Farm64%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -258,6 +258,40 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  if (simdutf_unlikely(len == 0)) {\n+    // empty input is valid. protected the implementation from nullptr.\n+    return true;\n+  }\n+  const char16_t *tail =\n+      arm_validate_utf16_as_ascii<endianness::LITTLE>(buf, len);\n+  if (tail) {\n+    return scalar::utf16::validate_as_ascii<endianness::LITTLE>(\n+        tail, len - (tail - buf));\n+  } else {\n+    return false;\n+  }\n+}\n+\n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  if (simdutf_unlikely(len == 0)) {\n+    // empty input is valid. protected the implementation from nullptr.\n+    return true;\n+  }\n+  const char16_t *tail = arm_validate_utf16_as_ascii<endianness::BIG>(buf, len);\n+  if (tail) {\n+    return scalar::utf16::validate_as_ascii<endianness::BIG>(\n+        tail, len - (tail - buf));\n+  } else {\n+    return false;\n+  }\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "f5dd276d93601c8920fcc8ea5138465bd3f49123",
+        "filename": "src/fallback/implementation.cpp",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ffallback%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ffallback%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ffallback%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -58,6 +58,19 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::LITTLE>(buf, len);\n+}\n+\n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::BIG>(buf, len);\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "2aabdbb2e3807f14cdb11f7e11f2b0db13b65d70",
+        "filename": "src/generic/validate_utf16.h",
+        "status": "modified",
+        "additions": 32,
+        "deletions": 0,
+        "changes": 32,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fgeneric%2Fvalidate_utf16.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fgeneric%2Fvalidate_utf16.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fgeneric%2Fvalidate_utf16.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -125,6 +125,38 @@ const result validate_utf16_with_errors(const char16_t *input, size_t size) {\n   return result(error_code::SUCCESS, input - start);\n }\n \n+template <endianness big_endian>\n+const result validate_utf16_as_ascii_with_errors(const char16_t *input,\n+                                                 size_t size) {\n+  if (simdutf_unlikely(size == 0)) {\n+    return result(error_code::SUCCESS, 0);\n+  }\n+  size_t pos = 0;\n+  for (; pos < size / 32 * 32; pos += 32) {\n+    simd16x32<uint16_t> input_vec(\n+        reinterpret_cast<const uint16_t *>(input + pos));\n+    if (!match_system(big_endian)) {\n+      input_vec.swap_bytes();\n+    }\n+    uint64_t matches = input_vec.lteq(uint16_t(0x7f));\n+    if (~matches) {\n+      // Found a match, return the first one\n+      int index = trailing_zeroes(~matches) / 2;\n+      return result(error_code::TOO_LARGE, pos + index);\n+    }\n+  }\n+\n+  // Scalar tail\n+  while (pos < size) {\n+    char16_t v = big_endian ? scalar::u16_swap_bytes(input[pos]) : input[pos];\n+    if (v > 0x7F) {\n+      return result(error_code::TOO_LARGE, pos);\n+    }\n+    pos++;\n+  }\n+  return result(error_code::SUCCESS, size);\n+}\n+\n } // namespace utf16\n } // unnamed namespace\n } // namespace SIMDUTF_IMPLEMENTATION"
+      },
+      {
+        "sha": "f010eca144094566bc92ccc1cefc09476701b95b",
+        "filename": "src/haswell/avx2_utf16fix.cpp",
+        "status": "modified",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fhaswell%2Favx2_utf16fix.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fhaswell%2Favx2_utf16fix.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fhaswell%2Favx2_utf16fix.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -32,15 +32,30 @@ void utf16fix_block(char16_t *out, const char16_t *in) {\n \n     /* compute the cause of the illegal sequencing */\n     lb_illseq = _mm256_andnot_si256(block_is_low, lb_is_high);\n+#if SIMDUTF_GCC9OROLDER\n+    // Old GCC versions are missing _mm256_zextsi128_si256, so we emulate it.\n+    __m128i tmp_legacygcc =\n+        _mm_bslli_si128(_mm256_extracti128_si256(lb_illseq, 1), 14);\n+    __m256i tmp_legacygcc256 =\n+        _mm256_set_m128i(_mm_setzero_si128(), tmp_legacygcc);\n+    lb_illseq_shifted =\n+        _mm256_or_si256(_mm256_bsrli_epi128(lb_illseq, 2), tmp_legacygcc256);\n+#else\n     lb_illseq_shifted =\n         _mm256_or_si256(_mm256_bsrli_epi128(lb_illseq, 2),\n                         _mm256_zextsi128_si256(_mm_bslli_si128(\n                             _mm256_extracti128_si256(lb_illseq, 1), 14)));\n+#endif // SIMDUTF_GCC9OROLDER\n     block_illseq = _mm256_or_si256(\n         _mm256_andnot_si256(lb_is_high, block_is_low), lb_illseq_shifted);\n \n     /* fix illegal sequencing in the lookback */\n+#if SIMDUTF_GCC10 || SIMDUTF_GCC9OROLDER\n+    // GCC 10 is missing important intrinsics.\n+    lb = _mm_cvtsi128_si32(_mm256_extractf128_si256(lb_illseq, 0));\n+#else\n     lb = _mm256_cvtsi256_si32(lb_illseq);\n+#endif\n     lb = (lb & replacement) | (~lb & out[-1]);\n     out[-1] = char16_t(lb);\n "
+      },
+      {
+        "sha": "276cb8f8cb3ec3c7a02ef86b0c86ea709b913661",
+        "filename": "src/haswell/implementation.cpp",
+        "status": "modified",
+        "additions": 18,
+        "deletions": 0,
+        "changes": 18,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fhaswell%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fhaswell%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fhaswell%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -286,6 +286,24 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return haswell::utf16::validate_utf16_as_ascii_with_errors<\n+             endianness::LITTLE>(buf, len)\n+             .error == SUCCESS;\n+}\n+\n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return haswell::utf16::validate_utf16_as_ascii_with_errors<endianness::BIG>(\n+             buf, len)\n+             .error == SUCCESS;\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "f9fa59ef46b89ea6192dbbc0f8a9141c8fc88b8f",
+        "filename": "src/icelake/icelake_utf16fix.cpp",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ficelake%2Ficelake_utf16fix.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ficelake%2Ficelake_utf16fix.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Ficelake_utf16fix.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -1,3 +1,5 @@\n+#include <immintrin.h>\n+\n /*\n  * Process one block of 32 characters.  If in_place is false,\n  * copy the block from in to out.  If there is a sequencing"
+      },
+      {
+        "sha": "d7cb36d7004a109bce16ffe8f0bc97583ac1dbb0",
+        "filename": "src/icelake/implementation.cpp",
+        "status": "modified",
+        "additions": 56,
+        "deletions": 4,
+        "changes": 60,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ficelake%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Ficelake%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Ficelake%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -275,7 +275,61 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n   return result(error_code::SUCCESS, len);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  const char16_t *end = buf + len;\n+  __m512i limit = _mm512_set1_epi16(uint16_t(0x007F));\n+  for (; end - buf >= 32;) {\n+    __m512i in = _mm512_loadu_si512((__m512i *)buf);\n+    auto mask = _mm512_cmpgt_epu16_mask(in, limit);\n+    if (mask) {\n+      return false;\n+    }\n+    buf += 32;\n+  }\n+  if (buf < end) {\n+    __m512i in =\n+        _mm512_maskz_loadu_epi16((1U << (end - buf)) - 1, (__m512i *)buf);\n+    auto mask = _mm512_cmpgt_epu16_mask(in, limit);\n+    if (mask) {\n+      return false;\n+    }\n+  }\n+  return true;\n+}\n \n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  const char16_t *end = buf + len;\n+  const __m512i byteflip = _mm512_setr_epi64(\n+      0x0607040502030001, 0x0e0f0c0d0a0b0809, 0x0607040502030001,\n+      0x0e0f0c0d0a0b0809, 0x0607040502030001, 0x0e0f0c0d0a0b0809,\n+      0x0607040502030001, 0x0e0f0c0d0a0b0809);\n+  __m512i limit = _mm512_set1_epi16(uint16_t(0x007F));\n+  for (; end - buf >= 32;) {\n+    __m512i in = _mm512_loadu_si512((__m512i *)buf);\n+    in = _mm512_shuffle_epi8(in, byteflip);\n+    auto mask = _mm512_cmpgt_epu16_mask(in, limit);\n+    if (mask) {\n+      return false;\n+    }\n+    buf += 32;\n+  }\n+  if (buf < end) {\n+    __m512i in =\n+        _mm512_maskz_loadu_epi16((1U << (end - buf)) - 1, (__m512i *)buf);\n+    in = _mm512_shuffle_epi8(in, byteflip);\n+    auto mask = _mm512_cmpgt_epu16_mask(in, limit);\n+    if (mask) {\n+      return false;\n+    }\n+  }\n+  return true;\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,\n@@ -1410,7 +1464,8 @@ simdutf_warn_unused size_t implementation::utf8_length_from_latin1(\n   const uint8_t *str = reinterpret_cast<const uint8_t *>(input);\n   size_t answer = length / sizeof(__m512i) * sizeof(__m512i);\n   size_t i = 0;\n-  if (answer >= 2048) { // long strings optimization\n+  if (answer >= 2048) // long strings optimization\n+  {\n     unsigned char v_0xFF = 0xff;\n     __m512i eight_64bits = _mm512_setzero_si512();\n     while (i + sizeof(__m512i) <= length) {\n@@ -1559,14 +1614,12 @@ simdutf_warn_unused size_t implementation::utf16_length_from_utf8(\n          scalar::utf8::utf16_length_from_utf8(input + pos, length - pos);\n }\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n-\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF32\n simdutf_warn_unused size_t implementation::utf8_length_from_utf32(\n     const char32_t *input, size_t length) const noexcept {\n   return utf32::utf8_length_from_utf32(input, length);\n }\n #endif // SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF32\n-\n #if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_UTF32\n simdutf_warn_unused size_t implementation::utf16_length_from_utf32(\n     const char32_t *input, size_t length) const noexcept {\n@@ -1739,7 +1792,6 @@ const char16_t *implementation::find(const char16_t *start, const char16_t *end,\n                                      char16_t character) const noexcept {\n   return util_find(start, end, character);\n }\n-\n #endif // SIMDUTF_FEATURE_BASE64\n \n } // namespace SIMDUTF_IMPLEMENTATION"
+      },
+      {
+        "sha": "46a4eee042760dbb913c894f733c23ffa4df784d",
+        "filename": "src/implementation.cpp",
+        "status": "modified",
+        "additions": 46,
+        "deletions": 1,
+        "changes": 47,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -239,13 +239,25 @@ class detect_best_supported_implementation_on_first_use final\n   validate_ascii(const char *buf, size_t len) const noexcept final override {\n     return set_best()->validate_ascii(buf, len);\n   }\n-\n   simdutf_warn_unused result validate_ascii_with_errors(\n       const char *buf, size_t len) const noexcept final override {\n     return set_best()->validate_ascii_with_errors(buf, len);\n   }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final override {\n+    return set_best()->validate_utf16le_as_ascii(buf, len);\n+  }\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final override {\n+    return set_best()->validate_utf16be_as_ascii(buf, len);\n+  }\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool\n   validate_utf16le(const char16_t *buf,\n@@ -844,6 +856,20 @@ class unsupported_implementation final : public implementation {\n   }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *,\n+                            size_t) const noexcept final override {\n+    return false;\n+  }\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *,\n+                            size_t) const noexcept final override {\n+    return false;\n+  }\n+#endif // SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool\n   validate_utf16le(const char16_t *, size_t) const noexcept final override {\n@@ -1387,6 +1413,25 @@ simdutf_warn_unused result validate_ascii_with_errors(const char *buf,\n }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool validate_utf16le_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept {\n+  return get_default_implementation()->validate_utf16le_as_ascii(buf, len);\n+}\n+simdutf_warn_unused bool validate_utf16be_as_ascii(const char16_t *buf,\n+                                                   size_t len) noexcept {\n+  return get_default_implementation()->validate_utf16be_as_ascii(buf, len);\n+}\n+simdutf_warn_unused bool validate_utf16_as_ascii(const char16_t *input,\n+                                                 size_t length) noexcept {\n+  #if SIMDUTF_IS_BIG_ENDIAN\n+  return validate_utf16be_as_ascii(input, length);\n+  #else\n+  return validate_utf16le_as_ascii(input, length);\n+  #endif\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF8 && SIMDUTF_FEATURE_UTF16\n simdutf_warn_unused size_t convert_utf8_to_utf16(\n     const char *input, size_t length, char16_t *utf16_output) noexcept {"
+      },
+      {
+        "sha": "a87bfd4da01e29a339d4e742e1cc62ddd203aa3a",
+        "filename": "src/lasx/implementation.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Flasx%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Flasx%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flasx%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -280,7 +280,19 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n   return lasx::ascii_validation::generic_validate_ascii_with_errors(buf, len);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::LITTLE>(buf, len);\n+}\n \n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::BIG>(buf, len);\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "442aa7e5bfe083416be1e2ea5e29649a1a1c16c7",
+        "filename": "src/lsx/implementation.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Flsx%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Flsx%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Flsx%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -279,7 +279,19 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n   return lsx::ascii_validation::generic_validate_ascii_with_errors(buf, len);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::LITTLE>(buf, len);\n+}\n \n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::BIG>(buf, len);\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "28b061e35868b1ce92f7d2f7b7bb2f4af3cb820a",
+        "filename": "src/ppc64/implementation.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fppc64%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fppc64%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fppc64%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -212,7 +212,19 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n   return ppc64::ascii_validation::generic_validate_ascii_with_errors(buf, len);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::LITTLE>(buf, len);\n+}\n \n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::BIG>(buf, len);\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "4a409060b9ec6f7d1af2ca3e73be407c45e9e169",
+        "filename": "src/rvv/rvv_validate.inl.cpp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Frvv%2Frvv_validate.inl.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Frvv%2Frvv_validate.inl.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Frvv%2Frvv_validate.inl.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -25,7 +25,19 @@ simdutf_warn_unused result implementation::validate_ascii_with_errors(\n   return result(error_code::SUCCESS, src - beg);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::LITTLE>(buf, len);\n+}\n \n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return scalar::utf16::validate_as_ascii<endianness::BIG>(buf, len);\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF8 || SIMDUTF_FEATURE_DETECT_ENCODING\n /* Returns a close estimation of the number of valid UTF-8 bytes up to the\n  * first invalid one, but never overestimating. */"
+      },
+      {
+        "sha": "22afca69f7e2384673cf87b47f89c6cdf9035e01",
+        "filename": "src/scalar/ascii.h",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fscalar%2Fascii.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fscalar%2Fascii.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fscalar%2Fascii.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -30,7 +30,6 @@ inline simdutf_warn_unused bool validate(const char *buf, size_t len) noexcept {\n   return true;\n }\n #endif\n-\n inline simdutf_warn_unused result validate_with_errors(const char *buf,\n                                                        size_t len) noexcept {\n   const uint8_t *data = reinterpret_cast<const uint8_t *>(buf);"
+      },
+      {
+        "sha": "1a5750188bff965a412f02e8094aaa12cc236076",
+        "filename": "src/scalar/utf16.h",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fscalar%2Futf16.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fscalar%2Futf16.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fscalar%2Futf16.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -6,6 +6,19 @@ namespace scalar {\n namespace {\n namespace utf16 {\n \n+template <endianness big_endian>\n+inline simdutf_warn_unused bool validate_as_ascii(const char16_t *data,\n+                                                  size_t len) noexcept {\n+  for (size_t pos = 0; pos < len; pos++) {\n+    char16_t word =\n+        !match_system(big_endian) ? u16_swap_bytes(data[pos]) : data[pos];\n+    if (word >= 0x80) {\n+      return false;\n+    }\n+  }\n+  return true;\n+}\n+\n template <endianness big_endian>\n inline simdutf_warn_unused bool validate(const char16_t *data,\n                                          size_t len) noexcept {"
+      },
+      {
+        "sha": "87adb66ef75a0435ce5f3f2ccc5c9df7b46c4212",
+        "filename": "src/simdutf/arm64/implementation.h",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Farm64%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Farm64%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Farm64%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -34,7 +34,15 @@ class implementation final : public simdutf::implementation {\n   simdutf_warn_unused result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n \n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,\n                                             size_t len) const noexcept final;"
+      },
+      {
+        "sha": "39dbd97aa445101b4c2772e8ac74b5b23fd7ae14",
+        "filename": "src/simdutf/arm64/simd16-inl.h",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Farm64%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Farm64%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Farm64%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -351,6 +351,12 @@ template <typename T> struct simd16x32 {\n     this->chunks[2] = this->chunks[2].swap_bytes();\n     this->chunks[3] = this->chunks[3].swap_bytes();\n   }\n+  simdutf_really_inline uint64_t gt(const T m) const {\n+    const simd16<T> mask = simd16<T>::splat(m);\n+    return simd16x32<bool>(this->chunks[0] > mask, this->chunks[1] > mask,\n+                           this->chunks[2] > mask, this->chunks[3] > mask)\n+        .to_bitmask();\n+  }\n \n   simdutf_really_inline uint64_t lteq(const T m) const {\n     const simd16<T> mask = simd16<T>::splat(m);"
+      },
+      {
+        "sha": "fea963ecb88b97db06cf86ddc93dd11a023b2e61",
+        "filename": "src/simdutf/fallback/implementation.h",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 0,
+        "changes": 9,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ffallback%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ffallback%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Ffallback%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -37,6 +37,15 @@ class implementation final : public simdutf::implementation {\n   simdutf_warn_unused result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n \n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "f2960b55f68440ea0c0a0ddf6a9e9bf704471c01",
+        "filename": "src/simdutf/haswell/implementation.h",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 0,
+        "changes": 9,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fhaswell%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fhaswell%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fhaswell%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -39,6 +39,15 @@ class implementation final : public simdutf::implementation {\n   simdutf_warn_unused result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n \n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "5b78fa1807b1b0669180afd4f0c2ec73ee60f6f8",
+        "filename": "src/simdutf/haswell/simd16-inl.h",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fhaswell%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fhaswell%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fhaswell%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -230,6 +230,11 @@ template <typename T> struct simd16x32 {\n     this->chunks[0] = this->chunks[0].swap_bytes();\n     this->chunks[1] = this->chunks[1].swap_bytes();\n   }\n+  simdutf_really_inline uint64_t gt(const T m) const {\n+    const simd16<T> mask = simd16<T>::splat(m);\n+    return simd16x32<bool>(this->chunks[0] > mask, this->chunks[1] > mask)\n+        .to_bitmask();\n+  }\n \n   simdutf_really_inline uint64_t lteq(const T m) const {\n     const simd16<T> mask = simd16<T>::splat(m);"
+      },
+      {
+        "sha": "2d37bbbcba5f339ce04e9f095f01dd6d64853f85",
+        "filename": "src/simdutf/icelake.h",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 1,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ficelake.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ficelake.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Ficelake.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -18,10 +18,18 @@\n     // Visual Studio 2019 technically supports VBMI2, but the implementation\n     // might be unreliable. Search for visualstudio2019icelakeissue in our\n     // tests.\n-    #define SIMDUTF_COMPILER_SUPPORTS_VBMI2 1\n+    #ifndef SIMDUTF_COMPILER_SUPPORTS_VBMI2\n+      #define SIMDUTF_COMPILER_SUPPORTS_VBMI2 1\n+    #endif\n   #endif\n #endif\n \n+#if SIMDUTF_GCC9OROLDER && SIMDUTF_IS_X86_64\n+  #define SIMDUTF_IMPLEMENTATION_ICELAKE 0\n+  #warning                                                                     \\\n+      \"You are using a legacy GCC compiler, we are disabling AVX-512 support\"\n+#endif\n+\n // We allow icelake on x64 as long as the compiler is known to support VBMI2.\n #ifndef SIMDUTF_IMPLEMENTATION_ICELAKE\n   #define SIMDUTF_IMPLEMENTATION_ICELAKE                                       \\"
+      },
+      {
+        "sha": "cccfdcc220115d0999cab545087dd8cc9ef93494",
+        "filename": "src/simdutf/icelake/implementation.h",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ficelake%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Ficelake%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Ficelake%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -47,6 +47,16 @@ class implementation final : public simdutf::implementation {\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,\n                                             size_t len) const noexcept final;"
+      },
+      {
+        "sha": "d2ccb8b64eaef5c2f614d4350079a93bf12f7c87",
+        "filename": "src/simdutf/lasx/implementation.h",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flasx%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flasx%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flasx%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -36,6 +36,16 @@ class implementation final : public simdutf::implementation {\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,\n                                             size_t len) const noexcept final;"
+      },
+      {
+        "sha": "4cfc8ba3dedbdaccd07e3894de893f225f8c8e95",
+        "filename": "src/simdutf/lasx/simd16-inl.h",
+        "status": "modified",
+        "additions": 30,
+        "deletions": 0,
+        "changes": 30,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flasx%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flasx%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flasx%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -132,6 +132,26 @@ template <> struct simd16<uint16_t> : base16_numeric<uint16_t> {\n   }\n };\n \n+simdutf_really_inline simd16<bool> operator<(const simd16<uint16_t> a,\n+                                             const simd16<uint16_t> b) {\n+  return __lasx_xvslt_hu(a.value, b.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator>(const simd16<uint16_t> a,\n+                                             const simd16<uint16_t> b) {\n+  return __lasx_xvslt_hu(b.value, a.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator<=(const simd16<uint16_t> a,\n+                                              const simd16<uint16_t> b) {\n+  return __lasx_xvsle_hu(a.value, b.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator>=(const simd16<uint16_t> a,\n+                                              const simd16<uint16_t> b) {\n+  return __lasx_xvsle_hu(b.value, a.value);\n+}\n+\n template <typename T> struct simd16x32 {\n   static constexpr int NUM_CHUNKS = 64 / sizeof(simd16<T>);\n   static_assert(NUM_CHUNKS == 2,\n@@ -159,6 +179,16 @@ template <typename T> struct simd16x32 {\n     this->chunks[0] = this->chunks[0].swap_bytes();\n     this->chunks[1] = this->chunks[1].swap_bytes();\n   }\n+  simdutf_really_inline uint64_t to_bitmask() const {\n+    uint64_t r_lo = uint32_t(this->chunks[0].to_bitmask());\n+    uint64_t r_hi = this->chunks[1].to_bitmask();\n+    return r_lo | (r_hi << 32);\n+  }\n+  simdutf_really_inline uint64_t lteq(const T m) const {\n+    const simd16<T> mask = simd16<T>::splat(m);\n+    return simd16x32<bool>(this->chunks[0] <= mask, this->chunks[1] <= mask)\n+        .to_bitmask();\n+  }\n }; // struct simd16x32<T>\n \n simdutf_really_inline simd16<uint16_t> min(const simd16<uint16_t> a,"
+      },
+      {
+        "sha": "27ca4697f4794a1b9f9ee6a3dc520a929c46169b",
+        "filename": "src/simdutf/lsx/implementation.h",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flsx%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flsx%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flsx%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -35,6 +35,16 @@ class implementation final : public simdutf::implementation {\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,\n                                             size_t len) const noexcept final;"
+      },
+      {
+        "sha": "8364cec13b985f157d586000ad39262936015d6b",
+        "filename": "src/simdutf/lsx/simd16-inl.h",
+        "status": "modified",
+        "additions": 41,
+        "deletions": 0,
+        "changes": 41,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flsx%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Flsx%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Flsx%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -36,6 +36,8 @@ template <typename T, typename Mask = simd16<bool>> struct base_u16 {\n \n template <typename T, typename Mask = simd16<bool>>\n struct base16 : base_u16<T> {\n+  using bitmask_type = uint16_t;\n+\n   simdutf_really_inline base16() : base_u16<T>() {}\n   simdutf_really_inline base16(const __m128i _value) : base_u16<T>(_value) {}\n   template <typename Pointer>\n@@ -60,6 +62,12 @@ template <> struct simd16<bool> : base16<bool> {\n   simdutf_really_inline simd16() : base16() {}\n   simdutf_really_inline simd16(const __m128i _value) : base16<bool>(_value) {}\n \n+  simdutf_really_inline bitmask_type to_bitmask() const {\n+    __m128i mask = __lsx_vmsknz_b(this->value);\n+    bitmask_type mask0 = bitmask_type(__lsx_vpickve2gr_wu(mask, 0));\n+    return mask0;\n+  }\n+\n   simdutf_really_inline bool is_zero() const { return __lsx_bz_v(this->value); }\n };\n \n@@ -137,6 +145,26 @@ template <> struct simd16<uint16_t> : base16_numeric<uint16_t> {\n   }\n };\n \n+simdutf_really_inline simd16<bool> operator<(const simd16<uint16_t> a,\n+                                             const simd16<uint16_t> b) {\n+  return __lsx_vslt_hu(a.value, b.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator>(const simd16<uint16_t> a,\n+                                             const simd16<uint16_t> b) {\n+  return __lsx_vslt_hu(b.value, a.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator<=(const simd16<uint16_t> a,\n+                                              const simd16<uint16_t> b) {\n+  return __lsx_vsle_hu(a.value, b.value);\n+}\n+\n+simdutf_really_inline simd16<bool> operator>=(const simd16<uint16_t> a,\n+                                              const simd16<uint16_t> b) {\n+  return __lsx_vsle_hu(b.value, a.value);\n+}\n+\n template <typename T> struct simd16x32 {\n   static constexpr int NUM_CHUNKS = 64 / sizeof(simd16<T>);\n   static_assert(\n@@ -172,6 +200,19 @@ template <typename T> struct simd16x32 {\n     this->chunks[2] = this->chunks[2].swap_bytes();\n     this->chunks[3] = this->chunks[3].swap_bytes();\n   }\n+  simdutf_really_inline uint64_t to_bitmask() const {\n+    uint64_t r0 = uint32_t(this->chunks[0].to_bitmask());\n+    uint64_t r1 = this->chunks[1].to_bitmask();\n+    uint64_t r2 = this->chunks[2].to_bitmask();\n+    uint64_t r3 = this->chunks[3].to_bitmask();\n+    return r0 | (r1 << 16) | (r2 << 32) | (r3 << 48);\n+  }\n+  simdutf_really_inline uint64_t lteq(const T m) const {\n+    const simd16<T> mask = simd16<T>::splat(m);\n+    return simd16x32<bool>(this->chunks[0] <= mask, this->chunks[1] <= mask,\n+                           this->chunks[2] <= mask, this->chunks[3] <= mask)\n+        .to_bitmask();\n+  }\n }; // struct simd16x32<T>\n \n simdutf_really_inline simd16<uint16_t> operator^(const simd16<uint16_t> a,"
+      },
+      {
+        "sha": "8aa916a04c6363cdeed88fec058a7ca6f1f49e4a",
+        "filename": "src/simdutf/ppc64/implementation.h",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fppc64%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fppc64%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -43,6 +43,16 @@ class implementation final : public simdutf::implementation {\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,\n                                             size_t len) const noexcept final;"
+      },
+      {
+        "sha": "303e80f55fe26341ca11682f39e65841dce1cba9",
+        "filename": "src/simdutf/ppc64/simd16-inl.h",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fppc64%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fppc64%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fppc64%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -293,6 +293,13 @@ template <typename T> struct simd16x32 {\n     this->chunks[3] = this->chunks[3].swap_bytes();\n   }\n \n+  simdutf_really_inline uint64_t gt(const T m) const {\n+    const simd16<T> mask = simd16<T>::splat(m);\n+    return simd16x32<bool>(this->chunks[0] > mask, this->chunks[1] > mask,\n+                           this->chunks[2] > mask, this->chunks[3] > mask)\n+        .to_bitmask();\n+  }\n+\n   simdutf_really_inline uint64_t lteq(const T m) const {\n     const simd16<T> mask = simd16<T>::splat(m);\n     return simd16x32<bool>(this->chunks[0] <= mask, this->chunks[1] <= mask,"
+      },
+      {
+        "sha": "fbde96b04f6c383d982d5295bccac163eddd1c33",
+        "filename": "src/simdutf/rvv/implementation.h",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 0,
+        "changes": 9,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Frvv%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Frvv%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Frvv%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -36,6 +36,15 @@ class implementation final : public simdutf::implementation {\n   simdutf_warn_unused result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n \n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "2f4d7c535844e254283f7acb844c9b30e9a36ec6",
+        "filename": "src/simdutf/westmere/implementation.h",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 0,
+        "changes": 9,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fwestmere%2Fimplementation.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fwestmere%2Fimplementation.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fwestmere%2Fimplementation.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -39,6 +39,15 @@ class implementation final : public simdutf::implementation {\n   simdutf_warn_unused result\n   validate_ascii_with_errors(const char *buf, size_t len) const noexcept final;\n #endif // SIMDUTF_FEATURE_ASCII\n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+  simdutf_warn_unused bool\n+  validate_utf16le_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+\n+  simdutf_warn_unused bool\n+  validate_utf16be_as_ascii(const char16_t *buf,\n+                            size_t len) const noexcept final;\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n \n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n   simdutf_warn_unused bool validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "6dc84357218f98352420cd878344af249a17356d",
+        "filename": "src/simdutf/westmere/simd16-inl.h",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fwestmere%2Fsimd16-inl.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fsimdutf%2Fwestmere%2Fsimd16-inl.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fsimdutf%2Fwestmere%2Fsimd16-inl.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -104,7 +104,6 @@ template <> struct simd16<uint16_t> : base16_numeric<uint16_t> {\n   operator>=(const simd16<uint16_t> other) const {\n     return other.min_val(*this) == other;\n   }\n-\n   // Bit-specific operations\n   simdutf_really_inline simd16<bool> bits_not_set() const {\n     return *this == uint16_t(0);"
+      },
+      {
+        "sha": "5ab08fe232c8842bf2a6542c50d3c748c264f4a1",
+        "filename": "src/westmere/implementation.cpp",
+        "status": "modified",
+        "additions": 18,
+        "deletions": 2,
+        "changes": 20,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fwestmere%2Fimplementation.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/src%2Fwestmere%2Fimplementation.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/src%2Fwestmere%2Fimplementation.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -310,16 +310,32 @@ simdutf_warn_unused bool\n implementation::validate_ascii(const char *buf, size_t len) const noexcept {\n   return westmere::ascii_validation::generic_validate_ascii(buf, len);\n }\n-#endif // SIMDUTF_FEATURE_ASCII\n \n-#if SIMDUTF_FEATURE_ASCII\n simdutf_warn_unused result implementation::validate_ascii_with_errors(\n     const char *buf, size_t len) const noexcept {\n   return westmere::ascii_validation::generic_validate_ascii_with_errors(buf,\n                                                                         len);\n }\n #endif // SIMDUTF_FEATURE_ASCII\n \n+#if SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+simdutf_warn_unused bool\n+implementation::validate_utf16le_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return westmere::utf16::validate_utf16_as_ascii_with_errors<\n+             endianness::LITTLE>(buf, len)\n+             .error == SUCCESS;\n+}\n+\n+simdutf_warn_unused bool\n+implementation::validate_utf16be_as_ascii(const char16_t *buf,\n+                                          size_t len) const noexcept {\n+  return westmere::utf16::validate_utf16_as_ascii_with_errors<endianness::BIG>(\n+             buf, len)\n+             .error == SUCCESS;\n+}\n+#endif // SIMDUTF_FEATURE_UTF16 && SIMDUTF_FEATURE_ASCII\n+\n #if SIMDUTF_FEATURE_UTF16 || SIMDUTF_FEATURE_DETECT_ENCODING\n simdutf_warn_unused bool\n implementation::validate_utf16le(const char16_t *buf,"
+      },
+      {
+        "sha": "06932ebdd34300da9861369f7cf484b40a88892d",
+        "filename": "tests/helpers/random_utf16.cpp",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 0,
+        "changes": 20,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fhelpers%2Frandom_utf16.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fhelpers%2Frandom_utf16.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fhelpers%2Frandom_utf16.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -18,6 +18,26 @@ std::vector<char16_t> random_utf16::generate_le(size_t size) {\n   return result;\n }\n \n+void random_utf16::to_ascii_le(std::vector<char16_t> &output) {\n+  char16_t mask = 0x7F;\n+  if (!match_system(endianness::LITTLE)) {\n+    mask = 0x7F00;\n+  }\n+  for (auto &ch : output) {\n+    ch &= mask;\n+  }\n+}\n+\n+void random_utf16::to_ascii_be(std::vector<char16_t> &output) {\n+  char16_t mask = 0x7F;\n+  if (!match_system(endianness::BIG)) {\n+    mask = 0x7F00;\n+  }\n+  for (auto &ch : output) {\n+    ch &= mask;\n+  }\n+}\n+\n std::vector<char16_t> random_utf16::generate_be(size_t size) {\n   auto result = generate_counted(size).first;\n   if (!match_system(endianness::BIG)) {"
+      },
+      {
+        "sha": "d66152908c0c1bca71c7a4e44dde66f757421a50",
+        "filename": "tests/helpers/random_utf16.h",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fhelpers%2Frandom_utf16.h",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fhelpers%2Frandom_utf16.h",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fhelpers%2Frandom_utf16.h?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -33,6 +33,9 @@ class random_utf16 {\n   std::pair<std::vector<char16_t>, size_t> generate_counted_le(size_t size);\n   std::pair<std::vector<char16_t>, size_t> generate_counted_be(size_t size);\n \n+  static void to_ascii_le(std::vector<char16_t> &output);\n+  static void to_ascii_be(std::vector<char16_t> &output);\n+\n private:\n   std::pair<std::vector<char16_t>, size_t> generate_counted(size_t size);\n "
+      },
+      {
+        "sha": "a71ae498ac5ead6140761635ae969f25e1f6828b",
+        "filename": "tests/validate_utf16be_basic_tests.cpp",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fvalidate_utf16be_basic_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fvalidate_utf16be_basic_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fvalidate_utf16be_basic_tests.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -9,6 +9,17 @@\n \n constexpr size_t trials = 1000;\n \n+TEST_LOOP(trials, validate_utf16be_ascii) {\n+  simdutf::tests::helpers::random_utf16 generator{seed, 1, 0};\n+  auto utf16{generator.generate_be(512, seed)};\n+  generator.to_ascii_be(utf16);\n+  ASSERT_TRUE(\n+      implementation.validate_utf16be_as_ascii(utf16.data(), utf16.size()));\n+  utf16[utf16.size() / 2] = 0xC0C0;\n+  ASSERT_FALSE(\n+      implementation.validate_utf16be_as_ascii(utf16.data(), utf16.size()));\n+}\n+\n TEST_LOOP(trials, validate_utf16be_returns_true_for_valid_input_single_words) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 0};\n   const auto utf16{generator.generate_be(512, seed)};"
+      },
+      {
+        "sha": "6a5ac5214f907d467cefd6673b4df062b8b52d3e",
+        "filename": "tests/validate_utf16le_basic_tests.cpp",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "blob_url": "https://github.com/simdutf/simdutf/blob/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fvalidate_utf16le_basic_tests.cpp",
+        "raw_url": "https://github.com/simdutf/simdutf/raw/7b3f5afcae322391a03736809ef6eea0c2934388/tests%2Fvalidate_utf16le_basic_tests.cpp",
+        "contents_url": "https://api.github.com/repos/simdutf/simdutf/contents/tests%2Fvalidate_utf16le_basic_tests.cpp?ref=7b3f5afcae322391a03736809ef6eea0c2934388",
+        "patch": "@@ -28,6 +28,17 @@ TEST(issue92) {\n   ASSERT_EQUAL(measured_size, size);\n }\n \n+TEST_LOOP(trials, validate_utf16le_ascii) {\n+  simdutf::tests::helpers::random_utf16 generator{seed, 1, 0};\n+  auto utf16{generator.generate_le(512, seed)};\n+  generator.to_ascii_le(utf16);\n+  ASSERT_TRUE(\n+      implementation.validate_utf16le_as_ascii(utf16.data(), utf16.size()));\n+  utf16[utf16.size() / 2] = 0xC0C0;\n+  ASSERT_FALSE(\n+      implementation.validate_utf16le_as_ascii(utf16.data(), utf16.size()));\n+}\n+\n TEST_LOOP(trials, validate_utf16le_returns_true_for_valid_input_single_words) {\n   simdutf::tests::helpers::random_utf16 generator{seed, 1, 0};\n   const auto utf16{generator.generate_le(512, seed)};"
+      }
+    ]
+  },
+  "headers": {
+    "Link": "<https://api.github.com/repositories/335799265/compare/v7.3.6...v7.4.0?per_page=100&page=1>; rel=\"first\"",
+    "X-RateLimit-Remaining": "3816",
+    "X-RateLimit-Reset": "1791983754"
+  }
+}

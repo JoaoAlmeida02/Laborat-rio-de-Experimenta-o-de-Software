@@ -1,0 +1,15 @@
+.git
+.cache_http
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.coverage
+htmlcov
+.env
+*.env
+data/cache
+data/releases
+data/runs
+*.tmp*
