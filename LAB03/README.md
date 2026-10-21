@@ -8,10 +8,12 @@ Pipeline automatizado de coleta, mineração e consolidação de métricas DORA 
 
 Requer **Python 3.10 ou superior**.
 
-Clone o repositório e instale as dependências:
+Clone o repositório, crie e ative o ambiente virtual e instale as dependências:
 
 ```bash
 cd LAB03
+python -m venv .venv
+source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
 ```
 
