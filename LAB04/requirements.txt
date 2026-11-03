@@ -1,2 +1,4 @@
 requests>=2.31
 python-dotenv>=1.0
+numpy>=2.0
+scipy>=1.14
