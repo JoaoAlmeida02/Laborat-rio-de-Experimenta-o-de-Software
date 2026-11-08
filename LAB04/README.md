@@ -35,7 +35,7 @@ streamlit run app.py
 
 O dashboard contempla as 7 seções obrigatórias:
 1. **Cenário:** formulação da pergunta, $H_0$, $H_1$, nível $\alpha = 0,05$ e contexto do repositório `pytest-dev/pytest`.
-2. **Os dados (G1):** taxa de falhas por bloco de 30 execuções comparando dados reais coletados versus simulação calibrada ($\hat{p} = 0,0333$).
+2. **Os dados (G1):** histograma do número de falhas por bloco de 30 execuções, comparando dados reais coletados e simulação calibrada ($\hat{p} = 0,0333$).
 3. **Como os testes funcionam (G2):** distribuições sob $H_0$ (normal padrão no teste Z e distribuição discreta no binomial exato) com região crítica sombreada e destaque do p-valor.
 4. **Erro tipo I (G3):** avaliação do comportamento empírico sob $H_0$ verdadeira (Sprint 2 / Issue #76).
 5. **Poder (G4):** curvas de sensibilidade na detecção de efeito (Sprint 2 / Issue #77).
