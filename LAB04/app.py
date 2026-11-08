@@ -1,4 +1,5 @@
 import csv
+import sys
 from math import asin, sqrt
 from pathlib import Path
 
@@ -17,6 +18,9 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 CAMINHO_DADOS = BASE_DIR / "dados" / "ci_runs.csv"
+sys.path.insert(0, str(BASE_DIR / "scripts"))
+
+from erro_tipo1 import calcular_erro_tipo1
 
 COR_Z = "#1f77b4"
 COR_BINOM = "#ff7f0e"
@@ -53,49 +57,39 @@ def h_cohen(p_hat, p0=P0):
 def gerar_grafico_g1(df_real, p_hat, n_total):
     tamanho_bloco = 30
     num_blocos = n_total // tamanho_bloco
-    if num_blocos == 0:
-        num_blocos = 10
-        taxas_reais = [p_hat * 100] * num_blocos
-    else:
-        taxas_reais = []
-        for i in range(num_blocos):
-            fatia = df_real.iloc[i * tamanho_bloco:(i + 1) * tamanho_bloco]
-            taxa = (fatia["falha"].sum() / len(fatia)) * 100
-            taxas_reais.append(taxa)
+    falhas_reais = [
+        int(df_real["falha"].iloc[i * tamanho_bloco:(i + 1) * tamanho_bloco].sum())
+        for i in range(num_blocos)
+    ]
 
     rng = np.random.default_rng(42)
-    falhas_simuladas = rng.binomial(n=tamanho_bloco, p=p_hat, size=num_blocos)
-    taxas_simuladas = [(k / tamanho_bloco) * 100 for k in falhas_simuladas]
+    falhas_simuladas = rng.binomial(n=tamanho_bloco, p=p_hat, size=10_000)
 
-    blocos_rotulos = [f"Bloco {i + 1}" for i in range(num_blocos)]
+    maximo = max(max(falhas_reais), int(falhas_simuladas.max()))
+    valores = np.arange(maximo + 1)
+    proporcao_reais = np.bincount(falhas_reais, minlength=maximo + 1) / num_blocos * 100
+    proporcao_simuladas = np.bincount(falhas_simuladas, minlength=maximo + 1) / len(falhas_simuladas) * 100
 
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        x=blocos_rotulos,
-        y=taxas_reais,
-        name="Dados Reais (pytest-dev/pytest)",
+        x=valores,
+        y=proporcao_reais,
+        name=f"Dados Reais (pytest-dev/pytest, {num_blocos} blocos)",
         marker_color=COR_REAL,
         opacity=0.85
     ))
     fig.add_trace(go.Bar(
-        x=blocos_rotulos,
-        y=taxas_simuladas,
-        name=f"Dados Simulados (p = {p_hat:.4f})",
+        x=valores,
+        y=proporcao_simuladas,
+        name=f"Dados Simulados (p = {p_hat:.4f}, 10.000 blocos)",
         marker_color="#9467bd",
         opacity=0.85
     ))
-    fig.add_trace(go.Scatter(
-        x=blocos_rotulos,
-        y=[P0 * 100] * num_blocos,
-        mode="lines",
-        name=f"Meta H0 ({P0 * 100:.0f}%)",
-        line=dict(color=COR_REF, width=2, dash="dash")
-    ))
 
     fig.update_layout(
-        title="G1: Comparação de Taxa de Falhas por Bloco de 30 Execuções (Real vs Simulado)",
-        xaxis_title="Blocos sequenciais de execuções (unidade: bloco de 30 runs)",
-        yaxis_title="Taxa de falhas observada (%)",
+        title="G1: Histograma de Falhas por Bloco de 30 Execuções (Real vs Simulado)",
+        xaxis=dict(title="Número de falhas no bloco (contagem por bloco de 30 execuções)", dtick=1),
+        yaxis_title="Proporção de blocos (%)",
         barmode="group",
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         template="plotly_white",
@@ -180,25 +174,38 @@ def gerar_grafico_g2(n_amostra, x_exemplo):
     while binom.sf(k_critico - 1, n_amostra, P0) > ALFA:
         k_critico += 1
 
-    cores_barras = []
-    textos_hover = []
-    for k in valores_k:
-        if k >= k_critico:
-            cores_barras.append("rgba(214, 39, 40, 0.8)")
-        else:
-            cores_barras.append(COR_BINOM)
-        sf_k = binom.sf(k - 1, n_amostra, P0)
-        textos_hover.append(f"k = {k}<br>P(X = k) = {binom.pmf(k, n_amostra, P0):.4f}<br>P(X >= k) = {sf_k:.4f}")
+    textos_hover = np.array([
+        f"k = {k}<br>P(X = k) = {binom.pmf(k, n_amostra, P0):.4f}<br>P(X >= k) = {binom.sf(k - 1, n_amostra, P0):.4f}"
+        for k in valores_k
+    ])
 
     fig_bin = go.Figure()
 
+    for mascara, cor, nome in (
+        (valores_k < k_critico, COR_BINOM, f"Não rejeição (x < {k_critico})"),
+        (valores_k >= k_critico, "rgba(214, 39, 40, 0.8)", f"Região de rejeição (x >= {k_critico}, alfa <= {ALFA})"),
+    ):
+        fig_bin.add_trace(go.Bar(
+            x=valores_k[mascara],
+            y=probs_bin[mascara],
+            marker_color=cor,
+            hovertext=textos_hover[mascara],
+            hoverinfo="text",
+            name=nome
+        ))
+
+    cauda_exemplo = valores_k >= x_exemplo
     fig_bin.add_trace(go.Bar(
-        x=valores_k,
-        y=probs_bin,
-        marker_color=cores_barras,
-        hovertext=textos_hover,
+        x=valores_k[cauda_exemplo],
+        y=probs_bin[cauda_exemplo],
+        marker=dict(
+            color="rgba(0, 0, 0, 0)",
+            line=dict(color="#17becf", width=2),
+            pattern=dict(shape="/", fgcolor="#17becf")
+        ),
+        hovertext=textos_hover[cauda_exemplo],
         hoverinfo="text",
-        name="Distribuição Bin(n=300, p0=0.05)"
+        name=f"P-valor do exemplo (área x >= {x_exemplo}: {p_valor_bin:.4f})"
     ))
 
     fig_bin.add_vline(
@@ -223,12 +230,50 @@ def gerar_grafico_g2(n_amostra, x_exemplo):
         title=f"G2 (Parte 2): Teste Binomial Exato — Distribuição sob H0 (n = {n_amostra})",
         xaxis_title="Número de falhas observadas x (contagem)",
         yaxis_title="Probabilidade pontual P(X = x)",
+        barmode="overlay",
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         template="plotly_white",
         height=450
     )
 
     return fig_z, fig_bin, z_ex, p_valor_z, p_valor_bin, z_critico, k_critico
+
+
+def gerar_grafico_g3(erros):
+    rotulos = [f"n = {linha['n']} ({linha['pergunta']})" for linha in erros]
+
+    fig = go.Figure()
+    for chave, nome, cor in (
+        ("erro_z", "Teste Z para proporção", COR_Z),
+        ("erro_binomial", "Teste binomial exato", COR_BINOM),
+    ):
+        fig.add_trace(go.Bar(
+            x=rotulos,
+            y=[linha[chave] * 100 for linha in erros],
+            name=nome,
+            marker_color=cor,
+            hovertemplate="%{x}<br>" + nome + ": %{y:.2f}%<extra></extra>"
+        ))
+
+    fig.add_hline(
+        y=ALFA * 100,
+        line_width=2,
+        line_dash="dash",
+        line_color=COR_REF,
+        showlegend=True,
+        name=f"Nível nominal (alfa = {ALFA * 100:.0f}%)"
+    )
+
+    fig.update_layout(
+        title="G3: Erro Tipo I por Teste e Situação Simulada (10.000 Repetições, p = 5%)",
+        xaxis_title="Tamanho da amostra n (execuções de CI) e pergunta do enunciado",
+        yaxis_title="Erro tipo I (% de rejeições sob H0)",
+        barmode="group",
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        template="plotly_white",
+        height=450
+    )
+    return fig
 
 
 df_real, n_real, x_real, p_hat_real = carregar_dados_reais()
@@ -268,11 +313,11 @@ st.divider()
 
 st.header("2. Os dados (G1)")
 fig_g1 = gerar_grafico_g1(df_real, p_hat_real, n_real)
-st.plotly_chart(fig_g1, use_container_width=True)
+st.plotly_chart(fig_g1, width="stretch")
 
 st.markdown(
     """
-    O gráfico G1 apresenta a taxa de falhas observada a cada bloco consecutivo de 30 execuções nos dados reais coletados do GitHub Actions versus uma realização simulada calibrada com a taxa média empírica ($p = 3{,}33\\%$, semente 42). Nota-se que tanto nas execuções reais quanto nas simuladas a ampla maioria dos blocos oscila abaixo do limite de 5% estabelecido por $H_0$, com flutuações pontuais compatíveis com um processo estocástico estacionário. Conclui-se que o modelo de amostragem binomial com $n = 300$ e probabilidade calibrada mimetiza adequadamente a variabilidade amostral do pipeline de integração contínua avaliado.
+    O G1 mostra o histograma do número de falhas em cada bloco de 30 execuções: os 10 blocos reais ao lado de 10.000 blocos simulados com $p = 3{,}33\\%$, a taxa média observada nos dados reais (semente 42). Os dados reais são assimétricos à direita e sem outliers extremos: 5 dos 10 blocos não têm falha e o máximo é de 3 falhas. A simulação reproduz essa assimetria, mas prevê menos blocos com 3 falhas (cerca de 6%, contra 2 dos 10 blocos reais). Com apenas 10 blocos a diferença pode ser acaso, mas também é compatível com falhas em sequência, que o modelo binomial não representa.
     """
 )
 st.divider()
@@ -303,10 +348,10 @@ fig_g2_z, fig_g2_bin, z_val, p_z, p_bin, z_crit, k_crit = gerar_grafico_g2(n_rea
 tab_z, tab_bin = st.tabs(["Teste Z para proporção (Normal)", "Teste binomial exato (Discreto)"])
 
 with tab_z:
-    st.plotly_chart(fig_g2_z, use_container_width=True)
+    st.plotly_chart(fig_g2_z, width="stretch")
 
 with tab_bin:
-    st.plotly_chart(fig_g2_bin, use_container_width=True)
+    st.plotly_chart(fig_g2_bin, width="stretch")
 
 st.markdown(
     f"""
@@ -316,13 +361,25 @@ st.markdown(
 st.divider()
 
 st.header("4. Erro tipo I (G3)")
+
+erros_tipo1 = calcular_erro_tipo1(n_real)
+erro_por_n = {linha["n"]: linha for linha in erros_tipo1}
+
+st.plotly_chart(gerar_grafico_g3(erros_tipo1), width="stretch")
+
+st.table(pd.DataFrame([
+    {
+        "Situação": f"{linha['pergunta']}: n = {linha['n']} (n·p0 = {linha['n'] * P0:g})",
+        "Teste Z": f"{linha['erro_z'] * 100:.2f}%",
+        "Binomial exato": f"{linha['erro_binomial'] * 100:.2f}%",
+    }
+    for linha in erros_tipo1
+]))
+
 st.markdown(
+    f"""
+    O G3 mostra com que frequência cada teste dá um falso alarme: a proporção de rejeições em 10.000 amostras simuladas com $H_0$ verdadeira ($p = 5\\%$), comparada à linha do nível nominal. Com $n = {n_real}$ (Q1), os dois testes rejeitam a partir da mesma contagem de falhas e têm o mesmo erro ({erro_por_n[n_real]['erro_z'] * 100:.2f}%), perto de 5%. Com amostras pequenas (Q3, $n \\cdot p_0 < 10$), o teste Z fica liberal em $n$ = 10, 20, 30 e 100, chegando a {erro_por_n[10]['erro_z'] * 100:.2f}% em $n = 10$, porque a binomial é assimétrica à direita e a aproximação normal subestima a cauda. O binomial exato nunca passa de 5%, mas é conservador por ser discreto (apenas {erro_por_n[10]['erro_binomial'] * 100:.2f}% em $n = 10$), e em $n = 50$ os dois empatam em {erro_por_n[50]['erro_z'] * 100:.2f}%, o que mostra que o Z não é liberal em todo $n$ pequeno.
     """
-    O erro tipo I ocorre quando o teste rejeita indevidamente a hipótese nula verdadeira (falso alarme), afirmando que a taxa de falha violou a meta quando na realidade $p = 0{,}05$.
-    """
-)
-st.info(
-    "Módulo de simulação de Monte Carlo da Sprint 2 (Issue #76). As 10.000 repetições com n = 300 e n pequeno (10, 20, 30, 50) quantificarão o conservadorismo do teste binomial exato e a degradação liberal do teste Z sob violação do pressuposto n·p0 >= 10."
 )
 st.divider()
 
@@ -364,7 +421,7 @@ st.table(tabela_dados_reais)
 
 st.markdown(
     """
-    A aplicação dos dois testes estatísticos aos dados empíricos do repositório `pytest-dev/pytest` resultou na concordância unânime pela não rejeição da hipótese nula. A taxa observada de 3,33% (10 falhas em 300 execuções) situou-se confortavelmente abaixo do limiar de 5%, traduzindo-se em um tamanho de efeito negativo ($h = -0{,}084$) e p-valores expressivos ($0{,}9073$ e $0{,}9350$). Conclui-se que o pipeline de integração contínua opera dentro dos parâmetros de confiabilidade estipulados pela equipe, dispensando intervenções emergenciais.
+    A aplicação dos dois testes estatísticos aos dados empíricos do repositório `pytest-dev/pytest` resultou na concordância unânime pela não rejeição da hipótese nula. A taxa observada de 3,33% (10 falhas em 300 execuções) situou-se confortavelmente abaixo do limiar de 5%, traduzindo-se em um tamanho de efeito negativo ($h = -0{,}084$) e p-valores expressivos ($0{,}9073$ e $0{,}9350$). Os dados não indicam taxa acima de 5%, mas também não comprovam que ela esteja abaixo da meta, pois 10 falhas em 300 não são significativamente menos que 5% ($P(X \\le 10) = 0{,}112$).
     """
 )
 st.divider()

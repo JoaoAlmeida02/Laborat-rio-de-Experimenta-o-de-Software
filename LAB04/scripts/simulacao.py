@@ -20,6 +20,13 @@ def simular_falhas(n, p, reps=10_000, rng=None):
     return rng.binomial(n, p, size=reps)
 
 
+def taxa_rejeicao(p, n, reps=10_000, alfa=ALFA, p0=P0, rng=None):
+    valores, contagens = np.unique(simular_falhas(n, p, reps, rng), return_counts=True)
+    rejeicoes_z = sum(c for v, c in zip(valores, contagens) if teste_z(int(v), n, p0)[1] < alfa)
+    rejeicoes_binomial = sum(c for v, c in zip(valores, contagens) if teste_binomial(int(v), n, p0)[1] < alfa)
+    return float(rejeicoes_z / reps), float(rejeicoes_binomial / reps)
+
+
 def ler_dados_reais(caminho=None):
     if caminho is None:
         caminho = BASE / "dados" / "ci_runs.csv"
