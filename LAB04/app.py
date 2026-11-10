@@ -384,13 +384,19 @@ st.markdown(
 st.divider()
 
 st.header("5. Poder estatístico (G4)")
+
+from poder import calcular_curva_poder, gerar_grafico_g4
+
+df_poder = calcular_curva_poder(n_real, alfa=ALFA)
+st.plotly_chart(
+    gerar_grafico_g4(df_poder, alfa=ALFA, cor_z=COR_Z, cor_binom=COR_BINOM, cor_ref=COR_REF),
+    width="stretch"
+)
+
 st.markdown(
     """
-    O poder estatístico ($1 - \\beta$) quantifica a capacidade do teste de rejeitar $H_0$ quando existe uma degradação real no pipeline ($p > 0{,}05$).
+    O G4 apresenta as curvas de poder dos dois testes (10.000 simulações por ponto) para $p$ entre 5% (efeito zero) e 15%: em $n = 300$ (Q2) e em $n = 50$ (Q3), o teste Z e o binomial exato compartilham exatamente a mesma região crítica discreta ($x \\ge 22$ e $x \\ge 6$) e empatam em todos os níveis de efeito, indo de 4,87% ($p = 5\\%$) a 86,86% ($p = 9\\%$) e 100,00% ($p = 15\\%$) para $n = 300$. Para $n \\in \\{10, 20, 30, 100\\}$ (Q3), o teste Z rejeita $H_0$ com maior frequência que o binomial exato em toda a curva — por exemplo, em $p = 9\\%$, alcança 22,10% contra 5,45% em $n = 10$ e 54,61% contra 41,00% em $n = 100$. Entretanto, a comparação de poder entre os dois testes não é equivalente nesses casos, pois o teste Z tem erro tipo I inflado acima do nível nominal de 5% no efeito zero (entre 6,05% e 8,53%, contra 1,24% a 2,90% do binomial conservador), ganhando poder aparente justamente por adotar um limiar liberal que erra mais sob $H_0$. Em nenhum cenário simulado a vantagem de poder muda de lado para o binomial exato: quando o teste Z não excede 5% sob $H_0$ ($n = 50$ e $n = 300$), as curvas coincidem integralmente, confirmando a expectativa de poder igual em $n = 300$, mas revelando que toda vantagem de detecção do Z em amostras menores vem às custas da violação do nível $\\alpha$.
     """
-)
-st.info(
-    "Módulo de curva de poder da Sprint 2 (Issue #77). O gráfico G4 mapeará as probabilidades de rejeição para p variando entre 0,05 e 0,15, comparando a sensibilidade de ambos os testes em amostras grandes e restritas."
 )
 st.divider()
 
