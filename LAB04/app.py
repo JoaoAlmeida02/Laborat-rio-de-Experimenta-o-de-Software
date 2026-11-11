@@ -21,6 +21,7 @@ CAMINHO_DADOS = BASE_DIR / "dados" / "ci_runs.csv"
 sys.path.insert(0, str(BASE_DIR / "scripts"))
 
 from erro_tipo1 import calcular_erro_tipo1
+from poder import calcular_curva_poder, gerar_grafico_g4
 
 COR_Z = "#1f77b4"
 COR_BINOM = "#ff7f0e"
@@ -30,6 +31,7 @@ ALFA = 0.05
 P0 = 0.05
 
 
+@st.cache_data
 def carregar_dados_reais():
     if not CAMINHO_DADOS.exists():
         return pd.DataFrame(), 0, 0, 0.0
@@ -38,6 +40,16 @@ def carregar_dados_reais():
     x = int(df["falha"].sum())
     p_hat = x / n if n > 0 else 0.0
     return df, n, x, p_hat
+
+
+@st.cache_data
+def obter_erro_tipo1(n_total):
+    return calcular_erro_tipo1(n_total)
+
+
+@st.cache_data
+def obter_curva_poder(n_total, alfa=ALFA):
+    return calcular_curva_poder(n_total, alfa=alfa)
 
 
 def teste_z(x, n, p0=P0):
@@ -282,7 +294,7 @@ st.title("LAB04 — Testes de Hipótese por Dentro")
 st.markdown(
     """
     **Par de testes:** P4 — Teste Z para proporção $\\times$ Teste binomial exato  
-    **Links do projeto:** [Repositório GitHub](https://github.com/JoaoAlmeida02/Laborat-rio-de-Experimenta-o-de-Software) | [GitHub Projects](https://github.com/users/JoaoAlmeida02/projects/)
+    **Links do projeto:** [Repositório GitHub](https://github.com/JoaoAlmeida02/Laborat-rio-de-Experimenta-o-de-Software) | [GitHub Projects](https://github.com/JoaoAlmeida02/Laborat-rio-de-Experimenta-o-de-Software/projects) | Execução local: `streamlit run app.py`
     """
 )
 st.divider()
@@ -355,14 +367,14 @@ with tab_bin:
 
 st.markdown(
     f"""
-    O gráfico G2 ilustra a distribuição da estatística sob $H_0$ para os dois testes com $n = 300$ e meta $p_0 = 0,05$, destacando a região crítica de rejeição à direita para $\\alpha = 0,05$. No teste Z (azul `{COR_Z}`), a região crítica inicia em $z \\ge {z_crit:.3f}$ sobre a normal padrão, enquanto no teste binomial exato (laranja `{COR_BINOM}`) ela abrange $x \\ge {k_crit}$ falhas na distribuição discreta. Para o exemplo destacado ($x = {x_destaque}$), o p-valor obtido foi de {p_z:.4f} no teste Z e {p_bin:.4f} no binomial exato, indicando a probabilidade de observar desvios iguais ou superiores caso $H_0$ seja verdadeira, sem representar a probabilidade de a hipótese nula estar correta.
+    O teste Z compara a proporção amostral padronizada com a meta $p_0 = 0,05$ pela aproximação normal padrão, enquanto o teste binomial exato compara diretamente a contagem de falhas $X$ com a distribuição discreta $\\text{{Bin}}(300; 0,05)$ sob $H_0$. No teste Z (azul `{COR_Z}`), a região de rejeição unicaudal à direita para $\\alpha = 0,05$ inicia em $z \\ge {z_crit:.3f}$, enquanto no binomial exato (laranja `{COR_BINOM}`) ela abrange $x \\ge {k_crit}$ falhas. Para o exemplo destacado ($x = {x_destaque}$), o p-valor obtido foi de {p_z:.4f} no teste Z e {p_bin:.4f} no binomial exato, indicando a probabilidade de observar desvios iguais ou mais extremos caso $H_0$ seja verdadeira, e não a probabilidade de $H_0$ estar correta.
     """
 )
 st.divider()
 
 st.header("4. Erro tipo I (G3)")
 
-erros_tipo1 = calcular_erro_tipo1(n_real)
+erros_tipo1 = obter_erro_tipo1(n_real)
 erro_por_n = {linha["n"]: linha for linha in erros_tipo1}
 
 st.plotly_chart(gerar_grafico_g3(erros_tipo1), width="stretch")
@@ -385,9 +397,7 @@ st.divider()
 
 st.header("5. Poder estatístico (G4)")
 
-from poder import calcular_curva_poder, gerar_grafico_g4
-
-df_poder = calcular_curva_poder(n_real, alfa=ALFA)
+df_poder = obter_curva_poder(n_real, alfa=ALFA)
 st.plotly_chart(
     gerar_grafico_g4(df_poder, alfa=ALFA, cor_z=COR_Z, cor_binom=COR_BINOM, cor_ref=COR_REF),
     width="stretch"
@@ -427,7 +437,7 @@ st.table(tabela_dados_reais)
 
 st.markdown(
     """
-    A aplicação dos dois testes estatísticos aos dados empíricos do repositório `pytest-dev/pytest` resultou na concordância unânime pela não rejeição da hipótese nula. A taxa observada de 3,33% (10 falhas em 300 execuções) situou-se confortavelmente abaixo do limiar de 5%, traduzindo-se em um tamanho de efeito negativo ($h = -0{,}084$) e p-valores expressivos ($0{,}9073$ e $0{,}9350$). Os dados não indicam taxa acima de 5%, mas também não comprovam que ela esteja abaixo da meta, pois 10 falhas em 300 não são significativamente menos que 5% ($P(X \\le 10) = 0{,}112$).
+    A aplicação dos dois testes estatísticos aos dados empíricos do repositório `pytest-dev/pytest` resultou na concordância unânime pela não rejeição da hipótese nula. A taxa observada de 3,33% (10 falhas em 300 execuções) situou-se abaixo do limiar de 5%, com tamanho de efeito desprezível segundo Cohen ($h = -0{,}084$, $|h| < 0{,}20$, cerca de 1,67 ponto percentual abaixo da meta) e p-valores elevados ($0{,}9073$ e $0{,}9350$). Os dados não indicam taxa acima de 5%, mas também não comprovam que ela esteja abaixo da meta, pois 10 falhas em 300 não são significativamente menos que 5% ($P(X \\le 10) = 0{,}112$). Conclui-se que não há evidência estatística de degradação no pipeline de CI avaliado.
     """
 )
 st.divider()
@@ -435,8 +445,8 @@ st.divider()
 st.header("7. Conclusão")
 st.markdown(
     """
-    - **Esperado antes de simular vs Encontrado:** Na amostra com $n = 300$, ambos os métodos mantêm alta consistência e chegam a decisões idênticas, uma vez que o pressuposto de aproximação normal ($n \\cdot p_0 = 15 \\ge 10$) é atendido.
-    - **Recomendação técnica:** Para volumes amostrais elevados ($n \\ge 200$), ambos os testes são aplicáveis; contudo, recomenda-se a adoção prioritária do **teste binomial exato**, pois ele preserva rigorosamente o controle do erro tipo I mesmo em cenários de amostras reduzidas, sem sofrer das oscilações liberais causadas pela assimetria da cauda na aproximação contínua.
-    - **Limitação do estudo:** A amostragem considerou execuções sequenciais de uma única branch (`main`), pressupondo independência condicional entre os disparos consecutivos de CI, o que pode mascarar dependências temporais ou quebras em cadeia transitórias.
+    - **Esperado antes de simular × Encontrado:** Antes de simular, esperávamos que o teste binomial exato fosse conservador em todas as amostras, que o teste Z ficasse liberal quando $n \\cdot p_0 < 10$ e que ambos tivessem poder semelhante com $n = 300$. As simulações confirmaram que, em $n = 300$, ambos compartilham exatamente a região crítica ($x \\ge 22$) e empatam em erro tipo I ($4{,}87\\%$) e poder ($86{,}86\\%$ em $p = 9\\%$ e $100{,}00\\%$ em $p = 15\\%$); também confirmaram que o binomial exato nunca excede 5% ($1{,}24\\%$ a $4{,}87\\%$) e que o Z fica liberal em $n \\in \\{10, 20, 30, 100\\}$ (chegando a $8{,}53\\%$ em $n = 10$). A surpresa apareceu em $n = 50$: apesar de violar $n \\cdot p_0 = 2{,}5 < 10$, o teste Z empatou com o binomial em $x \\ge 6$ e ficou conservador ($3{,}76\\%$), mostrando que a discretização faz o erro do Z oscilar em vez de subir continuamente, enquanto seu aparente poder maior no G4 para $n \\in \\{10, 20, 30, 100\\}$ decorre apenas do erro tipo I inflado sob $H_0$.
+    - **Recomendação e quando a escolha mudaria:** Para este cenário de monitoramento de CI, recomendamos o **teste binomial exato**, pois ele garante que a taxa de falsos alarmes nunca ultrapasse o limite nominal $\\alpha = 5\\%$ independentemente do tamanho da amostra. A escolha mudaria de forma indiferente quando $n \\ge 200$ ($n \\cdot p_0 \\ge 10$), faixa em que ambos os testes convergem para as mesmas decisões (idênticas em $n = 300$); já em amostras pequenas, só se consideraria abrir mão do binomial exato padrão caso o custo de um **erro tipo II** (não detectar regressões reais no CI) fosse muito superior ao de um alarme falso e o conservadorismo extremo ($1{,}24\\%$ a $1{,}72\\%$) tornasse o teste pouco sensível.
+    - **Principal limitação do estudo:** As simulações modelam cada execução como independente e identicamente distribuída com probabilidade fixa $p$, enquanto na prática do repositório `pytest-dev/pytest` (como sugerem os dois blocos reais com 3 falhas no G1) falhas podem ocorrer em sequência até que um commit corretivo seja integrado na branch `main`.
     """
 )
