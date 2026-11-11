@@ -3,5 +3,5 @@ python-dotenv>=1.0
 numpy>=2.0
 scipy>=1.14
 pandas>=2.2
-streamlit>=1.67
+streamlit>=1.66
 plotly>=5.24
