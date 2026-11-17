@@ -74,3 +74,4 @@
 ### 15. Qual teste vocês recomendam para o cenário, em que situação mudariam a recomendação, e qual é a principal limitação do estudo? — *João (Seção 7: Conclusão)*
 - **Apoio visual:** Seção `7. Conclusão` + `G1`.
 - **Resposta:** Recomendamos o **teste binomial exato**, pois ele garante o controle rigoroso do erro tipo I ($\le 5\%$) para qualquer $n$ sem custo extra de computação hoje em dia. A escolha se torna indiferente quando $n \ge 200$ ($n \cdot p_0 \ge 10$), onde os testes convergem; e só mudaríamos em amostras pequenas caso falsos negativos fossem críticos e se buscasse um teste menos conservador (como p-valor *mid-p*). A principal limitação é que a simulação assume execuções independentes, enquanto em um CI real (como indicam os 2 blocos com 3 falhas no G1) falhas podem acontecer em sequência até o build ser consertado.
+
