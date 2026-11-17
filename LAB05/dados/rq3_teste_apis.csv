@@ -1,0 +1,8 @@
+fonte,url,http,json_valido,cita_cve,tem_data,campo_data,exemplo_data,tamanho_kb,veredito,observacao
+OSV,https://api.osv.dev/v1/vulns/CVE-2026-109618,200,sim,sim,sim,related[] (IDs dos avisos),"AlmaLinux, SUSE, openSUSE",3.8,parcial,"'published' (2026-10-21) é a data do CVE, não da correção; mas lista avisos de: AlmaLinux (12), SUSE (6), openSUSE (3). Dá para buscar a data de cada aviso pelo ID em api.osv.dev/v1/vulns/<ID>"
+Debian,https://security-tracker.debian.org/tracker/data/json,200,sim,sim,nao,,,88147.0,parcial,"traz a versão corrigida por release, não a data: cruzar com o changelog do pacote (ou usar o OSV/DSA)"
+Ubuntu,https://ubuntu.com/security/cves/CVE-2026-109618.json,200,sim,sim,sim,notices[].published,2026-10-21T13:56:19.543268,73.4,serve,
+Red Hat,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json,200,sim,sim,sim,affected_release[].release_date,2026-10-21T00:00:00Z,9.1,serve,
+NVD,https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-109618,200,sim,sim,sim,vulnerabilities[0].cve.published,2026-10-21T14:17:09.357,72.0,referencia,"só a data de publicação do CVE (referência), não a correção por distribuidor"
+Fedora (Bodhi),https://bodhi.fedoraproject.org/updates/?cves=CVE-2026-109618,200,sim,nao,nao,,,76.3,sem_o_cve,
+php.net,https://www.php.net/releases/index.php?json&version=8.4&max=3,200,sim,sim,nao,,,1.7,parcial,referência (T0): o release 8.4.27 tem a data de 21/10/2026; checar a data no campo date do release

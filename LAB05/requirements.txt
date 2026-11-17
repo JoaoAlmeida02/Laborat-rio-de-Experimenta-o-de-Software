@@ -1,2 +1,8 @@
 requests>=2.31
 pytest>=8.0
+numpy>=2.0
+scipy>=1.14
+pandas>=2.2
+statsmodels>=0.14
+plotly>=5.24
+streamlit>=1.66
