@@ -6,3 +6,4 @@ pandas>=2.2
 statsmodels>=0.14
 plotly>=5.24
 streamlit>=1.66
+psutil>=6.0

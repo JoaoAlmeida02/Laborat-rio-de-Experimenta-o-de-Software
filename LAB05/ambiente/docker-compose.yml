@@ -1,0 +1,143 @@
+# Ambiente Docker Compose do experimento fatorial 2x2 (LAB05 - Sprint 1)
+# Todas as imagens possuem versões fixadas (nenhuma tag :latest).
+# Limites de CPU e memória idênticos em todos os tratamentos (T1..T4).
+#
+# Exemplo de uso (WSL2 / Git Bash):
+#   PHP_VERSION=8.4.27 MITIGACAO=1 docker compose up -d --build
+#
+# Exemplo de uso (Windows PowerShell):
+#   $env:PHP_VERSION="8.4.27"; $env:MITIGACAO="1"; docker compose up -d --build
+
+name: lab05-experimento
+
+x-php-build: &php-build
+  context: ./php
+  dockerfile: Dockerfile
+  args:
+    PHP_VERSION: ${PHP_VERSION:-8.4.26}
+    MITIGACAO: ${MITIGACAO:-0}
+
+services:
+  # Banco de dados MariaDB com volume recriável (docker compose down -v)
+  mariadb:
+    image: mariadb:11.4.13
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${WORDPRESS_DB_NAME:-wordpress}
+      MARIADB_USER: ${WORDPRESS_DB_USER:-wpuser}
+      MARIADB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wppass_lab05}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:-rootpass_lab05}
+    volumes:
+      - mariadb_dados:/var/lib/mysql
+    cpus: "1.0"
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD-SHELL", "mariadb-admin ping -h 127.0.0.1 -u\"$$MARIADB_USER\" -p\"$$MARIADB_PASSWORD\" --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 15s
+
+  # Inicializa o volume compartilhado com os arquivos oficiais do WordPress 6.9.4 + mu-plugin benigno
+  wordpress:
+    image: wordpress:6.9.4-fpm
+    restart: "no"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        set -eu
+        if [ ! -f /var/www/html/wp-includes/version.php ]; then
+          cp -a /usr/src/wordpress/. /var/www/html/
+        fi
+        mkdir -p /var/www/html/wp-content/mu-plugins
+        cp -f /lab05-mu-plugins/lab05-sessao-upload.php /var/www/html/wp-content/mu-plugins/lab05-sessao-upload.php
+        chown -R 33:33 /var/www/html
+        echo "[LAB05-WORDPRESS] Arquivos do WordPress 6.9.4 e mu-plugin preparados."
+    volumes:
+      - wordpress_arquivos:/var/www/html
+      - ./wordpress/mu-plugins:/lab05-mu-plugins:ro
+    cpus: "1.0"
+    mem_limit: 256m
+
+  # PHP-FPM sob teste (variáveis independentes: PHP_VERSION e MITIGACAO)
+  php:
+    build: *php-build
+    image: lab05-php:${PHP_VERSION:-8.4.26}-fpm
+    restart: unless-stopped
+    environment:
+      PHP_VERSION: ${PHP_VERSION:-8.4.26}
+      MITIGACAO: ${MITIGACAO:-0}
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-wordpress}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-wpuser}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wppass_lab05}
+    volumes:
+      - wordpress_arquivos:/var/www/html
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      wordpress:
+        condition: service_completed_successfully
+    cpus: "2.0"
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD-SHELL", "SCRIPT_NAME=/fpm-ping SCRIPT_FILENAME=/fpm-ping REQUEST_METHOD=GET cgi-fcgi -bind -connect 127.0.0.1:9000 | grep -q pong"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  # Proxy reverso Nginx -> PHP-FPM
+  nginx:
+    image: nginx:1.27.5-alpine
+    restart: unless-stopped
+    ports:
+      - "${NGINX_PORT:-8080}:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - wordpress_arquivos:/var/www/html:ro
+    depends_on:
+      php:
+        condition: service_healthy
+      wordpress:
+        condition: service_completed_successfully
+    cpus: "1.0"
+    mem_limit: 256m
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/nginx-health | grep -q ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 5s
+
+  # Setup idempotente do WordPress com WP-CLI (instala o site e popula 50 posts determinísticos)
+  setup:
+    build: *php-build
+    image: lab05-php:${PHP_VERSION:-8.4.26}-fpm
+    restart: "no"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - "tr -d '\\r' < /usr/local/bin/lab05-setup.sh > /tmp/lab05-setup.sh && sh /tmp/lab05-setup.sh"
+    environment:
+      WP_URL: "http://localhost:${NGINX_PORT:-8080}"
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-wordpress}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-wpuser}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wppass_lab05}
+      LAB05_TOTAL_POSTS: ${LAB05_TOTAL_POSTS:-50}
+    volumes:
+      - wordpress_arquivos:/var/www/html
+      - ./wordpress/setup.sh:/usr/local/bin/lab05-setup.sh:ro
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      php:
+        condition: service_healthy
+      wordpress:
+        condition: service_completed_successfully
+    cpus: "1.0"
+    mem_limit: 512m
+
+volumes:
+  mariadb_dados:
+  wordpress_arquivos:
