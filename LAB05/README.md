@@ -88,6 +88,35 @@ A partir da pasta `LAB05/` (com o Docker Desktop aberto):
 
 Por padrão, em `LAB05/dados/piloto/`:
 - `dados/piloto/piloto.csv`: CSV consolidado com 4 linhas por execução (`geral`, `home`, `rest_posts`, `sessao_upload`) e colunas `execucao_id, ordem, tratamento, php_version, mitigacao, repeticao, endpoint, rps, p50_ms, p95_ms, p99_ms, taxa_erro, mem_php_media_mb, mem_php_pico_mb, timestamp_inicio, timestamp_fim`. (`taxa_erro` é a fração de requisições com falha, de `0.0` a `1.0`.)
+
+## Sprint 2 — análise estatística e dashboard
+
+Execute a partir de `LAB05`, com Python 3.10 ou superior no PATH:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m pytest -q
+python scripts/analise_rq1_rq2.py --entrada dados/piloto/piloto.csv --saida resultados
+python scripts/analise_rq3.py --entrada dados/rq3_correcoes.csv --saida resultados
+python scripts/graficos.py --entrada dados/piloto/piloto.csv --entrada-rq3 dados/rq3_correcoes.csv --saida resultados
+python -m streamlit run app.py
+```
+
+- **RQ1/RQ2.** Gera `rq1_rq2_descritiva.csv`, `rq1_rq2_anova.csv`, `rq1_rq2_tost.csv` e `rq1_rq2_resumo.md`. Use o p ajustado por Holm para decisões. A ANOVA usa SS tipo II, com log para RPS e latências positivas. O ART alinha cada efeito por médias de células, ranqueia os valores alinhados e testa o termo correspondente. O η² parcial do ART descreve a escala dos postos. O TOST mede diferenças de médias na unidade original com IC nominal de 90%. A margem padrão é ±5% da mediana de T1 nos contrastes simples e da mediana conjunta do nível de referência nos efeitos principais. Um teste separado avalia evidência de diferença além da margem. Ambos recebem Holm em famílias separadas. Sem evidência suficiente, a conclusão é inconclusiva.
+- **RQ3.** Gera `rq3_km_tabela.csv`, `rq3_logrank.csv` e `rq3_resumo.md`. A curva mostra a probabilidade de continuar sem a primeira correção desde 21/10/2026. A análise principal reúne distribuições Linux e as compara com nuvem e hospedagem. A exploratória compara os subgrupos Linux. Campos vazios de mediana ou IC representam limites não estimáveis. Menos de cinco eventos em um grupo sinaliza baixo poder do log-rank.
+- **Gráficos.** Gera PNGs a 200 dpi com distribuições, interação, intervalos do TOST e curvas Kaplan–Meier. Use os mesmos valores de `--alfa` e `--margem` na análise de desempenho e nos gráficos.
+- **Piloto.** A entrada de piloto ou menos de cinco observações válidas em alguma célula sinaliza ausência de poder para conclusões. Se o piloto estiver ausente, execute a RQ3 e os testes sintéticos em memória. O script de gráficos gera as curvas da RQ3 mesmo sem desempenho. O CSV legado sem `status` tem as linhas tratadas como ok com aviso. Linhas com métricas ausentes são excluídas e contabilizadas. O k do arquivo de poder atual é provisório.
+
+Após validar `dados/brutos/dados.csv`, reexecute:
+
+```powershell
+python scripts/analise_rq1_rq2.py --entrada dados/brutos/dados.csv --saida resultados
+python scripts/analise_rq3.py --entrada dados/rq3_correcoes.csv --saida resultados
+python scripts/graficos.py --entrada dados/brutos/dados.csv --entrada-rq3 dados/rq3_correcoes.csv --saida resultados
+python -m streamlit run app.py
+```
+
+O dashboard dá preferência ao CSV bruto. Os filtros selecionam as tabelas e os pontos visíveis. Os p ajustados preservam as famílias completas calculadas pelos scripts.
 - `dados/piloto/brutos_k6/`: JSON bruto de cada execução (`ord01_T...json`) com o resumo estruturado da fase de medição e todas as métricas brutas do k6.
 - `dados/piloto/ambiente_maquina.json`: metadados da máquina (CPU, núcleos, RAM, SO, versões do Python, Docker, Docker Compose, k6 e imagens fixadas).
 - `dados/piloto/execucao.log`: log completo de progresso e eventuais erros de execução.
