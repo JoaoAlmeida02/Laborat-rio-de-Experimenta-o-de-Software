@@ -1,0 +1,6 @@
+analise,comparacao,grupo_a,grupo_b,estatistica,p,p_holm,baixo_poder,interpretacao
+Principal,Multigrupo,,,9.261500615006149,0.009747442778487303,0.009747442778487303,True,Não conclusivo — baixo poder
+Principal,Par a par,Distribuição Linux,Hospedagem,0.22222222222222193,0.6373518882339373,0.6373518882339373,True,Não conclusivo — baixo poder
+Principal,Par a par,Distribuição Linux,Nuvem,7.857142857142852,0.005062032126267886,0.015186096378803658,True,Não conclusivo — baixo poder
+Principal,Par a par,Hospedagem,Nuvem,4.000000000000001,0.04550026389635854,0.09100052779271708,True,Não conclusivo — baixo poder
+Exploratória — Linux,Par a par,comercial,comunitario,0.8000000000000007,0.37109336952269734,0.37109336952269734,True,Não conclusivo — baixo poder
