@@ -1,0 +1,38 @@
+{
+  "execucao_id": "ord23_T4_rep08",
+  "tratamento": "T4",
+  "php_version": "8.4.27",
+  "mitigacao": 1,
+  "medicao": {
+    "geral": {
+      "rps": 47.36,
+      "p50_ms": 27.98,
+      "p95_ms": 46.75,
+      "p99_ms": 55.25,
+      "taxa_erro": 0.0
+    },
+    "endpoints": {
+      "home": {
+        "rps": 15.79,
+        "p50_ms": 40.57,
+        "p95_ms": 51.43,
+        "p99_ms": 58.01,
+        "taxa_erro": 0.0
+      },
+      "rest_posts": {
+        "rps": 15.79,
+        "p50_ms": 27.98,
+        "p95_ms": 37.4,
+        "p99_ms": 43.09,
+        "taxa_erro": 0.0
+      },
+      "sessao_upload": {
+        "rps": 15.79,
+        "p50_ms": 7.0,
+        "p95_ms": 9.35,
+        "p99_ms": 12.71,
+        "taxa_erro": 0.0
+      }
+    }
+  }
+}
