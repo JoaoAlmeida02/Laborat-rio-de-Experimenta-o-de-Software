@@ -65,6 +65,8 @@ def ler_piloto(pasta=PILOTO):
     for a in arquivos:
         df = pd.read_csv(a)
         if {"tratamento", *METRICAS}.issubset(df.columns):
+            if "endpoint" in df.columns:
+                df = df[df["endpoint"] == "geral"]
             quadros.append(df)
     return pd.concat(quadros, ignore_index=True) if quadros else None
 

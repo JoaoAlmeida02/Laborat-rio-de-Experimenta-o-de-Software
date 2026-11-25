@@ -1,0 +1,38 @@
+{
+  "execucao_id": "ord26_T2_rep07",
+  "tratamento": "T2",
+  "php_version": "8.4.26",
+  "mitigacao": 1,
+  "medicao": {
+    "geral": {
+      "rps": 46.86,
+      "p50_ms": 30.01,
+      "p95_ms": 45.77,
+      "p99_ms": 53.79,
+      "taxa_erro": 0.0
+    },
+    "endpoints": {
+      "home": {
+        "rps": 15.62,
+        "p50_ms": 43.51,
+        "p95_ms": 50.35,
+        "p99_ms": 56.48,
+        "taxa_erro": 0.0
+      },
+      "rest_posts": {
+        "rps": 15.62,
+        "p50_ms": 30.01,
+        "p95_ms": 36.62,
+        "p99_ms": 41.96,
+        "taxa_erro": 0.0
+      },
+      "sessao_upload": {
+        "rps": 15.62,
+        "p50_ms": 7.5,
+        "p95_ms": 9.15,
+        "p99_ms": 12.37,
+        "taxa_erro": 0.0
+      }
+    }
+  }
+}

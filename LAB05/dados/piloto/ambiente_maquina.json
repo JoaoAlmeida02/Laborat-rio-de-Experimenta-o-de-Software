@@ -1,0 +1,32 @@
+{
+  "coletado_em_utc": "2026-11-25T16:03:08.576790+00:00",
+  "sistema_operacional": {
+    "sistema": "Windows",
+    "release": "11",
+    "versao": "10.0.26200",
+    "arquitetura": "AMD64",
+    "plataforma": "Windows-11-10.0.26200-SP0"
+  },
+  "cpu": {
+    "modelo": "13th Gen Intel(R) Core(TM) i5-1345U",
+    "nucleos_fisicos": null,
+    "nucleos_logicos": 12
+  },
+  "ram_total_gb": 15.69,
+  "ferramentas": {
+    "python": "3.14.7",
+    "psutil_instalado": false,
+    "docker": "Docker version 29.8.2, build 7fc2dff",
+    "docker_compose": "Docker Compose version v5.6.0",
+    "k6_modo": "docker",
+    "k6": "docker (grafana/k6:1.0.0)"
+  },
+  "imagens_fixadas": {
+    "php_vulneravel": "php:8.4.26-fpm",
+    "php_corrigido": "php:8.4.27-fpm",
+    "nginx": "nginx:1.27.5-alpine",
+    "mariadb": "mariadb:11.4.13",
+    "wordpress": "wordpress:6.9.4-fpm",
+    "k6_docker": "grafana/k6:1.0.0"
+  }
+}
