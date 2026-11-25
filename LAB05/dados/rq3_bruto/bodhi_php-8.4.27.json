@@ -1,0 +1,553 @@
+{
+ "updates": [
+  {
+   "autokarma": true,
+   "autotime": true,
+   "stable_karma": 3,
+   "stable_days": 7,
+   "unstable_karma": -3,
+   "require_bugs": true,
+   "require_testcases": true,
+   "display_name": "",
+   "notes": "Security update: \n- RCE via OOM corruption, CVE-2026-109618\n- RCE via stale global state, CVE-2026-109619\n\n\n",
+   "type": "security",
+   "status": "stable",
+   "request": null,
+   "severity": "high",
+   "suggest": "unspecified",
+   "locked": false,
+   "pushed": true,
+   "critpath": false,
+   "critpath_groups": "",
+   "close_bugs": true,
+   "date_submitted": "2026-10-21 15:20:11",
+   "date_modified": "2026-10-22 10:38:47",
+   "date_approved": "2026-10-22 02:11:02",
+   "date_testing": "2026-10-22 02:10:42",
+   "date_stable": "2026-10-22 16:40:54",
+   "alias": "FEDORA-2026-d5f8446449",
+   "test_gating_status": "passed",
+   "from_tag": null,
+   "date_pushed": "2026-10-22 16:40:54",
+   "meets_testing_requirements": true,
+   "url": "https://bodhi.fedoraproject.org/updates/FEDORA-2026-d5f8446449",
+   "title": "php-8.4.27-2.fc43",
+   "version_hash": "bfa9355be1998d0456cf7bda03a31f316ed0bb83",
+   "release": {
+    "name": "F43",
+    "long_name": "Fedora 43",
+    "version": "43",
+    "id_prefix": "FEDORA",
+    "branch": "f43",
+    "dist_tag": "f43",
+    "stable_tag": "f43-updates",
+    "testing_tag": "f43-updates-testing",
+    "candidate_tag": "f43-updates-candidate",
+    "pending_signing_tag": "f43-signing-pending",
+    "pending_testing_tag": "f43-updates-testing-pending",
+    "pending_stable_tag": "f43-updates-pending",
+    "override_tag": "f43-override",
+    "mail_template": "fedora_errata_template",
+    "state": "current",
+    "composed_by_bodhi": true,
+    "create_automatic_updates": false,
+    "package_manager": "dnf",
+    "testing_repository": "updates-testing",
+    "released_on": null,
+    "eol": "2026-12-02",
+    "critpath_mandatory_days_in_testing": 14,
+    "mandatory_days_in_testing": 7,
+    "critpath_min_karma": 2,
+    "min_karma": 1,
+    "setting_status": null
+   },
+   "user": {
+    "name": "jplesnik",
+    "email": "jplesnik@redhat.com",
+    "id": 628,
+    "avatar": "https://seccdn.libravatar.org/avatar/9e6c037db1716763d055b74b77cd17df53d655bc0464be6d13a475deaca4f87b?s=24&d=retro",
+    "openid": "jplesnik.id.fedoraproject.org",
+    "groups": [
+     {
+      "name": "provenpackager"
+     },
+     {
+      "name": "packager"
+     },
+     {
+      "name": "fedorabugs"
+     },
+     {
+      "name": "ipausers"
+     },
+     {
+      "name": "signed_fpca"
+     },
+     {
+      "name": "fedora-contributor"
+     },
+     {
+      "name": "perl-maint-sig"
+     },
+     {
+      "name": "forge-packaging-packager"
+     },
+     {
+      "name": "forge-packaging-provenpackager"
+     },
+     {
+      "name": "forge-releng-provenpackagers"
+     }
+    ]
+   },
+   "comments": [
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update has been submitted for testing by jplesnik. ",
+     "timestamp": "2026-10-21 15:20:11",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4821329,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update's test gating status has been changed to 'waiting'.",
+     "timestamp": "2026-10-21 15:20:11",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4821330,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update's test gating status has been changed to 'passed'.",
+     "timestamp": "2026-10-21 15:30:57",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4821343,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "",
+     "timestamp": "2026-10-21 21:29:34",
+     "update_id": 856419,
+     "user_id": 5780,
+     "id": 4821612,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "rhea",
+      "email": "contact@rhea.dev",
+      "id": 5780,
+      "avatar": "https://seccdn.libravatar.org/avatar/ddcc032df000ad6ee7ac28065b9699b60ed2e8a4e21eec8caec0a94a8fd0b032?s=24&d=retro",
+      "openid": "rhea.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "fedora-contributor"
+       },
+       {
+        "name": "ambassadors"
+       },
+       {
+        "name": "signed_fpca"
+       },
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "live-sig"
+       },
+       {
+        "name": "forge-dotnet-owners"
+       },
+       {
+        "name": "dotnet-team"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "",
+     "timestamp": "2026-10-22 01:43:46",
+     "update_id": 856419,
+     "user_id": 9413,
+     "id": 4821884,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "deepend",
+      "email": "deepend@tilde.club",
+      "id": 9413,
+      "avatar": "https://seccdn.libravatar.org/avatar/7c4837e7c9cf206ae832663409b8e922d9cd0df051101bf2d5bec2d4fcd79e23?s=24&d=retro",
+      "openid": "deepend.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "packager"
+       },
+       {
+        "name": "fedora-contributor"
+       },
+       {
+        "name": "fedorabugs"
+       },
+       {
+        "name": "signed_fpca"
+       },
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "forge-packaging-packager"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "Seems to be working on two servers hosting Moodle and one hosting a Wordpress site.",
+     "timestamp": "2026-10-22 01:49:44",
+     "update_id": 856419,
+     "user_id": 3556,
+     "id": 4821912,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "glb",
+      "email": "gregory.lee.bartholomew@gmail.com",
+      "id": 3556,
+      "avatar": "https://seccdn.libravatar.org/avatar/dd52115e6794e724652c3b026b5cd2248057d94d819d7df5f53c348ca42f10e2?s=24&d=retro",
+      "openid": "glb.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "signed_fpca"
+       },
+       {
+        "name": "magazine-editors"
+       },
+       {
+        "name": "websites-apps"
+       },
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "fedora-contributor"
+       },
+       {
+        "name": "sysadmin-web"
+       },
+       {
+        "name": "forge-magazine-members"
+       },
+       {
+        "name": "magazine"
+       },
+       {
+        "name": "forge-magazine-owners"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update has been pushed to testing.",
+     "timestamp": "2026-10-22 02:11:01",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4821989,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update has been submitted for stable by bodhi. ",
+     "timestamp": "2026-10-22 02:11:03",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4822000,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "Works",
+     "timestamp": "2026-10-22 02:31:47",
+     "update_id": 856419,
+     "user_id": 8341,
+     "id": 4822061,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "derekenz",
+      "email": "derekenz@gmail.com",
+      "id": 8341,
+      "avatar": "https://seccdn.libravatar.org/avatar/2181042739e66860b61edeb85351c63ba595fd70a9fe274a54f69df91f135dba?s=24&d=retro",
+      "openid": "derekenz.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "signed_fpca"
+       },
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "fedorabugs"
+       },
+       {
+        "name": "fedora-contributor"
+       },
+       {
+        "name": "qa"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "",
+     "timestamp": "2026-10-22 02:52:53",
+     "update_id": 856419,
+     "user_id": 5881,
+     "id": 4822128,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "geraldosimiao",
+      "email": "geraldo.simiao.kutz@gmail.com",
+      "id": 5881,
+      "avatar": "https://seccdn.libravatar.org/avatar/03fa5b58e8ac78544bf41ad8ecf9ee1920f2ebedb86542c2f4cdf7ef15813168?s=24&d=retro",
+      "openid": "geraldosimiao.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "advocates"
+       },
+       {
+        "name": "signed_fpca"
+       },
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "ambassadors"
+       },
+       {
+        "name": "qa"
+       },
+       {
+        "name": "fedora-br"
+       },
+       {
+        "name": "respins-sig"
+       },
+       {
+        "name": "fedorabugs"
+       },
+       {
+        "name": "fedora-contributor"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "works4me",
+     "timestamp": "2026-10-22 07:59:54",
+     "update_id": 856419,
+     "user_id": 6075,
+     "id": 4822271,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "mschwarz",
+      "email": "fedoradev@cloud-foo.de",
+      "id": 6075,
+      "avatar": "https://seccdn.libravatar.org/avatar/d88a780857fad21172a7d2369e92de8b422c86e967da3fc1d8677f1a10a2fc5b?s=24&d=retro",
+      "openid": "mschwarz.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "ipausers"
+       },
+       {
+        "name": "signed_fpca"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 1,
+     "karma_critpath": 0,
+     "text": "works4me on two servers with self-hosted nextcloud.",
+     "timestamp": "2026-10-22 08:19:40",
+     "update_id": 856419,
+     "user_id": 9637,
+     "id": 4822276,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "heinzel",
+      "email": "fedora@heinzelwelt.de",
+      "id": 9637,
+      "avatar": "https://seccdn.libravatar.org/avatar/9e629fc741f7312a7a6142621366ab4f5ed0845ce3759b55ad4c646c0821aeff?s=24&d=retro",
+      "openid": "heinzel.id.fedoraproject.org",
+      "groups": [
+       {
+        "name": "ipausers"
+       }
+      ]
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "jplesnik edited this update.",
+     "timestamp": "2026-10-22 10:36:14",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4822390,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "jplesnik edited this update.",
+     "timestamp": "2026-10-22 10:38:47",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4822408,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    },
+    {
+     "karma": 0,
+     "karma_critpath": 0,
+     "text": "This update has been pushed to stable.",
+     "timestamp": "2026-10-22 16:41:42",
+     "update_id": 856419,
+     "user_id": 91,
+     "id": 4822817,
+     "bug_feedback": [],
+     "testcase_feedback": [],
+     "user": {
+      "name": "bodhi",
+      "email": null,
+      "id": 91,
+      "avatar": "https://apps.fedoraproject.org/img/icons/bodhi-24.png",
+      "openid": "bodhi.id.fedoraproject.org",
+      "groups": []
+     }
+    }
+   ],
+   "builds": [
+    {
+     "nvr": "php-8.4.27-2.fc43",
+     "signed": true,
+     "release_id": 88,
+     "type": "rpm",
+     "epoch": 0
+    }
+   ],
+   "bugs": [
+    {
+     "bug_id": 2544160,
+     "title": "CVE-2026-91765 php: php: Denial of Service via unbounded recursion in SOAP parser [fedora-all]",
+     "security": true,
+     "parent": false,
+     "feedback": []
+    },
+    {
+     "bug_id": 2556842,
+     "title": "CVE-2026-109618 & CVE-2026-109619: Undisclosed unauthenticated RCE exploit in PHP",
+     "security": false,
+     "parent": false,
+     "feedback": []
+    }
+   ],
+   "updateid": "FEDORA-2026-d5f8446449",
+   "karma": 7,
+   "content_type": "rpm",
+   "test_cases": []
+  }
+ ],
+ "page": 1,
+ "pages": 1,
+ "rows_per_page": 20,
+ "total": 1,
+ "chrome": true,
+ "display_user": true,
+ "display_request": true,
+ "package": null
+}

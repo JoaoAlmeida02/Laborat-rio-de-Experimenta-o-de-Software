@@ -1,20 +1,20 @@
 id,distribuidor,tipo,grupo,forma_coleta,url_consulta,url_api,observacao
-1,Debian,distribuicao_linux,comunitario,api,https://security-tracker.debian.org/tracker/CVE-2026-109618,https://security-tracker.debian.org/tracker/data/json,JSON do tracker é grande (todas as CVEs); também coberto pelo OSV
-2,Ubuntu,distribuicao_linux,comercial,api,https://ubuntu.com/security/CVE-2026-109618,https://ubuntu.com/security/cves/CVE-2026-109618.json,mantido pela Canonical
-3,Red Hat Enterprise Linux,distribuicao_linux,comercial,api,https://access.redhat.com/security/cve/CVE-2026-109618,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json,Red Hat Security Data API
-4,SUSE Linux Enterprise / openSUSE,distribuicao_linux,comercial,manual,https://www.suse.com/security/cve/CVE-2026-109618.html,,página por CVE com lista de atualizações
+1,Debian,distribuicao_linux,comunitario,manual,https://security-tracker.debian.org/tracker/CVE-2026-109618,,o tracker traz a versão corrigida mas não a data: a data vem dos avisos DSA/DLA
+2,Ubuntu,distribuicao_linux,comercial,api,https://ubuntu.com/security/CVE-2026-109618,https://ubuntu.com/security/cves/CVE-2026-109618.json,data em notices[].published; status por release em packages[].statuses
+3,Red Hat Enterprise Linux,distribuicao_linux,comercial,api,https://access.redhat.com/security/cve/CVE-2026-109618,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json,data em affected_release[].release_date (um RHSA por produto)
+4,SUSE Linux Enterprise / openSUSE,distribuicao_linux,comercial,api,https://www.suse.com/security/cve/CVE-2026-109618.html,https://api.osv.dev/v1/vulns/CVE-2026-109618,avisos SUSE-SU e openSUSE-SU listados em related[] do OSV; data em published de cada aviso
 5,Amazon Linux,distribuicao_linux,comercial,manual,https://explore.alas.aws.amazon.com/CVE-2026-109618.html,,boletins ALAS da AWS
-6,Alpine Linux,distribuicao_linux,comunitario,manual,https://security.alpinelinux.org/vuln/CVE-2026-109618,,recusa acesso automatizado (HTTP 406): consultar no navegador; também coberto pelo OSV
-7,Arch Linux,distribuicao_linux,comunitario,manual,https://security.archlinux.org/CVE-2026-109618,,
-8,Fedora,distribuicao_linux,comunitario,a_validar,https://bodhi.fedoraproject.org/updates/?search=php,https://bodhi.fedoraproject.org/updates/?search=php,Bodhi pode responder em JSON (validar na S01)
-9,Rocky Linux,distribuicao_linux,comunitario,manual,https://errata.rockylinux.org/,,buscar por php no errata; também coberto pelo OSV
-10,AlmaLinux,distribuicao_linux,comunitario,manual,https://errata.almalinux.org/,,buscar por php no errata; também coberto pelo OSV
+6,Alpine Linux,distribuicao_linux,comunitario,manual,https://security.alpinelinux.org/vuln/CVE-2026-109618,,recusa acesso automatizado sem cabeçalho Accept; mostra versões corrigidas mas não a data
+7,Arch Linux,distribuicao_linux,comunitario,manual,https://security.archlinux.org/CVE-2026-109618,,datas dos avisos ASA na própria página
+8,Fedora,distribuicao_linux,comunitario,api,https://bodhi.fedoraproject.org/updates/?search=php-8.4.27,https://bodhi.fedoraproject.org/updates/?search=php-8.4.27,a busca por ?cves= não encontra o CVE; a busca por título da versão corrigida (php-8.4.27 etc.) encontra; data em date_stable
+9,Rocky Linux,distribuicao_linux,comunitario,api,https://errata.rockylinux.org/,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87070,o aviso RLSA tem o mesmo número do RHSA do Red Hat; data em published_at
+10,AlmaLinux,distribuicao_linux,comunitario,api,https://errata.almalinux.org/,https://api.osv.dev/v1/vulns/CVE-2026-109618,avisos ALSA listados em related[] do OSV; data em published de cada aviso
 11,AWS (runtimes PHP),nuvem,nuvem,manual,https://aws.amazon.com/security/security-bulletins/2026-143-aws/,,boletim de segurança da AWS
-12,Google Cloud (runtimes PHP),nuvem,nuvem,manual,https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619,,anúncio no blog de segurança do Google Cloud
-13,Microsoft Azure App Service,nuvem,nuvem,manual,,,link a pesquisar (notas de versão do App Service)
-14,cPanel (EasyApache 4),painel_hospedagem,hospedagem,manual,https://news.cpanel.com/,,buscar o anúncio de atualização do PHP
-15,Plesk,painel_hospedagem,hospedagem,manual,https://support.plesk.com/,,buscar o anúncio de atualização do PHP
+12,Google Cloud (runtimes PHP),nuvem,nuvem,manual,https://docs.cloud.google.com/appengine/docs/standard/php/release-notes,https://cloud.google.com/feeds/gaestd-php-release-notes.xml,notas de versão do App Engine standard (PHP); o blog de segurança de 21/10 traz só orientações
+13,Microsoft Azure App Service,nuvem,nuvem,manual,https://azure.github.io/AppService/2026/10/21/php-critical-security-release-app-service-linux.html,,blog do time do App Service
+14,cPanel (EasyApache 4),painel_hospedagem,hospedagem,manual,https://docs.cpanel.net/changelogs/easyapache-4-change-log-25,,change log oficial do EasyApache 4
+15,Plesk,painel_hospedagem,hospedagem,manual,https://docs.plesk.com/release-notes/obsidian/change-log/,,changelog oficial do Plesk Obsidian (entradas "PHP Updates"); posts do fórum não são usados como evidência
 16,Imagem oficial php (Docker Hub),conteiner,conteiner,manual,https://hub.docker.com/_/php,https://hub.docker.com/v2/namespaces/library/repositories/php/tags/8.4.27-fpm,LIMITAÇÃO: a API mostra só a data do último push da tag; não serve para a data da primeira publicação
 17,php.net (T0 da correção),referencia,referencia,api,https://www.php.net/ChangeLog-8.php,https://www.php.net/releases/index.php?json&version=8.4,referência: correção publicada em 21/10/2026; não entra na análise de sobrevivência
 18,NVD (NIST),referencia,referencia,api,https://nvd.nist.gov/vuln/detail/CVE-2026-109618,https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-109618,referência: data de publicação da CVE; não entra na análise de sobrevivência
-19,OSV,referencia,referencia,api,https://osv.dev/vulnerability/CVE-2026-109618,https://api.osv.dev/v1/vulns/CVE-2026-109618,agregador que pode trazer datas de Debian/Ubuntu/Alpine/Rocky/Alma (validar na S01)
+19,OSV,referencia,referencia,api,https://osv.dev/vulnerability/CVE-2026-109618,https://api.osv.dev/v1/vulns/CVE-2026-109618,agregador: fornece os IDs dos avisos de AlmaLinux / SUSE / openSUSE

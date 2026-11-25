@@ -1,0 +1,62 @@
+distribuidor_id,distribuidor,aviso,data,dias_desde_t0,produto,cves,url
+2,Ubuntu,USN-8948-1,2026-10-21,0,PHP vulnerabilities,CVE-2026-109618;CVE-2026-109619,https://ubuntu.com/security/cves/CVE-2026-109618.json
+2,Ubuntu,USN-8948-2,2026-10-21,0,PHP vulnerabilities,CVE-2026-109618;CVE-2026-109619,https://ubuntu.com/security/cves/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87070,2026-10-21,0,Red Hat Enterprise Linux 10,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87071,2026-10-21,0,Red Hat Enterprise Linux 10,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87072,2026-10-21,0,Red Hat Enterprise Linux 9,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87073,2026-10-21,0,Red Hat Enterprise Linux 8,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87079,2026-10-21,0,Red Hat Enterprise Linux 9,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87080,2026-10-21,0,Red Hat Enterprise Linux 8,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87151,2026-10-21,0,Red Hat Enterprise Linux 9,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:87414,2026-10-21,0,Red Hat Hardened Images,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88532,2026-10-23,2,Red Hat Enterprise Linux 8.8 Telecommunications Update Service,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88532,2026-10-23,2,Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88533,2026-10-23,2,Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88533,2026-10-23,2,Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88561,2026-10-23,2,Red Hat Enterprise Linux 10.0 Extended Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88565,2026-10-23,2,Red Hat Enterprise Linux 8.4 Advanced Mission Critical Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88565,2026-10-23,2,Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88659,2026-10-23,2,Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88693,2026-10-23,2,Red Hat Enterprise Linux 7 Extended Lifecycle Support,CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json
+3,Red Hat Enterprise Linux,RHSA-2026:88720,2026-10-23,2,Red Hat Enterprise Linux 9.6 Extended Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88725,2026-10-23,2,Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88834,2026-10-23,2,Red Hat Enterprise Linux 9.6 Extended Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:88835,2026-10-23,2,Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:89111,2026-10-26,5,Red Hat Enterprise Linux 9.6 Extended Update Support,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:90321,2026-10-26,5,Red Hat OpenShift Dev Spaces 3.31,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:97880,2026-11-10,20,Red Hat Enterprise Linux 9,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+3,Red Hat Enterprise Linux,RHSA-2026:98609,2026-11-11,21,Red Hat Enterprise Linux 10,CVE-2026-109618;CVE-2026-109619,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:24271-1,2026-10-21,0,SUSE:Linux Enterprise Server 16.0; SUSE:Linux Enterprise Server for SAP applications 16.0,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:24271-1
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:4843-1,2026-10-21,0,SUSE:Linux Enterprise Server 15 SP6-LTSS; SUSE:Linux Enterprise Server for SAP Applications 15 SP6,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:4843-1
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:4844-1,2026-10-21,0,SUSE:Linux Enterprise Module for Web and Scripting 15 SP7,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:4844-1
+4,SUSE Linux Enterprise / openSUSE,openSUSE-SU-2026:12219-1,2026-10-21,0,openSUSE:Tumbleweed,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/openSUSE-SU-2026:12219-1
+4,SUSE Linux Enterprise / openSUSE,openSUSE-SU-2026:22151-1,2026-10-21,0,openSUSE:Leap 16.0,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/openSUSE-SU-2026:22151-1
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:4852-1,2026-10-22,1,SUSE:Linux Enterprise High Performance Computing 15 SP4-ESPOS; SUSE:Linux Enterprise High Performance Computing 15 SP4-LTSS; SUSE:Linux Enterprise High Performance Computing 15 SP5-ESPOS; SUSE:Linux Enterprise High Performance Computing 15 SP5-LTSS; SUSE:Linux Enterprise Server 15 SP4-LTSS; SUSE:Linux Enterprise Server 15 SP5-LTSS; SUSE:Linux Enterprise Server for SAP Applications 15 SP4; SUSE:Linux Enterprise Server for SAP Applications 15 SP5,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:4852-1
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:4853-1,2026-10-22,1,SUSE:Linux Enterprise High Performance Computing 15 SP4-ESPOS; SUSE:Linux Enterprise High Performance Computing 15 SP4-LTSS; SUSE:Linux Enterprise Module for Legacy 15 SP7; SUSE:Linux Enterprise Module for Package Hub 15 SP7; SUSE:Linux Enterprise Server 15 SP4-LTSS; SUSE:Linux Enterprise Server 15 SP5-LTSS; SUSE:Linux Enterprise Server 15 SP6-LTSS; SUSE:Linux Enterprise Server for SAP Applications 15 SP4; SUSE:Linux Enterprise Server for SAP Applications 15 SP5; SUSE:Linux Enterprise Server for SAP Applications 15 SP6,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:4853-1
+4,SUSE Linux Enterprise / openSUSE,SUSE-SU-2026:4870-1,2026-10-22,1,SUSE:Linux Enterprise Module for Web and Scripting 12,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/SUSE-SU-2026:4870-1
+4,SUSE Linux Enterprise / openSUSE,openSUSE-SU-2026:12228-1,2026-10-22,1,openSUSE:Tumbleweed,CVE-2026-109618,https://api.osv.dev/v1/vulns/openSUSE-SU-2026:12228-1
+8,Fedora,FEDORA-2026-a9eba4bbc3,2026-10-21,0,F44 php-8.5.12-1.fc44,CVE-2026-109618;CVE-2026-109619,https://bodhi.fedoraproject.org/updates/?search=php-8.5.12&rows_per_page=20
+8,Fedora,FEDORA-2026-d5f8446449,2026-10-22,1,F43 php-8.4.27-2.fc43,CVE-2026-109618;CVE-2026-109619,https://bodhi.fedoraproject.org/updates/?search=php-8.4.27&rows_per_page=20
+8,Fedora,FEDORA-2026-a9354b8a1e,2026-10-23,2,F45 php-8.5.12-1.fc45,CVE-2026-109618;CVE-2026-109619,https://bodhi.fedoraproject.org/updates/?search=php-8.5.12&rows_per_page=20
+9,Rocky Linux,RLSA-2026:87070,2026-10-22,1,Rocky Linux 10,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87070
+9,Rocky Linux,RLSA-2026:87071,2026-10-22,1,Rocky Linux 10,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87071
+9,Rocky Linux,RLSA-2026:87072,2026-10-22,1,Rocky Linux 9,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87072
+9,Rocky Linux,RLSA-2026:87073,2026-10-22,1,Rocky Linux 8,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87073
+9,Rocky Linux,RLSA-2026:87079,2026-10-22,1,Rocky Linux 9,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87079
+9,Rocky Linux,RLSA-2026:87080,2026-10-22,1,Rocky Linux 8,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87080
+9,Rocky Linux,RLSA-2026:87151,2026-10-22,1,Rocky Linux 9,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:87151
+9,Rocky Linux,RLSA-2026:97880,2026-11-13,23,Rocky Linux 9,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:97880
+9,Rocky Linux,RLSA-2026:98609,2026-11-13,23,Rocky Linux 10,CVE-2026-109618;CVE-2026-109619,https://apollo.build.resf.org/api/v3/advisories/RLSA-2026:98609
+10,AlmaLinux,ALSA-2026:87070,2026-10-21,0,AlmaLinux:10,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87070
+10,AlmaLinux,ALSA-2026:87071,2026-10-21,0,AlmaLinux:10,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87071
+10,AlmaLinux,ALSA-2026:87072,2026-10-21,0,AlmaLinux:9,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87072
+10,AlmaLinux,ALSA-2026:87073,2026-10-21,0,AlmaLinux:8,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87073
+10,AlmaLinux,ALSA-2026:87079,2026-10-21,0,AlmaLinux:9,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87079
+10,AlmaLinux,ALSA-2026:87080,2026-10-21,0,AlmaLinux:8,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87080
+10,AlmaLinux,ALSA-2026:87151,2026-10-21,0,AlmaLinux:9,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:87151
+10,AlmaLinux,ALSA-2026:A011,2026-10-23,2,AlmaLinux:8,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:A011
+10,AlmaLinux,ALSA-2026:A012,2026-10-23,2,AlmaLinux:8,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:A012
+10,AlmaLinux,ALSA-2026:A013,2026-10-23,2,AlmaLinux:8,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:A013
+10,AlmaLinux,ALSA-2026:A014,2026-10-23,2,AlmaLinux:9,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:A014
+10,AlmaLinux,ALSA-2026:97880,2026-11-10,20,AlmaLinux:9,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:97880
+10,AlmaLinux,ALSA-2026:98609,2026-11-11,21,AlmaLinux:10,CVE-2026-109618;CVE-2026-109619,https://api.osv.dev/v1/vulns/ALSA-2026:98609
